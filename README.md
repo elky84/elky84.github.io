@@ -1,120 +1,248 @@
-> March, 2016: If you're on an old version of Jekyll Now and run into a) build warnings or b) syntax highlighting issues caused by [Jekyll 3 and GitHub Pages updates](https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0), just :sparkles:[update your _config.yml](https://github.com/barryclark/jekyll-now/pull/445/files):sparkles: and you'll be set!
+# [Neo-HPSTR Jekyll Theme](http://aronbordin.com/neo-hpstr-jekyll-theme)
+[![Gem Version](https://badge.fury.io/rb/neo-hpstr-jekyll-theme.svg)](https://badge.fury.io/rb/neo-hpstr-jekyll-theme)
 
-# Jekyll Now
+Neo-HPSTR Jekyll is a responsive and modern blog template.
 
-**Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
+![Preview](http://aron-bordin.github.io/neo-hpstr-jekyll-theme/images/neo-hpstr-jekyll-theme-preview.png)
 
-**Jekyll Now** makes it easier to create your Jekyll blog, by eliminating a lot of the up front setup.
+Demo: http://aronbordin.com/neo-hpstr-jekyll-theme
 
-- You don't need to touch the command line
-- You don't need to install/configure ruby, rvm/rbenv, ruby gems :relaxed:
-- You don't need to install runtime dependencies like markdown processors, Pygments, etc
-- If you're on Windows, this will make setting up Jekyll a lot easier
-- It's easy to try out, you can just delete your forked repository if you don't like it
 
-In a few minutes you'll be set up with a minimal, responsive blog like the one below giving you more time to spend on writing epic blog posts!
+## Contents
 
-![Jekyll Now Theme Screenshot](/images/jekyll-now-theme-screenshot.jpg "Jekyll Now Theme Screenshot")
+- [Installation](#installation)
+- [Features](#features)
+- [Configuration](#configuration)
+- [Questions](#questions)
+- [Contributing](#contributing)
+- [Development](#development)
+- [License](#license)
 
-## Quick Start
+## Installation
 
-### Step 1) Fork Jekyll Now to your User Repository
+### As a Boilerplate / Fork
 
-Fork this repo, then rename the repository to yourgithubusername.github.io.
+1. [Fork the repo](https://github.com/aron-bordin/neo-hpstr-jekyll-theme)
+2. Clone down the repo with `$ git clone git@github.com:username/reponame.git`
+3. Delete the `demo/` folder and `screenshot.png` files
+4. Install bundler with `$ gem install bundler`
+5. Install gems with `$ bundle install`
+6. Run Jekyll with `$ bundle exec jekyll serve --watch`
+7. Begin hacking for your project
 
-Your Jekyll blog will often be viewable immediately at <http://yourgithubusername.github.io> (if it's not, you can often force it to build by completing step 2)
+(If you are serving your blog at github, make sure to enale the gh-pages at yout repo settings)
 
-![Step 1](/images/step1.gif "Step 1")
+### As a Jekyll >= 3.3 theme gem
 
-### Step 2) Customize and view your site
+If you already have a jekyll project, jump to the instructions bellow. Otherwise, follow these steps:
 
-Enter your site name, description, avatar and many other options by editing the _config.yml file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here too.
+1. Install jekyll and bundler with `$ gem install jekyll bundler`.
+2. Create your website `jekyll new my-awesome-blog`.
+3. `cd my-awesome-blog`
 
-Making a change to _config.yml (or any file in your repository) will force GitHub Pages to rebuild your site with jekyll. Your rebuilt site will be viewable a few seconds later at <http://yourgithubusername.github.io> - if not, give it ten minutes as GitHub suggests and it'll appear soon
+Inside the project folder, install the theme as follows:
 
-> There are 3 different ways that you can make changes to your blog's files:
+1. Download the starter `/demo` content, [quick download link](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/aron-bordin/neo-hpstr-jekyll-theme/tree/master/demo) and extract the content to the blog folter.
+2. Install bundler with `$ gem install bundler`
+3. Install gems with `$ bundle install`
+4. Run Jekyll with `$ bundle exec jekyll serve --watch`
+5. Begin hacking for your project
 
-> 1. Edit files within your new username.github.io repository in the browser at GitHub.com (shown below).
-> 2. Use a third party GitHub content editor, like [Prose by Development Seed](http://prose.io). It's optimized for use with Jekyll making markdown editing, writing drafts, and uploading images really easy.
-> 3. Clone down your repository and make updates locally, then push them to your GitHub repository.
 
-![_config.yml](/images/config.png "_config.yml")
+### Boilerplate & Theme differences
 
-### Step 3) Publish your first blog post
+The boilerplate kit is better for more drastic hacking and changes, a project that's quite different to any other and needs a lot of custom work done. Additionally you'll only be able to use this method if you want to host it on GitHub Pages, as [themes can't be submitted](https://pages.github.com/themes/)... yet.
 
-Edit `/_posts/2014-3-3-Hello-World.md` to publish your first blog post. This [Markdown Cheatsheet](http://www.jekyllnow.com/Markdown-Style-Guide/) might come in handy.
+Using the theme will allow you to receive updates made and will be more programmatic. To make your own changes you'll need to overwrite the files with your own.
 
-![First Post](/images/first-post.png "First Post")
+## Features
 
-> You can add additional posts in the browser on GitHub.com too! Just hit the + icon in `/_posts/` to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog post and make sure the post's filename is in this format: year-month-day-title.md
+* Modern design.
+* Responsive templates for post, page, and home `_layouts`. Looks great on mobile, tablet, and desktop devices.
+* Gracefully degrades in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.
+* Sweet topbar animated menu with support for drop-downs.
+* Optional [Disqus](http://disqus.com) comments and social sharing links.
+* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
+* Simple [custom 404 page](x) to get you started.
+* [Syntax highlighting](x) to make your code examples look snazzy
+* Author panel, with social links
 
-## Local Development
+## Configuration
 
-1. Install Jekyll and plug-ins in one fell swoop. `gem install github-pages` This mirrors the plug-ins used by GitHub Pages on your local machine including Jekyll, Sass, etc.
-2. Clone down your fork `git clone https://github.com/yourusername/yourusername.github.io.git`
-3. Serve the site and watch for markup/sass changes `jekyll serve`
-4. View your website at http://127.0.0.1:4000/
-5. Commit any changes and push everything to the master branch of your GitHub user repository. GitHub Pages will then rebuild and serve your website.
+Here are some tips on how to customize your blog theme. If you have questions, just open a new issue :)
 
-## Moar!
+### Project tree
 
-I've created a more detailed walkthrough, [**Build A Blog With Jekyll And GitHub Pages**](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/) over at the Smashing Magazine website. Check it out if you'd like a more detailed walkthrough and some background on Jekyll. :metal:
+    ├── about.md                    # about page, /about/
+    ├── assets/                     # css, js, fonts, etc
+    ├── categories.html
+    ├── _config.yml                 # your blog configuration
+    ├── demo/                       # folder with quick start content
+    ├── feed.xml                    # rss feed generator
+    ├── Gemfile                     # project dependencies
+    ├── Gruntfile.js                # some grunt tasks, useful for theme developing
+    ├── images/                     # blog images
+    ├── _includes
+    │   ├── author.html             # author banner (at the end of post)
+    │   ├── browser-upgrade.html    # ask for update
+    │   ├── disqus_comments.html    # comments
+    │   ├── feed-footer.html        # feed footers
+    │   ├── footer.html             # page footer
+    │   ├── gallery                 # used for displaying images in a page
+    │   ├── header.html             # header menu
+    │   ├── head.html               # site head, with css includes and metadata
+    │   ├── icons.html              # site icons
+    │   ├── pagination.html         # pagination
+    │   ├── read-more.html          # read-more banner, to recommend posts
+    │   ├── scripts.html            # js scripts
+    │   └── social-share.html       # floating social share integration
+    ├── index.html                  # homepage
+    ├── _layouts                    # blog layouts
+    │   ├── dark-post.html
+    │   ├── home.html
+    │   ├── page.html
+    │   └── post.html
+    ├── LICENSE.txt
+    ├── neo-hpstr-jekyll-theme.gemspec
+    ├── package.json
+    ├── _posts                     # sample posts
+    │   ├── 2016-11-26-sample-post-images.md
+    │   ├── 2016-11-27-video-post.md
+    │   ├── 2016-11-28-sample-link-post.md
+    │   ├── 2016-11-29-background-image.md
+    │   ├── 2016-11-30-dark-post.md
+    │   ├── 2016-12-01-code-highlighting-post.md
+    │   └── 2016-12-02-sample-post.md
+    ├── posts.html                 # page for listing posts
+    ├── README.md
+    ├── _sass                      # blog style
+    ├── screenshoot.png
+    ├── search.html                # search page
+    ├── search.json
+    ├── _site/
+    ├── tags.html                  # tags page
 
-It covers:
 
-- A more detailed walkthrough of setting up your Jekyll blog
-- Common issues that you might encounter while using Jekyll
-- Importing from Wordpress, using your own domain name, and blogging in your favorite editor
-- Theming in Jekyll, with Liquid templating examples
-- A quick look at Jekyll 2.0’s new features, including Sass/Coffeescript support and Collections
+### Disqus Comments
 
-## Jekyll Now Features
+Create a [Disqus](http://disqus.com) account and change `disqus_shortname` in `_config.yml` to the Disqus *shortname* you just setup. By default comments appear on all post and pages if you assigned a shortname. To disable commenting on a post or page, add the following to its YAML Front Matter:
 
-✓ Command-line free _fork-first workflow_, using GitHub.com to create, customize and post to your blog  
-✓ Fully responsive and mobile optimized base theme (**[Theme Demo](http://jekyllnow.com)**)  
-✓ Sass/Coffeescript support using Jekyll 2.0  
-✓ Free hosting on your GitHub Pages user site  
-✓ Markdown blogging  
-✓ Syntax highlighting  
-✓ Disqus commenting  
-✓ Google Analytics integration  
-✓ SVG social icons for your footer  
-✓ 3 http requests, including your avatar  
+    comments: false
 
-✘ No installing dependencies
-✘ No need to set up local development  
-✘ No configuring plugins  
-✘ No need to spend time on theming  
-✘ More time to code other things ... wait ✓!  
+### Social Share Links
+
+To disable Facebook, Twitter, and Google+ share links on a post or page, add the following to its front matter:
+
+    share: false
+
+### Floating Social Share Links
+
+To enable floating share links on the left of the screen, edit it on `_config.yml`:
+
+    float_share: true
+
+### Owner/Author Information
+
+Change your name, and avatar photo (200x200 pixels or larger), email, and social networking URLs. If you want to link to an external image on Gravatar or something similar you'll need to edit the path in `_includes/author.html` since it assumes it is hosted on your site.
+
+### Google Analytics and Webmaster Tools
+
+Your Google Analytics ID goes here along with meta tags for [Google Webmaster Tools](http://support.google.com/webmasters/bin/answer.py?hl=en&answer=35179) and [Bing Webmaster Tools](https://ssl.bing.com/webmaster/configure/verify/ownershi) site verification.
+
+### Top Menu - Navigation Links
+
+To add additional links in the menu edit `_config.yml`. Use the following format to set the URL and title for as many links as you'd like. *External links will open in a new window..* You can create a sub-category using the `submenu` item. Also, you can list your post categories setting the `type: 'categories'`
+
+
+    menu:
+      - title: 'Home'
+        url: '/'
+      - title: 'Fork'
+        url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme'
+      - title: 'Tags'
+        url: '/tags'
+      - title: 'Categories'
+        url: '/categories'
+        type: 'categories'
+      - title: 'Favorites'
+        url: '#'
+        submenu:
+          - title: 'highlighter'
+            url: '/code-highlighting-post/'
+          - title: 'intro'
+            url: '/sample-post/'
+
+### Adding New Content with Octopress
+
+While completely optional, I've included Octopress and some starter templates to automate the creation of new posts and pages. To take advantage of it start by installing the [Octopress](https://github.com/octopress/octopress) gem if it isn't already.
+
+    $ gem install octopress
+
+#### New Post
+
+Default command
+
+    $ octopress new post "Post Title"
+
+Default works great if you want all your posts in one directory, but if you're like me and want to group them into subfolders like `/posts`, `/portfolio`, etc. Then this is the command for you. By specifying the DIR it will create a new post in that folder and populate the `categories:` YAML with the same value.
+
+    $ octopress new post "New Portfolio Post Title" --dir portfolio
+
+#### New Page
+
+To create a new page use the following command.
+
+    $ octopress new page new-page/
+
+### Style Customization
+
+Here you'll find some useful scss variables to help you to customize your Blog interface. All variables can be found at `_sass/_variables.scss`.
+
+#### Top Navbar Size
+
+To change its size, edit the **`$menu-height`** value. It's recommended a value between 50px and 100px. This variable will automatically update the icon and menu size for you.
+
+#### Top Navbar Colors
+
+The navbar uses two colors, the top color and overflow color. The top color represents the navbar color when the window is not scrolled and the overflow color represents the color when we have a sufficient scroll to change its color.
+
+You can change these colors using the **`$menu-top`** and **`$menu-overflow`** variable values.
+
+#### Top Navbar hover color
+
+The color that you see in the item under the mouse can be changed in the **`$header-margin`** variable.
+
+### Further Customization
+
+Jekyll 2.x added support for Sass files making it much easier to modify a theme's fonts and colors. By editing values found in `_sass/variables.scss` you can fine tune the site's colors and typography.
+
+For example if you wanted a red background instead of white you'd change `$bodycolor: #fff;` to `$bodycolor: $cc0033;`.
+
+To modify the site's JavaScript files I setup a Grunt build script to lint/concatenate/minify all scripts into `scripts.min.js`. [Install Node.js](http://nodejs.org/), then [install Grunt](http://gruntjs.com/getting-started), and then finally install the dependencies for the theme contained in `package.json`:
+
+    npm install
+
+From the theme's root, use `grunt` to concatenate JavaScript files and optimize `.jpg`, `.png` and `.svg` files in the `images/` folder.
+
+You can also use `grunt dev` in combination with `bundle exec jekyll serve` to watch for updates in JS files that Grunt will then automatically re-build as you write your code, which will in turn auto-generate your Jekyll site when developing locally.
 
 ## Questions?
 
-[Open an Issue](https://github.com/barryclark/jekyll-now/issues/new) and let's chat!
-
-## Other forkable themes
-
-You can use the [Quick Start](https://github.com/barryclark/jekyll-now#quick-start) workflow with other themes that are set up to be forked too! Here are some of my favorites:
-
-- [Hyde](https://github.com/poole/hyde) by MDO
-- [Lanyon](https://github.com/poole/lanyon) by MDO
-- [mojombo.github.io](https://github.com/mojombo/mojombo.github.io) by Tom Preston-Werner
-- [Left](https://github.com/holman/left) by Zach Holman
-- [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) by Michael Rose
-- [Skinny Bones](https://github.com/mmistakes/skinny-bones-jekyll) by Michael Rose
-
-## Credits
-
-- [Jekyll](https://github.com/jekyll/jekyll) - Thanks to its creators, contributors and maintainers.
-- [SVG icons](https://github.com/neilorangepeel/Free-Social-Icons) - Thanks, Neil Orange Peel. They're beautiful.
-- [Solarized Light Pygments](https://gist.github.com/edwardhotchkiss/2005058) - Thanks, Edward.
-- [Joel Glovier](http://joelglovier.com/writing/) - Great Jekyll articles. I used Joel's feed.xml in this repository.
-- [David Furnes](https://github.com/dfurnes), [Jon Uy](https://github.com/jonuy), [Luke Patton](https://github.com/lkpttn) - Thanks for the design/code reviews.
-- [Bart Kiers](https://github.com/bkiers), [Florian Simon](https://github.com/vermluh), [Henry Stanley](https://github.com/henryaj), [Hun Jae Lee](https://github.com/hunjaelee), [Javier Cejudo](https://github.com/javiercejudo), [Peter Etelej](https://github.com/etelej), [Ben Abbott](https://github.com/jaminscript), [Ray Nicholus](https://github.com/rnicholus), [Erin Grand](https://github.com/eringrand), [Léo Colombaro](https://github.com/LeoColomb), [Dean Attali](https://github.com/daattali), [Clayton Errington](https://github.com/cjerrington), [Colton Fitzgerald](https://github.com/coltonfitzgerald), [Trace Mayer](https://github.com/sunnankar) - Thanks for your [fantastic contributions](https://github.com/barryclark/jekyll-now/commits/master) to the project!
+Having a problem getting something to work or want to know why I setup something in a certain way?  [File a GitHub Issue](http://github.com/aron-bordin/neo-hpstr-jekyll-theme/issues/new). And if you make something cool with this theme feel free to let me know.
 
 ## Contributing
 
-Issues and Pull Requests are greatly appreciated. If you've never contributed to an open source project before I'm more than happy to walk you through how to create a pull request.
 
-You can start by [opening an issue](https://github.com/barryclark/jekyll-now/issues/new) describing the problem that you're looking to resolve and we'll go from there.
+Bug reports and pull requests are welcome on GitHub at https://github.com/aron-bordin/neo-hpstr-jekyll-theme. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
-I want to keep Jekyll Now as minimal as possible. Every line of code should be one that's useful to 90% of the people using it. Please bear that in mind when submitting feature requests. If it's not something that most people will use, it probably won't get merged. :guardsman:
+## Development
+
+To set up your environment to develop this theme, run `bundle install`.
+
+Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+
+When your theme is released, only the files in `_layouts`, `_includes`, and `_sass` tracked with Git will be released.
+
+## License
+
+The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
