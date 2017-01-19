@@ -1,50 +1,34 @@
-title: Elky's Blah Blah
-description: C++, C#, Python, Ruby, and...
-author: Elky Kim
-github: https://github.com/elky84
-about: Game server programmer. and a little client programming.
+# Site settings
+title: Elky's Blah blah
+email: elky84@gmail.com
+description: Programmer, Game Developer, and...
+# > # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
+
+# baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+github_username: elky84
+permalink: /:year/:month/:day/:title/
+# this is the url root of the view source link on the footer page.
+viewsourceroot: https://github.com/elky84/elky84.github.io/blob/master/
+# this is the url root of the create page link on the footer page.
+newsourceroot: https://github.com/elky84/elky84.github.io/new/master
+#########################################
+# for duoshuo.com commenting system, uncomment following line if you do not want to include duoshuo.com. 
+#duoshuo_shortname: lixizhi
+#duoshuo_url: "http://lixizhi.github.io"
+# disqus.com commenting system. please note that it is exclusive with duoshuo.com
 disqus_shortname: elky84
-google_analytics: UA-67357923-2
+disqus_url: "http://elky84.github.io"
+#########################################
 
-enableTags: true
-tagarray: [Programmer, Game Developer]
-
-collections:
-  project:
-    output: true
-    permalink: /project/:path/
-
-# refs : http://fontawesome.io/icons/
-social:
-    - icon: fa-facebook
-      link: "https://www.facebook.com/elky1984"
-    - icon: fa-twitter
-      link: "http://twitter.com/elky84"
-    - icon: fa-linkedin
-      link: "https://kr.linkedin.com/in/elky-96299bb1"
-    - icon: fa-github
-      link: "https://elky84.github.io"
-    - icon: fa-steam
-      link: "http://steamcommunity.com/id/elky84"
-
-share:
-  twitter_username: elky84
-  fb_appid: 828191487218951
-
-urls:
-    - text: About Me
-      url: /about/
-    - text: Projects
-      url: /projects/
-    - text: XML Feed
-      url: /feed.xml
-
-url: "https://elky84.github.io"
-baseurl: ""
-paginate: 20
-per_page: 20
-paginate_path: "/page:num/"
+# Build settings
 markdown: kramdown
-gems:
-  - jekyll-paginate
-  - jekyll-gist
+
+# highlight
+# highlighter: pygments
+# highlighter: rouge
+# highlighter: false
