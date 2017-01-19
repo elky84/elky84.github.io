@@ -8,22 +8,23 @@ permalink: /about/
 * content
 {:toc}
 
-## About the site
-Programming, Game Development, Languages, Architect, and ...
+## 이 사이트는?
+게임 프로그래밍에 대해 주로 다룹니다.
+웹 프로그래밍도 많이 다루기 시작했으며, 컬럼도 종종 실립니다.
 
 
-## my technics
+## 사용 가능 언어 및 프레임워크
 * [C++] boost, asio, IOCP, DirectX
 * [C#] ASP.NET CORE, Winform
 * [Python] Django
 * [Ruby] Rails
 
 
-## About me.
+## 내 소개
 * Elky (elky84@gmail.com)
-* Game Programmer.
+* 게임 프로그래머
 
-## Work
+## 업무 경력
 * 2005~2006
    * [Xaimedia] MixMaster Online - Assistant Client Programmer
 
