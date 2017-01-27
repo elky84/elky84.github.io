@@ -26,7 +26,6 @@ comments: true
 	}
 
 
-
 뭐....당시엔 대다수 국내 C언어 서적이 저랬을려나...?
 ANSI C Programming의 번역서만이.
 

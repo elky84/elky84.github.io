@@ -2,7 +2,7 @@
 layout: post
 title: C++ 코드 작성시 주의 사항
 date: 2008-08-04 11:14:54
-categories: C++, 소프트웨어공학
+categories: C++ 소프트웨어공학
 comments: true
 ---
 

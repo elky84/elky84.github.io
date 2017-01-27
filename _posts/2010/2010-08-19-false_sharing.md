@@ -2,7 +2,7 @@
 layout: post
 title: 거짓 공유 (false sharing)
 date: 2010-08-19 11:14:54
-categories: 시스템프로그래밍, 병렬프로그래밍
+categories: 시스템프로그래밍 병렬프로그래밍
 comments: true
 ---
 
