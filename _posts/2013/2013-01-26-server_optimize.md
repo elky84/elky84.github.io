@@ -5,7 +5,6 @@ date: 2013-01-26 00:23:54
 categories: 서버
 comments: true
 ---
-
 1. Through-put
 
 초당 소화 가능 이벤트.

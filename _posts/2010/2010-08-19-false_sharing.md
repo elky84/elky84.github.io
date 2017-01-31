@@ -5,7 +5,6 @@ date: 2010-08-19 11:14:54
 categories: 시스템프로그래밍 병렬프로그래밍
 comments: true
 ---
-
 캐싱의 기본은 지역성에 근거하는데요, 이는 프로그래밍단의 최적화에서도 유명한 80-20법칙과도 일맥상통하는 이야기죠.
 
 지역성(locality)은 아래 추정에 근거합니다.
@@ -32,18 +31,13 @@ convoying (무분별한 lock의 사용으로 멀티 스레드를 활용하지 �
 
 옛말에 "메모리 공간을 팔아 속도를 산다"는 말 처럼, 메모리와 속도는 반비례 그래프와 같다는 생각이 다시 한번 드네요.
 
-참고 자료
-art.oriented - false sharing
-http://minjang.egloos.com/1848130
+**참고 자료**
+[art.oriented - false sharing](http://minjang.egloos.com/1848130)
 
-메모리 거짓 공유
-http://blog.naver.com/hermet/68290454
+[메모리 거짓 공유](http://blog.naver.com/hermet/68290454)
 
-Locality 그리고, 거짓 공유
-http://rein.kr/blog/archives/906
+[Locality 그리고, 거짓 공유](http://rein.kr/blog/archives/906)
 
-cache line bouncing
-http://barriosstory.blogspot.com/2008/03/cache.html
+[cache line bouncing](http://barriosstory.blogspot.com/2008/03/cache.html)
 
-멀티스레드 프로그래밍이 어려운 까닭
-http://summerlight.textcube.com/12
+[멀티스레드 프로그래밍이 어려운 까닭](http://summerlight.textcube.com/12)

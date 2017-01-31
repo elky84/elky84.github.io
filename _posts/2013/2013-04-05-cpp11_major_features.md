@@ -5,7 +5,6 @@ date: 2013-04-05 11:14:54
 categories: C++11
 comments: true
 ---
-
 [Ten C++11 Features Every C++ Developer Should Use](http://www.codeproject.com/Articles/570638/Ten-Cplusplus11-Features-Every-Cplusplus-Developer)
 
 위 article을 간략하게 요약해봤습니다.

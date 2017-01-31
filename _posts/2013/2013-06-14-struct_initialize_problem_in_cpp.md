@@ -5,7 +5,6 @@ date: 2013-06-14 11:14:54
 categories: C++
 comments: true
 ---
-
     struct CHAR_COLLECTION_DATA
     {
         int CharID;
@@ -80,3 +79,5 @@ comments: true
 컴파일 오류로 막을 수 있는 습관은 갖추는 게 좋다.
 
 구조체 이니셜라이저는 자제 하자.
+
+첨언을 하자면, 대입될 변수를 지정하는 방식의 이니셜라이저는 추천이다. legacy한 문법을 허용하는 C스타일 구조체 이니셜라이저를 자제하자는 얘기다.

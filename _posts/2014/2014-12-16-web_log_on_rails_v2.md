@@ -5,7 +5,6 @@ date: 2014-12-16 11:14:54
 categories: Ruby Rails
 comments: true
 ---
-
 # 개발 목표
 자동으로 파일로 남겨져 있는 로그를 분석해, 시스템에 영향을 주는 작업을 알려주기 위해 개발 됐다.
 파일로 남겨져 있는 log를 db으로 밀어 넣는 작업은 log_shipper가 담당한다.

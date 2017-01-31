@@ -5,12 +5,11 @@ date: 2014-08-05 11:14:54
 categories: 비동기프로그래밍
 comments: true
 ---
-
-Reactor 패턴
+**Reactor 패턴**
 * 어떠한 이벤트가 발생하면, 이곳으로 알려달라는 방식.
 * 윈도우 메시지 핸들러처럼, 특정 이벤트가 발생한다면 통지 받겠다는 방식.
 
-Proactor 패턴
+**Proactor 패턴**
 * 특정 작업을 시키고, 그 작업이 완료되면 알려달라는 방식.
 * IOCP에서 Completion Port가 이 방식을 취하고 있다.
 
