@@ -18,35 +18,36 @@ TCP/IP 서버 프로그래밍을 주로해왔으며, 요새는 웹 프로그래�
 
 
 ## About me
-* 닉네임 : 엘키 (elky) [elky84@gmail.com](elky84@gmail.com)
+ 닉네임 : 엘키 (elky)
+* 이메일 주소 : <elky84@gmail.com>
 * 게임 개발을 주로 해온 개발자.
 * 다양한 프로그래밍 언어에 관심이 많음.
-* 확장성, Big Data 에도 관심 가지는 중.
+    * 확장성, Big Data 에도 관심 가지는 중.
 
 
 ## Working skill
-* [C++] C++ 14, boost, asio, IOCP, DirectX
-* [C#] ASP.NET CORE
-* [Python] Django
-* [Ruby] Rails
+ [C++] C++ 14, boost, asio, IOCP, DirectX
+ [C#] ASP.NET CORE
+ [Python] Django
+ [Ruby] Rails
 
 
 ## Working History
-* 2005~2006 Xaimedia
-   * [MixMaster Online] Assistant Client Programmer
+ 2005~2006 Xaimedia
+    [MixMaster Online] Assistant Client Programmer
 
-* 2006~2009 Neoact
-   * [Pokipoki] Lead Server Programmer
-   * [Chaos Online] Lead Server Programmer
+ 2006~2009 Neoact
+    [Pokipoki] Lead Server Programmer
+    [Chaos Online] Lead Server Programmer
 
-* 2009~2012 Ntreev soft
-   * [Pangya Online] Assistant Server Programmer
+ 2009~2012 Ntreev soft
+    [Pangya Online] Assistant Server Programmer
 
-* 2012~2014 Maiet Entertainment
-   * [Gunz2 Online] Server Programmer
+ 2012~2014 Maiet Entertainment
+    [Gunz2 Online] Server Programmer
 
-* 2015~2016 [LV999]
-   * [Scholar Who Walks in The Night - Mobile] Lead Programmer
+ 2015~2016 LV999
+    [Scholar Who Walks in The Night * Mobile] Lead Programmer
 
-* 2016~ [NHN Studio 629]
-   * [MS Project] Server Programmer
+ 2016~ NHN Studio 629
+    [MS Project] Server Programmer

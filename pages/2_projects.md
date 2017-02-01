@@ -14,9 +14,9 @@ Following are projects started by me.
 ## MixMaster Online
 * Started: 2005-2006
 * Website: [http://www.mixmaster.co.kr/](http://www.mixmaster.co.kr/)
-   * 클라이언트 프로그래밍, 툴 개발.
-   * 한국, 중국, 일본 서비스 대응
-   * C++ / MFC 6.2 / Windows Desktop
+    * 클라이언트 프로그래밍, 툴 개발.
+    * 한국, 중국, 일본 서비스 대응
+    * C++ / MFC 6.2 / Windows Desktop
 
 2D 온라인 MMORPG. 몬스터를 동료로 데리고 다니며, 변신 시스템이 특징인 RPG다.
  
@@ -24,9 +24,9 @@ Following are projects started by me.
 ## Pokipoki
 * Started: 2006-2009
 * Website: [http://pokipoki.co.kr/](http://pokipoki.co.kr/)
-   * 리드 서버 프로그래밍
-   * 한국 CBT~LIVE 서비스, 일본 LIVE, 대만 LIVE 서비스
-   * C++ / Windows Server 2003 / IOCP / SQL Server 2005 / Oracle 9i
+    * 리드 서버 프로그래밍
+    * 한국 CBT~LIVE 서비스, 일본 LIVE, 대만 LIVE 서비스
+    * C++ / Windows Server 2003 / IOCP / SQL Server 2005 / Oracle 9i
 
 3D 온라인 SNG. 아바타 채팅, 채집, 낚시, 수렵 등의 디지털 라이프를 표방하는 게임.
 축구, 달리기, 결투 등등의 미니 게임들도 다수 포함되어있다.
@@ -35,9 +35,9 @@ Following are projects started by me.
 ## Chaos Online
 * Started: 2008-2009
 * Website: [http://co.nexon.com/Index.aspx?p=2](http://co.nexon.com/Index.aspx?p=2)
-   * 리드 서버 프로그래밍
-   * 알파 버전까지 빌드업
-   * C++ / Windows Server 2003 / IOCP / SQL Server 2005
+    * 리드 서버 프로그래밍
+    * 알파 버전까지 빌드업
+    * C++ / Windows Server 2003 / IOCP / SQL Server 2005
     
 워크래프트3 유즈맵 카오스를 기반으로한, 3D 온라인 RTS 게임.
 
