@@ -18,7 +18,7 @@ TCP/IP 서버 프로그래밍을 주로해왔으며, 요새는 웹 프로그래�
 
 
 ## About me
- 닉네임 : 엘키 (elky)
+* 닉네임 : 엘키 (elky)
 * 이메일 주소 : <elky84@gmail.com>
 * 게임 개발을 주로 해온 개발자.
 * 다양한 프로그래밍 언어에 관심이 많음.
@@ -26,10 +26,10 @@ TCP/IP 서버 프로그래밍을 주로해왔으며, 요새는 웹 프로그래�
 
 
 ## Working skill
- [C++] C++ 14, boost, asio, IOCP, DirectX
- [C#] ASP.NET CORE
- [Python] Django
- [Ruby] Rails
+* [C++] C++ 14, boost, asio, IOCP, DirectX
+* [C#] ASP.NET CORE
+* [Python] Django
+* [Ruby] Rails
 
 
 ## Working History
