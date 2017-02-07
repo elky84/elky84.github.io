@@ -1,5 +1,6 @@
 ---
 layout: frontpage
+title: 엘키의 주절 주절
 ---
 
 ## Home
