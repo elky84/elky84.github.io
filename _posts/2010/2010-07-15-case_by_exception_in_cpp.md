@@ -7,7 +7,6 @@ comments: true
 ---
 
 # 예외가 발생하는 상황
-
 1. 0으로 나누기
 * 나누기를 직접 사용하지 말고, 매크로 함수로 만들어놓고 사용하는 것이 좋다. (0으로 나누기를 시도했을 경우 로그를 남기는 등의 동작)
     int nDivisor = 0;
@@ -15,20 +14,9 @@ comments: true
 
 2. 잘못된 메모리 접근 (널포인터 접근 포함)
 * Access Violation 예외 발생
-
-    CObject* pObject = new CChild((DWORD)time(NULL));
-    pObject = NULL;
-    pObject*Key();
-    delete 두번
-    CObject* pObject = NULL;
-    pObject = new CObject((DWORD)time(NULL));
-    delete pObject;
-    delete pObject;
-
 * 주로 Access Violation이 발생하지만, 멀티 스레드라서 다른 스레드에서 같은 주소에 할당을 요청했고, 그 주소를 다시 한번 delete했을 경우는 증상이 엉뚱한 곳에서 나오기도 하니 반드시 SAFE_DELETE같은 매크로 함수 혹은 auto_ptr, shared_ptr 등의 스마트한 메모리 관리 객체를 사용하자.
 
 # 바로 크래쉬 되는 상황
-
 1. 스택 오버플로우 (무한 재귀 또는, 스택 변수를 너무 크게 잡고 사용할 시에 발생)
 * 대책 : http://msdn.microsoft.com/ko-kr/library/aa289171(VS.71).aspx
 * 스택 오버 플로우 트랩 : http://support.microsoft.com/kb/315937
@@ -43,20 +31,15 @@ comments: true
 2. 예외가 발생해 스택 되감기하는 도중 예외 발생.
 * 이런 경우가 흔치는 않은데, 안전하지 않은 코드 작성시에는 이렇게 되기도 한다. 딱히 대책은 없다. 너무 무책임한가 =_=; 
 
-
 # 멈춘 듯 보이는 상황
-
 1. 반복 수행되는 쓰레드에서, 익셉션에 계속 남는다. (원스레드식으로 돌릴 때)
 * 덤프 백만개 쌓이다가 하드 풀나기도 한다. 우울해지곤하지...=_=
 * 대책은 HardDisk Space 계산해서, 특정 수치 이상이면 서버 떨구는게 차라리 낫다. 
-
 2. 무한 루프
 * GPG3권에 있는 1.3의 C스타일 매크로의 새로운 가치를 찾아서에 나오는 while_limit 를 적극 활용하는 것이 어떨까 싶다.
 * 좋은 습관은 주로 위기 상황에서 효과를 발휘하는 법이다.
-
 3. 데드락
 * 실제로 멈춘상태. 주의 사항은, 데드락이 걸려있는 스레드랑 전혀 별도로 돌아가던 스레드는 여전히 계속 돌고 있다는 점이다. 이 얘기는 뭐냐하면, AliveCheck용 스레드를 따로 두었을 경우, HeartBeat가 제대로 전달되 데드락 걸린 상황을 탐지하기 어려울 수도 있다는 것이다.
-
 4. 멈춘 듯 보이는 현상을 해결하기 위해선, UserDump 등으로 FullDump 뜨는 것을 추천한다.
 * FullDump로 콜스택을 확인해보면, 어떤 스레드가 무한 루프에 빠졌거나, 데드락에 걸렸는지 등을 확인 할 수 있다.
 * 좀 더 확실히 하려면 Snapshot처럼 여러번 FullDump를 남겨 확인해보면 좀 더 확실해 질 것이다.
@@ -64,26 +47,17 @@ comments: true
 # 구분이 잘 안가는 상황 (인과 관계를 깨드리는 상황)
 1. 스택 조금만 덮어 씌웠을 때
 * 대책 : http://msdn.microsoft.com/ko-kr/library/aa289171(VS.71).aspx 
-
 2. 버퍼 오버플로우 (얼만큼 덮어 씌웠는지에 따라 다르다)
 * 버퍼 오버플로우 되는 상황이 나왔다는거 자체가 우울한 상황이다. 이 상황에서 원인을 찾길 바라는건 요행에 가깝다. 
 * 메모리 관련 함수는 되도록 자제하라. (memcpy, memset 등등...)
 * 네이티브 포인터도 자제하라.
-
 3. 자식 클래스로의 잘못된 다운 캐스트한 후, 자식 클래스의 함수 호출.
 * 해당 영역에 어떤 데이터가 있었는지에 따라 다르다. 자식 클래스의 함수에서 사용하는 데이터가, 자식 클래스 전용 멤버일 경우 잘못된 메모리 접근이 있을 것이고....혹은 메모리 관련 함수거나 하다면 더 이상한 증상을 보인다. 
 * 잘못된 다운 캐스트 자체가 정줄 놓은거지...진짜 확신한다해도 다운 캐스트 자체는 죄악. 허나 어쩔 수 없이 다운캐스트가 필요하다면  dynamic_cast를 사용하라. 근데 나는 이것도 좀 반대하는 입장.
 * 이런건 어떨까? http://www.gamedev.net/reference/programming/features/TypeSafeGenPtr/
-    CObject* pObject = new COtherChild((DWORD)time(NULL));
-    CChild* pChild = static_cast< CChild * >(pObject);
-    pChild*Set("TypecastError");
-    delete pObject;
-
 4. 잘못된 함수 포인터
 * 주의 해라. 뭐 별 수 있나...
-
 5. 삭제 중인 객체 혹은 삭제된 객체의 순수 가상 함수 호출
 * http://msdn.microsoft.com/en-us/library/t296ys27(VS.80).aspx
-
 6. CRT가 함수에 잘못된 인수를 전달 받았을 때에 불리는 함수
 * http://msdn.microsoft.com/en-us/library/a9yf33zb(VS.80).aspx

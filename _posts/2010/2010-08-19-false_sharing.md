@@ -32,6 +32,7 @@ convoying (무분별한 lock의 사용으로 멀티 스레드를 활용하지 �
 옛말에 "메모리 공간을 팔아 속도를 산다"는 말 처럼, 메모리와 속도는 반비례 그래프와 같다는 생각이 다시 한번 드네요.
 
 **참고 자료**
+
 [art.oriented - false sharing](http://minjang.egloos.com/1848130)
 
 [메모리 거짓 공유](http://blog.naver.com/hermet/68290454)

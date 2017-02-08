@@ -5,6 +5,7 @@ date: 2013-06-14 11:14:54
 categories: C++
 comments: true
 ---
+
     struct CHAR_COLLECTION_DATA
     {
         int CharID;
