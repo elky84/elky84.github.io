@@ -6,7 +6,9 @@ categories: Ruby
 comments: true
 ---
 
+
 <iframe width="476" height="400" src="http://www.slideshare.net/slideshow/embed_code/41104621" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+
 
 루비를 시작하시는 모든분들께 짧게 읽고 넘어가실 수 있는 슬라이드를 작성해보았습니다.
 
