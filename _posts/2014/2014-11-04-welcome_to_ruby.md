@@ -7,7 +7,7 @@ comments: true
 ---
 
 
-<iframe width="476" height="400" src="http://www.slideshare.net/slideshow/embed_code/41104621" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/GWqLcCjo8ifU8Y" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/elky84/welcome-to-ruby-41104621" title="Welcome to ruby!" target="_blank">Welcome to ruby!</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/elky84">성훈 김</a></strong> </div>
 
 
 루비를 시작하시는 모든분들께 짧게 읽고 넘어가실 수 있는 슬라이드를 작성해보았습니다.
