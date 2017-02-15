@@ -18,6 +18,7 @@ C++, C#, C, Go, Java, JavaScript, PHP, Python을 지원한다.
 왜 Flatbuffers를 쓰는가?
 parsing이나, unpacking 전에도, 직렬화 데이터에 접근 가능하다.
 
+### FlatBuffer의 특장점
 * 메모리가 효율이 좋고, 빠르다.
 * 유연하다.
 * 경량 코드
@@ -88,13 +89,15 @@ Structs는 오직 수치형 자료나 또 다른 Structs만을 포함 할 수 �
 
 Structs는 table보다 적은 메모리를 사용하고, 빠른 접근도 가능하다. (그것은 항상 그들의 부모 오브젝트에서 in-line되고, 가상 테이블을 사용하지 않는다)
 
-## Types
+### Types
+
 크기|내장 수치 타입
 ---|---
 8bit|byte, ubyte, bool
 16bit|short, ushort
 32bit|int, uint, float
 64bit|long, ulong, double
+
 
 내장 비-수치 타입
 다른 타입의 Vector, 계층화 된 벡터는 지원하지 않고, 대신 당신은 테이블안에 내부 벡터로 감쌀 수 있다.

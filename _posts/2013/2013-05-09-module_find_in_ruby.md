@@ -6,8 +6,7 @@ categories: Ruby
 comments: true
 ---
 
-Ruby에서 load나 require시에 참조하는 폴더는 다음과 같습니다.
-
+### Ruby에서 load나 require시에 참조하는 폴더
 * 쉘 현재 경로 
 * RUBYLIB 환경 변수 경로
 
