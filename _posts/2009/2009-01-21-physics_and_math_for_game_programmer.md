@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 잡스처럼 일한다는 것 - 뛰어난 리더가 뛰어난 기업, 뛰어난 제품을 만든다.
+title: 게임 프로그래머를 위한 수학과 물리
 date: 2009-01-21 11:14:54
 categories: 서평
 comments: true
