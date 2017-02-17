@@ -31,14 +31,9 @@ convoying (무분별한 lock의 사용으로 멀티 스레드를 활용하지 �
 
 옛말에 "메모리 공간을 팔아 속도를 산다"는 말 처럼, 메모리와 속도는 반비례 그래프와 같다는 생각이 다시 한번 드네요.
 
-**참고 자료**
-
-[art.oriented - false sharing](http://minjang.egloos.com/1848130)
-
-[메모리 거짓 공유](http://blog.naver.com/hermet/68290454)
-
-[Locality 그리고, 거짓 공유](http://rein.kr/blog/archives/906)
-
-[cache line bouncing](http://barriosstory.blogspot.com/2008/03/cache.html)
-
-[멀티스레드 프로그래밍이 어려운 까닭](http://summerlight.textcube.com/12)
+### 참고 자료
+- [art.oriented - false sharing](http://minjang.egloos.com/1848130)
+- [메모리 거짓 공유](http://blog.naver.com/hermet/68290454)
+- [Locality 그리고, 거짓 공유](http://rein.kr/blog/archives/906)
+- [cache line bouncing](http://barriosstory.blogspot.com/2008/03/cache.html)
+- [멀티스레드 프로그래밍이 어려운 까닭](http://summerlight.textcube.com/12)
