@@ -32,4 +32,4 @@ Api Mode는 back-end로 client-side javascript나 native-application과 JSON으�
 
 rails 5에 대한 간략한 사용법과 특징을 정리한 유투브 영상 한편 소개해드리며, 마무리할게요.
 
-<iframe width="560" height="420" src="http://www.youtube.com/embed/OaDhY_y8WTo?rel=0" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="560" height="420" src="://www.youtube.com/embed/OaDhY_y8WTo?rel=0" frameborder="0" allowfullscreen=""></iframe>

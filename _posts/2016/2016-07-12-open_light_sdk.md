@@ -98,6 +98,3 @@ github에 제가 개인 작업한 라이브러리 및 샘플 공유합니다.
         * channel_manager_strand_position
     * 해당 채널 내의 스레드 지정
         * channel_strand_position
-
-
-출처: http://elky.tistory.com/649 [엘키의 주절 주절]
