@@ -16,8 +16,7 @@ Action Cable이 바로 그것이죠.
 
 기존 rails의 구조가 1 request-1 response를 기반으로 하는 만큼, 얼마나 웹소켓의 이벤트와 Rails ActionController 코드와 유연하게 연동이 되는지는 궁금합니다.
 
-벌써 한글로 된 채팅 앱 구현 글이 올라왔네요!
-<http://blog.ask.co.de/2016/06/%EB%A0%88%EC%9D%BC%EC%A6%88-5%EC%9D%98-%EC%95%A1%EC%85%98-%EC%BC%80%EC%9D%B4%EB%B8%94%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%B1%84%ED%8C%85-%EC%95%B1-%EA%B5%AC%ED%98%84/>
+벌써 [한글로 된 채팅 앱 구현 포스트](<http://blog.ask.co.de/2016/06/%EB%A0%88%EC%9D%BC%EC%A6%88-5%EC%9D%98-%EC%95%A1%EC%85%98-%EC%BC%80%EC%9D%B4%EB%B8%94%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%B1%84%ED%8C%85-%EC%95%B1-%EA%B5%AC%ED%98%84/>)가 올라왔네요!
 
 Api Mode는 back-end로 client-side javascript나 native-application과 JSON으로 통신이 가능하다고 하네요.
 
@@ -29,7 +28,3 @@ Api Mode는 back-end로 client-side javascript나 native-application과 JSON으�
 특히나 성능 문제로 인해 twitter는 rails를 포기하기도 해 많은 우려를 낳고 있었는데요, rails 5는 그런 우려를 불식시키고, 다시금 많은 장점으로 사랑받는 웹 프레임워크로 입지를 확고히할지는 더 두고 봐야할 문제라고 생각합니다.
 
 자세한 Rails 5 차이점에 대한것은 제가 조금 더 사용해보고 알려드리겠습니다.
-
-rails 5에 대한 간략한 사용법과 특징을 정리한 유투브 영상 한편 소개해드리며, 마무리할게요.
-
-<iframe width="560" height="420" src="://www.youtube.com/embed/OaDhY_y8WTo?rel=0" frameborder="0" allowfullscreen=""></iframe>
