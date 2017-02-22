@@ -2,7 +2,7 @@
 layout: post
 title: PostgresSQL 요약 정리
 date: 2016-02-08 11:14:54
-categories: PostgresSQL PgSQL
+categories: PostgresSQL
 comments: true
 ---
 ### 한눈에 살펴보는 PostgreSQL

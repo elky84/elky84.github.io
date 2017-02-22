@@ -2,7 +2,7 @@
 layout: post
 title: LightSDK 공개
 date: 2016-07-12 11:14:54
-categories: 오픈소스 Github LightSDK
+categories: 오픈소스
 comments: true
 ---
 오픈소스로 올려둔 프로젝트들에 대해서 설명드립니다.
