@@ -74,6 +74,11 @@ comments: true
       >user_no = int(req.session['user_no'])  
       >return tasks.celery.delay(user_no)
     
+### Pycharm Celery 디버깅 설정
+* http://stackoverflow.com/questions/37150910/how-can-i-use-pycharm-to-locally-debug-a-celery-worker 
+
+![Pycharm Celery 디버깅 설정](/images/celery_debugging.jpg)
+
 ### 참고
 * <http://ngee.tistory.com/548>
 * <http://ngee.tistory.com/580>
@@ -81,6 +86,3 @@ comments: true
 * <http://ahnseungkyu.com/110>
 * <http://abipictures.tistory.com/895>
 * <http://febdy.tistory.com/9>
-
-
-출처: http://elky.tistory.com/655 [엘키의 주절 주절]
