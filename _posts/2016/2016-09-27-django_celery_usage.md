@@ -77,7 +77,7 @@ comments: true
 ### Pycharm Celery 디버깅 설정
 * http://stackoverflow.com/questions/37150910/how-can-i-use-pycharm-to-locally-debug-a-celery-worker 
 
-![Pycharm Celery 디버깅 설정](/images/celery_debugging.jpg)
+![Pycharm Celery 디버깅 설정](/images/celery_debugging.png)
 
 ### 참고
 * <http://ngee.tistory.com/548>
