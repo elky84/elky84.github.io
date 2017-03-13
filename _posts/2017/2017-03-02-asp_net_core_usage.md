@@ -22,7 +22,7 @@ comments: true
 * Redirect
     * <https://support.microsoft.com/ko-kr/kb/307903>
 * Session
-    * <http://benjii.me/2016/07/using-sessions-and-<httpcontext-in-aspnetcore-and-mvc-core/>
+    * <http://benjii.me/2016/07/using-sessions-and-httpcontext-in-aspnetcore-and-mvc-core/>
 ### Database
 * mysql .net core
     * connection string
