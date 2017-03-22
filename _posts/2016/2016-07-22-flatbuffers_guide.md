@@ -19,6 +19,7 @@ C++, C#, C, Go, Java, JavaScript, PHP, Python을 지원한다.
 parsing이나, unpacking 전에도, 직렬화 데이터에 접근 가능하다.
 
 ### FlatBuffer의 특장점
+
 * 메모리가 효율이 좋고, 빠르다.
 * 유연하다.
 * 경량 코드
@@ -29,7 +30,8 @@ parsing이나, unpacking 전에도, 직렬화 데이터에 접근 가능하다.
 <https://google.github.io/flatbuffers/flatbuffers_guide_writing_schema.html>
 
 ## writing a schema
-C계열 언어 사용자들과 또 다른 언어 사용자들에게 또한 친숙한 스키마 언어 문법으로 작성된다. 
+
+C계열 언어 사용자들과 또 다른 언어 사용자들에게 또한 친숙한 스키마 언어 문법으로 작성된다.
 
     // example IDL file
 
