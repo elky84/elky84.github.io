@@ -5,7 +5,8 @@ date: 2017-03-02 11:14:54
 categories: 언어
 comments: true
 ---
-### ASP.NET CORE
+# ASP.NET CORE
+
 * download
     * <https://www.microsoft.com/net/core#windowsvs2015>
 * linux deploy
@@ -23,7 +24,9 @@ comments: true
     * <https://support.microsoft.com/ko-kr/kb/307903>
 * Session
     * <http://benjii.me/2016/07/using-sessions-and-httpcontext-in-aspnetcore-and-mvc-core/>
-### Database
+
+## Database
+
 * mysql .net core
     * connection string
         * <http://insidemysql.com/mysql-connector-net-for-net-core-1-0/>
@@ -80,11 +83,17 @@ comments: true
     * <https://docs.microsoft.com/en-us/aspnet/core/performance/caching/distributed>
 * couchbase
     * <https://www.nuget.org/packages/CouchbaseNetClient/2.4.0-dp1>
-### xlsx
+
+## xlsx
+
 * <http://cybershin.tistory.com/364>
-### xUnit
+
+## xUnit
+
 * <https://xunit.github.io/docs/getting-started-dotnet-core.html>
-### json
+
+## json
+
 * newtonsoft.json
     * 저용량에서는 비슷, 대용량에서는 빠르고 복잡한 Nested 구조까지 가장 잘 처리했음.
         * <https://www.nuget.org/packages/newtonsoft.json/>
