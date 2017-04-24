@@ -1,16 +1,19 @@
----
-layout: default
----
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/BlogPosting" {% if page.main-class %}class="post-{{ page.main-class }}"{% endif %}>
+    {% include head.html %}
+    <body>
+        {% include svg-icons.html %}
+        {% include header-post.html %}
+        <section class="post">
 
-  <header class="post-header">
-    <h1 align="right" class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <h4 class="text-right"><small><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></small></h4>
-  </header>
+            <article role="article" id="post" class="post-content" itemprop="articleBody">
+                {{ content }}
+            </article>
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
-  {% include tags.html %}
-
-</article>
+            {% include share.html %}
+            {% include author.html %}
+            {% include comments.html %}
+            {% include footer.html %}
+        </section>
+    </body>
+</html>

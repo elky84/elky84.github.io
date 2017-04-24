@@ -1,29 +1,42 @@
-# Welcome to Jekyll and Thank you for using Renge as your theme.
-
-# Renge is designed by Junchao (www.junchaowang.com) and inspired by amination
-# “のんのんびより” and named by one of the Characters "Renge Miyauchi (宮内 れんげ Miyauchi Renge)".
-# If you have any questions, you can reach me via https://github.com/billyfish152 by submitting
-# an issue or via email billyfish152@gmail.com.
-
-# Please install jekyll-paginate before build it.
-# sudo gem install jekyll-paginate in linux or MacOS.
-# gem install jekyll-paginate in Windows.
-
-# Renge supports categories and tags, which are defined in each of your posts.
-# Also, You can add or removed links in /_includes/sider.html .
-# please change the belowing settings to your own.
-
 # Site settings
-title: Renge
-email: billyfish152@gmail.com
-description: Renge is a Jekyll theme that is designed by Junchao (www.junchaowang.com) and inspired by amination “のんのんびより” and named by one of the Characters "Renge Miyauchi (宮内 れんげ Miyauchi Renge)".
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.junchaowang.com" # the base hostname & protocol for your site
-twitter_username:
-github_username:  billyfish152
+title: Willian Justen - Desenvolvedor Front End
+description: A blog about lorem ipsum dolor sit amet
+baseurl: "/cards-jekyll-template" # the subpath of your site, e.g. /blog
+url: "https://willianjusten.com.br" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: Lorem Ipsum
+user_description: Anon Developer at Lorem Ipsum Dolor
+email: anon@anon.com
+twitter_username: lorem_ipsum
+github_username:  lorem_ipsum
+gplus_username:  lorem_ipsum
+disqus_username: lorem_ipsum
 
 # Build settings
 markdown: kramdown
-paginate: 3
-gems: [jekyll-paginate]
-paginate_path: "/page/:num"
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Series
+    url: /series
+  - title: Tags
+    url: /tags
+  - title: About Me
+    url: /about
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
