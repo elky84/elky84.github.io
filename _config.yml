@@ -1,42 +1,15 @@
-# Site settings
-title: Willian Justen - Desenvolvedor Front End
-description: A blog about lorem ipsum dolor sit amet
-baseurl: "/cards-jekyll-template" # the subpath of your site, e.g. /blog
-url: "https://willianjusten.com.br" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+title: Mr.Brown
+description: Mr.Brown is a responsive jekyll theme
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: ':title/'
+baseurl: "/mr-brown" # the subpath of your site, e.g. /blog
 
-# User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-disqus_username: lorem_ipsum
+# Comments
+discus_identifier: mr-brown
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
-permalink: /:title/
-
-
-# html minify
-compress_html:
-  clippings: all
-  comments: all
-  endings: []
-  profile: false
-
-# Links to include in menu navigation
-# For external links add external: true
-links:
-  - title: Home
-    url: /
-  - title: Series
-    url: /series
-  - title: Tags
-    url: /tags
-  - title: About Me
-    url: /about
-
-# exclude my node related stuff
-exclude: ['package.json', 'src', 'node_modules']
+# Social settings
+twitter_url: https://twitter.com/artemsheludko_
+facebook_url: https://facebook.com/
+googleplus_url: https://plus.google.com/
+instagram_url: https://instagram.com
+github_url: https://github.com/artemsheludko/
