@@ -1,29 +1,34 @@
-# Welcome to Jekyll and Thank you for using Renge as your theme.
-
-# Renge is designed by Junchao (www.junchaowang.com) and inspired by amination
-# “のんのんびより” and named by one of the Characters "Renge Miyauchi (宮内 れんげ Miyauchi Renge)".
-# If you have any questions, you can reach me via https://github.com/billyfish152 by submitting
-# an issue or via email billyfish152@gmail.com.
-
-# Please install jekyll-paginate before build it.
-# sudo gem install jekyll-paginate in linux or MacOS.
-# gem install jekyll-paginate in Windows.
-
-# Renge supports categories and tags, which are defined in each of your posts.
-# Also, You can add or removed links in /_includes/sider.html .
-# please change the belowing settings to your own.
-
 # Site settings
-title: Renge
-email: billyfish152@gmail.com
-description: Renge is a Jekyll theme that is designed by Junchao (www.junchaowang.com) and inspired by amination “のんのんびより” and named by one of the Characters "Renge Miyauchi (宮内 れんげ Miyauchi Renge)".
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.junchaowang.com" # the base hostname & protocol for your site
-twitter_username:
-github_username:  billyfish152
+title: 엘키의 주절 주절
+email: elky84@gmail.com
+description: Programmer, Game Developer, and...
+# > # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
+
+# baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+github_username: elky84
+permalink: /:year/:month/:day/:title/
+# this is the url root of the view source link on the footer page.
+viewsourceroot: https://github.com/elky84/elky84.github.io/blob/master/
+# this is the url root of the create page link on the footer page.
+newsourceroot: https://github.com/elky84/elky84.github.io/new/master
+#########################################
+# for duoshuo.com commenting system, uncomment following line if you do not want to include duoshuo.com. 
+#duoshuo_shortname: lixizhi
+#duoshuo_url: "http://lixizhi.github.io"
+# disqus.com commenting system. please note that it is exclusive with duoshuo.com
+disqus_shortname: elky84
+disqus_url: "http://elky84.github.io"
+#########################################
 
 # Build settings
 markdown: kramdown
-paginate: 3
-gems: [jekyll-paginate]
-paginate_path: "/page/:num"
+
+# highlight
+# highlighter: pygments
+# highlighter: rouge
+# highlighter: false
