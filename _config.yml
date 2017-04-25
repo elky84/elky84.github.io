@@ -32,11 +32,11 @@ exclude:
   - vendor
 
 # Social media
-twitter_username:
-twitter_image:
-facebook_app_id:
-facebook_image:
-google_analytics:
+twitter_username: 
+twitter_image: 
+facebook_app_id: 
+facebook_image: 
+google_analytics: 
 
 # Plugins
 gems:
