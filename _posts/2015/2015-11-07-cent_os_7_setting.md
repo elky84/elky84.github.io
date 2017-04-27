@@ -35,7 +35,7 @@ docker를 이용할 수도 있었지만, CentOS에 대한 이해도를 높이는
         * firewall-cmd --permanent --zone=public --add-port=포트번호/tcp
         * firewall-cmd --reload
     * 포트 확인
-        * http://zetawiki.com/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4_%EB%A1%9C%EC%BB%AC%EC%84%9C%EB%B2%84_%EC%97%B4%EB%A6%B0_%ED%8F%AC%ED%8A%B8_%ED%99%95%EC%9D%B8
+        * <http://zetawiki.com/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4_%EB%A1%9C%EC%BB%AC%EC%84%9C%EB%B2%84_%EC%97%B4%EB%A6%B0_%ED%8F%AC%ED%8A%B8_%ED%99%95%EC%9D%B8>
     * SSH,TELNET, FTP 설치 및 운용
         * <http://webdevnovice.tistory.com/5>
 * vnc
