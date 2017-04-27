@@ -12,6 +12,7 @@ permalink: /projects/
 Following are projects started by me. 
 
 ## MixMaster Online
+* Company: Xaimedia
 * Started: 2005-2006
 * Website: [http://www.mixmaster.co.kr/](http://www.mixmaster.co.kr/)
     * 클라이언트 프로그래밍, 툴 개발.
@@ -22,6 +23,7 @@ Following are projects started by me.
  
 
 ## Pokipoki
+* Company: Neoact
 * Started: 2006-2009
 * Website: [http://pokipoki.co.kr/](http://pokipoki.co.kr/)
     * 리드 서버 프로그래밍
@@ -33,6 +35,7 @@ Following are projects started by me.
 
 
 ## Chaos Online
+* Company: Neoact
 * Started: 2008-2009
 * Website: [http://co.nexon.com/Index.aspx?p=2](http://co.nexon.com/Index.aspx?p=2)
     * 리드 서버 프로그래밍
@@ -43,6 +46,7 @@ Following are projects started by me.
 
 
 ## Pangya Online
+* Company: Ntreev Soft
 * Started: 2009-2012
 * Website: [http://pangya.gametree.co.kr](http://pangya.gametree.co.kr)
    * 어시스턴트 서버 프로그래밍
@@ -54,32 +58,35 @@ Following are projects started by me.
 3D 온라인 골프 게임. 화이트데이를 개발한 왕리얼 엔진을 기반으로 제작.
 
 
-## Gunz 2 Online
+## Gunz 2 the second duel.
+* Company: Maiet Entertainment
 * Started: 2012-2014
 * Website: [http://store.steampowered.com/app/242720/](http://store.steampowered.com/app/242720/)
    * 서버 프로그래밍.
-   * 스팀 기반 글로벌 LIVE, 태국 LIVE. 유럽 CBT, 한국 CBT.
-   * 업무 지원 툴 개발
+   * 스팀 기반 글로벌 출시. LIVE, 태국 LIVE. 유럽 CBT, 한국 CBT.
+   * 업무 지원 툴 개발.
    * C++ 11 / Windows Server 2008 / boost asio / SQL Server 2008 / ruby on rails 3
 
-3D 온라인 TPS 게임. 히트작인 건즈 온라인의 후속작.
+3D 온라인 TPS 게임. 히트작 건즈 온라인의 후속작.
 자체 엔진 RealSpace 기반으로한 인하우스 라이브러리를 애용하는 개발 환경.
 
 
 ## 범을 걷는 선비 (Scholar Who Walks in The Night)
+* Company: LV999
 * Started: 2015~2016
 * Website: [http://www.gevolution.co.kr/app/?svc=215882](http://www.gevolution.co.kr/app/?svc=215882)
    * 리드 프로그래밍. (클라이언트 & 서버)
    * 컨텐츠 프로그래밍 (서버 & 클라 1티어 개발)
    * 플레이 스토어 출시. 최고 매출 90위.
-   * Unity3D in C# / Cent OS 7 / ruby on rails 4 / PostgreSQL 9.4.10 / Redis 3.0.7
+   * Unity3D 5.x in C# / Cent OS 7 / ruby on rails 4 / PostgreSQL 9.4.10 / Redis 3.0.7
 
 동명의 만화 & 드라마 기반 모바일 RPG 게임.
 
 ## MS 프로젝트
+* Company: NHN 629
 * Started: 2016~2017
    * 리드 서버 프로그래밍
    * 컨텐츠 프로그래밍 (서버 & 클라 1티어 개발)
-   * Unity3D in C# / Cent OS 7  / Python 3 / django 1.10 / ASP.NET CORE / SuperSocket 1.6.6 / Redis 3.2.6
+   * Unity3D 5.x in C# / Cent OS 7  / Python 3.4 / django 1.10 / ASP.NET CORE / SuperSocket 1.6.6 / Redis 3.2.6
    
 포커를 베이스로 한 모바일 카드 게임.
