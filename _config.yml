@@ -43,7 +43,7 @@ gems:
   - jekyll-archives
   - jekyll-paginate
   - jekyll-sitemap
-
+  - jekyll-tagslist
 # Build settings
 markdown: kramdown
 excerpt_separator: "<!-- more -->"
@@ -68,4 +68,10 @@ jekyll-archives:
     - categories
   layout: category_archives
   permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
     category: /categories/:name/
+tag_page_layout: tag_page
+tag_permalink_style: pretty

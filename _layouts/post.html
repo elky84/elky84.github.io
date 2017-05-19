@@ -11,9 +11,13 @@ layout: default
     {% endif %}
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}{% if page.categories != empty %} • {% include category_links.html categories=page.categories %}{% endif %}</p>
   </header>
-
+  
   <div class="post-content" itemprop="articleBody">
     {{ content }}
+  </div>
+  
+  <div class="article-tag">
+  {% tags_list :threshold => 1, :show_count => 1, :sort_by => count, :order_by => desc, :limit => 20 %}
   </div>
 
 </article>
