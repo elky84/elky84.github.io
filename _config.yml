@@ -73,5 +73,3 @@ jekyll-archives:
     day: '/:year/:month/:day/'
     tag: '/tag/:name/'
     category: /categories/:name/
-tag_page_layout: tag_page
-tag_permalink_style: pretty
