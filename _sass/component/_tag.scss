@@ -13,7 +13,6 @@ $theme-color: $black;
   color: $theme-color;
   font-size: 90%;
   &:before {
-    padding-right: .5em;
   }
   &:hover {
     text-decoration: none;
@@ -43,10 +42,8 @@ $theme-color: $black;
       list-style-position: inside;
       padding: 0;
       li {
-        padding: 0 1rem;
         &:hover {
           list-style-type: disc;
-          padding: 0 .5rem;
         }
       }
     }
