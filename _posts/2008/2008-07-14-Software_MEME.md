@@ -3,6 +3,7 @@ layout: post
 title: Software Development MEME
 date: 2008-07-14 14:37:54
 categories: 주절주절
+tags: 주절주절
 comments: true
 ---
 

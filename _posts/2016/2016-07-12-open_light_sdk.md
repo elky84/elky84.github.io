@@ -2,7 +2,8 @@
 layout: post
 title: LightSDK 공개
 date: 2016-07-12 11:14:54
-categories: 오픈소스
+categories: 오픈소스 LightSDK
+tags: 오픈소스 LightSDK
 comments: true
 ---
 # LightSDK

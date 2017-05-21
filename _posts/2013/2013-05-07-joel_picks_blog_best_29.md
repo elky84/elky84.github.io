@@ -3,6 +3,7 @@ layout: post
 title: 조엘이 엄선한 소프트웨어 블로그 베스트 29선
 date: 2013-05-07 11:14:54
 categories: 서평
+tags: 서평
 comments: true
 ---
 

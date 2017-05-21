@@ -3,6 +3,7 @@ layout: post
 title: python 입문기
 date: 2016-11-22 11:14:54
 categories: Python
+tags: Python
 comments: true
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: 대체 뭐가 문제야?
 date: 2008-01-16 11:14:54
 categories: 서평
+tags: 서평
 comments: true
 ---
 

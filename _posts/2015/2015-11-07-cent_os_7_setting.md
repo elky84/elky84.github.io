@@ -3,6 +3,7 @@ layout: post
 title: CentOS 7 세팅기
 date: 2015-11-07 11:14:54
 categories: 서버 리눅스 CentOS
+tags: 서버 리눅스 CentOS
 comments: true
 ---
 ### 나무 위키 CentOS 소개

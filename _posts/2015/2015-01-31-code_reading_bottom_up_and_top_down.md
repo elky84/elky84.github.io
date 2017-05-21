@@ -2,7 +2,8 @@
 layout: post
 title: 상향식 코드 분석과 하향식 코드 분석
 date: 2015-01-31 11:14:54
-categories: 소프트웨어공학
+categories: [소프트웨어 공학]
+tags: [소프트웨어 공학]
 comments: true
 ---
 

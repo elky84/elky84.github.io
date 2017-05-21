@@ -3,6 +3,7 @@ layout: post
 title: 린 소프트웨어 개발 - 개발 효율 향상을 위한 애자일 지침서
 date: 2008-01-17 11:14:54
 categories: 서평
+tags: 서평
 comments: true
 ---
 

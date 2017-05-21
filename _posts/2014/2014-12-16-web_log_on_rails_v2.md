@@ -3,6 +3,7 @@ layout: post
 title: 웹 로그 서버 구축기 with rails V2
 date: 2014-12-16 11:14:54
 categories: Ruby Rails
+tags: Ruby Rails
 comments: true
 ---
 # 개발 목표

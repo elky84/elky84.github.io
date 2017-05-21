@@ -3,6 +3,7 @@ layout: post
 title: 익스트림 프로그래밍 - 소프트웨어 개발도 결국 사람에 달려있다.
 date: 2008-02-24 11:14:54
 categories: 서평
+tags: 서평
 comments: true
 ---
 

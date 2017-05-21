@@ -2,7 +2,8 @@
 layout: post
 title: 코딩 컨벤션
 date: 2015-01-31 00:23:54
-categories: 소프트웨어공학
+categories: [소프트웨어 공학]
+tags: [소프트웨어 공학]
 comments: true
 ---
 내가 코드를 작성할 때 신경쓰는 코딩 규약들을 정리해본다.

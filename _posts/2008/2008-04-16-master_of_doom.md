@@ -3,6 +3,7 @@ layout: post
 title: 둠. 컴퓨터 게임의 성공신화. 존 카맥, 존 로메로 - 천재 프로그래머 이야기
 date: 2008-04-16 11:14:54
 categories: 서평
+tags: 서평
 comments: true
 ---
 천재들은 대부분 영재인 경우가 많다. 

@@ -3,6 +3,7 @@ layout: post
 title: Welcome to Ruby!
 date: 2014-11-04 11:14:54
 categories: Ruby
+tags: Ruby
 comments: true
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: 뉴욕의 프로그래머 - 실수를 두려워하지 말지어다
 date: 2008-01-14 11:14:54
 categories: 서평
+tags: 서평
 comments: true
 ---
 

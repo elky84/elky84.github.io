@@ -2,7 +2,8 @@
 layout: post
 title: ASP.NET CORE 사용법
 date: 2017-03-02 11:14:54
-categories: 언어
+categories: [ASP.NET CORE, .NET CORE]
+categories: [ASP.NET CORE, .NET CORE]
 comments: true
 ---
 # ASP.NET CORE

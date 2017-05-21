@@ -2,7 +2,8 @@
 layout: post
 title: Django에서 ASP.NET CORE로 전환한 이유
 date: 2017-02-28 11:14:54
-categories: 언어
+categories: [Django, ASP.NET CORE]
+tags: [Django, ASP.NET CORE]
 comments: true
 ---
 ### Django를 포기한 이유

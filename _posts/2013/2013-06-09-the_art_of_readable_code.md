@@ -3,6 +3,7 @@ layout: post
 title: 읽기 쉬운 코드가 좋은 코드다
 date: 2013-06-09 11:14:54
 categories: 서평
+tags: 서평
 comments: true
 ---
 제가 여러번 극찬한 임백준씨의 번역서입니다.

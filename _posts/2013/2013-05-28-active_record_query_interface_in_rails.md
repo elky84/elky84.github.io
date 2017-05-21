@@ -3,6 +3,7 @@ layout: post
 title: Active Record Query Interface
 date: 2013-05-28 11:14:54
 categories: Ruby Rails
+tags: Ruby Rails
 comments: true
 ---
 

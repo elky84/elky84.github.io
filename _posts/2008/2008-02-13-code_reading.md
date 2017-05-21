@@ -2,7 +2,8 @@
 layout: post
 title: 코드 읽기
 date: 2008-02-13 11:14:54
-categories: 소프트웨어공학
+categories: [소프트웨어 공학]
+tags: [소프트웨어 공학]
 comments: true
 ---
 

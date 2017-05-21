@@ -2,7 +2,8 @@
 layout: post
 title: 프로그래밍 개발시 좋은 습관
 date: 2010-08-20 11:14:54
-categories: 소프트웨어 공학
+categories: [소프트웨어 공학]
+tags: [소프트웨어 공학]
 comments: true
 ---
 

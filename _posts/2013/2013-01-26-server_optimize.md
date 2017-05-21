@@ -3,6 +3,7 @@ layout: post
 title: 서버 최적화 핵심 요약
 date: 2013-01-26 00:23:54
 categories: 서버
+tags: 서버 최적화
 comments: true
 ---
 1. Through-put

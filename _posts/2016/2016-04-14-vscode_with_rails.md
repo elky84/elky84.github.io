@@ -3,6 +3,7 @@ layout: post
 title: VSCode with Rails
 date: 2016-04-14 11:14:54
 categories: Rails Ruby VSCode
+tags: Rails Ruby VSCode
 comments: true
 ---
 현재까지 개발툴로 C#과 C++에서는 이견이 없이 visual studio 2015를 사용해왔습니다.

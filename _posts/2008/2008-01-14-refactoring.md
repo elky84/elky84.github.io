@@ -3,6 +3,7 @@ layout: post
 title: 리팩토링 - 실용적이고, 현실적이며 실천적이었다.
 date: 2008-01-14 11:14:54
 categories: 서평
+tags: 서평
 comments: true
 ---
 리팩토링이란 좋지 않은 구조의 코드를 좋은 구조로 바꾸는 작업을 말합니다.

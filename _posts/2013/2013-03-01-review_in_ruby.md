@@ -3,6 +3,7 @@ layout: post
 title: 루비 사용기
 date: 2013-03-01 11:14:54
 categories: Ruby
+tags: Ruby
 comments: true
 ---
 최근 업무 관련해서 루비를 쓰게 됐다.

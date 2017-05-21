@@ -3,6 +3,7 @@ layout: post
 title: 블로그 이전.
 date: 2017-01-25 15:14:54
 categories: 주절주절
+tags: 주절주절
 comments: true
 ---
 

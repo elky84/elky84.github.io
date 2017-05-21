@@ -3,6 +3,7 @@ layout: post
 title: 실용주의 프로그래머 - 실용주의 마인드
 date: 2008-01-14 11:14:54
 categories: 서평
+tags: 서평
 comments: true
 ---
 

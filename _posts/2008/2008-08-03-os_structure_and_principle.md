@@ -2,7 +2,8 @@
 layout: post
 title: OS 구조와 원리 - 단연 최고의 OS 개발 서적
 date: 2008-08-03 11:14:54
-categories: 서평
+categories: [서평]
+tags: [서평]
 comments: true
 ---
 

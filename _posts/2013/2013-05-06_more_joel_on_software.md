@@ -3,6 +3,7 @@ layout: post
 title: More Joen on Software - 조엘은 역시나 탁월했다.
 date: 2013-05-06 11:14:54
 categories: 서평
+tags: 서평
 comments: true
 ---
 
