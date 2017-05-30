@@ -3,6 +3,7 @@ layout: post
 title: 유닛 테스트의 진짜 효과와 역할
 date: 2014-12-09 11:14:54
 categories: 유닛테스트
+tags: 유닛테스트
 comments: true
 ---
 

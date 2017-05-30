@@ -2,7 +2,8 @@
 layout: post
 title: 문제해결 노트
 date: 2009-02-03 11:14:54
-categories: 소프트웨어공학
+categories: [소프트웨어 공학]
+tags: [소프트웨어 공학]
 comments: true
 ---
 

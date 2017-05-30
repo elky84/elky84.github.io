@@ -3,6 +3,7 @@ layout: post
 title: 동기화에 대한 간략 정리
 date: 2016-06-30 11:14:54
 categories: 서버 동기화
+tags: 서버 동기화
 comments: true
 ---
 ## 동기화 기본

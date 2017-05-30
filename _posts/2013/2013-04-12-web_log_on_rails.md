@@ -3,6 +3,7 @@ layout: post
 title: 웹 로그 서버 구축기 with rails
 date: 2013-04-12 11:14:54
 categories: Ruby Rails
+tags: Ruby Rails
 comments: true
 ---
 현재 웹 로그 서버로 루비 온 레일즈를 사용해 개발중에 있습니다.

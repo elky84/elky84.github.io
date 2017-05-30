@@ -3,6 +3,7 @@ layout: post
 title: KGC2012 - 뛰어난 디버거가 되는 방법
 date: 2012-10-10 00:23:54
 categories: 주절주절 디버깅
+tags: 디버깅
 comments: true
 ---
 

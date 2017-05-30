@@ -3,6 +3,7 @@ layout: post
 title: C++ 멀티 스레드 프로그래밍을 몇년간 해온 후 느낀 고찰
 date: 2013-04-09 00:23:54
 categories: 서버
+tags: 서버
 comments: true
 ---
 서버 프로그래머가 되기 이전엔 멀티 스레드 따위 관심도 없었다.

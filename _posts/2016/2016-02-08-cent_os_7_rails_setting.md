@@ -3,6 +3,7 @@ layout: post
 title: CentOS 7 Rails 세팅
 date: 2016-02-08 11:14:54
 categories: Ruby Rails CentOS
+tags: Ruby Rails CentOS
 comments: true
 ---
 ### rbenv 설치 [ruby, rails]

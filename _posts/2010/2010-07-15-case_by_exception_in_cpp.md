@@ -3,6 +3,7 @@ layout: post
 title: C++ 오류 발생시 원인 정리
 date: 2010-03-16 11:14:54
 categories: C++
+tags: C++
 comments: true
 ---
 

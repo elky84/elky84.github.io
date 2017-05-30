@@ -3,6 +3,7 @@ layout: post
 title: 소프트웨어 산책 - 역시나 흥미로웠던 그의 산책
 date: 2008-01-14 11:14:54
 categories: 서평
+tags: 서평
 comments: true
 ---
 이전에 임백준씨의 책들을 감명깊게 읽었던지라 이번책도 큰 기대를 품고 읽게 되었습니다. 

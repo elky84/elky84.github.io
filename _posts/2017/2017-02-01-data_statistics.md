@@ -3,6 +3,7 @@ layout: post
 title: 데이터 통계 이야기
 date: 2017-02-01 11:14:54
 categories: 통계
+tags: 통계
 comments: true
 ---
 

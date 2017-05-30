@@ -2,7 +2,8 @@
 layout: post
 title: 업무 일지 쓰는 법
 date: 2015-12-09 00:23:54
-categories: 주절주절
+categories: [주절주절, 문서화]
+tags: [주절주절, 문서화]
 comments: true
 ---
 저는 불행인지 다행인지, 업무 일지를 강제하는 회사를 다녀본 경험이 없습니다.

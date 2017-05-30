@@ -3,6 +3,7 @@ layout: post
 title: 서버 테스트 방법 들
 date: 2008-04-25 11:14:54
 categories: 서버
+tags: 서버
 comments: true
 ---
 

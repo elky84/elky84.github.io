@@ -2,7 +2,8 @@
 layout: post
 title: Django to ASP.NET CORE
 date: 2017-03-01 11:14:54
-categories: 언어
+categories: [Django, ASP.NET CORE]
+tags: [Django, ASP.NET CORE]
 comments: true
 ---
 ### django lobby 서버 기능 이전.

@@ -3,6 +3,7 @@ layout: post
 title: Ruby on rails 소개
 date: 2014-12-02 11:14:54
 categories: Rails
+tags: Rails
 comments: true
 ---
 

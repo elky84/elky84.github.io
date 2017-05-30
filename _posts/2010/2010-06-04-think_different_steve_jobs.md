@@ -3,6 +3,7 @@ layout: post
 title: 스티브 잡스의 수퍼 업무력 - 애플의 그리고 잡스의 성공 비결
 date: 2010-06-04 11:14:54
 categories: 서평
+tags: 서평
 comments: true
 ---
 

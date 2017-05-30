@@ -3,6 +3,7 @@ layout: post
 title: 잡스처럼 일한다는 것 - 뛰어난 리더가 뛰어난 기업, 뛰어난 제품을 만든다.
 date: 2009-02-09 11:14:54
 categories: 서평
+tags: 서평
 comments: true
 ---
 

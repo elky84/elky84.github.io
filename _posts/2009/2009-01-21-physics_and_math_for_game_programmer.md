@@ -3,6 +3,7 @@ layout: post
 title: 게임 프로그래머를 위한 수학과 물리
 date: 2009-01-21 11:14:54
 categories: 서평
+tags: 서평
 comments: true
 ---
 

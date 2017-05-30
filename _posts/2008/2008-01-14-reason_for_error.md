@@ -3,6 +3,7 @@ layout: post
 title: C++ 오류의 원인들
 date: 2008-01-14 11:14:54
 categories: C++
+tags: C++
 comments: true
 ---
 ### strcpy 등의 길이제한이 없는 함수는 사용하지 않는다 

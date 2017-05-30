@@ -3,6 +3,7 @@ layout: post
 title: 코딩시 유념할 점 들
 date: 2008-01-10 11:14:54
 categories: 주절주절
+tags: 주절주절
 comments: true
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: 단점 고치기
 date: 2012-09-06 00:23:54
 categories: 주절주절
+tags: 주절주절
 comments: true
 ---
 

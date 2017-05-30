@@ -2,7 +2,8 @@
 layout: post
 title: 패치의 악몽을 피하기 위해
 date: 2008-01-14 11:14:54
-categories: 소프트웨어공학
+categories: [소프트웨어 공학]
+tags: [소프트웨어 공학]
 comments: true
 ---
 

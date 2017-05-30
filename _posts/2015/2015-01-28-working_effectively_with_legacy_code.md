@@ -3,6 +3,7 @@ layout: post
 title: 레거시 코드 활용 전략
 date: 2015-01-28 11:14:54
 categories: 서평
+tags: 서평
 comments: true
 ---
 최근 레거시 코드 활용 전략이라는 책을 읽고 있다.

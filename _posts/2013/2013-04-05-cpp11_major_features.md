@@ -3,6 +3,7 @@ layout: post
 title: C++ 11 주요 Feature 정리
 date: 2013-04-05 11:14:54
 categories: C++11
+tags: C++11
 comments: true
 ---
 [Ten C++11 Features Every C++ Developer Should Use](http://www.codeproject.com/Articles/570638/Ten-Cplusplus11-Features-Every-Cplusplus-Developer)
