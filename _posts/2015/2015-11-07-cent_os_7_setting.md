@@ -24,16 +24,16 @@ docker를 이용할 수도 있었지만, CentOS에 대한 이해도를 높이는
     * 위치 확인
         * <http://zetawiki.com/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4_%EB%AA%85%EB%A0%B9%EC%96%B4_%EC%9C%84%EC%B9%98_%ED%99%95%EC%9D%B8>
     * 폴더 내 용량 확인
-        * du -hs *
+        * <code>du -hs *</code>
     * 디스크 용량 확인
-        * df -h
+        * <code>df -h</code>
 * SSH
     * ssh login error
         * <http://ask.xmodulo.com/sshd-error-could-not-load-host-key.html>
 * Network
     * cent os 7 방화벽 [http://www.conory.com/note_linux/42477]
-        * firewall-cmd --permanent --zone=public --add-port=포트번호/tcp
-        * firewall-cmd --reload
+        * <code>firewall-cmd --permanent --zone=public --add-port=포트번호/tcp</code>
+        * <code>firewall-cmd --reload</code>
     * 포트 확인
         * <http://zetawiki.com/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4_%EB%A1%9C%EC%BB%AC%EC%84%9C%EB%B2%84_%EC%97%B4%EB%A6%B0_%ED%8F%AC%ED%8A%B8_%ED%99%95%EC%9D%B8>
     * SSH,TELNET, FTP 설치 및 운용
@@ -46,9 +46,9 @@ docker를 이용할 수도 있었지만, CentOS에 대한 이해도를 높이는
     * rails 설치
         * <https://www.vultr.com/docs/install-ruby-on-rails-with-rbenv-on-centos-7>
     * 버전 강제 [현상은 주로 gem 오류]
-        * rbenv install 2.1.5
-        * rbenv local 2.1.5
-        * rbenv rehash
+        * <code>rbenv install 2.1.5</code>
+        * <code>rbenv local 2.1.5</code>
+        * <code>rbenv rehash</code>
     * execJS runtime error
         * CentOS node.js install
             * <http://seraphmate.tistory.com/100>

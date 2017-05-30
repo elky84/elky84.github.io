@@ -11,7 +11,7 @@ comments: true
 
 의외로 두 언어를 다 하는 사람은 별로 없다.
 
-포지션이 비슷해서인거 같다.
+포지션이 비슷해서인걸까?
 
 몇년전 재밌는 블로그 글을 본적이 있다.
 
@@ -19,15 +19,13 @@ comments: true
 
 [Django VS Rails](http://youngrok.com/Django_vs_Rails)
 
-또 이런 글도 있다.
-
 [PHP vs Python vs Ruby](http://secretroute.tistory.com/entry/PHP-vs-Ruby-vs-Python)
 
-펼친 글과, 글 말미에 퍼포먼스 이야기가 나오는데, 현재는 상황에 따라 다른 수준으로 따라 잡혔다. (Python 3.6, Ruby 2.4 기준)
+펼친 글과, 글 말미에 퍼포먼스 이야기가 나오는데, 현재는 상황에 따라 다른 수준으로 따라 잡혀서 큰 의미가 없다. (Python 3.6, Ruby 2.4 기준)
 
 <https://benchmarksgame.alioth.debian.org/u64q/ruby.html>
 
-내가 직접 측정해본바로는 대다수의 간단한 로직 수행시에 Ruby가 더 빨랐다.
+내가 직접 측정해본바로는 대다수의 간단한 로직 수행시에 Ruby가 더 빨랐지만, 의미가 있는 수준은 아니었으니 넘어가자.
 
 절대적이라던 패키지 수도 Ruby와 큰 차이가 없다. (Pypi와 비교시에는 Rubygems가 더 많다. 물론 두 언어 모두 node.js 패키지 수와는 큰 격차가 나지만…)
 
