@@ -1,6 +1,6 @@
 ---
 layout: post
-title: C++ 표준 라이브러리 서평
+title: 핵심 C++ 표준 라이브러리 서평
 date: 2017-07-12 00:00:00
 categories: Rust
 tags: Rust
