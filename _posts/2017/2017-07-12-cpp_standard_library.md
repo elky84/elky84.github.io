@@ -2,8 +2,8 @@
 layout: post
 title: 핵심 C++ 표준 라이브러리 서평
 date: 2017-07-12 00:00:00
-categories: Rust
-tags: Rust
+categories: 서평
+tags: 서평
 comments: true
 ---
 우리 C++이 달라졌어요!
