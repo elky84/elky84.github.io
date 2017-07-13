@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 읽기 쉬운 코드가 좋은 코드다
+title: [서평] 읽기 쉬운 코드가 좋은 코드다
 date: 2013-06-09 11:14:54
 categories: 서평
 tags: 서평

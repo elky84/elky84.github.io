@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Art of Unix Programming - 프로그래머가 가져야 할 마음 가짐을 알려주는 좋은 책.
+title: [서평] Art of Unix Programming - 프로그래머가 가져야 할 마음 가짐을 알려주는 좋은 책.
 date: 2008-01-12 11:14:54
 categories: 서평
 tags: 서평

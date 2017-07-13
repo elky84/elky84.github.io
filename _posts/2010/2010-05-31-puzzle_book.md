@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 누워서 읽는 퍼즐북 - 퍼즐의 쾌감
+title: [서평] 누워서 읽는 퍼즐북 - 퍼즐의 쾌감
 date: 2010-05-31 11:14:54
 categories: 서평
 tags: 서평

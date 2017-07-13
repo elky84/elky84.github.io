@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 조엘 온 소프트웨어 - 조엘은 알고 있었다
+title: [서평] 조엘 온 소프트웨어 - 조엘은 알고 있었다
 date: 2008-01-14 11:14:54
 categories: 서평
 tags: 서평
