@@ -21,7 +21,9 @@ permalink: /projects/
 2D 온라인 MMORPG. 
 
 몬스터를 동료로 데리고 다니며, 변신 시스템이 특징인 RPG다.
- 
+
+툴 작업.
+컨텐츠 작업. 
 
 ## Pokipoki
 * Company: Neoact
@@ -37,6 +39,7 @@ permalink: /projects/
 
 축구, 달리기, 결투 등등의 미니 게임들도 다수 포함되어있다.
 
+소켓 및 유틸 라이브러리 개선 및 보강.
 
 ## Chaos Online
 * Company: Neoact
@@ -50,6 +53,8 @@ permalink: /projects/
 
 워크래프트3 유즈맵 카오스를 기반으로 개발.
 
+C++ IOCP 기반의 프로토타이핑.
+소켓 라이브러리 작업.
 
 ## Pangya Online
 * Company: Ntreev Soft
@@ -65,7 +70,9 @@ permalink: /projects/
 
 상시 테스트를 통한 안정성 확보, 예외 처리, 트러블 슈트 위주 작업.
 
-서버 패치 자동화, 운용 모니터링 툴 개발.
+C++ IOCP 소켓 라이브러리 리뉴얼.
+
+C++ 기반의 서버 패치 자동화, 운용 모니터링 툴 개발.
 
 ## Gunz 2 the second duel.
 * Company: Maiet Entertainment
@@ -79,9 +86,10 @@ permalink: /projects/
 
 히트작 건즈 온라인의 후속작.
 
-상시 테스트를 통한 안정성 확보, 서버 내부 스레딩 정책 수립, 퍼포먼스 튜닝, 예외 처리, 트러블 슈트 위주 작업.
+C++기반의 상시 테스트를 통한 안정성 확보, 서버 내부 스레딩 정책 수립, 퍼포먼스 튜닝, 예외 처리, 트러블 슈트 위주 작업.
 
-서버 패치 자동화, 운용 모니터링 툴 개발.
+Ruby 서버 패치 자동화
+Ruby(with C++) 운용 모니터링 툴 개발.
 
 
 ## 범을 걷는 선비 (Scholar Who Walks in The Night)
@@ -97,9 +105,9 @@ permalink: /projects/
 
 웹 기반 서버를 중점적으로 사용한 첫 게임.
 
-운영 툴/통계 툴 작업.
-
-구조화 작업.
+Rails 운영 툴/통계 툴 작업.
+Rails 기반의 컨텐츠 작업.
+Unity3D 클라이언트 컨텐츠 작업.
 
 
 ## MS 프로젝트
@@ -110,7 +118,8 @@ permalink: /projects/
    * Unity3D 5.x in C# / Cent OS 7 / Python 3.4 / django 1.10 / ASP.NET CORE / SuperSocket 1.6.6 / Redis 3.2.6
    
 포커를 베이스로 한 전략 모바일 카드 게임.
-
+Python Django 프로토타이핑
+C# ASP.NET CORE, SuperSocket 포팅.
 
 ## G 프로젝트
 * Company: NHN Entertainment
@@ -119,3 +128,4 @@ permalink: /projects/
    * Cent OS 7  / Java 8 / Netty 4.1.13 / Spring Boot 1.5.2 / Akka 2.5.3 / MySQL 5.7
    
 실시간 캐주얼 퍼즐 게임.
+C++ 서버를 자바(netty with akka, spring boot)로 포팅하는 작업을 진행.
