@@ -52,23 +52,26 @@ comments: true
 정리하면 나는
 
 ### 빠른 기록용 노트 (OneNote)
-	* Note 기능과 편리한 Scrap 기능을 통한 최초 기록.
+* Note 기능과 편리한 Scrap 기능을 통한 최초 기록.
+
 ### To do list 관리 (Wunderlist)
-	* 각종 todo, 주기적 반복 작업에 대한 notify.
+* 각종 todo, 주기적 반복 작업에 대한 notify.
+
 ### 업무 관리 시스템 (Redmine)
-	* 내가 진행할, 진행중인, 진행했던 업무를 여러가지 방면으로 추적하기 위해서 사용.
-	* 상황에 따라 mantis나 trac 같은 버그 보고 시스템도 비슷한 용도로써 쓰일 수도 있음.
-	* 간단하게는 trello도 나쁘지 않음.
+* 내가 진행할, 진행중인, 진행했던 업무를 여러가지 방면으로 추적하기 위해서 사용.
+* 상황에 따라 mantis나 trac 같은 버그 보고 시스템도 비슷한 용도로써 쓰일 수도 있음.
+* 간단하게는 trello도 나쁘지 않음.
+
 ### 문서화 도구
-	* Wiki
-		* Nested하게 표현되어야 할 기록
-			* 카테고리 기준을 잘 잡아야 좋다.
-	* Office (MS Office, Google Drive 등)
-		* OneNote에 기록한 내용을 다시금 정리.
-	* Plantuml
-		* VS Code Plugin 사용
-	* Diagram
-		* Draw.io 사용
+* Wiki
+	* Nested하게 표현되어야 할 기록
+		* 카테고리 기준을 잘 잡아야 좋다.
+* Office (MS Office, Google Drive 등)
+	* OneNote에 기록한 내용을 다시금 정리.
+* Plantuml
+	* VS Code Plugin 사용
+* Diagram
+	* Draw.io 사용
 
 이렇게 관리하고 있다.
 
