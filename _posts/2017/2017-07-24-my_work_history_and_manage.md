@@ -44,7 +44,7 @@ comments: true
 여타 무료 to do list 관리 프로그램에 비해 오류 없는 안정적 서비스를 제공한다.
 
 
-또한 원노트를 통한 여러가지 필기와 메모도 나에겐 큰 도움이 된다.
+또한 **원노트를 통한 여러가지 필기와 메모도 나에겐 큰 도움**이 됐다.
 
 원노트에서 작성한 필기와 메모를 주기적으로 문서화 하게 되는데, 이 과정에서 다시한번 내용을 다듬을 수 있게 된다.
 
@@ -53,6 +53,7 @@ comments: true
 
 ### 빠른 기록용 노트 (OneNote)
 * Note 기능과 편리한 Scrap 기능을 통한 최초 기록.
+* 업무 일지, 위키에 정리하기전 선 정리.
 
 ### To do list 관리 (Wunderlist)
 * 각종 todo, 주기적 반복 작업에 대한 notify.
@@ -70,8 +71,11 @@ comments: true
 	* OneNote에 기록한 내용을 다시금 정리.
 * Plantuml
 	* VS Code Plugin 사용
+	* <https://www.websequencediagrams.com/>
 * Diagram
-	* Draw.io 사용
+	* <http://Draw.io>
+* Mindmap
+	* <http://okmindmap.com/index.do>
 
 이렇게 관리하고 있다.
 
