@@ -1,0 +1,37 @@
+---
+layout: post
+title: Java 적응기 03 - Akka
+date: 2017-07-29 21:00:00
+categories: Java Akka
+tags: Java Akka
+comments: true
+---
+Java에서 또 인상적이었 던은 Actor 모델로 유명하고, Scala에서 더 유명한 Akka다.
+
+Actor 모델의 근간은, 모든 통신을 Message로 하고, Actor 별로 단일 큐를 사용해 동시 접근 우려를 제거한다이다.
+
+![akka-internals](/images/akka-internals.png)
+
+위는 Akka에 대한 간략한 설명을 그린 그림이다.
+
+출처 : <https://deepakpol.wordpress.com/2015/09/29/event-driven-and-reactive-architecture/>
+
+위 주의 사항을 잘 지키면, 손쉽게 비동기 프로그래밍을 할 수 있는데, 여기에서 또 중요한 점은 Actor 단위로 단일 큐를 사용하기 때문에, Actor 하나만 사용했을 땐 싱글 스레드 프로그래밍과 다를 바 없기에, 워커를 돌리고 싶은 단위로 Actor를 사용 할 경우 적절하다.
+
+또한 static 메소드나 메시지에 공유 자원으로 쓰일 수 있는 데이터를 던지고 그 데이터를 저장해서 사용할 시 동시 접근의 우려가 남아있다.
+
+물론 이 점은 다른 멀티 스레드 로직 구현보다 훨씬 지키기 쉬운 규칙이기에 상대적으로 잇점이 큰 구현 방식이다.
+
+이론 적으로 알고 있던 Actor 모델을 아주 쉽고 잘 정리해서 구현한 Java Akka의 장점은 실로 대단했다.
+
+손쉽게 안정성 있는 비동기 프로그래밍을 **진짜** 할 수 있었다.
+
+특히 개체 단위 lock을 사용했을 때처럼, 이 로직이 어떤 스레드에서 불려질 것인가를 고민 할 필요 없이 비동기 프로그래밍 할 수 있다는 것은 아주 큰 축복이다.
+
+실제 팀에서 같이 사용 했을 때, 소통 코스트나 예외 처리 코스트가 급감했다는 점은 Akka (Actor Model)의 장점을 체감할 수 있었다.
+
+다음 C++ 비동기 프로그래밍을 한다면, Akka와 같은 방식으로, 프레임워크를 사용하거나 만들어 쓰고 싶어졌다. *(이미 있더라. [CAF](https://actor-framework.org/) )*
+
+[C++ 17 표준 라이브러리의 알고리즘 병렬화 소개](http://occamsrazr.net/tt/325?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+occamsrazr%2Fblog+(%EB%A5%98%EA%B4%91%EC%9D%98+%EB%B2%88%EC%97%AD+%EC%9D%B4%EC%95%BC%EA%B8%B0))
+
+C++의 경우에도 지속적인 발전 방향이 병렬화/비동기를 상황에 따라 손쉽게 쓸 수 있으면서도 성능 향상을 노리는 방향인데, 이 방향에 Actor 모델이 적합하다는 결론에 도달했으니... Akka를 접하고 사용해보며 얻은게 많았다.
