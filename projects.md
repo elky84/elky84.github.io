@@ -12,7 +12,7 @@ permalink: /projects/
 
 ## MixMaster Online
 * Company: Xaimedia
-* Started: 2005-2006
+* Period: 2005-2006
 * Website: <http://www.mixmaster.co.kr/>
 * Role
     * 클라이언트 프로그래밍, 툴 개발.
@@ -30,7 +30,7 @@ permalink: /projects/
 
 ## Pokipoki
 * Company: Neoact
-* Started: 2006-2009
+* Period: 2006-2009
 * Website: <http://pokipoki.co.kr/>
 * Role
     * 리드 서버 프로그래밍
@@ -53,7 +53,7 @@ permalink: /projects/
 
 ## Chaos Online
 * Company: Neoact
-* Started: 2008-2009
+* Period: 2008-2009
 * Website: <http://co.nexon.com/Index.aspx?p=2>
 * Role
     * 리드 서버 프로그래밍
@@ -71,7 +71,7 @@ permalink: /projects/
 
 ## Pangya Online
 * Company: Ntreev Soft
-* Started: 2009-2012
+* Period: 2009-2012
 * Website: <http://pangya.gametree.co.kr>
 * Role
    * 어시스턴트 서버 프로그래밍
@@ -92,7 +92,7 @@ permalink: /projects/
 
 ## Gunz 2 the second duel.
 * Company: Maiet Entertainment
-* Started: 2012-2014
+* Period: 2012-2014
 * Website: <http://store.steampowered.com/app/242720/>
 * Role
    * 서버 프로그래밍
@@ -117,7 +117,7 @@ permalink: /projects/
 
 ## 범을 걷는 선비 (Scholar Who Walks in The Night)
 * Company: LV999
-* Started: 2015~2016
+* Period: 2015~2016
 * Website: <http://www.gevolution.co.kr/app/?svc=215882>
 * Role
    * 리드 프로그래밍. (클라이언트 & 서버)
@@ -139,7 +139,7 @@ permalink: /projects/
 
 ## MS 프로젝트
 * Company: NHN 629
-* Started: 2016~2017
+* Period: 2016~2017
 * Role
    * 리드 서버 프로그래밍
    * 컨텐츠 프로그래밍 (서버 & 클라 1티어 개발)
@@ -158,7 +158,7 @@ permalink: /projects/
 
 ## G 프로젝트
 * Company: NHN Entertainment
-* Started: 2017
+* Period: 2017
 * Role
     * 리드 서버 프로그래밍
 * Tech
@@ -175,7 +175,7 @@ permalink: /projects/
 
 ## NOS
 * Company: Netmarble Games
-* Started: 2017
+* Period: 2017
 * Description      
     * Netmarble Operating System.
     * Private Cloud.
