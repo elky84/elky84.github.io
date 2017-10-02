@@ -70,3 +70,6 @@ jekyll-archives:
     day: '/:year/:month/:day/'
     tag: '/tags/:name/'
     category: /categories/:name/
+    
+    
+plugins: [jekyll-youtube]
