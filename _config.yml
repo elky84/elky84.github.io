@@ -43,6 +43,7 @@ gems:
   - jekyll-archives
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-youtube
 # Build settings
 markdown: kramdown
 excerpt_separator: "<!-- more -->"
