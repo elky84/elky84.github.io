@@ -29,6 +29,8 @@ permalink: /projects/
     * 컨텐츠 작업. 
 	
 {% include youtube.html id="3GFo_K_PwMs" %}
+<br/>
+
 
 ## Pokipoki
 * Company: Neoact
@@ -54,7 +56,8 @@ permalink: /projects/
     * 소켓 및 유틸 라이브러리 개선 및 보강.
 
 {% include youtube.html id="1lw354ub79Q" %}
-	
+<br/>
+
 ## Chaos Online
 * Company: Neoact
 * Period: 2008-2009
@@ -74,6 +77,8 @@ permalink: /projects/
 소켓 라이브러리 작업.
 
 {% include youtube.html id="ebUFDPbDQyg" %}
+<br/>
+
 
 ## Pangya Online
 * Company: Ntreev Soft
@@ -96,7 +101,8 @@ permalink: /projects/
     * C++ 기반의 서버 패치 자동화, 운용 모니터링 툴 개발.
 	
 {% include youtube.html id="aNfFQIFtk0c" %}
-	
+<br/>
+
 ## Gunz 2 the second duel.
 * Company: Maiet Entertainment
 * Period: 2012-2014
@@ -123,9 +129,9 @@ permalink: /projects/
     * Ruby(with C++) 운용 모니터링 툴 개발.
 	
 {% include youtube.html id="KRsIxJKumUg" %}
+<br/>
 	
-	
-## 범을 걷는 선비 (Scholar Who Walks in The Night)
+## 밤을 걷는 선비 (Scholar Who Walks in The Night)
 * Company: LV999
 * Period: 2015~2016
 * Website: <http://www.gevolution.co.kr/app/?svc=215882>
@@ -148,6 +154,7 @@ permalink: /projects/
     * Unity3D 클라이언트 컨텐츠 작업.
 
 {% include youtube.html id="O0icFg-BEiQ" %}
+<br/>
 	
 ## MS 프로젝트
 * Company: NHN 629
