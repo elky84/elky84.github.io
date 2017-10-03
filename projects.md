@@ -28,7 +28,7 @@ permalink: /projects/
     * 툴 작업.
     * 컨텐츠 작업. 
 	
-{% youtube https://www.youtube.com/watch?v=3GFo_K_PwMs% }
+{% youtube https://www.youtube.com/watch?v=3GFo_K_PwMs %}
 
 ## Pokipoki
 * Company: Neoact
@@ -53,7 +53,7 @@ permalink: /projects/
     * 축구, 달리기, 결투 등등의 미니 게임들도 다수 포함되어있다.
     * 소켓 및 유틸 라이브러리 개선 및 보강.
 
-{% youtube https://www.youtube.com/watch?v=1lw354ub79Q% }
+{% youtube https://www.youtube.com/watch?v=1lw354ub79Q %}
 	
 ## Chaos Online
 * Company: Neoact
@@ -73,7 +73,7 @@ permalink: /projects/
     * C++ IOCP 기반의 프로토타이핑.
 소켓 라이브러리 작업.
 
-{% youtube https://www.youtube.com/watch?v=ebUFDPbDQyg% }
+{% youtube https://www.youtube.com/watch?v=ebUFDPbDQyg %}
 
 ## Pangya Online
 * Company: Ntreev Soft
@@ -95,7 +95,7 @@ permalink: /projects/
     * C++ IOCP 소켓 라이브러리 리뉴얼. (Code Name Redmoon)
     * C++ 기반의 서버 패치 자동화, 운용 모니터링 툴 개발.
 	
-{% youtube https://www.youtube.com/watch?v=aNfFQIFtk0c% }
+{% youtube https://www.youtube.com/watch?v=aNfFQIFtk0c %}
 	
 ## Gunz 2 the second duel.
 * Company: Maiet Entertainment
@@ -122,7 +122,7 @@ permalink: /projects/
     * Ruby(with C++) 서버 패치 자동화
     * Ruby(with C++) 운용 모니터링 툴 개발.
 	
-{% youtube https://www.youtube.com/watch?v=KRsIxJKumUg% }
+{% youtube https://www.youtube.com/watch?v=KRsIxJKumUg %}
 	
 	
 ## 범을 걷는 선비 (Scholar Who Walks in The Night)
@@ -147,7 +147,7 @@ permalink: /projects/
     * Rails 기반의 컨텐츠 작업.
     * Unity3D 클라이언트 컨텐츠 작업.
 
-{% youtube https://www.youtube.com/watch?v=O0icFg-BEiQ% }
+{% youtube https://www.youtube.com/watch?v=O0icFg-BEiQ %}
 	
 ## MS 프로젝트
 * Company: NHN 629
