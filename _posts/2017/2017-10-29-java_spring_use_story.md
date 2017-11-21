@@ -19,7 +19,7 @@ C++에는 킬러 웹 프레임워크가 없고, 생산성이 떨어지는 언어
 
 이 편견이 얼마나 크냐하면, C언어로 API 서버 개발기는 찬사와 함께 눈초리도 받았을 정도다.
 
-http://bigmatch.i-um.net/2014/01/21/developing-api-with-c/>
+<http://bigmatch.i-um.net/2014/01/21/developing-api-with-c/>
 
 내 경험상 다른 언어들 (Rails, Django, Entity Framework)의 프레임워크를 접해봤지만 언어 차원을 넘어서는 어마어마한 유틸리티가 지원되지는 않았었다.
 
