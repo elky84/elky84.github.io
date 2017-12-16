@@ -2,8 +2,8 @@
 layout: post
 title: Java 적응기 05 - JPA
 date: 2017-11-21 21:20:00
-categories: Java JPA
-tags: Java JPA
+categories: [Java, JPA]
+tags: [Java, JPA]
 comments: true
 ---
 스프링을 쓰게되면서 DB 사용에서 메이저한 두가지 옵션이 존재했다.

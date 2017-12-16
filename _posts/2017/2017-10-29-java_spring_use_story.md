@@ -2,8 +2,8 @@
 layout: post
 title: Java 적응기 04 - Spring
 date: 2017-10-29 23:20:00
-categories: Java Spring
-tags: Java Spring
+categories: [Java, Spring]
+tags: [Java, Spring]
 comments: true
 ---
 
