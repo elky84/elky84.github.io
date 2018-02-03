@@ -188,13 +188,21 @@ permalink: /projects/
     * Akka 2.5.3 
     * MySQL 5.7
 * Description   
-    * 실시간 캐주얼 퍼즐 게임.
+    * 실시간 캐주얼 퍼즐 게임
     * C++ 서버를 자바(netty with akka, spring boot)로 포팅하는 작업을 진행.
-
+    * 서버 구조 설계
 
 ## NOS
 * Company: Netmarble Games
-* Period: 2017
+* Period: 2017~
+* Role
+    * 백엔드 서버 개발
+* Tech
+    * Java 8, Python 2 & 3, C++
+    * Cent OS, Ubuntu
+    * Spring Boot 1.5.8
+    * MariaDB, Redis
 * Description      
     * Netmarble Operating System.
+    * 
     * Private Cloud.
