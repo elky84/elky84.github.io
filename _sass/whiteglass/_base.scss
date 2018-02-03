@@ -115,7 +115,7 @@ a {
  */
 blockquote {
   color: $grey-color;
-  border-left: 4px solid $grey-color-light;
+  border-left: 1px solid $grey-color-light;
   padding-left: $spacing-unit / 2;
   font-size: 18px;
   letter-spacing: -1px;
@@ -132,7 +132,7 @@ blockquote {
  * Rules
  */
 hr {
-  height: 4px;
+  height: 1px;
   margin: $spacing-unit / 2 0;
   border: 0;
   background-color: $grey-color-light;
