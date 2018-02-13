@@ -204,5 +204,4 @@ permalink: /projects/
     * MariaDB, Redis
 * Description      
     * Netmarble Operating System.
-    * 
     * Private Cloud.
