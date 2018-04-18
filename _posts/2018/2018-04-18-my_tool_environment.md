@@ -15,14 +15,14 @@ comments: true
 
 |용도|프로그램명|설치 URL|플러그인|특징|테마|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|Visual Studio Code 세팅 동기화|Visual Studio Code|https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync, 언어 설정 : http://igotit.tistory.com/entry/Visual-Studio-Code-UI-%EC%96%B8%EC%96%B4-%EB%B3%80%EA%B2%BD||엄청편함|Monokai|
+|Visual Studio Code 세팅 동기화|Visual Studio Code|https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync, [언어 설정](http://igotit.tistory.com/entry/Visual-Studio-Code-UI-%EC%96%B8%EC%96%B4-%EB%B3%80%EA%B2%BD)||엄청편함|Monokai|
 |RDB|heidisql|https://www.heidisql.com/||pgsql, mysql (&mariadb), mssql 지원|||
 |MongoDB|mongoui|https://github.com/azat-co/mongoui||node.js 기반||
 |Git|TortoiseGit|https://tortoisegit.org/|||||
 |SVN|TortoiseSVN|http://tortoisesvn.tigris.org/||||
 |C++, C#|Visual Studio 2017|https://www.visualstudio.com/ko-kr/products/visual-studio-community-vs.aspx|[ProductivityPowerTools](https://jacking75.github.io/VS_Productivity_Power_Tools/)||Monokai|
 |.net core|Visual Studio Code|https://www.microsoft.com/net/download/windows|https://marketplace.visualstudio.com/items?itemName=doggy8088.netcore-extension-pack|||
-|Java, Python, C++ (Cygwin), Ruby|Eclipse Oxygen [용도별로 반드시, workspace를 따로 써야 한다. 특히 플러그인 종류가 다른 프로젝트들이 같이 쓰면 매우 느려짐]|https://zetawiki.com/wiki/%EC%9C%88%EB%8F%84%EC%9A%B0_%EC%9E%90%EB%B0%94%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD_eclipse_%EC%84%A4%EC%B9%98|Dev Style - Aka Darkest Theme, [Ansi Escape in Consol](https://marketplace.eclipse.org/content/ansi-escape-console), [CheckStyle](http://lahuman.jabsiri.co.kr/158), https://www.lesstif.com/pages/viewpage.action?pageId=39126240, [Lombok](https://projectlombok.org/)||[Sublime Text Monokai Extend](https://github.com/eclipse-color-theme/eclipse-color-theme/blob/master/com.github.eclipsecolortheme/themes/sublime-text-monokai-extended.xml)
+|Java, Python, C++ (Cygwin), Ruby|Eclipse Oxygen [용도별로 반드시, workspace를 따로 써야 한다. 특히 플러그인 종류가 다른 프로젝트들이 같이 쓰면 매우 느려짐]|http://www.eclipse.org/downloads/|Dev Style - Aka Darkest Theme, [Ansi Escape in Consol](https://marketplace.eclipse.org/content/ansi-escape-console), [CheckStyle](http://lahuman.jabsiri.co.kr/158), https://www.lesstif.com/pages/viewpage.action?pageId=39126240, [Lombok](https://projectlombok.org/)||[Sublime Text Monokai Extend](https://github.com/eclipse-color-theme/eclipse-color-theme/blob/master/com.github.eclipsecolortheme/themes/sublime-text-monokai-extended.xml)
 |RESTClient|Visual Studio Code||https://marketplace.visualstudio.com/items?itemName=humao.rest-client|||
 |RESTClient|Postman|https://www.getpostman.com/||||
 |Markdown|Visual Studio Code||https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview|||
