@@ -14,7 +14,7 @@ comments: true
 쓰고보니 VS Code plugin 소개 같은 글이 되어버렸네요. 궁금하신 점이나 좀 더 상세히 알고 싶으신 것 있으면 disqus로 댓글 부탁드립니다.
 
 |용도|프로그램명|설치/플러그인|테마|
-|:---:|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|
 |Visual Studio Code 세팅 동기화|Visual Studio Code [언어 설정](http://igotit.tistory.com/entry/Visual-Studio-Code-UI-%EC%96%B8%EC%96%B4-%EB%B3%80%EA%B2%BD)|<https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync>|Monokai|
 |RDB|heidisql [pgsql, mysql (&mariadb), mssql 지원]|<https://www.heidisql.com/>||
 |MongoDB|mongoui|<https://github.com/azat-co/mongoui>||
