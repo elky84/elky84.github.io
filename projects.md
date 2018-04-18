@@ -193,15 +193,15 @@ permalink: /projects/
     * 서버 구조 설계
 
 ## NOS
-* Company: Netmarble Games
+* Company: Netmarble
 * Period: 2017~
 * Role
-    * 백엔드 서버 개발
+    * Backend API Server Development
 * Tech
     * Java 8, Python 2 & 3, C++
     * Cent OS, Ubuntu
     * Spring Boot 1.5.8
     * MariaDB, Redis
 * Description      
-    * Netmarble Operating System.
-    * Private Cloud.
+    * Netmarble Operating System
+    * Private Cloud
