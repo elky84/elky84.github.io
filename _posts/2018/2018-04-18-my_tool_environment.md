@@ -21,10 +21,10 @@ comments: true
 |Git|TortoiseGit|<https://tortoisegit.org/>|||
 |SVN|TortoiseSVN|<http://tortoisesvn.tigris.org/>|||
 |C++, C#|Visual Studio 2017|<https://www.visualstudio.com/ko-kr/products/visual-studio-community-vs.aspx>|[ProductivityPowerTools](https://jacking75.github.io/VS_Productivity_Power_Tools/)|Monokai|
-|.net core|Visual Studio Code|<https://www.microsoft.com/net/download/windows>|<https://marketplace.visualstudio.com/items?itemName=doggy8088.netcore-extension-pack>|||
-|Java, Python, C++ (Cygwin), Ruby|Eclipse Oxygen [용도별로 반드시, workspace를 따로 써야 한다. 특히 플러그인 종류가 다른 프로젝트들이 같이 쓰면 매우 느려짐]|http://www.eclipse.org/downloads/|Dev Style - Aka Darkest Theme, [Ansi Escape in Consol](https://marketplace.eclipse.org/content/ansi-escape-console), [CheckStyle](http://lahuman.jabsiri.co.kr/158), https://www.lesstif.com/pages/viewpage.action?pageId=39126240, [Lombok](https://projectlombok.org/)|[Sublime Text Monokai Extend](https://github.com/eclipse-color-theme/eclipse-color-theme/blob/master/com.github.eclipsecolortheme/themes/sublime-text-monokai-extended.xml)|
+|.net core|Visual Studio Code|<https://www.microsoft.com/net/download/windows>|<https://marketplace.visualstudio.com/items?itemName=doggy8088.netcore-extension-pack>||
+|Java, Python, C++ (Cygwin), Ruby|Eclipse Oxygen [용도별로 반드시, workspace를 따로 써야 한다. 특히 플러그인 종류가 다른 프로젝트들이 같이 쓰면 매우 느려짐]|<http://www.eclipse.org/downloads/>|Dev Style - Aka Darkest Theme, [Ansi Escape in Consol](https://marketplace.eclipse.org/content/ansi-escape-console), [CheckStyle](http://lahuman.jabsiri.co.kr/158), [Lombok](https://projectlombok.org/)|[Sublime Text Monokai Extend](https://github.com/eclipse-color-theme/eclipse-color-theme/blob/master/com.github.eclipsecolortheme/themes/sublime-text-monokai-extended.xml)|
 |RESTClient|Visual Studio Code||<https://marketplace.visualstudio.com/items?itemName=humao.rest-client>||
-|RESTClient|Postman|<https://www.getpostman.com/>||
+|RESTClient|Postman|<https://www.getpostman.com/>|||
 |Markdown|Visual Studio Code||<https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview>||
 |Python|Visual Studio Code|<https://www.python.org/downloads>|<https://marketplace.visualstudio.com/items?itemName=donjayamanne.python>||
 |Node.js|Visual Studio Code|<https://nodejs.org/en/>|<https://marketplace.visualstudio.com/items?itemName=leizongmin.node-module-intellisense>||
