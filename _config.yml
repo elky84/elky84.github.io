@@ -15,9 +15,6 @@ author:
   name:           'Elky Kim'
   url:            https://elky84.github.io
 
-
-disqus.shortname: elky
-
 excerpt_separator: "<!-- more -->"
   
 permalink: /:year/:month/:day/:title/
