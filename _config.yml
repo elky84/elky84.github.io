@@ -1,75 +1,43 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.author }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: 엘키의 주절 주절
-author: elky
-description: Minimal, responsive Jekyll theme for hackers.
-#baseurl: / #"/whiteglass" # the subpath of your site, e.g. /blog
-url: "https://elky84.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 lang: en
-timezone: UTC
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - Rakefile
-  - README.md
-  - LICENSE.txt
-  - CHANGELOG.md
-  - jekyll-whiteglass.gemspec
-  - screenshot.png
-  - vendor
 
-# Social media
-twitter_username: 
-twitter_image: 
-facebook_app_id: 
-facebook_image: 
-google_analytics: 
+# Setup
+title:            Elky Essay
+tagline:          'My Development essay. and histories.'
+description:      'web & socket programming. and...'
+url:              https://elky84.github.io
+baseurl:          
 
-# Plugins
-gems:
-  - jekyll-archives
-  - jekyll-paginate
-  - jekyll-sitemap
-# Build settings
-markdown: kramdown
+author:
+  name:           'Elky Kim'
+  url:            https://elky84.github.io
+
+
+disqus.shortname: elky
+
 excerpt_separator: "<!-- more -->"
-
-# Outputting
+  
 permalink: /:year/:month/:day/:title/
 paginate_path: /posts/:num/
 paginate: 5
+# paginate_path:    '/page:num'
+                    # Or '/blog/page:num' if you want to move your index pages
 
-# Markdown settings
-kramdown:
-  auto_ids: false
-  enable_coderay: false
-  entity_output: as_char
-  footnote_nr: 1
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  toc_levels: 1..6
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-archives
+  - jekyll-sitemap
 
-# jekyll-archives
-jekyll-archives:
-  layout: category_archives
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tags/:name/'
-    category: /categories/:name/
-    
-    
-plugins: [jekyll-youtube]
+sidebar_home_link:  true
+#sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+                                # page. If you change your paginate_path,
+                                # set this to the root of the paginate_path
+                                # to enable a separate blog link.
+github:
+  repo:             https://github.com/elky84
+

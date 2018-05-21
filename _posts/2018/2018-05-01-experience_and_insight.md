@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 경험과 인사이트
-date: 2018-05-01 00:00:00
 categories: [주절 주절, 경험, 인사이트]
 tags: [주절 주절, 경험, 인사이트]
 comments: true
@@ -21,13 +20,11 @@ comments: true
 
 그렇다면 흔히 말하는 인사이트란 무엇인가?
 
-    insight 미국·영국 [|ɪnsaɪt] 
-
-     영국식 
-     중요
-    1. 통찰력
-    2. 이해, 간파
-    출처: <http://dic.naver.com/search.nhn?dicQuery=insight&x=0&y=0&query=insight&target=dic&ie=utf8&query_utf=&isOnlyViewEE=> 
+>*insight 미국·영국 [ɪnsaɪt]*
+> 영국식 
+> 중요
+>1. 통찰력
+>2. 이해, 간파
 
 사전적 의미로 통찰력이다. 바로 어떠한 일의 본질과, 상황의 핵심을 꿰뚫는 능력, 무엇이 더 중요한지 이해하는 능력 등의 넓은 시야로 상황을 파악하는 능력이라고 볼 수 있다.
 
