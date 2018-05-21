@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 내가 그거 해봤서 아는데
+title: 내가 그거 해봐서 아는데
 date: 2018-04-29 00:00:00
 categories: [주절 주절, 경험, 근거]
 tags: [주절 주절, 경험, 근거]
