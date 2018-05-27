@@ -11,6 +11,7 @@ permalink: /projects/
 # All my projects
 
 ## MixMaster Online
+![로고](/images/xaimedia.png)
 * Company: Xaimedia
 * Period: 2005-2006
 * Website: <http://www.mixmaster.co.kr/>
@@ -33,6 +34,7 @@ permalink: /projects/
 
 
 ## Pokipoki
+![로고](/images/neoact.png)
 * Company: Neoact
 * Period: 2006-2009
 * Website: <http://pokipoki.co.kr/>
@@ -59,6 +61,7 @@ permalink: /projects/
 <br/>
 
 ## Chaos Online
+![로고](/images/neoact.png)
 * Company: Neoact
 * Period: 2008-2009
 * Website: <http://co.nexon.com/Index.aspx?p=2>
@@ -81,6 +84,7 @@ permalink: /projects/
 
 
 ## Pangya Online
+![로고](/images/ntreev.png)
 * Company: Ntreev Soft
 * Period: 2009-2012
 * Role
@@ -104,6 +108,7 @@ permalink: /projects/
 <br/>
 
 ## Gunz 2 the second duel.
+![로고](/images/maiet.png)
 * Company: Maiet Entertainment
 * Period: 2012-2014
 * Website: <http://store.steampowered.com/app/242720/>
@@ -132,6 +137,7 @@ permalink: /projects/
 <br/>
 	
 ## 밤을 걷는 선비 (Scholar Who Walks in The Night)
+![로고](/images/lv999.png)
 * Company: LV999
 * Period: 2015~2016
 * Website: <http://www.gevolution.co.kr/app/?svc=215882>
@@ -157,6 +163,7 @@ permalink: /projects/
 <br/>
 	
 ## MS 프로젝트
+![로고](/images/nhnent.png)
 * Company: NHN 629
 * Period: 2016~2017
 * Role
@@ -176,6 +183,7 @@ permalink: /projects/
     * C# ASP.NET CORE, SuperSocket 포팅.
 
 ## G 프로젝트
+![로고](/images/nhnent.png)
 * Company: NHN Entertainment
 * Period: 2017
 * Role
@@ -193,6 +201,7 @@ permalink: /projects/
     * 서버 구조 설계
 
 ## NOS
+![로고](/images/netmarble.png)
 * Company: Netmarble
 * Period: 2017~
 * Role
