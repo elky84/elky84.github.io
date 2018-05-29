@@ -20,23 +20,28 @@ comments: true
 
 여튼 당시 내가 봤던 서적에서의 "Hello, World!"는 다음과 같다.
 
-	#include < stdio.h >
-	void main()
-	{
-	    printf("Hello, World!\n");
-	}
 
+~~~ cpp
+#include < stdio.h >
+void main()
+{
+    printf("Hello, World!\n");
+}
+~~~
 
 뭐....당시엔 대다수 국내 C언어 서적이 저랬을려나...?
 ANSI C Programming의 번역서만이.
 
-	#include < stdio.h >
-	int main(int argc, char* argv[])
-	{
-	    printf("Hello, World!\n");
-	    return 0;
-	}
-	
+
+~~~ cpp
+#include < stdio.h >
+int main(int argc, char* argv[])
+{
+    printf("Hello, World!\n");
+    return 0;
+}
+~~~
+
 였던걸로 기억한다.
 
 고작 이게 뭐 그리 중요하냐고?

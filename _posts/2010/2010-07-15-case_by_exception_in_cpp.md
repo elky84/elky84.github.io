@@ -22,12 +22,14 @@ comments: true
 * 대책 : http://msdn.microsoft.com/ko-kr/library/aa289171(VS.71).aspx
 * 스택 오버 플로우 트랩 : http://support.microsoft.com/kb/315937
 
-    void StackOverflow(int depth)
-    {
-        char blockdata[10000];
-        printf("Overflow: %d\n", depth);
-        StackOverflow(depth+1);
-    }
+~~~ cpp
+void StackOverflow(int depth)
+{
+    char blockdata[10000];
+    printf("Overflow: %d\n", depth);
+    StackOverflow(depth+1);
+}
+~~~
 
 2. 예외가 발생해 스택 되감기하는 도중 예외 발생.
 * 이런 경우가 흔치는 않은데, 안전하지 않은 코드 작성시에는 이렇게 되기도 한다. 딱히 대책은 없다. 너무 무책임한가 =_=; 

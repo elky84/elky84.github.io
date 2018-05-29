@@ -184,20 +184,19 @@ AX레지스터에 값이 변경됐는지 확인해보죠
 (4) 디스 어셈블리
 디스 어셈블리에 앞서 C언어로 덧셈 함수를 만들고, 그 함수를 main함수에서 호출 하는 코드를 만들어보겠습니다.
 
-    int Sum(int x,int y)
-    {
-        return x + y;
-    }
+~~~ cpp
+int Sum(int x,int y)
+{
+    return x + y;
+}
 
-    int main(int argc, char *argv[])
-    {
-
-        int x = 10, y = 15;
-
-        int result = Sum(x, y);
-
-        return printf("%d", result);
-    }
+int main(int argc, char *argv[])
+{
+    int x = 10, y = 15;
+    int result = Sum(x, y);
+    return printf("%d", result);
+}
+~~~
 
 이 코드는 정수형 변수 x와, y에 10과 15으로 각각 초기화 해주고, 그 값을 Sum함수에 넘겨 더한 결과를 반환 받아, printf함수로 출력해주었습니다.
 
@@ -206,11 +205,9 @@ AX레지스터에 값이 변경됐는지 확인해보죠
 
 먼저 메인 함수부터 살펴 보겠습니다.
 
-
-    int main(int argc, char *argv[])
-
-    {
-
+~~~cpp
+int main(int argc, char *argv[])
+{
     00411A80  push        ebp 
 
     00411A81  mov         ebp,esp
@@ -284,6 +281,7 @@ AX레지스터에 값이 변경됐는지 확인해보죠
     00411AE2  pop         ebp 
 
     00411AE3  ret
+~~~
 
 헉.. 생각보다 길군요. 차근차근 살펴보도록 하죠.
 

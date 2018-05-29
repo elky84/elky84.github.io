@@ -35,13 +35,15 @@ method 등록하는 법에 대한 포스트입니다.
 
 요악하자면, 
 
-**routes.rb**
 
+~~~ rb
+# routes.rb
     resources :컨트롤러명 do 
       collection do 
        get :액션 이름
       end
     end
+~~~
 
 이렇게 추가해준 뒤,
 

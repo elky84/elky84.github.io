@@ -7,23 +7,25 @@ tags: C++
 comments: true
 ---
 
-    char* GetStr()
-    {
-        static char szStr[] = "Hello";
-        return szStr;
-    }
+~~~ cpp
+char* GetStr()
+{
+    static char szStr[] = "Hello";
+    return szStr;
+}
 
-    void PrintStr(char **str)
-    {
-        printf("%s",*str);
-    }
+void PrintStr(char **str)
+{
+    printf("%s",*str);
+}
 
 
-    int main(int argc, char **arv)
-    {
-        PrintStr(&GetStr());
-        return 0;
-    }
+int main(int argc, char **arv)
+{
+    PrintStr(&GetStr());
+    return 0;
+}
+~~~
  
 위 코드는 아래와 같은 컴파일 에러를 발생시킨다.
     error C2102: '&' requires l-value
@@ -41,18 +43,22 @@ comments: true
  
 main함수를 이렇게 바꾸면 정상적으로 동작한다.
 
-    int main(int argc, char **arv)
-    {
-        char *str = GetStr();
-        PrintStr(&str);
-        return 0;
-    }
+~~~ cpp
+int main(int argc, char **arv)
+{
+    char *str = GetStr();
+    PrintStr(&str);
+    return 0;
+}
+~~~
 
 이 코드를 디스 어셈블 해본 결과다.
 
-    char *str = GetStr();
+~~~ cpp
+char *str = GetStr();
 
-    00412BDE  call        GetStr (411500h) 
-    00412BE3  mov         dword ptr [str],eax
+00412BDE  call        GetStr (411500h) 
+00412BE3  mov         dword ptr [str],eax
+~~~
 
 역시 추측이 맞았다. GetStr함수를 부른 결과는 eax 레지스터에 저장되어 있었고, 그 값을 어딘가에 복사하기 전까진, 레지스터에 있는 값이므로, 레지스터에 주소 연산자를 사용할 수 없기 때문에 컴파일 에러를 낸 것이었다. 

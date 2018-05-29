@@ -35,21 +35,23 @@ comments: true
 배열은 미리 크기만큼 선언 되어 있어야 하고, 중간에 데이터를 삭제 할 수 없으며, 데이터의 순서를 바꾸는 것도 힘듭니다.
 아래 예제를 보시길 바랍니다.
 
-    int main(int argc, char *argv[])
+~~~ cpp
+int main(int argc, char *argv[])
+{
+    int number[10]={1,2,3,4,5,6,7,8,9,10}; // 배열 number의 초기 값으로 1~10을 차례대로 대입
+
+    number[5] = 0; //배열의 중간 위치에 있는 6번째 원소 (0부터 시작하기 때문에, [5]는 6번째 원소를 가리킵니다)의 값에 0을 대입
+
+    int temp = number[5];  //0이라는 수가, 삭제된 데이터라는 것을 의미하므로, number[5]에 저장된 값 0을 임시 변수 temp에 대입
+
+    for(int i = 6; i < 10; i++) //데이터가 삭제된 위치인 6번부터 하나씩 앞으로 당긴다
     {
-        int number[10]={1,2,3,4,5,6,7,8,9,10}; // 배열 number의 초기 값으로 1~10을 차례대로 대입
-
-        number[5] = 0; //배열의 중간 위치에 있는 6번째 원소 (0부터 시작하기 때문에, [5]는 6번째 원소를 가리킵니다)의 값에 0을 대입
-
-        int temp = number[5];  //0이라는 수가, 삭제된 데이터라는 것을 의미하므로, number[5]에 저장된 값 0을 임시 변수 temp에 대입
-
-        for(int i = 6; i < 10; i++) //데이터가 삭제된 위치인 6번부터 하나씩 앞으로 당긴다
-        {
-            number[i-1] = number[i];
-        }
-
-        number[9] = temp; // number[5]에 저장되어 있던 값을 저장해놓은 temp를 배열의 마지막 위치에 대입
+        number[i-1] = number[i];
     }
+
+    number[9] = temp; // number[5]에 저장되어 있던 값을 저장해놓은 temp를 배열의 마지막 위치에 대입
+}
+~~~
 
 위 코드는 배열 내에 원소를 삭제하는 코드 입니다.
 
@@ -60,35 +62,36 @@ comments: true
 
 리스트는 자신의 다음에 위치한 데이터를 언제든지 바꿀 수 있습니다. 다음 데이터에 대한 정보를 포인터로 갖고 있기 때문이죠.
 
-    struct Node{
-        Node *Next;
-    };
+~~~ cpp
+struct Node{
+    Node *Next;
+};
 
-    int main(int argc, char *argv[])
-    {
-        Node *Node1;
+int main(int argc, char *argv[])
+{
+    Node *Node1;
 
-        Node1 = (Node*)malloc(sizeof(Node));
+    Node1 = (Node*)malloc(sizeof(Node));
 
-        Node *Node2;
+    Node *Node2;
 
-        Node2 = (Node*)malloc(sizeof(Node));
+    Node2 = (Node*)malloc(sizeof(Node));
 
-        Node *Node3;
+    Node *Node3;
 
-        Node3 = (Node*)malloc(sizeof(Node));
+    Node3 = (Node*)malloc(sizeof(Node));
 
-        Node1->Next = Node2; //Node1의 다음 데이터는 Node2
+    Node1->Next = Node2; //Node1의 다음 데이터는 Node2
 
-        Node2->Next = Node3; //Node2의 다음 데이터는 Node3
+    Node2->Next = Node3; //Node2의 다음 데이터는 Node3
 
-        Node3->Next = NULL; //Node3가 마지막이다 (NULL)
+    Node3->Next = NULL; //Node3가 마지막이다 (NULL)
 
-        free(Node2); //Node2가 삭제 되었다
+    free(Node2); //Node2가 삭제 되었다
 
-        Node1->Next = Node3; //이제 Node1의 다음 데이터는 Node3
-    }
-
+    Node1->Next = Node3; //이제 Node1의 다음 데이터는 Node3
+}
+~~~
 
 위 예제를 보시면, Node 구조체는 자신의 다음에 올 데이터를 가리키는 포인터인 Next를 가지고 있습니다. 중간에 위치한 데이터였던 Node2가 삭제되었지만, Node2의 공백은 Node1의 다음 데이터로 Node3를 가리키게 하는 것만으로 쉽게 해결 됐습니다. 이처럼, 크기의 변화가 가능한 자료구조를 동적 자료구조(Dynamic Data Structure)라고 하죠.
 
@@ -137,39 +140,40 @@ comments: true
 
 아래 코드는, 배열내의 원소를 정해진 크기만큼 순차검색하며, 키 값이 배열 내에 존재하는지 검사합니다.
 
-    int SequenceSearch(int *ar,unsigned int size, int key)
+~~~ cpp
+int SequenceSearch(int *ar,unsigned int size, int key)
+{
+    unsigned int i;
+
+    for(i = 0; i < size; i++)
     {
-        unsigned int i;
-
-        for(i = 0; i < size; i++)
-        {
-            if(ar[i]== key){
-                return i;
-            }
-
-            return -1;
+        if(ar[i]== key){
+            return i;
         }
+
+        return -1;
     }
-
-    
-
-    int main(int argc, char *argv[])
-    {
-        int ar[] = {25,11,43,71,38,33,59,21,56,22,45,75,64,59,93,112,159,124,163,9};
-
-        unsigned int size = sizeof(ar) / sizeof(int);
-
-        int key;
-        scanf("%d",&key);
+}
 
 
-        int result = SequenceSearch(ar,size,key);
-        if(result == -1)
-            printf("찾으시는 키 값을 배열 내에서 찾을 수 없었습니다");
-        else
-            printf("배열 내에서 %d번째에 존재하는 값을 찾았습니다. %d", result);
-    }
 
+int main(int argc, char *argv[])
+{
+    int ar[] = {25,11,43,71,38,33,59,21,56,22,45,75,64,59,93,112,159,124,163,9};
+
+    unsigned int size = sizeof(ar) / sizeof(int);
+
+    int key;
+    scanf("%d",&key);
+
+
+    int result = SequenceSearch(ar,size,key);
+    if(result == -1)
+        printf("찾으시는 키 값을 배열 내에서 찾을 수 없었습니다");
+    else
+        printf("배열 내에서 %d번째에 존재하는 값을 찾았습니다. %d", result);
+}
+~~~
  
 
 순차 검색은 사실 단점이 많은 검색 방법이지만 정렬이 되지 않은 데이터에도 사용할 수 있다는 장점도 있습니다. 그리고 사용하기도 편해서 많이 쓰이는 검색 방법이죠.
@@ -185,45 +189,46 @@ comments: true
 
 아래 코드는, 이진 검색을 통해 입력 받은 수를 찾는 코드입니다.
 
-    int BinarySearch(int *ar,unsigned int size, int key)
+~~~ cpp
+int BinarySearch(int *ar,unsigned int size, int key)
+{
+    unsigned int half_value;
+    unsigned int lower_value = 0;
+    unsigned int upper_value = size -1;
+
+    while(1)
     {
-        unsigned int half_value;
-        unsigned int lower_value = 0;
-        unsigned int upper_value = size -1;
+        half_value = (lower_value + upper_value) / 2;
 
-        while(1)
-        {
-            half_value = (lower_value + upper_value) / 2;
-
-            if(ar[half_value] == key)
-                return half_value;
-            else if(ar[half_value] < key)
-                lower_value = half_value;
-            else
-                upper_value = half_value;
-
-            if(lower_value == upper_value-1)
-                return -1;
-        }
-    }
-    
-
-    int main(int argc, char *argv[])
-    {
-        int ar[] = {5,8,15,28,32,45,48,52,69,71,85,94,103,112,118,124,125,138,143,157};
-
-        unsigned int size = sizeof(ar) / sizeof(int);
-
-        int key;
-        scanf("%d",&key);
-
-        int result = BinarySearch(ar,size,key);
-        if(result == -1)
-            printf("찾으시는 키 값을 배열 내에서 찾을 수 없었습니다");
+        if(ar[half_value] == key)
+            return half_value;
+        else if(ar[half_value] < key)
+            lower_value = half_value;
         else
-            printf("배열 내에서 %d번째에 존재하는 값을 찾았습니다. %d", result);
-    }
+            upper_value = half_value;
 
+        if(lower_value == upper_value-1)
+            return -1;
+    }
+}
+
+
+int main(int argc, char *argv[])
+{
+    int ar[] = {5,8,15,28,32,45,48,52,69,71,85,94,103,112,118,124,125,138,143,157};
+
+    unsigned int size = sizeof(ar) / sizeof(int);
+
+    int key;
+    scanf("%d",&key);
+
+    int result = BinarySearch(ar,size,key);
+    if(result == -1)
+        printf("찾으시는 키 값을 배열 내에서 찾을 수 없었습니다");
+    else
+        printf("배열 내에서 %d번째에 존재하는 값을 찾았습니다. %d", result);
+}
+~~~
 
 순차 검색이 가장 마지막에 데이터를 찾게 될 수도 있는데 비해, 20개의 데이터가 있을 때 최대 5번 검색만으로 데이터를 찾을 수 있을 정도로 매우 효율적입니다.
 

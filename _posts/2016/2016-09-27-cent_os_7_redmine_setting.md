@@ -43,13 +43,15 @@ comments: true
     * ​<code>cd /usr/local/redmine/config</code>
     * ​<code>cp database.yml.example database.yml</code>
     * ​<code>vi database.yml</code>
-        >production:  
-        >adapter: mysql  
-        >database: redmine  
-        >host: localhost  
-        >username: redmine  
-        >password: redmine  
-        >encoding: utf8 
+    ~~~ yaml
+    production:  
+        adapter: mysql  
+        database: redmine  
+        host: localhost  
+        username: redmine  
+        password: redmine  
+        encoding: utf8 
+    ~~~
 * Gem Package 설치
     * ​<code>bundle install --without development test</code>
 * 테이블 생성 및 초기 데이터 입력
@@ -77,17 +79,19 @@ comments: true
     * ​<code>cd /usr/local/redmine/config</code>
     * configuration.yml.example 을 configuration.yml로 만든후
     * ​<code>nano configuration.yml</code>
-        >production:  
-           >email_delivery:  
-           >delivery_method: :smtp  
-           >smtp_settings:  
-           >enable_starttls_auto: true  
-           >address: "smtp.gmail.com"  
-           >port: 587  
-           >domain: "smtp.gmail.com" # 'your.domain.com' for GoogleApps  
-           >authentication: :plain  
-           >user_name: "계정명@gmail.com"  
-           >password: "비밀번호”
+    ~~~ yaml 
+    production:
+       email_delivery:  
+       delivery_method: :smtp  
+       smtp_settings:  
+       enable_starttls_auto: true  
+       address: "smtp.gmail.com"  
+       port: 587  
+       domain: "smtp.gmail.com"
+       authentication: :plain  
+       user_name: "계정명@gmail.com"  
+       password: "비밀번호"
+    ~~~
     
     * 이렇게 해도 메일이 안 보내진다면 원인은 구글 계정에 대한 보안 설정 오류 일 가능성이 높음.
         * <https://www.google.com/settings/security/lesssecureapps>

@@ -23,19 +23,22 @@ comments: true
 이번에 루비를 써보고 느낀 건 역시 쉬운 편이라는 점이었다.
 
 
-**파일 오픈**
+~~~ rb
+# 파일 오픈
+file = File.open(ARGV[0], "r+")
+~~~
 
-    file = File.open(ARGV[0], "r+")
+~~~ rb
+# 파일 라인 단위 파싱
+file.each_line do | line |
+    blah blah
+end
+~~~
 
-**파일 라인 단위 파싱**
-
-    file.each_line do | line |
-        blah blah
-    end
-
-**라인 공백 단위 파싱**
-    
-    ip, port, servername, gsid = line.split(/ /)
+~~~ rb
+# 라인 공백 단위 파싱    
+ip, port, servername, gsid = line.split(/ /)
+~~~
 
 이렇게나 쉽게 파일과 문자열을 파싱 할 수 있다.
 
