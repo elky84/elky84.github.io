@@ -1,3 +1,15 @@
+.highlight .hll { background-color: #ffc; }
+.highlight .go { color: #aaa } /* Generic.Output */
+.highlight .s { color: #d44950 } /* Literal.String */
+.highlight .ne { color: #c00; } /* Name.Exception */
+.highlight .nf { color: #c0f } /* Name.Function */
+.highlight .ow { color: #000; } /* Operator.Word */
+.highlight .sd { color: #c30; font-style: italic } /* Literal.String.Doc */
+.highlight .s1 { color: #c30 } /* Literal.String.Single */
+
+
+.highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
 .highlight .gh {
   color: #999999;
 }
@@ -183,3 +195,13 @@
 .highlight .o {
   color: #f92672;
 }
+
+
+.css .o,
+.css .o + .nt,
+.css .nt + .nt { color: #999; }
+
+
+.css .o,
+.css .o + .nt,
+.css .nt + .nt { color: #999; }
