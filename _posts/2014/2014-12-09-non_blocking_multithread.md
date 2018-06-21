@@ -2,8 +2,8 @@
 layout: post
 title: non-blocking multithread programming
 date: 2014-12-09 11:14:54
-categories: 병렬프로그래밍 멀티스레드
-tags: 병렬프로그래밍 멀티스레드
+categories: [병렬프로그래밍, 멀티스레드]
+tags: [병렬프로그래밍, 멀티스레드]
 comments: true
 ---
 
@@ -42,10 +42,10 @@ atomic operation이 해결해 주는 것도 꽤나 많다. 객체단위 lock보�
 애초에 lock이란 pararell과 어울리지 않는 단어.
 허나 locking을 minimal 하는 목표를 갖고 pararell 하게 구현해보자.
 
-- reactor, proactor
-reactor : dispatching based.
+- **reactor, proactor**
 
-proactor : callback based.
+* reactor : dispatching based.
+* proactor : callback based.
 
 조금 더 자세히 보자면 proactor는 이 작업을 비동기로 수행하고 그 결과를 알려주세요라는 개념이고, reactor는 어떠한 작업이 언제 완료될지 모르니, 작업에 대한 통지가 오길 기다리는 개념이라고 보면 된다.
 
