@@ -210,7 +210,10 @@ permalink: /projects/
     * Java 8, Python 2 & 3, C++
     * Cent OS, Ubuntu
     * Spring Boot 1.5.8
-    * MariaDB, Redis
+    * MariaDB, Redis, MongoDB
 * Description      
     * Netmarble Operating System
     * Private Cloud
+    * API Gateway 개발
+    * Asset (자산 관리 시스템) 개발
+    * Planner (스크립트 기반 컴포넌트 연동 시스템) 개발
