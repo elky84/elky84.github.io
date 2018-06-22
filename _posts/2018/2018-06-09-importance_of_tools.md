@@ -41,8 +41,8 @@ intellisense, open declaration, open implement, formatting, checkstyle, debuggin
 
     오랜 기간 명맥을 유지해온 무료 IDE. 
     Java 전용이 아님에도 Java 진영에서의 오랜 선택을 받아온지라 그런 이미지가 있다.
-    Plugin 설치로 기능 확장이 여러가지 면에서 가능하나 대다수의 기능 설정을 개인이 해야하며,
-    성능 이슈가 존재하는 아쉬움이 있다.
+    Plugin 설치로 기능 확장이 여러가지 면에서 가능하나 대다수의 기능 설정을 개인이
+     해야하며, 성능 이슈가 존재하는 아쉬움이 있다.
 
 Eclipse를 사용하고 있던 팀에 합류했다보니, 나도 자연스레 Eclipse로 환경 설정을 하게 됐고, 
 기능적으로는 부족함이 없었음에도, 플러그인으로 구현되면서 문제로 보여지는 많은 파일을 잡고 있는 문제 (runtime이 아닐 때에도 pom.xml을 통해 참조되는 maven jar를 모두 잡고 있었고, UI 갱신 속도도 무척이나 느렸다. 아마도 보안 프로그램과의 충돌이 원인인 상황)였는데, 테스트 삼아 설치해본 IntelliJ IDEA의 trial버전은 이런 문제가 전혀 없었다.
