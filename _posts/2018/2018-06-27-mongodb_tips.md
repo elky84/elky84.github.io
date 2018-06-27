@@ -22,7 +22,7 @@ mongodb를 로그 디비로 운용하며 생긴 이슈 및 쿼리 튜닝에 대�
 
 * 참고 자료
     * 쿼리 튜닝
-	    * <https://blog.naver.com/PostView.nhn?blogId=suresofttech&logNo=221096609752&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F>
+	    * [MongoDB 쿼리 튜닝](https://blog.naver.com/PostView.nhn?blogId=suresofttech&logNo=221096609752&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F)
     * 성능 개선 팁
-	    * <https://webisfree.com/2018-03-12/mongodb-%EC%84%B1%EB%8A%A5-%EA%B0%9C%EC%84%A0-%EB%B0%8F-%ED%8C%81>
-	    * <https://jacking75.github.io/choiheungbae/%EB%AC%B8%EC%84%9C/%EC%9B%94%EA%B0%84%2010%EC%96%B5%20PV%EB%A5%BC%20%EC%A7%80%EC%A7%80%ED%95%98%EA%B8%B0%20%EC%9C%84%ED%95%9C%20MongoDB%20Tip.pdf>
+	    * [MongoDB 성능 개선 및 팁](https://webisfree.com/2018-03-12/mongodb-%EC%84%B1%EB%8A%A5-%EA%B0%9C%EC%84%A0-%EB%B0%8F-%ED%8C%81)
+	    * [월간 10억 PV를 지지하기 위한 MongoDB Tip](https://jacking75.github.io/choiheungbae/%EB%AC%B8%EC%84%9C/%EC%9B%94%EA%B0%84%2010%EC%96%B5%20PV%EB%A5%BC%20%EC%A7%80%EC%A7%80%ED%95%98%EA%B8%B0%20%EC%9C%84%ED%95%9C%20MongoDB%20Tip.pdf)
