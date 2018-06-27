@@ -2,8 +2,8 @@
 layout: post
 title: Java 적응기 03 - Akka
 date: 2017-07-29 21:00:00
-categories: [Java, Akka]
-tags: [Java, Akka]
+categories: [Java, Akka, Actor]
+tags: [Java, Akka, Actor]
 comments: true
 ---
 Java에서 또 인상적이었 던은 Actor 모델로 유명하고, Scala에서 더 유명한 Akka다.
