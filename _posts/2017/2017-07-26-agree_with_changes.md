@@ -2,8 +2,8 @@
 layout: post
 title: 변화에 뒤쳐지지 않기
 date: 2017-07-26 22:00:00
-categories: 방법론
-tags: 방법론
+categories: [방법론]
+tags: [방법론]
 comments: true
 ---
 

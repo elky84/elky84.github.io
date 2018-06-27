@@ -2,8 +2,8 @@
 layout: post
 title: Github Pages로 이전 후기 & 주요 글 이전 완료 
 date: 2017-01-27 15:14:54
-categories: 주절주절
-tags: 주절주절
+categories: [주절주절]
+tags: [주절주절]
 comments: true
 ---
 

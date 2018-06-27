@@ -2,8 +2,8 @@
 layout: post
 title: 데이터베이스 이용시 주의 사항
 date: 2010-08-13 11:14:54
-categories: 서버 데이터베이스
-tags: 서버 데이터베이스
+categories: [서버, 데이터베이스]
+tags: [서버, 데이터베이스]
 comments: true
 ---
 

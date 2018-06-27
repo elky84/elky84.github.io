@@ -2,8 +2,8 @@
 layout: post
 title: Java 적응기 01
 date: 2017-07-27 22:20:00
-categories: Java
-tags: Java
+categories: [Java]
+tags: [Java]
 comments: true
 ---
 사실 여러 번 밝힌대로, 나는 Java를 싫어했다.

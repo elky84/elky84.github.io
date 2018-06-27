@@ -2,8 +2,8 @@
 layout: post
 title: 인공 지능에 대한 간략 정리
 date: 2013-01-26 11:14:54
-categories: AI
-tags: AI 인공지능
+categories: [AI, 인공지능]
+tags: [AI, 인공지능]
 comments: true
 ---
 # 인공 지능에 대한 간략 정리

@@ -2,8 +2,8 @@
 layout: post
 title: Welcome to Ruby!
 date: 2014-11-04 11:14:54
-categories: Ruby
-tags: Ruby
+categories: [Ruby, 언어]
+tags: [Ruby, 언어]
 comments: true
 ---
 

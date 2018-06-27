@@ -2,8 +2,8 @@
 layout: post
 title: (서평) 라프코스터의 재미 이론 - 게임과 재미에 대한 예리한 고찰
 date: 2010-06-03 11:14:54
-categories: 서평
-tags: 서평
+categories: [서평]
+tags: [서평]
 comments: true
 ---
 

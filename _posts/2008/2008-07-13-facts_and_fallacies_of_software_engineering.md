@@ -2,8 +2,8 @@
 layout: post
 title: (서평) 우리가 미처 알지 못한 소프트웨어 공학의 사실과 오해 - 왜 같은 실수를 반복하는가?
 date: 2008-07-13 11:14:54
-categories: 서평
-tags: 서평
+categories: [서평, 소프트웨어공학]
+tags: [서평, 소프트웨어공학]
 comments: true
 ---
 

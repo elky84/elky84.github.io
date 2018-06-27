@@ -2,8 +2,8 @@
 layout: post
 title: (서평) 사랑하지 않으면 떠나라 - 좀 더 나은 내가 되기 위한 가이드 라인.
 date: 2008-07-13 11:14:54
-categories: 서평
-tags: 서평
+categories: [서평, 자기관리]
+tags: [서평, 자기관리]
 comments: true
 ---
 

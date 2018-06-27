@@ -2,8 +2,8 @@
 layout: post
 title: python 입문기
 date: 2016-11-22 11:14:54
-categories: Python
-tags: Python
+categories: [Python, 언어]
+tags: [Python, 언어]
 comments: true
 ---
 

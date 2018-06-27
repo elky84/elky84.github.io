@@ -2,8 +2,8 @@
 layout: post
 title: 경험에 의한 편견에서 벗어나기
 date: 2017-07-21 00:00:00
-categories: 방법론
-tags: 방법론
+categories: [방법론]
+tags: [방법론]
 comments: true
 ---
 

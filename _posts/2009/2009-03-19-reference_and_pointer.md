@@ -2,8 +2,8 @@
 layout: post
 title: 포인터와 참조자 이야기
 date: 2009-03-29 11:14:54
-categories: C++
-tags: C++
+categories: [C++]
+tags: [C++]
 comments: true
 ---
 

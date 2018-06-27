@@ -2,8 +2,8 @@
 layout: post
 title: 좋은 프로그래머란 무엇일까?
 date: 2008-09-07 22:37:54
-categories: 주절주절
-tags: 주절주절
+categories: [주절주절]
+tags: [주절주절]
 comments: true
 ---
 어느 날 문득, '좋은 프로그래머'란 어떤 의미일까라는 생각을 하게 됐다.

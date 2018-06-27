@@ -2,8 +2,8 @@
 layout: post
 title: 축구와 소프트웨어 개발
 date: 2017-08-01 21:00:00
-categories: 주절주절
-tags: 주절주절
+categories: [주절주절, 방법론]
+tags: [주절주절, 방법론]
 comments: true
 ---
 요즘 많은 개발은 팀 개발이다.

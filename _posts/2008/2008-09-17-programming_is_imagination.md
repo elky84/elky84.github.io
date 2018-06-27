@@ -2,8 +2,8 @@
 layout: post
 title: (서평) 프로그래밍은 상상이다 - 자극스러운 내용이지만, 자극적이지 않게 다가오다.
 date: 2008-09-17 11:14:54
-categories: 서평
-tags: 서평
+categories: [서평, 임백준]
+tags: [서평, 임백준]
 comments: true
 ---
 

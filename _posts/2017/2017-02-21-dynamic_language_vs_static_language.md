@@ -2,7 +2,7 @@
 layout: post
 title: 동적 언어와 정적 언어
 date: 2017-02-21 11:14:54
-categories: 언어
+categories: [언어, 동적 언어, 정적 언어]
 tags: [언어, 동적 언어, 정적 언어]
 comments: true
 ---

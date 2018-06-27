@@ -2,8 +2,8 @@
 layout: post
 title: C++ 구조체 이니셜라이저 문제
 date: 2013-06-14 11:14:54
-categories: C++
-tags: C++
+categories: [C++]
+tags: [C++]
 comments: true
 ---
 

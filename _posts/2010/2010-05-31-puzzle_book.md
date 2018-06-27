@@ -2,8 +2,8 @@
 layout: post
 title: (서평) 누워서 읽는 퍼즐북 - 퍼즐의 쾌감
 date: 2010-05-31 11:14:54
-categories: 서평
-tags: 서평
+categories: [서평, 임백준]
+tags: [서평, 임백준]
 comments: true
 ---
 퍼즐이라 하면 많이들 어렵단 생각을 하곤한다.

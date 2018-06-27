@@ -2,8 +2,8 @@
 layout: post
 title: 윈도우 서버에서 리눅스 서버로의 감상
 date: 2015-11-15 11:14:54
-categories: 서버
-tags: 서버
+categories: [서버, 윈도우, 리눅스]
+tags: [서버, 윈도우, 리눅스]
 comments: true
 ---
 나는 리눅스 서버가 익숙치 않다.

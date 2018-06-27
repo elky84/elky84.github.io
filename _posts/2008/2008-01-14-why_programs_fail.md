@@ -2,8 +2,8 @@
 layout: post
 title: (서평) 프로그램은 왜 실패하는가? - 체계적인 디버깅 지침서
 date: 2008-01-14 11:14:54
-categories: 서평
-tags: 서평
+categories: [서평, 디버깅]
+tags: [서평, 디버깅]
 comments: true
 ---
 사실 프로그램 작성 만큼이나, 아니 더 중요할 수도 있는 과정이 디버깅입니다.

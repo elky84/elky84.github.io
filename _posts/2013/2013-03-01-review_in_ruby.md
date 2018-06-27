@@ -2,8 +2,8 @@
 layout: post
 title: 루비 사용기
 date: 2013-03-01 11:14:54
-categories: Ruby
-tags: Ruby
+categories: [Ruby, 언어]
+tags: [Ruby, 언어]
 comments: true
 ---
 최근 업무 관련해서 루비를 쓰게 됐다.

@@ -2,8 +2,8 @@
 layout: post
 title: 애플 신드롬과 MS에 대한 사설
 date: 2011-09-09 14:54:54
-categories: 주절주절
-tags: 주절주절
+categories: [주절주절, 애플, MS]
+tags: [주절주절, 애플, MS]
 comments: true
 ---
 ["애플보다 MS가 세상을 바꾼 능력자"... 그 이유는?](http://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=001&oid=030&aid=0002138191)

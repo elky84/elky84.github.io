@@ -2,8 +2,8 @@
 layout: post
 title: 윈도우 환경에서의 C++ 프로그램 예외처리
 date: 2011-08-24 11:14:54
-categories: C++ 예외처리 디버깅
-tags: C++ 예외처리 디버깅
+categories: [C++, 예외처리, 디버깅]
+tags: [C++, 예외처리, 디버깅]
 comments: true
 ---
 

@@ -2,8 +2,8 @@
 layout: post
 title: 함수의 리턴 값의 주소를 사용하려 할 때 생기는 문제
 date: 2008-01-11 11:14:54
-categories: C++
-tags: C++
+categories: [C++]
+tags: [C++]
 comments: true
 ---
 

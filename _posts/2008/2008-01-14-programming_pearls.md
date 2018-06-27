@@ -2,8 +2,8 @@
 layout: post
 title: (서평) 생각하는 프로그래밍 - 효율에 관한 재밌는 이야기들
 date: 2008-01-14 11:14:54
-categories: 서평
-tags: 서평
+categories: [서평, 알고리즘]
+tags: [서평, 알고리즘]
 comments: true
 ---
 사실 프로그래밍에 경험이 생긴다고 모두 다 좋은 코드를 작성하는 것은 아닙니다.

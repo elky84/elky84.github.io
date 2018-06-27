@@ -2,8 +2,8 @@
 layout: post
 title: 나의 게임 업계 투신기
 date: 2008-02-14 11:14:54
-categories: 주절주절
-tags: 주절주절
+categories: [주절주절]
+tags: [주절주절]
 comments: true
 ---
 

@@ -2,8 +2,8 @@
 layout: post
 title: 디아블로2 렐름 다운 정책 정리
 date: 2013-01-26 11:14:54
-categories: 서버
-tags: 서버
+categories: [서버]
+tags: [서버]
 comments: true
 ---
 

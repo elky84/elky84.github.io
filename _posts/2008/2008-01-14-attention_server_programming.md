@@ -2,8 +2,8 @@
 layout: post
 title: 서버 프로그래밍시 주의 사항
 date: 2008-01-14 11:14:54
-categories: 서버
-tags: 서버
+categories: [서버]
+tags: [서버]
 comments: true
 ---
 

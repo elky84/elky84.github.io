@@ -2,8 +2,8 @@
 layout: post
 title: Ruby가 모듈을 찾는 장소.
 date: 2013-05-09 11:14:54
-categories: Ruby
-tags: Ruby
+categories: [Ruby]
+tags: [Ruby]
 comments: true
 ---
 

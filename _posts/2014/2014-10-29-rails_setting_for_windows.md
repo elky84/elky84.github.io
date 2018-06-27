@@ -2,8 +2,8 @@
 layout: post
 title: Ruby on rails 세팅 for Windows
 date: 2014-10-29 11:14:54
-categories: Rails
-tags: Rails
+categories: [Rails]
+tags: [Rails]
 comments: true
 ---
 

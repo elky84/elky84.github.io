@@ -2,8 +2,8 @@
 layout: post
 title: (서평) 해킹 파괴의 광학 - 프로그래밍 기본 소양 서적에 가까운 책
 date: 2011-09-16 11:14:54
-categories: 서평
-tags: 서평
+categories: [서평]
+tags: [서평]
 comments: true
 ---
 

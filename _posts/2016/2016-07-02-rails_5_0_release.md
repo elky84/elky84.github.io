@@ -2,8 +2,8 @@
 layout: post
 title: Rails 5.0 Release
 date: 2016-07-02 11:14:54
-categories: Rails Ruby
-tags: Rails Ruby
+categories: [Rails, Ruby]
+tags: [Rails, Ruby]
 comments: true
 ---
 

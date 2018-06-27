@@ -2,8 +2,8 @@
 layout: post
 title: 데이터베이스 마이그레이션 with rails
 date: 2013-04-15 11:14:54
-categories: Ruby Rails
-tags: Ruby Rails
+categories: [Ruby, Rails]
+tags: [Ruby, Rails]
 comments: true
 ---
 

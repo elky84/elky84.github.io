@@ -2,8 +2,8 @@
 layout: post
 title: (서평) 드리밍 인 코드 (Dreaming in code)
 date: 2017-07-31 21:00:00
-categories: 서평
-tags: 서평
+categories: [서평]
+tags: [서평]
 comments: true
 ---
 이 책은 로터스 1-2-3라는 전설적 프로젝트를 개발했던 케이퍼가 OSAF(Open Source Applications Foundation) 를 설립하고 챈들러라는 개인 정보 관리 프로젝트를 개발하며 겪은 일들을 다룬 책이다.

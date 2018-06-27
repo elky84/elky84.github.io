@@ -2,8 +2,8 @@
 layout: post
 title: (서평) 핵심 C++ 표준 라이브러리 - 우리 C++이 달라졌어요!
 date: 2017-07-12 00:00:00
-categories: 서평
-tags: 서평
+categories: [서평, C++, C++11]
+tags: [서평, C++, C++11]
 comments: true
 ---
 내가 처음 프로그래밍을 시작한 언어는 C언어였다.

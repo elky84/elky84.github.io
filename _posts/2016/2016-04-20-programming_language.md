@@ -2,8 +2,8 @@
 layout: post
 title: 프로그래밍 언어 이야기
 date: 2016-04-20 00:23:54
-categories: 언어
-tags: 언어
+categories: [언어]
+tags: [언어]
 comments: true
 ---
 

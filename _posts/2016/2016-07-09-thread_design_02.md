@@ -2,8 +2,8 @@
 layout: post
 title: Thread design 02 - 잠금을 고민하지 않는 프로그래밍
 date: 2016-07-09 11:14:54
-categories: 병렬프로그래밍 멀티스레드
-tags: 병렬프로그래밍 멀티스레드
+categories: [Async, 병렬프로그래밍, 멀티스레드]
+tags: [Async, 병렬프로그래밍, 멀티스레드]
 comments: true
 ---
 

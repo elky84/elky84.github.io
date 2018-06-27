@@ -2,8 +2,8 @@
 layout: post
 title: (서평) Art of Unix Programming - 프로그래머가 가져야 할 마음 가짐을 알려주는 좋은 책.
 date: 2008-01-12 11:14:54
-categories: 서평
-tags: 서평
+categories: [서평, 유닉스]
+tags: [서평, 유닉스]
 comments: true
 ---
 제가 프로그래밍을 접한 시기가 97년이고, 윈도우 프로그래밍에 대한 정보를 얻기도 쉽지 않은 시기였습니다. (도서관도 시립 도서관외에는 힘들었고, 집 근처에 도서관이 없던지라 서점에 파는 책들이 전부였죠)

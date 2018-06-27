@@ -2,8 +2,8 @@
 layout: post
 title: Django Celery 사용법 [with RabbitMQ]
 date: 2016-09-27 11:14:54
-categories: Python Django Celery RabbitMQ
-tags: Python Django Celery RabbitMQ
+categories: [Python, Django, Celery, RabbitMQ]
+tags: [Python, Django, Celery, RabbitMQ]
 comments: true
 ---
 

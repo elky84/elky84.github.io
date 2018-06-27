@@ -2,8 +2,8 @@
 layout: post
 title: 웹 브라우저 사용기
 date: 2017-05-13 00:00:00
-categories: WebBrowser 웹브라우저
-tags: WebBrowser 웹브라우저
+categories: [Web Browser, 웹 브라우저]
+tags: [Web Browser, 웹 브라우저]
 comments: true
 ---
 |브라우저|확장|오류|좋았던 점|아쉬운 점|총점|

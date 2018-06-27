@@ -2,8 +2,8 @@
 layout: post
 title: Java 적응기 02 - Netty
 date: 2017-07-28 23:20:00
-categories: Java Netty
-tags: Java Netty
+categories: [Java, Netty]
+tags: [Java, Netty]
 comments: true
 ---
 Java에서 가장 만족한 것이 무엇이냐고 물어본다면 나는 단연 Netty라고 말할 것이다. (그 다음은 Akka)
