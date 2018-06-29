@@ -19,57 +19,69 @@ comments: true
 
 * settings.py에 아래 내용을 추가한다.
 
->import djcelery
->djcelery.setup_loader()
->BROKER_URL = "amqp://guest:guest@localhost:5672//"
+<code>
+import djcelery
+
+djcelery.setup_loader()
+
+BROKER_URL = "amqp://guest:guest@localhost:5672//"
+</code>
 
 * settings.py 파일에 추가
 
->INSTALLED_APPS = (
->'djcelery',
->'myapp',
->)
+<code>
+INSTALLED_APPS = (
+'djcelery',
+'myapp',
+)
+</code>
 
 * 두 가지를 추가해야 한다. myapp은 개발하고 있는 app의 이름이 되겠다.
 
 ## Task 생성
 
-    from djcelery import celery
-    @celery.task(name='tasks.add')
-    def add(x,y):
-     return x + y
+<code>
+from djcelery import celery
+@celery.task(name='tasks.add')
+def add(x,y):
+ return x + y
 
-    @celery.task(name='tasks.sleeptask')
-    def sleeptask(i):
-     from time import sleep
-     sleep(i)
-     return i
+@celery.task(name='tasks.sleeptask')
+def sleeptask(i):
+ from time import sleep
+ sleep(i)
+ return i
+</code>
 
 테스트 목적으로 두 개의 task를 만들었다. 하나는 즉시 값을 리턴하는 add함수와 10초 뒤에 task를 반환하는 sleeptask 함수이다.
 
 ## View 만들기
 
-    # django app의 views.py에 아래의 내용을 추가
-    from django.http import HttpResponse
-    from myapp import tasks
+<code>
+# django app의 views.py에 아래의 내용을 추가
+from django.http import HttpResponse
+from myapp import tasks
 
-    def test_celery(request):
-       result = tasks.sleeptask.delay(2)
-       result2 = tasks.add.delay(2,5)
-       return HttpResponse("this is task test (id : %s)" % result.id)
+def test_celery(request):
+   result = tasks.sleeptask.delay(2)
+   result2 = tasks.add.delay(2,5)
+   return HttpResponse("this is task test (id : %s)" % result.id)
 
 
-    # 이렇게 view를 만들어놓고 url에 이 view를 호출할 수 있도록 해야한다. urlpattern에 아래 내용을 추가해준다.
+# 이렇게 view를 만들어놓고 url에 이 view를 호출할 수 있도록 해야한다. urlpattern에 아래 내용을 추가해준다.
 
-    import views as taskview
-    urlpatterns = patterns(
-                          ...
-                          url(r'^test$',taskview.test_celery),
-                          )
+import views as taskview
+urlpatterns = patterns(
+                      ...
+                      url(r'^test$',taskview.test_celery),
+                      )
+</code>
 
 ### 가동
 
-    python manage.py celeryd -l info
+<code>
+python manage.py celeryd -l info
+</code>
 
 ### 직렬화
 

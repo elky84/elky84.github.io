@@ -22,27 +22,33 @@ comments: true
 
 intellisense, open declaration, open implement, formatting, checkstyle, debugging (watch, stacktrace, step into, step out, recompile and continue 등), performance, package manager interlocked 같은 다양한 관점에서 얼마나 만족도가 높은가이다.
 
-    다양한 관점의 만족도가  전반적 유료 툴들이 높은편이지만, 
-    비용은 현실적인 문제니 검토 대상에 포함될 수 밖에 없다.
+**다양한 관점의 만족도가  전반적 유료 툴들이 높은편이지만, 비용은 현실적인 문제니 검토 대상에 포함될 수 밖에 없다.**
 
 나는 Visual Studio를 오래 써왔었고, 자바를 처음 사용할 때도 IntelliJ IDEA를 써서 못 느꼈는데 Eclipse는 큰 확장성에 비해서 너무 느렸다.
 
 ![Visual Studio](/images/logo_vs.jpg)
     
-    Visual Studio는 완벽에 가까운 개발 툴이다. 
-    현재는 Community 버전으로 개인 프로젝트 단위는 무료 사용 가능하다는 큰 장점이 있다.
+<blockquote>
+Visual Studio는 완벽에 가까운 개발 툴이다. 
+현재는 Community 버전으로 개인 프로젝트 단위는 무료 사용 가능하다는 큰 장점이 있다.
+</blockquote>
 
  ![Intellij IDEA](/images/logo_ij.jpg) 
  
-    JetBrains의 명성을 널리 알리기 시작한 시발점이 된 Java IDE.
-    Key Set과 Color Theme만 바꿔도 딱히 손댈 게 없을 만큼 기능 지원이 우수하다.
+<blockquote>
+JetBrains의 명성을 널리 알리기 시작한 시발점이 된 Java IDE.
+Key Set과 Color Theme만 바꿔도 딱히 손댈 게 없을 만큼 기능 지원이 우수하다.
+</blockquote>
+
 
  ![Eclipse](/images/logo_eclipse.jpg)
 
-    오랜 기간 명맥을 유지해온 무료 IDE. 
-    Java 전용이 아님에도 Java 진영에서의 오랜 선택을 받아온지라 그런 이미지가 있다.
-    Plugin 설치로 기능 확장이 여러가지 면에서 가능하나 대다수의 기능 설정을 개인이
-     해야하며, 성능 이슈가 존재하는 아쉬움이 있다.
+<blockquote>
+오랜 기간 명맥을 유지해온 무료 IDE. 
+Java 전용이 아님에도 Java 진영에서의 오랜 선택을 받아온지라 그런 이미지가 있다.
+Plugin 설치로 기능 확장이 여러가지 면에서 가능하나 대다수의 기능 설정을 개인이 해야하며, 성능 이슈가 존재하는 아쉬움이 있다.
+</blockquote>
+
 
 Eclipse를 사용하고 있던 팀에 합류했다보니, 나도 자연스레 Eclipse로 환경 설정을 하게 됐고, 
 기능적으로는 부족함이 없었음에도, 플러그인으로 구현되면서 문제로 보여지는 많은 파일을 잡고 있는 문제 (runtime이 아닐 때에도 pom.xml을 통해 참조되는 maven jar를 모두 잡고 있었고, UI 갱신 속도도 무척이나 느렸다. 아마도 보안 프로그램과의 충돌이 원인인 상황)였는데, 테스트 삼아 설치해본 IntelliJ IDEA의 trial버전은 이런 문제가 전혀 없었다.
@@ -60,16 +66,19 @@ Eclipse를 사용하고 있던 팀에 합류했다보니, 나도 자연스레 Ec
 
 ![Atom](/images/logo_atom.jpg)
 
-    Github에서 만든 Text Editor이자, IDE.
-    Plugin 방식으로 기능이 확장 되는 구조다.
+<blockquote>
+Github에서 만든 Text Editor이자, IDE.
+Plugin 방식으로 기능이 확장 되는 구조다.
+</blockquote>
 
 ![Visual Studio Code](/images/logo_vscode.png)
 
-    최근 내가 사용하고 있는 툴. Atom 기반이나 단축키가 Visual Studio 키셋과 동일하며, 
-    Plguin 개발이 활발해 매우 다양한 언어 개발 용도나, 
-    Text Editor 용도로써의 사용에도 매우 편리하다.
+<blockquote>
+최근 내가 사용하고 있는 툴. Atom 기반이나 단축키가 Visual Studio 키셋과 동일하며, 
+Plguin 개발이 활발해 매우 다양한 언어 개발 용도나, 
+Text Editor 용도로써의 사용에도 매우 편리하다.
+</blockquote>
     
-
 가볍게 사용 했을 때는 문제가 없었지만, 특정 언어나 프레임워크에 종속적인 설정 파일 관리/편집 기능, linter, formatter 설정에서 아쉬움이 존재했다.
 
 Notepad++같은 순수 Text Editor보다는 구동 시간이 느리지만, IDE들 보다는 훨씬 빠른 구동 시간은 장점이다.

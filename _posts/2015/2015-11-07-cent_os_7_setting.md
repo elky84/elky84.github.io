@@ -22,8 +22,7 @@ docker를 이용할 수도 있었지만, CentOS에 대한 이해도를 높이는
 * Setup
     * <https://www.linux.co.kr/home2/board/subbs/board.php?bo_table=lecture&wr_id=1823>
 * Usage
-    * 위치 확인
-        * <http://zetawiki.com/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4_%EB%AA%85%EB%A0%B9%EC%96%B4_%EC%9C%84%EC%B9%98_%ED%99%95%EC%9D%B8>
+    * [위치 확인] (http://zetawiki.com/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4_%EB%AA%85%EB%A0%B9%EC%96%B4_%EC%9C%84%EC%B9%98_%ED%99%95%EC%9D%B8)
     * 폴더 내 용량 확인
         * <code>du -hs *</code>
     * 디스크 용량 확인
@@ -35,9 +34,8 @@ docker를 이용할 수도 있었지만, CentOS에 대한 이해도를 높이는
     * cent os 7 방화벽 [http://www.conory.com/note_linux/42477]
         * <code>firewall-cmd --permanent --zone=public --add-port=포트번호/tcp</code>
         * <code>firewall-cmd --reload</code>
-    * 포트 확인
-        * <http://zetawiki.com/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4_%EB%A1%9C%EC%BB%AC%EC%84%9C%EB%B2%84_%EC%97%B4%EB%A6%B0_%ED%8F%AC%ED%8A%B8_%ED%99%95%EC%9D%B8>
-    * SSH,TELNET, FTP 설치 및 운용
+    * [포트 확인](http://zetawiki.com/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4_%EB%A1%9C%EC%BB%AC%EC%84%9C%EB%B2%84_%EC%97%B4%EB%A6%B0_%ED%8F%AC%ED%8A%B8_%ED%99%95%EC%9D%B8)
+    *  SSH,TELNET, FTP 설치 및 운용
         * <http://webdevnovice.tistory.com/5>
 * vnc
     * <http://lahuman.jabsiri.co.kr/92>
