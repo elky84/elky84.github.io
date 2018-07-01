@@ -2,7 +2,7 @@
 layout: post
 title: Ruby 변수 관련 정리
 date: 2013-05-14 11:14:54
-categories: [Ruby[]
+categories: [Ruby]
 tags: [Ruby]
 comments: true
 ---
