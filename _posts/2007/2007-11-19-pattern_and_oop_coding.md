@@ -1,7 +1,7 @@
 ---
 layout: post
 title: (서평) 패턴 그리고 객체지향적 코딩의 법칙 - 그들의 경험을 쉽게 이해하는 한가지 방법
-date: 2008-01-12 11:14:54
+date: 2007-11-19 11:14:54
 categories: [서평]
 tags: [서평]
 comments: true

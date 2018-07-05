@@ -1,7 +1,7 @@
 ---
 layout: post
 title: (서평) 프로그램은 왜 실패하는가? - 체계적인 디버깅 지침서
-date: 2008-01-14 11:14:54
+date: 2007-09-17 11:14:54
 categories: [서평, 디버깅]
 tags: [서평, 디버깅]
 comments: true

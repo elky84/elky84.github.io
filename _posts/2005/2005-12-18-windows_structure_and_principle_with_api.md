@@ -1,7 +1,7 @@
 ---
 layout: post
 title: (서평) API로 배우는 윈도우즈 구조와 원리
-date: 2008-01-16 11:14:54
+date: 2005-12-18 11:14:54
 categories: [서평]
 tags: [서평]
 comments: true

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: (서평) 생각하는 프로그래밍 - 효율에 관한 재밌는 이야기들
-date: 2008-01-14 11:14:54
+date: 2007-09-17 11:14:54
 categories: [서평, 알고리즘]
 tags: [서평, 알고리즘]
 comments: true

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: (서평) 리팩토링 - 실용적이고, 현실적이며 실천적이었다.
-date: 2008-01-14 11:14:54
+date: 2007-09-17 11:14:54
 categories: [서평, 리팩토링]
 tags: [서평, 리팩토링]
 comments: true

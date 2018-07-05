@@ -1,7 +1,7 @@
 ---
 layout: post
 title: (서평) 소프트웨어 산책 - 역시나 흥미로웠던 그의 산책
-date: 2008-01-14 11:14:54
+date: 2005-12-18 11:14:54
 categories: [서평, 임백준]
 tags: [서평, 임백준]
 comments: true

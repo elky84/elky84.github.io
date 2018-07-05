@@ -1,7 +1,7 @@
 ---
 layout: post
 title: (서평) 행복한 프로그래밍 - 당신은 프로그래밍으로 인해 행복한가요?
-date: 2008-01-14 11:14:54
+date: 2005-12-18 11:14:54
 categories: [서평, 임백준]
 tags: [서평, 임백준]
 comments: true
