@@ -67,7 +67,8 @@ def test_celery(request):
    result2 = tasks.add.delay(2,5)
    return HttpResponse("this is task test (id : %s)" % result.id)
 
-# 이렇게 view를 만들어놓고 url에 이 view를 호출할 수 있도록 해야한다. urlpattern에 아래 내용을 추가해준다.
+# 이렇게 view를 만들어놓고 url에 이 view를 호출할 수 있도록 해야한다. 
+# urlpattern에 아래 내용을 추가해준다.
 
 import views as taskview
 urlpatterns = patterns(
