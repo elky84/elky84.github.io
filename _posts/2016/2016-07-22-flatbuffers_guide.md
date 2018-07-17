@@ -34,34 +34,36 @@ parsing이나, unpacking 전에도, 직렬화 데이터에 접근 가능하다.
 
 C계열 언어 사용자들과 또 다른 언어 사용자들에게 또한 친숙한 스키마 언어 문법으로 작성된다.
 
-    // example IDL file
+~~~ cpp
+// example IDL file
 
-    namespace MyGame;
+namespace MyGame;
 
-    attribute "priority";
+attribute "priority";
 
-    enum Color : byte { Red = 1, Green, Blue }
+enum Color : byte { Red = 1, Green, Blue }
 
-    union Any { Monster, Weapon, Pickup }
+union Any { Monster, Weapon, Pickup }
 
-    struct Vec3 {
-     x:float;
-     y:float;
-     z:float;
-    }
+struct Vec3 {
+ x:float;
+ y:float;
+ z:float;
+}
 
-    table Monster {
-     pos:Vec3;
-     mana:short = 150;
-     hp:short = 100;
-     name:string;
-     friendly:bool = false (deprecated, priority: 1);
-     inventory:[ubyte];
-     color:Color = Blue;
-     test:Any;
-    }
+table Monster {
+ pos:Vec3;
+ mana:short = 150;
+ hp:short = 100;
+ name:string;
+ friendly:bool = false (deprecated, priority: 1);
+ inventory:[ubyte];
+ color:Color = Blue;
+ test:Any;
+}
 
-    root_type Monster;
+root_type Monster;
+~~~
 
 (Weapon & Pickup not defined as part of this example)
 Tables
