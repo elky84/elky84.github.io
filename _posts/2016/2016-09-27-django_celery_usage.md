@@ -10,37 +10,37 @@ comments: true
 # Django + Celery 사용법
 
 ## 설치
-
-* pip install -U Celery
-* pip install django-celery
-* 데이터베이스 migration 필요. [djcelery를 위해]
+~~~ bash
+pip install -U Celery
+pip install django-celery
+# 데이터베이스 migration 필요. [djcelery를 위해]
+~~~
 
 ## Django 설정
 
 * settings.py에 아래 내용을 추가한다.
-
-<code>
+~~~ python
 import djcelery
 
 djcelery.setup_loader()
 
 BROKER_URL = "amqp://guest:guest@localhost:5672//"
-</code>
+~~~
 
 * settings.py 파일에 추가
 
-<code>
+~~~ python
 INSTALLED_APPS = (
 'djcelery',
 'myapp',
 )
-</code>
+~~~
 
 * 두 가지를 추가해야 한다. myapp은 개발하고 있는 app의 이름이 되겠다.
 
 ## Task 생성
 
-<code>
+~~~ python
 from djcelery import celery
 @celery.task(name='tasks.add')
 def add(x,y):
@@ -51,13 +51,13 @@ def sleeptask(i):
  from time import sleep
  sleep(i)
  return i
-</code>
+~~~
 
 테스트 목적으로 두 개의 task를 만들었다. 하나는 즉시 값을 리턴하는 add함수와 10초 뒤에 task를 반환하는 sleeptask 함수이다.
 
 ## View 만들기
 
-<code>
+~~~ python
 # django app의 views.py에 아래의 내용을 추가
 from django.http import HttpResponse
 from myapp import tasks
@@ -67,7 +67,6 @@ def test_celery(request):
    result2 = tasks.add.delay(2,5)
    return HttpResponse("this is task test (id : %s)" % result.id)
 
-
 # 이렇게 view를 만들어놓고 url에 이 view를 호출할 수 있도록 해야한다. urlpattern에 아래 내용을 추가해준다.
 
 import views as taskview
@@ -75,20 +74,22 @@ urlpatterns = patterns(
                       ...
                       url(r'^test$',taskview.test_celery),
                       )
-</code>
+~~~
 
 ### 가동
-
-<code>
+~~~ bash
 python manage.py celeryd -l info
-</code>
+~~~
 
 ### 직렬화
-
 * <http://stackoverflow.com/questions/16040039/understanding-celery-task-prefetching>
-* python manage.py celeryd --concurrency=1 -Ofair
+~~~ bash
+python manage.py celeryd --concurrency=1 -Ofair
+~~~
 * settings.py에 추가.
-    >CELERYD_PREFETCH_MULTIPLIER = 1
+    ~~~bash
+    CELERYD_PREFETCH_MULTIPLIER = 1
+    ~~~
 
 ### Consumer
 
