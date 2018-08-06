@@ -8,7 +8,7 @@ comments: true
 ---
 내가 읽어온 서적 중에서 프로그래머를 위한 필독서라 느껴졌던 책들을 추천한다.  
 
-16개 서적으로 다른 필독서 추천 글 ([한상곤님 글](https://www.sangkon.com/2016/02/10/good_books_for_dev/),[iostream](http://iostream.tistory.com/64)) 보다 의도적으로 조금 더 적게 추천했다.  
+16개 서적으로 다른 필독서 추천 글 ([한상곤님 글](https://www.sangkon.com/2016/02/10/good_books_for_dev/), [iostream](http://iostream.tistory.com/64)) 보다 의도적으로 조금 더 적게 추천했다.  
 
 추천하고 싶은 서적이 늘어나고 줄어들 수 있겠지만, 그 시점에 생각을 반영한 것이니, 새로 글을 작성할 예정이다.
 
