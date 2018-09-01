@@ -11,6 +11,7 @@ comments: true
 - Material Simple Dark Gey
     - <https://chrome.google.com/webstore/detail/material-simple-dark-grey/ookepigabmicjpgfnmncjiplegcacdbm?utm_source=chrome-ntp-icon>
         - 원래는 Zelda Dark 썼는데, 최근에 심플한게 좋아져서 바꿨습니다.
+
 # 생산성
 - Check Plus for Gmail
     - <https://chrome.google.com/webstore/detail/checker-plus-for-gmail/oeopbcgkkoapgobdbedcemjljbihmemj?utm_source=chrome-ntp-icon>
@@ -40,6 +41,7 @@ comments: true
     - <https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?utm_source=chrome-ntp-icon>
         -  광고 차단 및 컨텐츠 필터링 확장.
         -  메모리 및 CPU 부담이 적은 것이 큰 장점.
+
 # 웹 개발
 - Edit This Cookie
     - <https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg?utm_source=chrome-ntp-icon>

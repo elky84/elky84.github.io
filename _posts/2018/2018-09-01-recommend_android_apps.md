@@ -42,6 +42,7 @@ comments: true
         - 광고도 많이 붙고, 복잡해 지긴 했으나, 여전히 기본 파일 관리자들 보단 훨씬 유용하다.
         - 나같은 경우는 NAS를 사용하다보니 NFS, Samba, FTP 등으로 파일 접근이 필요할 때가 있는데 그럴 때에도 유용하게 사용 가능해서 좋다.
         - Andorid TV에서도 잘 작동하는 게 큰 장점.
+
 # 생산성
 - Microsoft To-Do
     - <https://play.google.com/store/apps/details?id=com.microsoft.todos>
@@ -70,6 +71,7 @@ comments: true
     - <https://play.google.com/store/apps/details?id=com.ktcs.whowho>
         - 스팸 차단이 편하고 강력함.
         - 스팸 전화번호인걸 바로 알려줘서, 걸러서 받기에도 좋다.
+
 # 정보
 - 원기 날씨
     - <https://play.google.com/store/apps/details?id=wongi.weather>
