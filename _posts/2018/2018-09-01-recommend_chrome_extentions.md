@@ -48,8 +48,7 @@ comments: true
         - 쿠키 편집 프로그램.
         - 확인 편집 등이 가능해서 디버깅 및 사용자가 조작할 수 있는 쿠키를 저도 테스트해볼 수 있어서 디버깅 및 개발 테스트용으로 잘 사용하고 있어요.
 - JSON Viewer
-    - 
-<https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?utm_source=chrome-ntp-icon>
+    - <https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?utm_source=chrome-ntp-icon>
         - REST API 서버 개발하면서 json이 눈에 안들어와서 사용하게 됐어요.
         - 조금 무거운편이긴하나 그걸 감안해도 쓰기 편합니다.
 - pumpkins right click enabler
