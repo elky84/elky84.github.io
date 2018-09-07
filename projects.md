@@ -203,7 +203,7 @@ permalink: /projects/
 ## NOS
 ![로고](/images/netmarble.png)
 * Company: Netmarble
-* Period: 2017~
+* Period: 2017~2018
 * Role
     * Backend API Server Development
 * Tech
@@ -217,3 +217,18 @@ permalink: /projects/
     * API Gateway 개발
     * Asset (자산 관리 시스템) 개발
     * Planner (스크립트 기반 컴포넌트 연동 시스템) 개발
+
+## Toast Cloud
+![로고](/images/nhnent.png)
+* Company: NHN Entertainment
+* Period: 2018~
+* Role
+    * Fullstack Web Development
+* Tech
+    * Java 8 
+    * Spring 4.3.3 
+    * myBatis
+    * MySQL 5.7
+    * Vue.js
+* Description   
+    * Public Cloud Service
