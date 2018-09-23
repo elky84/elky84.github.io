@@ -9,7 +9,7 @@ comments: true
 
 이번에는 Netflix Zuul 도입기에 대해서 이야기 해보고자 한다.
 
-지난 글을 읽고 <https://elky84.github.io/2018/09/21/MSA_and_API_Gateway/> 오면 더 이해가 쉽게 될 것이다.
+지난 [MSA 그리고 API Gateway](https://elky84.github.io/2018/09/21/MSA_and_API_Gateway/) 글을 읽고 오면 더 이해가 쉽게 될 것이다.
 
 --- 
 
