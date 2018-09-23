@@ -17,7 +17,7 @@ comments: true
 
 반면 API Gateway가 존재하지 않았다 보니, frontend에 바로 물려 있는 서버에서 proxy 처리를 해주고 있었고, 그 서버에 interceptor를 통한 인증 로직도 함께 포함되어 있었다.
 
-![Zuul Filters](/images/zuul_before.png)
+![zuul 도입 이전 아키텍쳐](/images/zuul_before.png)
 
 우선 frontend에서 proxy를 처리하는 코드가 범용적이지 않다보니, 이를 우회하기 위해서 javascript단에서 서비스를 직접 호출하는 상황이 일부 존재했다. 직접 호출시의 규격에 제약도 없다보니, 어떤 사용자가 호출한 것인지 분류해내기 매우 까다로울 수 밖에 없었다.
 
@@ -170,6 +170,10 @@ JWT를 이용한 이유는 JWT는 자체에 정보 값을 부여할 수 있어�
 이를 바탕으로 사용자 타입에 따른 인증 로직을 수행한다.
 
 접근 제어의 경우에도 발급된 API-KEY에 따라 갈리는데, API-KEY별로 Ratelimit을 걸어서 일정 수준이상의 웹 콜을 요청 하지 못하도록 처리했다.
+
+![zuul 도입 이후 아키텍쳐](/images/zuul_after.png)
+
+도입 이후 아키텍쳐는 다음과 같다.
 
 --- 
 
