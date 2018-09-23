@@ -134,7 +134,7 @@ hystrix의 경우 서비스 장애의 전파를 방지한다.
 
 장애가 발생한 노드를 서비스 노드에서 제거하고, 요청에 대한 예외를 격리하여, 지연이 발생한 노드의 성능 저하가 다른 노드로 전파되지 않게끔 처리해준다.
 
-![Zuul Hystrix](/images/zuul_hystrix.jpg)
+![Zuul Hystrix](/images/zuul_hystrix.png)
 
 출처: <https://thepracticaldeveloper.com/2017/06/27/hystrix-fallback-with-zuul-and-spring-boot/>
 
