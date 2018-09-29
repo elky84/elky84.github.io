@@ -47,4 +47,4 @@ comments: true
     * <https://github.com/miaolz123/vue-markdown>
 * watch
     * <https://kr.vuejs.org/v2/guide/computed.html>
-    * <http://blog.naver.com/PostView.nhn?blogId=psj9102&logNo=221011648288&categoryNo=44&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=search>
+    * <http://blog.naver.com/PostView.nhn?blogId=psj9102&logNo=221011648288>
