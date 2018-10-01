@@ -1,9 +1,9 @@
 ---
 layout: post
-title: JavaScript 적응기 01 - Vue.js
-date: 2018-09-29 00:00:00
-categories: [JavaScript, Vue.js, Frontend]
-tags: [JavaScript, Vue.js, Frontend]
+title: Ubuntu vs CentOS
+date: 2018-10-01 00:00:00
+categories: [리눅스, Ubuntu, CentOS]
+tags: [리눅스, Ubuntu, CentOS]
 comments: true
 ---
 
