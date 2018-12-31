@@ -79,7 +79,7 @@ permalink: /projects/
     * C++ IOCP 기반의 프로토타이핑.
 소켓 라이브러리 작업.
 
-{% include youtube.html id="ebUFDPbDQyg" %}
+{% include youtube.html id="5G7EcqGAyrM" %}
 <br/>
 
 
@@ -210,6 +210,7 @@ permalink: /projects/
     * Java 8, Python 2 & 3, C++
     * Cent OS, Ubuntu
     * Spring Boot 1.5.8
+    * JPA
     * MariaDB, Redis, MongoDB
 * Description      
     * Netmarble Operating System
@@ -226,8 +227,9 @@ permalink: /projects/
     * Fullstack Web Development
 * Tech
     * Java 8 
-    * Spring 4.3.3 
+    * Spring 5.0, Spring Boot 2.0
     * myBatis
+    * JPA
     * MySQL 5.7
     * Vue.js
 * Description   
