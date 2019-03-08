@@ -140,13 +140,19 @@ RESTful API, DB, Spring, Java 등의 키워드가 보인다.
 공학 기초, 엔진 (언리얼, 유니티), C++, C#, 프로젝트 경험 등이 키워드다.
 
 ## 게임 서버 개발자
-![넷마블 넥서스 서버](/images/netmarble_server.png)
+![넷마블 넥서스 서버](/images/netmarble_nexus_server.png)
+
+![넷마블 몬스터 서버](/images/netmarble_monster_server.png)
+
+![넷마블 블루 서버](/images/netmarble_blue_server.png)
 
 ![넷게임즈 서버](/images/netgames_server.png)
 
 ![넥슨 서버](/images/nexon_server.png)
 
 ![엔씨 서버](/images/nc_server.png)
+
+
 
 C#, C++, DB, 네트웍, 로우 레벨 이해도 (TCP/IP 통신, 멀티 스레드, OS 구조 등), 트러블 슈트 등의 키워드가 나열됐다.
 
