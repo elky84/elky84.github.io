@@ -21,7 +21,7 @@ comments: true
 3. ARM64 지원.
     * 즉 모바일 기기나, SBC 등에서 유용하다는 뜻이다.
 4. C# 8.0 지원
-    * https://docs.microsoft.com/ko-kr/dotnet/csharp/whats-new/csharp-8
+    * <https://docs.microsoft.com/ko-kr/dotnet/csharp/whats-new/csharp-8>
 5. 비동기 스트림 지원
     * C#은 이미 async/await를 아주 유연하게 지원하므로, 스트림 처리에서도 비동기 처리를 아주 손쉽게 녹여낼 수 있다.
 6. Build/Publish 옵션들의 추가
