@@ -13,23 +13,23 @@ comments: true
 즉, 
 
 ~~~ cpp
-    #include <stdio.h>
-    int main(int argc, char* argv[])
-    {
-        printf("Hello, World!\n");
-        return 0;
-    }
+#include <stdio.h>
+int main(int argc, char* argv[])
+{
+    printf("Hello, World!\n");
+    return 0;
+}
 ~~~
 
 이 아닌
 
 ~~~ cpp
-    #include <iostream>
-    int main(int argc, char* argv[])
-    {
-        std::cout << "Hello, World!" << std::endl;
-        return 0;
-    }
+#include <iostream>
+int main(int argc, char* argv[])
+{
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
 ~~~
 
 이었음을 말하는데, 컴파일러 기준으로 C++이지 나는 꽤나 오랜 기간 C 스타일로 코딩해왔다.

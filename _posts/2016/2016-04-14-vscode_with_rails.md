@@ -36,8 +36,10 @@ Ruby를 선택하시면 기본 환경 설정 파일 (launch.json)이 생성됩�
 
 ### launch.json에 "args" 항목 미사용시
 - ARGV = not available
+
 ### "args": [""]로 넘길 경우
 - ARGV = undefined 
+
 ### "args": ["Character.xlsx"]
 - ARGV = ["Character.xlsx"]
 

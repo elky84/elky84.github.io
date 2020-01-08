@@ -11,6 +11,7 @@ comments: true
     * routes 관리가 따로 필요 없음.
         * 컨트롤러 url 설정 규격
             * <http://www.strathweb.com/2016/09/required-query-string-parameters-in-asp-net-core-mvc/>
+
 * models 동일하게 구현하고 migrate
     * add-migration error
         * <http://stackoverflow.com/questions/38162227/asp-net-core-ef-add-migration-command-not-working>
@@ -22,6 +23,7 @@ comments: true
         * JsonField같은 것이 없음.
             * string을 JSON형식으로 사용해서 컨테이너 타입을 구현한 방식.
                 * <http://stackoverflow.com/questions/20711986/entity-framework-code-first-cant-store-liststring>
+
 * 컨텐츠 코딩 하위호환.
     * 기본적으로 기존 룰 (서버가 SendMessage를 통해 클라이언트 제어)을 따름.
     * naming을 Camel 표기법으로 변경.
