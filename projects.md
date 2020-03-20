@@ -235,7 +235,7 @@ permalink: /projects/
 * Description   
     * Public Cloud Service
 
-## Projct M
+## Project M
 ![로고](/images/joycity.png)
 * Company: Mojito Games (in JoyCity)
 * Period: 2019~
