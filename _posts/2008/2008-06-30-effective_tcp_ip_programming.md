@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (서평) 대체 뭐가 문제야?
+title: (서평) Effective TCP/IP Programming
 date: 2008-06-30 11:14:54
 categories: [서평, 네트워크, TCP/IP]
 tags: [서평, 네트워크, TCP/IP]
