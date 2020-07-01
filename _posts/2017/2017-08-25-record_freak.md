@@ -2,8 +2,8 @@
 layout: post
 title: 기록 집착
 date: 2017-08-25 21:00:00
-categories: [주절주절]
-tags: [주절주절]
+categories: [주절주절,기록]
+tags: [주절주절,기록]
 comments: true
 ---
 당시엔 잘 느끼지 못했지만 지금에 와서 돌이켜보면, 10대 20대때 참 기억력이 좋았다.
