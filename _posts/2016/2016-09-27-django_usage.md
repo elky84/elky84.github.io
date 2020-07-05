@@ -6,7 +6,7 @@ categories: [Python, Django]
 tags: [Python, Django]
 comments: true
 ---
-## Django
+
 * Django 웹 서버 환경 설정.
     * <http://tutorial.djangogirls.org/ko/django_start_project/> 
 * django-excel 설치 오류

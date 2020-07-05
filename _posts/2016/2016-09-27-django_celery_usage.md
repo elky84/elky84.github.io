@@ -7,8 +7,6 @@ tags: [Python, Django, Celery, RabbitMQ]
 comments: true
 ---
 
-# Django + Celery 사용법
-
 ## 설치
 ~~~ bash
 pip install -U Celery

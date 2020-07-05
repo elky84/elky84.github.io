@@ -6,7 +6,6 @@ categories: 엘라스틱서치 ElasticSearch
 Tags: 엘라스틱서치 ElasticSearch
 comments: true
 ---
-# ElasticSearch
 
 ## 목적
 * 검색을 위해 색인을 만들고, 색인을 바탕으로 빠른 검색을 위한 어플리케이션.
