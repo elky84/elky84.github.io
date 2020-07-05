@@ -6,8 +6,6 @@ categories: [AI, 인공지능]
 tags: [AI, 인공지능]
 comments: true
 ---
-# 인공 지능에 대한 간략 정리
-
 
 ## 유전적 알고리즘 (GA)
 
