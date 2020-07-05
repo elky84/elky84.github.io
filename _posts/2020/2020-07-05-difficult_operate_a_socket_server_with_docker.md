@@ -2,10 +2,11 @@
 layout: post
 title: Docker로 소켓 서버를 운용하기 어려운 이유
 date: 2020-07-05 00:00:00
-categories: [Docker, 소켓 서버]]
+categories: [Docker, 소켓 서버]
 tags: [Docker, 소켓 서버]
 comments: true
 ---
+
 꽤 많은 분들이 물어보셨다.
 
 그래서 `왜 소켓 게임 서버는 Docker 도입 어려워요?`
