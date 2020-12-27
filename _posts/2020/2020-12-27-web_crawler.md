@@ -23,6 +23,10 @@ comments: true
 
 [elky84/web-crawler: web-crawling (use Abot2), feed-crawling (use FeedReader)](https://github.com/elky84/web-crawler)
 
+![web-crawler](/images/web-crawler1.png)
+
+![web-crawler](/images/web-crawler2.png)
+
 abot2라는 C# .NET CORE 기반의 크롤러를 이용했으며, 페이징 처리를 했다.
 
 [sjdirect/abot: Cross Platform C# web crawler framework built for speed and flexibility. Please star this project! +1.](https://github.com/sjdirect/abot)
