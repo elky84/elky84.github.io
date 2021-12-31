@@ -3,7 +3,7 @@ layout: post
 title: C# .NET CORE 기반 Web-Crawler
 date: 2020-12-27 00:00:00
 categories: [Crawler, Web-Crawler]
-tags: [Crrawler, Web-Crawler]
+tags: [Crawler, Web-Crawler]
 comments: true
 ---
 
@@ -12,6 +12,8 @@ comments: true
 첫번째로는 이직 후 적응도 하고 있었지만, 기본적으로는 Dev Toy를 많이 했다.
 
 그 중 몇개를 운용해보고, 어느정도 버그가 잡힌 뒤에 Github 공개 프로젝트로 돌렸고, 이에 대한 얘기를 블로그에 써보고자 한다.
+
+---
 
 우선 내가 하루에 꽤 많은 시간을 쏟는 것이, News 찾아보기, 핫딜 게시판 보기였다.
 
