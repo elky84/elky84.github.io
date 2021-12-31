@@ -103,7 +103,7 @@ python manage.py celeryd --concurrency=1 -Ofair
 
 * <http://stackoverflow.com/questions/37150910/how-can-i-use-pycharm-to-locally-debug-a-celery-worker>
 
-![Pycharm Celery 디버깅 설정](/images/celery_debugging.png)
+![Pycharm Celery 디버깅 설정](/images/2016/celery_debugging.png)
 
 ### 참고
 

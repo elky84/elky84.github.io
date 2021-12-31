@@ -17,7 +17,7 @@ comments: true
 	
 출처: <https://kubernetes.io/ko/docs/concepts/overview/what-is-kubernetes/> 
 
-![배포 환경의 진화](/images/deployment_evolution.png)	
+![배포 환경의 진화](/images/2020/deployment_evolution.png)	
 
 ---
 

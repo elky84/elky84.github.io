@@ -31,7 +31,7 @@ comments: true
 
 <http://www.modulecounts.com/>
 
-![module count](/images/module_count.png)
+![module count](/images/2017/module_count.png)
 
 실제 웹 서버로 게임 서버를 구현해본 결과 유효 패키지 수는 더 적고 아쉬웠다. Python3.x로 개발해서 그런거라고 하지만, 3.x로 넘어오신 분들도 많아진 이때에 그런 얘기는 핑계에 가까웠다고 느껴졌다.
 

@@ -27,7 +27,7 @@ comments: true
 
 뿐만 아니라 로직의 결합도가 생기기 쉽고, 이는 스팟 포인트 증가, 블러킹 포인트 증가로 인한 성능 저하로 이루어지기 쉽고, 자연스레 버그 발생 확률이 증가하는 단점이 있다.
 
-![일체형 아키텍쳐와 MSA 비교](/images/decentralised-data.png)
+![일체형 아키텍쳐와 MSA 비교](/images/2018/decentralised-data.png)
 
 [출처: martinfowler.com](http://martinfowler.com/articles/microservices.html)
 
@@ -40,7 +40,7 @@ comments: true
 
 이를 해결하기 위해서 **API Gateway**를 사용하게 되는데, endpoint 관리 문제, 진입점 일치로 인한 인증/인가 처리의 유연함, 통계/로그 기록이 편해지는 장점, 과도한 트래픽 방지를 위한 Ratelimit 처리 등으로 인한 쪼개진 각 서비스의 이슈를 해결 하는 데에 집중한다.
 
-![API Gateway](/images/api_gateway.png)
+![API Gateway](/images/2018/api_gateway.png)
 
 단점으론 대다수의 서비스가 API Gateway를 통해 통신하게 되므로, API Gateway 자체에 장애가 발생하면 서비스 전체에 지장을 준다. 그래서 이를 대비하기 위한 여러가지 대안이 마련되고 있고, 그 중 최근 화두가 되고 있고, 가장 유명한 것은 Circuit Breaker 패턴을 기반으로 구현된 Netflix Hystrix라고 할 수 있다.
 
@@ -83,12 +83,12 @@ comments: true
 - Eureka : Registry Service
 - Hystrix : Latency and fault tolerance
 
-![Netflix Zuul](/images/zuul_02.png)
+![Netflix Zuul](/images/2018/zuul_02.png)
 
 이 모듈들은 특별한 편집 없이 Annotation과 설정 파일만으로도 구축할 수 있다는 점이 더 큰 장점이다.
 위에 언급한 대다수의 역할은 Zuul을 연동하고 동작 시킬 API Gateway 서버의 Filter에서 처리할 수 있다.
 
-![Zuul Filters](/images/zuul_01.png)
+![Zuul Filters](/images/2018/zuul_01.png)
 
 ---
 

@@ -28,11 +28,11 @@ comments: true
 
 2017년에는 패키지 수가 7만여개에 불과했따.
 
-![2017 mar module counts](/images/2017_mar_module_counts.png)
+![2017 mar module counts](/images/2019/2017_mar_module_counts.png)
 
 2019년 현재는 python, ruby와 비슷한 패키지 수를 확보한 것을 알 수 있을 것이다.
 
-![2019 may module counts](/images/2019_may_module_counts.png)
+![2019 may module counts](/images/2019/2019_may_module_counts.png)
 
 또한 SQL Server (MS-SQL)도 리눅스에서의 안정성 검증이 완료됐으며, WSL 2를 이용하면 성능 저하 없이 리눅스 개발을 윈도우에서 할 수 있고, 테스트도 편하게 가능해지는 장점도 생겼다.
 

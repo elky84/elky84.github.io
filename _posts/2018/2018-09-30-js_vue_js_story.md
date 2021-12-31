@@ -11,7 +11,7 @@ comments: true
 
 합류한 팀에서 풀 스택 개발 추구하고 있었고, 그 과정에서 웹 프론트엔드 개발에 vue.js를 사용하고 있었다.
 
-![Vue.js](/images/Vue.png)
+![Vue.js](/images/2018/Vue.png)
 
 자연스레 자바 스크립트를 사용해야 했는데, 2009~2012년경 윈도우 배치 스크립트 짜기 괴로워, Jscript (윈도우 내장 자바 스크립트 엔진을 이용한 스크립팅)을 했던 뒤로 오랜만에 실무에 사용하게 됐다.
 
@@ -28,7 +28,7 @@ comments: true
 
 가장 도움이 된 것은 vue.js의 컴포넌트 라이프 사이클 이해하기 였는데, 유니티때와 마찬가지로 컴포넌트간 상호 작용이 크게 중요한 만큼, 이 그림은 계속 참고하면서 코딩하게 되는 유용한 자료 였다.
 
-![Vue.js Lifecycle](/images/vue_lifecycle.png)
+![Vue.js Lifecycle](/images/2018/vue_lifecycle.png)
 
 참고: <https://medium.com/witinweb/vue-js-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-7780cdd97dd4>
 

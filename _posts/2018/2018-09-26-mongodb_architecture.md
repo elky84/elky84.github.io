@@ -57,7 +57,7 @@ mongodb에는 3가지 종류의 서버가 존재한다.
 
 Client(응용 계층) → Mongos(중계 계층) → Config(중계 계층) → Mongod(데이터 계층)
 
-![mongodb sharding internals](/images/mongodb_sharding_internals.jpg)
+![mongodb sharding internals](/images/2018/mongodb_sharding_internals.jpg)
 
 필요한 구성요소는 이렇고, 배치와 연관 관계 설정에 따라 여러가지 모델이 있을 수 있는데, 핵심은 read node와 write node(+read지만 write만 하는 것을 권장한다)를 잘 선정 해야 하는 데 있다.
 

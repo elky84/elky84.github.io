@@ -113,44 +113,44 @@ comments: true
 ---
 
 ## 플랫폼 개발자
-![카카오 플랫폼](/images/kakao_platform.png)
+![카카오 플랫폼](/images/2019/kakao_platform.png)
 
-![네이버 플랫폼](/images/naver_platform.png)
+![네이버 플랫폼](/images/2019/naver_platform.png)
 
-![NHN 플랫폼](/images/nhn_platform.png)
+![NHN 플랫폼](/images/2019/nhn_platform.png)
 
 대용량 처리 경험과, 관련 오픈 소스 사용 경험에 치중되어있다.
 
 ## 웹 개발자
-![카카오 WEB](/images/kakao_web.png)
+![카카오 WEB](/images/2019/kakao_web.png)
 
-![네이버 WEB](/images/naver_web.png)
+![네이버 WEB](/images/2019/naver_web.png)
 
-![NHN WEB](/images/nhn_web.png)
+![NHN WEB](/images/2019/nhn_web.png)
 
 RESTful API, DB, Spring, Java 등의 키워드가 보인다.
 
 ## 게임 클라이언트 개발자
-![넷마블 넥서스 클라이언트](/images/netmarble_client.png)
+![넷마블 넥서스 클라이언트](/images/2019/netmarble_client.png)
 
-![넷게임즈 클라이언트](/images/netgames_client.png)
+![넷게임즈 클라이언트](/images/2019/netgames_client.png)
 
-![PUBG 클라이언트](/images/pubg_client.png)
+![PUBG 클라이언트](/images/2019/pubg_client.png)
 
 공학 기초, 엔진 (언리얼, 유니티), C++, C#, 프로젝트 경험 등이 키워드다.
 
 ## 게임 서버 개발자
-![넷마블 넥서스 서버](/images/netmarble_nexus_server.png)
+![넷마블 넥서스 서버](/images/2019/netmarble_nexus_server.png)
 
-![넷마블 몬스터 서버](/images/netmarble_monster_server.png)
+![넷마블 몬스터 서버](/images/2019/netmarble_monster_server.png)
 
-![넷마블 블루 서버](/images/netmarble_blue_server.png)
+![넷마블 블루 서버](/images/2019/netmarble_blue_server.png)
 
-![넷게임즈 서버](/images/netgames_server.png)
+![넷게임즈 서버](/images/2019/netgames_server.png)
 
-![넥슨 서버](/images/nexon_server.png)
+![넥슨 서버](/images/2019/nexon_server.png)
 
-![엔씨 서버](/images/nc_server.png)
+![엔씨 서버](/images/2019/nc_server.png)
 
 
 
