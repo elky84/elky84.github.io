@@ -25,7 +25,7 @@ git의 수 많은 command line 기능을 GUI화 했을 때 직관적이게 녹�
 4. Interactive Rebase 기능, Gitflow 지원
 5. UI, UX (주관적)
 
-# 1. Git Kraken - <https://www.gitkraken.com/>
+# 1. [Git Kraken](https://www.gitkraken.com/)
 
 무료 플랜이 있긴하지만, 제대로 사용하려면 유료다. 기능이 많긴하고 통합도 여러 메이저 서비스들은 다 연동된다.
 
@@ -73,7 +73,7 @@ Context 메뉴를 통한 Interactive
 4점 (1번 항목에서 감점)
 
 
-# 2. Github Desktop - <https://desktop.github.com/>
+# 2. [Github Desktop](https://desktop.github.com/)
 
 github에서 제공하는 무료 클라이언트다.
 
@@ -112,7 +112,7 @@ Context 메뉴를 통한 기능이 2개 밖에 지원이 안된다.
 
 1점 (처음 쓴지 한참 지나도 개선이 안됨. 무료 버전이고 목표가 뚜렷하지 않아서인지도?)
 
-# 3. SourceTree - <https://www.sourcetreeapp.com/>
+# 3. [SourceTree](https://www.sourcetreeapp.com/)
 
 Atlassian에서 제공하는 무료 클라이언트다.
 
@@ -152,7 +152,7 @@ Bitbucket은 물론이며, Github를 포함한 Gitlab 등에서의 사용도 무
 
 4.5점 (Bitbucket이 아닐 때 여기저기 거슬리는 부분이 존재하는 것이 매우 아쉽다)
 
-# 4. Fork (git-fork) - <https://git-fork.com/>
+# 4. [Fork (git-fork)](https://git-fork.com/)
 
 Dan Pristupov (MAC 버전), Tanya Pristupova (.NET, WPF)라는 두 명의 개발자가 제공하는, 조건부 무료 클라이언트다.
 
