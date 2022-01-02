@@ -93,23 +93,27 @@ comments: true
 1. [이 구역의 미친 X](https://www.google.com/search?q=%EC%9D%B4%EA%B5%AC%EC%97%AD%EC%9D%98+%EB%AF%B8%EC%B9%9Cx&oq=%EC%9D%B4%EA%B5%AC%EC%97%AD%EC%9D%98+%EB%AF%B8%EC%B9%9Cx)
     - 오연서도 오연서지만, 정우의 연기가 정말 좋았다.
     - 둘다 미친연기 적절했고, 왜 미쳤는지에 대한 이야기를 푸는 것도 적절했다.
-2. [술꾼 도시 여자들](https://www.google.com/search?q=%EC%88%A0%EA%BE%BC+%EB%8F%84%EC%8B%9C+%EC%97%AC%EC%9E%90)
+2. [좋좋소](https://www.youtube.com/playlist?list=PL_OIehNcWkf2Ke1g77DwROk-0I9vDmt7J)
+   - 중소기업의 현실을 과장을 조금 보태서 코믹하게 연출한 휴먼(?) 웹 드라마
+   - 공감대가 크게 형성되서 직장인들의 인기를 끌었고, 시즌 3까지 완결됐다.
+   - 시즌4가 준비중이었는데 조금 늦어진다는 소식이... 
+3. [술꾼 도시 여자들](https://www.google.com/search?q=%EC%88%A0%EA%BE%BC+%EB%8F%84%EC%8B%9C+%EC%97%AC%EC%9E%90)
     - 술 잘마시는 세 여자들의 이야기
     - 멜로가 체질처럼 요런 류의 로맨틱 코미디가 나는 재밌더라
-3. [나는 내일 어제의 너와 만난다](https://www.google.com/search?q=%EB%82%98%EB%8A%94+%EB%82%B4%EC%9D%BC+%EC%96%B4%EC%A0%9C%EC%9D%98+%EB%84%88%EC%99%80+%EB%A7%8C%EB%82%9C%EB%8B%A4)
+4. [나는 내일 어제의 너와 만난다](https://www.google.com/search?q=%EB%82%98%EB%8A%94+%EB%82%B4%EC%9D%BC+%EC%96%B4%EC%A0%9C%EC%9D%98+%EB%84%88%EC%99%80+%EB%A7%8C%EB%82%9C%EB%8B%A4)
     - 중간에 있는 반전 때문에, 놀랍고, 슬펐던 이야기
     - 슬픈 멜로를 좋아한다면 꼭 봐야할 만한 영화
     - 일본 특유의 영상미도 어느정도 있음.
-4. [오징어 게임](https://www.google.com/search?q=%EC%98%A4%EC%A7%95%EC%96%B4+%EA%B2%8C%EC%9E%84)
+5. [오징어 게임](https://www.google.com/search?q=%EC%98%A4%EC%A7%95%EC%96%B4+%EA%B2%8C%EC%9E%84)
     - 넷플릭스에 나온 첫날 아무 생각없이 봤는데, 기대치가 낮아서 그런지 재밌게 본 드라마.
     - 데스 게임류에 대한 깊이가 부족하다지만, 전체적으로 극의 전개 측면에서 나쁘지 않았다.
-5. [트루먼쇼](https://www.google.com/search?q=%ED%8A%B8%EB%A3%A8%EB%A8%BC%EC%87%BC)
+6. [트루먼쇼](https://www.google.com/search?q=%ED%8A%B8%EB%A3%A8%EB%A8%BC%EC%87%BC)
     - 예스맨을 재밌게 봤다는 얘기를 할 때 마다 주변에서 추천해준 영화
     - 초반부 보다가 끝까지 못봤었는데 얼마전에 다 보게 됐다.
-6. [싱크홀](https://www.google.com/search?q=%EC%8B%B1%ED%81%AC%ED%99%80+%EC%98%81%ED%99%94)
+7. [싱크홀](https://www.google.com/search?q=%EC%8B%B1%ED%81%AC%ED%99%80+%EC%98%81%ED%99%94)
     - 소재도 괜찮고 캐릭터나, 초반 전개도 괜찮았는데....
     - 재난 상황 이후가 이야기가 좀 아쉬웠음
-7. [돈 룩 업](https://www.google.com/search?q=%EB%8F%88+%EB%A3%A9+%EC%97%85)
+8. [돈 룩 업](https://www.google.com/search?q=%EB%8F%88+%EB%A3%A9+%EC%97%85)
     - 미국식 정치 풍자 개그가 곁들여진 종말에 대한 영화
     - 나름 가볍게 재밌게 볼 수 있었다.
 
