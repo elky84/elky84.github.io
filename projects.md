@@ -268,7 +268,7 @@ permalink: /projects/
 ![Logo](/images/logos/krafton.png)
 
 * Company: KRAFTON
-* Year: 2020~
+* Year: 2020~2022
 * Role
   * Online Game Senior Server Programmer
 * Tech

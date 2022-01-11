@@ -13,7 +13,7 @@ comments: true
 
 # 1. Read it later
 
-![read_it_later](images/2022/read_it_later.png)
+![read_it_later](/images/2022/read_it_later.png)
 
 Pocket과 같은 임시 문서 스크랩용 경로.
 
@@ -21,21 +21,21 @@ Pocket과 같은 임시 문서 스크랩용 경로.
 
 # 2. Life Wiki
 
-![Untitled](images/2022/lifewiki.png)
+![Untitled](/images/2022/lifewiki.png)
 
 주로 일상 생활에서의 내용에 대한 범용 카테고리다.
 
 ## 1. Retrospect
 
-![retrospect_01.png](images/2022/retrospect_01.png)
+![retrospect_01.png](/images/2022/retrospect_01.png)
 
 매일 하루 하루의 일과에 대한 기록을 남긴다.
 
-![retrospect_02.png](images/2022/retrospect_02.png)
+![retrospect_02.png](/images/2022/retrospect_02.png)
 
 30분 단위로 무엇을 했는지 기록한다.
 
-![retropsect_template.png](images/2022/retropsect_template.png)
+![retropsect_template.png](/images/2022/retropsect_template.png)
 
 해당 표를 매번 만들 수 없으니, Template으로 등록해서 사용하고 있다.
 
@@ -45,7 +45,7 @@ Pocket과 같은 임시 문서 스크랩용 경로.
 
 Microsoft ToDo 처럼 사용한다. 사실 앱의 편의성 차이로 인해, Microsoft ToDo를 더 많이 쓰고있다.
 
-![todo.png](images/2022/todo.png)
+![todo.png](/images/2022/todo.png)
 
 ## 3. English
 
@@ -55,11 +55,11 @@ Microsoft ToDo 처럼 사용한다. 사실 앱의 편의성 차이로 인해, Mi
 
 워낙 여러 쇼핑몰에서 물건을 구매하다보니, 주기적으로 구매하는 제품명을 비롯한 Wish List로 사용한다.
 
-![wishlist](images/2022/wishlist.png)
+![wishlist](/images/2022/wishlist.png)
 
 # 3. Project
 
-![project](images/2022/project.png)
+![project](/images/2022/project.png)
 
 회사 프로젝트에 대한 기록
 
@@ -67,7 +67,7 @@ Microsoft ToDo 처럼 사용한다. 사실 앱의 편의성 차이로 인해, Mi
 
 일감 현황이다. Jira, Redmine 과 같은 일감 관리 시스템을 이용하면서도 별도로 관리 하는 이유는 중간 과정에 대한 기록이나 좀 더 상세한 설명, 현황 파악이 좀 더 손쉬워서이다.
 
-![works.png](images/2022/works.png)
+![works.png](/images/2022/works.png)
 
 ## 2. Docs
 
@@ -75,7 +75,7 @@ Microsoft ToDo 처럼 사용한다. 사실 앱의 편의성 차이로 인해, Mi
 
 프로젝트 위키에 기록하기 전에 거쳐가는 용도로 쓰며, 편집이 Wiki 보다 훨씬 용이해서 이 곳을 이용한다.
 
-![docs](images/2022/docs.png)
+![docs](/images/2022/docs.png)
 
 ## 3. Guide & Info
 
@@ -85,7 +85,7 @@ Microsoft ToDo 처럼 사용한다. 사실 앱의 편의성 차이로 인해, Mi
 
 # 4. Company
 
-![company](images/2022/company.png)
+![company](/images/2022/company.png)
 
 회사 생활에 대한 기록을 한다. 프로젝트에 별개인 이유는 뭐 크게는 없다. 분류용이라고 봐도 무방.
 
@@ -95,9 +95,9 @@ Microsoft ToDo 처럼 사용한다. 사실 앱의 편의성 차이로 인해, Mi
 
 주로 Works에 대한 링크로 어떠한 업무를 해결했고, 진행중인가를 기록하는게 주이다.
 
-![journal01](images/2022/journal01.png)
+![journal01](/images/2022/journal01.png)
 
-![journal02](images/2022/journal02.png)
+![journal02](/images/2022/journal02.png)
 
 Working, Completed, Meeting으로 분류해서 하루 현황을 기록한다. 상세한 업무 일감은 보안 관계로 공유를 못하지만, 그 날 진행한 일감에 대한 기록을 링크한다.
 
@@ -109,7 +109,7 @@ Project와 마찬가지로 공유 받은 내용이나, 문서 백업, 각종 정
 
 # 5. Dev Toy
 
-![dev_toy](images/2022/dev_toy.png)
+![dev_toy](/images/2022/dev_toy.png)
 
 각종 Dev Toy에 대한 현황 및 기획 문서가 정리되어있다.
 
@@ -119,17 +119,17 @@ Project와 마찬가지로 공유 받은 내용이나, 문서 백업, 각종 정
 
 필요에 따라 백업이 필요한 정보 등을 관리하기도 한다.
 
-![dev_toy_overview](images/2022/dev_toy_overview.png)
+![dev_toy_overview](/images/2022/dev_toy_overview.png)
 
 ## 2. GM
 
 1인 개발 중인 프로젝트에 대한 기획 문서와 정보들이다.
 
-![gm](images/2022/gm.png)
+![gm](/images/2022/gm.png)
 
 # 6. Develop
 
-![develop](images/2022/develop.png)
+![develop](/images/2022/develop.png)
 
 각종 개발 정보를 관리하고 있다. 주로 블로그 등에서 읽은 좋은 글이나 정보를 기록하고 있다.
 
@@ -137,31 +137,31 @@ Project와 마찬가지로 공유 받은 내용이나, 문서 백업, 각종 정
 
 따로 카테고리 분류 하기엔 관심도가 적거나, 분류 카테고리 들에 기록하기 모호하거나, 범용 정보를 이쪽에 기록한다.
 
-![general](images/2022/general.png)
+![general](/images/2022/general.png)
 
 ## 2. Human
 
 조직, 자기 계발, 관리 등의 사람과 관계된 내용 들
 
-![human](images/2022/human.png)
+![human](/images/2022/human.png)
 
 ## 3. Data
 
 데이터베이스 등의 데이터 저장, 검색 등에 관련된 내용을 모아둔다
 
-![data](images/2022/data.png)
+![data](/images/2022/data.png)
 
 ## 4. Game
 
 게임 개발에 관련된 정보를 기록한다.
 
-![game](images/2022/game.png)
+![game](/images/2022/game.png)
 
 ## 5. Web
 
 웹 기술에 연관된 정보를 기록 한다.
 
-![web](images/2022/web.png)
+![web](/images/2022/web.png)
 
 ## 6. Languages
 
@@ -169,17 +169,17 @@ Project와 마찬가지로 공유 받은 내용이나, 문서 백업, 각종 정
 
 C++, C#, Java, Python, JavaScript 까지만 별도로 View를 만들고 나머지 언어는 Etc View에서 보게끔 설정했다.
 
-![languages](images/2022/languages.png)
+![languages](/images/2022/languages.png)
 
 ## 7. Infra
 
 Github, Git, AWS 등의 클라우드, OS (Linux, Windows 등), 배포 에 해당하는 내용 들을 정리한다.
 
-![infra](images/2022/infra.png)
+![infra](/images/2022/infra.png)
 
 # 7. Hobby
 
-![hobby](images/2022/hobby.png)
+![hobby](/images/2022/hobby.png)
 
 취미에 대한 기록 정보다.
 
@@ -189,7 +189,7 @@ Github, Git, AWS 등의 클라우드, OS (Linux, Windows 등), 배포 에 해당
 
 블로그에 쓰기 전에 거쳐가는 기록용
 
-![write](images/2022/write.png)
+![write](/images/2022/write.png)
 
 ## 2. Game
 
@@ -197,53 +197,53 @@ Github, Git, AWS 등의 클라우드, OS (Linux, Windows 등), 배포 에 해당
 
 게임 뭐하지? 같은 고민이 들 때도 기록하며, 게임에 대한 평가나 공략 같은걸 저장 할 때도 쓴다.
 
-![hobby_game](images/2022/hobby_game.png)
+![hobby_game](/images/2022/hobby_game.png)
 
 ## 3. Watch
 
 영화, 드라마 같은 보는 미디어에 대한 기록이다.
 
-![watch](images/2022/watch.png)
+![watch](/images/2022/watch.png)
 
 ## 4. Read
 
 독서 기록을 담는다.
 
-![read](images/2022/read.png)
+![read](/images/2022/read.png)
 
 ## 5. Listen
 
 모든 감상 기록을 담진 않는다. 그 해에 들었던 곡들 중 특별히 기억에 남는 곡들만 남긴다.
 
-![listen](images/2022/listen.png)
+![listen](/images/2022/listen.png)
 
 ## 6. Gallery
 
 모든 사진보다는 특별히 보기 쉽게 모아두는 사진들이다.
 
-![gallery](images/2022/gallery.png)
+![gallery](/images/2022/gallery.png)
 
 ## 7. Draw
 
 직접 그리거나 채색한 그림
 
-![draw](images/2022/draw.png)
+![draw](/images/2022/draw.png)
 
 ## 8. Open Case
 
 각종 물건들의 사진 모음이다.
 
-![opencase](images/2022/opencase.png)
+![opencase](/images/2022/opencase.png)
 
 ## 9. Finance
 
 금융 정보에 대한 클리핑이라고 보면 된다.
 
-![finance](images/2022/finance.png)
+![finance](/images/2022/finance.png)
 
 # 8. Private
 
-![private](images/2022/private.png)
+![private](/images/2022/private.png)
 
 ## 1. Notes
 
@@ -259,7 +259,7 @@ Github, Git, AWS 등의 클라우드, OS (Linux, Windows 등), 배포 에 해당
 
 세팅 현황이나, 관리 페이지 접근 방법 등을 기록하고 있다.
 
-![machine](images/2022/machine.png)
+![machine](/images/2022/machine.png)
 
 ## 4. Serial Keys
 
@@ -275,7 +275,7 @@ Github, Git, AWS 등의 클라우드, OS (Linux, Windows 등), 배포 에 해당
 
 # 9. App & Data
 
-![app_and_data](images/2022/app_and_data.png)
+![app_and_data](/images/2022/app_and_data.png)
 
 새로 머신을 세팅 할 때 마다 찾기 귀찮기도하고, 세팅 법을 까먹기도해서 기록해두고 있다.
 
@@ -289,7 +289,7 @@ Github, Git, AWS 등의 클라우드, OS (Linux, Windows 등), 배포 에 해당
 
 자세한 내용은 공개가 어렵다.
 
-![office](images/2022/office.png)
+![office](/images/2022/office.png)
 
 이상 내가 기록하고 있는 Notion 현황이다.
 
