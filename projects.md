@@ -234,7 +234,7 @@ permalink: /projects/
 ![Logo](/images/logos/nhnent.png)
 
 * Company: NHN Entertainment
-* Year: 2018~
+* Year: 2018~2019
 * Role
   * Fullstack Web Development
 * Tech
