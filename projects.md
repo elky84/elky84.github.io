@@ -107,7 +107,7 @@ permalink: /projects/
 
 {% include youtube.html id="RNmQ4HOvnuo" %}
   
-## Gunz 2 the second duel.
+## Gunz 2 the second duel
 
 ![Logo](/images/logos/maiet.png)
 
@@ -170,7 +170,7 @@ permalink: /projects/
 
 ![Logo](/images/logos/nhnent.png)
 
-* Company: NHN 629
+* Company: NHN Studio 629
 * Year: 2016~2017
 * Role
   * Lead Server Programming
@@ -233,7 +233,7 @@ permalink: /projects/
 
 ![Logo](/images/logos/nhnent.png)
 
-* Company: NHN Entertainment
+* Company: NHN
 * Year: 2018~2019
 * Role
   * Fullstack Web Development
@@ -278,3 +278,14 @@ permalink: /projects/
   * Online MMORPG Game
 
 {% include youtube.html id="EPyD8TTd7cg" %}
+
+
+## Special Project 2
+
+![Logo](/images/logos/krafton.png)
+* Company: KRAFTON
+* Year: 2022~
+* Role
+  * Senior Server Programmer
+* Tech
+  * C#
