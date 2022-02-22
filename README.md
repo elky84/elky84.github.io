@@ -1,6 +1,8 @@
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=elky-essay)](https://elky84.github.io)
 <img src="https://img.shields.io/badge/made%20with-ruby-brightgreen.svg" alt="made with Python">
 
+[![pages-build-deployment](https://github.com/elky84/elky84.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/elky84/elky84.github.io/actions/workflows/pages/pages-build-deployment)
+
 ![GitHub forks](https://img.shields.io/github/forks/elky84/elky84.github.io.svg?style=social&label=Fork)
 ![GitHub stars](https://img.shields.io/github/stars/elky84/elky84.github.io.svg?style=social&label=Stars)
 ![GitHub watchers](https://img.shields.io/github/watchers/elky84/elky84.github.io.svg?style=social&label=Watch)
