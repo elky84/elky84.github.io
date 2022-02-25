@@ -9,7 +9,7 @@ comments: true
 
 이 글은, c++을 기반으로 작성되었지만 예외 처리 기능 (try-catch, try-except 등)을 가진 모든 언어에 적용 되는 내용입니다. 파일에서 데이터를 읽는 코드를 작성해봅시다. c++로 작성해보겠습니다. 
 
-```c++
+~~~c++
 int _tmain(int argc, _TCHAR* argv[])
 {
     FILE* fp;
@@ -25,7 +25,7 @@ int _tmain(int argc, _TCHAR* argv[])
     fread(buffer, 512, 1, fp);
     return 0;
 }
-```
+~~~
 
 대부분 위 코드처럼 작성하게 됩니다. 위 코드에서 누락된 예외처리 발견하신분? 예. 바로 fread 부분입니다. 
 
@@ -35,7 +35,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 감염을 조기에 발견하지 못하면, 숙주를 찾기 어려워지고 숙주를 찾지 못하면 전염병처럼 퍼지게 됩니다. 위 코드의 모범적 예외 처리 방식은 아래와 같습니다. 
 
-```c++
+~~~c++
     int _tmain(int argc, _TCHAR* argv[])
     {
         FILE* fp;
@@ -56,7 +56,7 @@ int _tmain(int argc, _TCHAR* argv[])
         }
         return 0;
     }
-```
+~~~
 
 이렇게 되어야 buffer의 데이터가 유효하게 로직으로 전달되었는지 검사할 수 있습니다.  
 
@@ -70,7 +70,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 그 대안으로 대부분의 언어에서는 예외 처리 기능을 지원합니다. c++의 경우 try-catch(try-except는 SEH)가 그 역할을 하는데요, boost나 STL의 경우에는 내부적으로 오류를 감지하면 throw로 예외를 던지고 있습니다. 말로만 하면 감이 안오실테니 코드로 보여드리겠습니다. 
 
-```c++
+~~~c++
 int _tmain(int argc, _TCHAR* argv[])
 {
     try
@@ -97,17 +97,17 @@ int _tmain(int argc, _TCHAR* argv[])
     }
     return 0;
 }
-```
+~~~
 
 사용자 정의 exception 클래스를 이용할 수도 있지만, 여기선 쉬운 예제를 위해 std::exception 클래스를 통해 예외처리를 했습니다. 사실 이렇게 간단한 예제로는 예외처리가 뭐가 더 낫다는건지 감이 잘 오지 않습니다. 저도 그랬으니까요. 자~ 코드가 복잡해집니다. 다양한 기능이 붙고, 추상화니, 메시지 핸들러니 각종 쌈박한 로직을 구현해두었습니다. 만들다보니 기능이 붙고 붙네요. 외부 라이브러리도 붙었습니다. 정규식은 boost쓰고, 컨테이너는 stl 쓰고, json은 json spirit, xml은 tinyxml 을 붙였군요. 제가 이 글을 쓰고자 했던건 사실 tinyxml 때문이었습니다. tinyxml 물론 잘 만들어진 라이브러리입니다. 저도 아주 잘 쓰고 있고요. 헌데 이 tinyxml에서 문제가 하나 있었습니다. 
 
-```c++
+~~~c++
 TiXmlElement* pNickname = pPlayerElem->FirstChildElement("nickname");
 if (pNickname  == NULL)
     return false;
 
 std::string nickname = pNickname >GetText();
-```
+~~~
 
 문제가 된 부분이 보이시나요? 전 몇번이나 코드를 훓어보던 중에야 원인을 찾을 수 있었습니다. 
 
@@ -119,7 +119,7 @@ std::string nickname = pNickname >GetText();
 
 한 줄 한 줄 코드를 검토하며 함수 내부를 들여다 본 순간… 아차 싶었습니다.
 
-```c++
+~~~c++
     const char* TiXmlElement::GetText() const
     {
         const TiXmlNode* child = this->FirstChild();
@@ -131,7 +131,7 @@ std::string nickname = pNickname >GetText();
         }
         return 0;
     }
-```
+~~~
 
 child->ToText() 함수가는 내부에 포함된 데이터가 비어있을 때 NULL이 반환되고, 이어 함수 최하단에서 return 0; 코드를 타 NULL 포인터가 반환되었습니다. 
 
@@ -144,7 +144,7 @@ child->ToText() 함수가는 내부에 포함된 데이터가 비어있을 때 N
 
 위 코드를 예외처리해봅시다.
 
-```c++
+~~~c++
 TiXmlElement* pNickname = pPlayerElem->FirstChildElement("nickname");
 if (pNickname  == NULL)
     return false;
@@ -162,18 +162,18 @@ if(pUserID >GetText() == NULL)
     return false;
 
 std::string user_id= pUserID>GetText();
-```
+~~~
 
 이렇게 해주어야합니다. GetText를 사용하는 코드가 많으면 많을수록 if문은 늘어납니다. 물론 위의 if문을 
 
-```c++
+~~~c++
 if (pUserID  == NULL || pUserID >GetText() == NULL)
     return false;
-```
+~~~
 
 or 연산으로 수정할수야 있겠지만, 그렇다손쳐도 GetText() 하는 함수마다 체크해주어야 함은 변함이 없습니다. 
 
-```c++
+~~~c++
 const char* TiXmlElement::GetText() const
 {
     const TiXmlNode* child = this->FirstChild();
@@ -189,11 +189,11 @@ const char* TiXmlElement::GetText() const
     }
     return childText->Value();
 }
-```
+~~~
 
 이렇게 코드를 작성했다면 어떨까요? 
 
-```c++
+~~~c++
 try
 {
     TiXmlElement* pNickname = pPlayerElem->FirstChildElement("nickname");
@@ -214,7 +214,7 @@ catch(const std::exception& e)
     // 일괄적인 예외 핸들링
     return false;
 }
-```
+~~~
 
 만약 try안에서 호출된 다른 함수에서 throw가 존재한다해도 코드의 흐름을 멈추고, 원인을 알아낼 수 있게 됩니다.  
 

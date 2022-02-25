@@ -47,10 +47,12 @@ make
 make install
 make clean
 ~~~
+
 * Bundler 설치
 ~~~ bash
 gem install bundler --no-rdoc --no-ri
 ~~~
+
 * redmine 설치 3.16 -- 안정화버젼이라서 선택함
 ~~~ bash
 cd /usr/local
@@ -58,12 +60,14 @@ wget http://www.redmine.org/releases/redmine-3.1.6.tar.gz
 tar zxvf redmine-3.1.6.tar.gz
 mv redmine-3.1.6 /usr/local/redmine
 ~~~
+
 * 설정 파일
 ~~~ bash
 cd /usr/local/redmine/config
 cp database.yml.example database.yml
 vi database.yml
 ~~~
+
 ~~~ yaml
 production:  
     adapter: mysql  
@@ -73,11 +77,15 @@ production:
     password: redmine  
     encoding: utf8 
 ~~~
+
 * Gem Package 설치
+
 ~~~ bash
 bundle install --without development test
 ~~~
+
 * 테이블 생성 및 초기 데이터 입력
+
 ~~~ bash
 cd /usr/local/redmine
 rake generate_secret_token
@@ -85,15 +93,18 @@ RAILS_ENV=production rake db:migrate
 RAILS_ENV=production rake redmine:load_default_data
 #한국어 ko 입력
 ~~~
+
 * 구동
 ~~~ bash
 bundle exec rails server webrick -e production -d -b 0.0.0.0
 # 데몬으로 실행 여기까지 끝
 ~~~
+
 * 중지
 ~~~ bash
 kill -INT $(cat tmp/pids/server.pid)
 ~~~
+
 * FAQ 
     * 설치 중에 bundle install 시 에러 내용을 자세히 보면 마지막 문구에 뭐를 설치하라고 gem 뭐뭐뭐 이렇게 명령어 나오는데 복사해서 그걸 그대로 입력해서 설치 후 bundle install 다시 실행해야 한다. 
     * bundle install은 /usr/local/redmine 에서 해야 한다
@@ -102,11 +113,14 @@ kill -INT $(cat tmp/pids/server.pid)
     * /usr/local/redmine/public/theme 이쪽폴더에 넣고 재시작
  * redmine 플러그인
     * /usr/local/redmine/plugins 폴더에 넣고 /usr/local/redmine 에서 하단을 실행하여 플러그인을 추가해야한다.
+
 ~~~ bash
 bundle install --without development test
 rake redmine:plugins:migrate RAILS_ENV=production
 ~~~
+
 * redmine 구글이용하여 메일보내기
+
 ~~~ bash
 cd /usr/local/redmine/config
 ~~~
@@ -115,6 +129,7 @@ cd /usr/local/redmine/config
 # configuration.yml.example 을 configuration.yml로 만든후
 nano configuration.yml
 ~~~
+
 ~~~ yaml 
 production:
    email_delivery:  

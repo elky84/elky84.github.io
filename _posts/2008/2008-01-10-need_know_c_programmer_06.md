@@ -34,17 +34,27 @@ comments: true
 아래 예제를 보시길 바랍니다.
 
 ~~~ cpp
-int main(int argc, char *argv[])
-{
-    int number[10]={1,2,3,4,5,6,7,8,9,10}; // 배열 number의 초기 값으로 1~10을 차례대로 대입
+int main(int argc, char * argv[]) {
+    int number[10] = {
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+    }; // 배열 number의 초기 값으로 1~10을 차례대로 대입
 
     number[5] = 0; //배열의 중간 위치에 있는 6번째 원소 (0부터 시작하기 때문에, [5]는 6번째 원소를 가리킵니다)의 값에 0을 대입
 
-    int temp = number[5];  //0이라는 수가, 삭제된 데이터라는 것을 의미하므로, number[5]에 저장된 값 0을 임시 변수 temp에 대입
+    int temp = number[5]; //0이라는 수가, 삭제된 데이터라는 것을 의미하므로, number[5]에 저장된 값 0을 임시 변수 temp에 대입
 
-    for(int i = 6; i < 10; i++) //데이터가 삭제된 위치인 6번부터 하나씩 앞으로 당긴다
+    for (int i = 6; i < 10; i++) //데이터가 삭제된 위치인 6번부터 하나씩 앞으로 당긴다
     {
-        number[i-1] = number[i];
+        number[i - 1] = number[i];
     }
 
     number[9] = temp; // number[5]에 저장되어 있던 값을 저장해놓은 temp를 배열의 마지막 위치에 대입
@@ -61,33 +71,32 @@ int main(int argc, char *argv[])
 리스트는 자신의 다음에 위치한 데이터를 언제든지 바꿀 수 있습니다. 다음 데이터에 대한 정보를 포인터로 갖고 있기 때문이죠.
 
 ~~~ cpp
-struct Node{
-    Node *Next;
+struct Node {
+    Node * Next;
 };
 
-int main(int argc, char *argv[])
-{
-    Node *Node1;
+int main(int argc, char * argv[]) {
+    Node * Node1;
 
-    Node1 = (Node*)malloc(sizeof(Node));
+    Node1 = (Node * ) malloc(sizeof(Node));
 
-    Node *Node2;
+    Node * Node2;
 
-    Node2 = (Node*)malloc(sizeof(Node));
+    Node2 = (Node * ) malloc(sizeof(Node));
 
-    Node *Node3;
+    Node * Node3;
 
-    Node3 = (Node*)malloc(sizeof(Node));
+    Node3 = (Node * ) malloc(sizeof(Node));
 
-    Node1->Next = Node2; //Node1의 다음 데이터는 Node2
+    Node1 -> Next = Node2; //Node1의 다음 데이터는 Node2
 
-    Node2->Next = Node3; //Node2의 다음 데이터는 Node3
+    Node2 -> Next = Node3; //Node2의 다음 데이터는 Node3
 
-    Node3->Next = NULL; //Node3가 마지막이다 (NULL)
+    Node3 -> Next = NULL; //Node3가 마지막이다 (NULL)
 
     free(Node2); //Node2가 삭제 되었다
 
-    Node1->Next = Node3; //이제 Node1의 다음 데이터는 Node3
+    Node1 -> Next = Node3; //이제 Node1의 다음 데이터는 Node3
 }
 ~~~
 
@@ -139,13 +148,11 @@ int main(int argc, char *argv[])
 아래 코드는, 배열내의 원소를 정해진 크기만큼 순차검색하며, 키 값이 배열 내에 존재하는지 검사합니다.
 
 ~~~ cpp
-int SequenceSearch(int *ar,unsigned int size, int key)
-{
+int SequenceSearch(int * ar, unsigned int size, int key) {
     unsigned int i;
 
-    for(i = 0; i < size; i++)
-    {
-        if(ar[i]== key){
+    for (i = 0; i < size; i++) {
+        if (ar[i] == key) {
             return i;
         }
 
@@ -153,20 +160,37 @@ int SequenceSearch(int *ar,unsigned int size, int key)
     }
 }
 
-
-
-int main(int argc, char *argv[])
-{
-    int ar[] = {25,11,43,71,38,33,59,21,56,22,45,75,64,59,93,112,159,124,163,9};
+int main(int argc, char * argv[]) {
+    int ar[] = {
+        25,
+        11,
+        43,
+        71,
+        38,
+        33,
+        59,
+        21,
+        56,
+        22,
+        45,
+        75,
+        64,
+        59,
+        93,
+        112,
+        159,
+        124,
+        163,
+        9
+    };
 
     unsigned int size = sizeof(ar) / sizeof(int);
 
     int key;
-    scanf("%d",&key);
+    scanf("%d", & key);
 
-
-    int result = SequenceSearch(ar,size,key);
-    if(result == -1)
+    int result = SequenceSearch(ar, size, key);
+    if (result == -1)
         printf("찾으시는 키 값을 배열 내에서 찾을 수 없었습니다");
     else
         printf("배열 내에서 %d번째에 존재하는 값을 찾았습니다. %d", result);
@@ -188,40 +212,57 @@ int main(int argc, char *argv[])
 아래 코드는, 이진 검색을 통해 입력 받은 수를 찾는 코드입니다.
 
 ~~~ cpp
-int BinarySearch(int *ar,unsigned int size, int key)
-{
+int BinarySearch(int * ar, unsigned int size, int key) {
     unsigned int half_value;
     unsigned int lower_value = 0;
-    unsigned int upper_value = size -1;
+    unsigned int upper_value = size - 1;
 
-    while(1)
-    {
+    while (1) {
         half_value = (lower_value + upper_value) / 2;
 
-        if(ar[half_value] == key)
+        if (ar[half_value] == key)
             return half_value;
-        else if(ar[half_value] < key)
+        else if (ar[half_value] < key)
             lower_value = half_value;
         else
             upper_value = half_value;
 
-        if(lower_value == upper_value-1)
+        if (lower_value == upper_value - 1)
             return -1;
     }
 }
 
-
-int main(int argc, char *argv[])
-{
-    int ar[] = {5,8,15,28,32,45,48,52,69,71,85,94,103,112,118,124,125,138,143,157};
+int main(int argc, char * argv[]) {
+    int ar[] = {
+        5,
+        8,
+        15,
+        28,
+        32,
+        45,
+        48,
+        52,
+        69,
+        71,
+        85,
+        94,
+        103,
+        112,
+        118,
+        124,
+        125,
+        138,
+        143,
+        157
+    };
 
     unsigned int size = sizeof(ar) / sizeof(int);
 
     int key;
-    scanf("%d",&key);
+    scanf("%d", & key);
 
-    int result = BinarySearch(ar,size,key);
-    if(result == -1)
+    int result = BinarySearch(ar, size, key);
+    if (result == -1)
         printf("찾으시는 키 값을 배열 내에서 찾을 수 없었습니다");
     else
         printf("배열 내에서 %d번째에 존재하는 값을 찾았습니다. %d", result);

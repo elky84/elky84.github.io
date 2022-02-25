@@ -17,6 +17,7 @@ pip install django-celery
 ## Django 설정
 
 * settings.py에 아래 내용을 추가한다.
+
 ~~~ python
 import djcelery
 
@@ -61,18 +62,18 @@ from django.http import HttpResponse
 from myapp import tasks
 
 def test_celery(request):
-   result = tasks.sleeptask.delay(2)
-   result2 = tasks.add.delay(2,5)
-   return HttpResponse("this is task test (id : %s)" % result.id)
+    result = tasks.sleeptask.delay(2)
+    result2 = tasks.add.delay(2,5)
+    return HttpResponse("this is task test (id : %s)" % result.id)
 
 # 이렇게 view를 만들어놓고 url에 이 view를 호출할 수 있도록 해야한다. 
 # urlpattern에 아래 내용을 추가해준다.
 
 import views as taskview
 urlpatterns = patterns(
-                      ...
-                      url(r'^test$',taskview.test_celery),
-                      )
+                        ...
+                        url(r'^test$',taskview.test_celery),
+                        )
 ~~~
 
 ### 가동
@@ -85,10 +86,11 @@ python manage.py celeryd -l info
 ~~~ bash
 python manage.py celeryd --concurrency=1 -Ofair
 ~~~
+
 * settings.py에 추가.
-    ~~~bash
-    CELERYD_PREFETCH_MULTIPLIER = 1
-    ~~~
+~~~bash
+CELERYD_PREFETCH_MULTIPLIER = 1
+~~~
 
 ### Consumer
 

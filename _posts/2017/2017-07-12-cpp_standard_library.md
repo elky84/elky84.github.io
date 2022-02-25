@@ -16,8 +16,8 @@ comments: true
 #include <stdio.h>
 int main(int argc, char* argv[])
 {
-    printf("Hello, World!\n");
-    return 0;
+    printf("Hello, World!\n");
+    return 0;
 }
 ~~~
 
@@ -27,8 +27,8 @@ int main(int argc, char* argv[])
 #include <iostream>
 int main(int argc, char* argv[])
 {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
 }
 ~~~
 

@@ -36,33 +36,39 @@ C계열 언어 사용자들과 또 다른 언어 사용자들에게 또한 친�
 
 ~~~ cpp
 // example IDL file
-
 namespace MyGame;
 
 attribute "priority";
 
-enum Color : byte { Red = 1, Green, Blue }
+enum Color: byte {
+    Red = 1, Green, Blue
+}
 
-union Any { Monster, Weapon, Pickup }
+union Any {
+    Monster,
+    Weapon,
+    Pickup
+}
 
 struct Vec3 {
- x:float;
- y:float;
- z:float;
+    x: float;
+    y: float;
+    z: float;
 }
 
 table Monster {
- pos:Vec3;
- mana:short = 150;
- hp:short = 100;
- name:string;
- friendly:bool = false (deprecated, priority: 1);
- inventory:[ubyte];
- color:Color = Blue;
- test:Any;
+    pos: Vec3;
+    mana: short = 150;
+    hp: short = 100;
+    name: string;
+    friendly: bool = false(deprecated, priority: 1);
+    inventory: [ubyte];
+    color: Color = Blue;
+    test: Any;
 }
 
 root_type Monster;
+
 ~~~
 
 (Weapon & Pickup not defined as part of this example)

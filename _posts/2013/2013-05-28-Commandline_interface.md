@@ -25,7 +25,7 @@ comments: true
 #include < stdio.h >
 void main()
 {
-    printf("Hello, World!\n");
+    printf("Hello, World!\n");
 }
 ~~~
 
@@ -37,8 +37,8 @@ ANSI C Programming의 번역서만이.
 #include < stdio.h >
 int main(int argc, char* argv[])
 {
-    printf("Hello, World!\n");
-    return 0;
+    printf("Hello, World!\n");
+    return 0;
 }
 ~~~
 

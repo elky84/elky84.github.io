@@ -79,7 +79,7 @@ API Gateway가 도입 되는 과정에서 여러가지 도입 검토 후보군�
 zuul을 통한 service 관리를 간략히 살펴보면 다음과 같다.
 
 ### zuul routes 예제 (application.yml)
-~~~
+~~~ yaml
  zuul:
   routes:
     user_service: # serviceId
@@ -107,7 +107,7 @@ zuul을 통한 service 관리를 간략히 살펴보면 다음과 같다.
 
 <https://spring.io/guides/gs/client-side-load-balancing/>
 
-~~~
+~~~ yaml
 users: # serviceId
   ribbon:
     eureka:

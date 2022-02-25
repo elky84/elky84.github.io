@@ -1,42 +1,36 @@
 ---
 layout: page
-title: Categories
-permalink: /categories/
+title: 'Category Index'
 ---
-{% capture categories %}{% for category in site.categories %}{{ category | first | downcase }}|{{ category | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
-<!-- site_tags: {{ site_tags }} -->
-{% assign categories_words = categories | split:',' | sort %}
 
-<div class="categories">
-  <div class="categories-list">
-    {% for category_pair in categories_words %}
-    {% assign category = category_pair | split:'|' | last %}
-	<a href="#{{ category | slugify }}" class="category-link">
-      <span class="category-name">{{ category }}</span>
-      <span class="category-count">{{ site.categories[category] | size }}</span>
-    </a>
-    {% endfor %}
-  </div>
-  <hr/>
+{% assign date_format = site.date_format | default: "%B %-d, %Y" %}
 
-  <div class="posts-by-category">
-    {% for category_pair in categories_words %}
-    {% assign category = category_pair | split:'|' | last %}
-    <div id="{{ category | slugify }}" class="posts-for-category">
-      <h2>{{ category }}</h2>
-      <ul class="posts-list">
-        {% for post in site.categories[category] %}
-          <li>
-            <h3>
-              <a href="{{ site.baseurl }}{{ post.url }}">
-                {{ post.title }}
-                <small>{{ post.date | date_to_string }}</small>
-              </a>
-            </h3>
-          </li>
-        {% endfor %}
-      </ul>
+{%- capture site_categories -%}
+    {%- for category in site.categories -%}
+        {{- category | first -}}{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+{%- endcapture -%}
+{%- assign categories_list = site_categories | split:',' | sort -%}
+
+{%- for category in categories_list -%}
+    <a href="#{{- category -}}" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{{- category -}}&nbsp;({{site.categories[category].size}})</a>
+{%- endfor -%}
+
+<div id="full-categories-list">
+{%- for category in categories_list -%}
+    <h2 id="{{- category -}}" class="linked-section">
+        <i class="fas fa-tag" aria-hidden="true"></i>
+        &nbsp;{{- category -}}&nbsp;({{site.categories[category].size}})
+    </h2>
+    <div class="post-list">
+        {%- for post in site.categories[category] -%}
+            <div class="tag-entry">
+                <a href="{{ post.url | relative_url }}">{{- post.title | strip_html -}}</a>
+                <div class="entry-date">
+                    <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: date_format -}}</time>
+                </div>
+            </div>
+        {%- endfor -%}
     </div>
-    {% endfor %}
-  </div>
+{%- endfor -%}
 </div>
