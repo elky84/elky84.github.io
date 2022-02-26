@@ -3,6 +3,7 @@ layout: null
 ---
 
 @import url("pygment_highlights.css");
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
 
 /* --- General --- */
 
@@ -11,7 +12,7 @@ html {
 }
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Nanum Gothic Coding', serif;
   font-size: 1.125rem;
   color: {{ site.text-col | default: "#404040" }};
   position: relative;
