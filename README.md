@@ -12,6 +12,7 @@
 ![GitHub repo size in bytes](https://img.shields.io/github/repo-size/elky84/elky84.github.io.svg)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/elky84/elky84.github.io.svg)
 
-# Elky Essay 블로그
+# 엘키의 주절 주절 - 개발 블로그
 * jekyll로 작성된 블로그 포킹해서 운용중입니다.
 * 테마는 [Beatiful Jekyll](https://beautifuljekyll.com/)을 사용했습니다
+* 이모지는 [emoji](https://gist.github.com/rxaviers/7360908)를 참고
