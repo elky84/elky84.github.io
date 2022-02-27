@@ -17,9 +17,12 @@ Gem::Specification.new do |spec|
     "documentation_uri" => "https://github.com/daattali/beautiful-jekyll#readme"
   }
 
-  spec.add_runtime_dependency "jekyll", "~> 3.8"
-  spec.add_runtime_dependency "jekyll-paginate", "~> 1.1"
+  spec.required_ruby_version = '>= 2.6'
+  spec.add_runtime_dependency 'jekyll', '>= 3.8.5', '< 4.2.0'
+  spec.add_runtime_dependency 'jekyll-paginate', '~> 1.1.0'
+  spec.add_runtime_dependency 'jekyll-seo-tag', '~> 2.5'
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.4"
+  spec.add_runtime_dependency 'jemoji', '~> 0.12.0'
   spec.add_runtime_dependency "kramdown-parser-gfm", "~> 1.1"
   spec.add_runtime_dependency "kramdown", "~> 2.3.0"
 
