@@ -17,6 +17,7 @@ navbar-links:
   Home: "/"
   About Me: "aboutme"
   Projects: "projects"
+  Review: "review"
   Detail:
     - Categories: "/categories"
     - Archives: "/archives"
