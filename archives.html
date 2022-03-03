@@ -1,0 +1,33 @@
+---
+layout: page
+title: 'Archives Index'
+---
+
+{%- capture site_dates -%}
+  {% for post in site.posts %}
+    {{- post.date | date: "%Y" -}}{%- unless forloop.last -%},{%- endunless -%}
+  {% endfor %}
+{%- endcapture -%}
+{%- assign date_list = site_dates | split:',' | sort | reverse -%}
+
+{%- for date in date_list -%}
+  {% if currentdate != date %}
+    <a href="#{{- date -}}" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{{- date -}}</a>&nbsp;
+    {% assign currentdate = date %} 
+  {% endif %}
+{%- endfor -%}
+<br/>
+
+<div id="full-archive-list">
+{% for post in site.posts %}
+  {% assign currentdate = post.date | date: "%Y" %}
+  {% if currentdate != date %}
+  <h2 id="{{- currentdate -}}" class="linked-section">{{- currentdate -}}</h2>
+    {% assign date = currentdate %} 
+  {% endif %}
+  <h2>
+    <a class="post-link" href="{{ post.url | relative_url }}"{% if lang != empty %} lang="{{ lang }}"{% endif %}>{{ post.title | escape }}{% if post.external-url %} &rarr;{% endif %}</a>
+    <small class="entry-date">{{ post.date | date: "%B %-d, %Y" }}</small>
+  </h2>
+{% endfor %}
+</div>
