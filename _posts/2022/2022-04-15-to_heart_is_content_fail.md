@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 마음껏 실패하기 (Feat Dev Toy)
+title: 마음껏 실패하기 (Feat. Dev Toy)
 date: 2022-04-15 00:00:00
 categories: [실패, Dev Toy]
 tags: [실패, Dev Toy]
