@@ -26,14 +26,14 @@
 }
 .sidebar-container a:hover,
 .sidebar-container a:active {
-  color: #0085a1 !important;
+  color: #0053a1 !important;
 }
 .sidebar-container .tags a {
   border-color: #bfbfbf;
 }
 .sidebar-container .tags a:hover,
 .sidebar-container .tags a:active {
-  border-color: #0085a1;
+  border-color: #0053a1;
 }
 .sidebar-container .short-about img {
   width: 80%;
@@ -129,7 +129,7 @@
   background-color: #f5f5f5;
 }
 .side-catalog .catalog-body .active a {
-  color: #0085a1 !important;
+  color: #0053a1 !important;
 }
 @media (max-width: 1200px) {
   .side-catalog {
@@ -147,7 +147,7 @@
   font-size: 14px;
   min-height: 14px;
   background-color: #323232;
-  background-color: #0085a1;
+  background-color: #0053a1;
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -696,7 +696,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #0085a1;
+  color: #0053a1;
 }
 a img:hover,
 a img:focus {
@@ -781,7 +781,7 @@ samp {
 }
 .post-container a:hover,
 .post-container a:focus {
-  color: #0085a1;
+  color: #0053a1;
 }
 .post-container h1,
 .post-container h2,
@@ -1045,14 +1045,14 @@ samp {
 }
 .navbar-custom.invert .navbar-brand:hover,
 .navbar-custom.invert .navbar-brand:focus {
-  color: #0085a1;
+  color: #0053a1;
 }
 .navbar-custom.invert .nav li a {
   color: #404040;
 }
 .navbar-custom.invert .nav li a:hover,
 .navbar-custom.invert .nav li a:focus {
-  color: #0085a1;
+  color: #0053a1;
 }
 @media only screen and (min-width: 1170px) {
   .navbar-custom {
@@ -1083,14 +1083,14 @@ samp {
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
-    color: #0085a1;
+    color: #0053a1;
   }
   .navbar-custom.is-fixed .nav li a {
     color: #404040;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
-    color: #0085a1;
+    color: #0053a1;
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -1260,7 +1260,7 @@ samp {
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #0085a1;
+  color: #0053a1;
 }
 .post-preview > a > .post-title {
   font-size: 21px;
@@ -1288,7 +1288,7 @@ samp {
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
-  color: #0085a1;
+  color: #0053a1;
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
@@ -1310,7 +1310,7 @@ samp {
   color: #a3a3a3;
 }
 .post-content-preview:hover {
-  color: #0085a1;
+  color: #0053a1;
 }
 @media only screen and (min-width: 768px) {
   .post-content-preview {
@@ -1350,7 +1350,7 @@ footer .copyright a {
 }
 footer .copyright a:hover,
 footer .copyright a:focus {
-  color: #0085a1;
+  color: #0053a1;
 }
 .btn {
   /* Hux learn from
@@ -1372,8 +1372,8 @@ footer .copyright a:focus {
 }
 .btn-default:hover,
 .btn-default:focus {
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
+  background-color: #0053a1;
+  border: 1px solid #0053a1;
   color: white;
 }
 .pager {
@@ -1409,8 +1409,8 @@ footer .copyright a:focus {
 .pager li > a:hover,
 .pager li > a:focus {
   color: white;
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
+  background-color: #0053a1;
+  border: 1px solid #0053a1;
 }
 .pager li > a:hover > span,
 .pager li > a:focus > span {
@@ -1427,12 +1427,12 @@ footer .copyright a:focus {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #0053a1;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #0053a1;
 }
 img::selection {
   color: white;
@@ -1525,7 +1525,7 @@ img::-moz-selection {
 #tag_cloud a.tag-button--all,
 #tag_cloud .tag.tag-button--all {
   font-weight: 700;
-  color: #0085a1 !important;
+  color: #0053a1 !important;
 }
 #tag_cloud a.tag-button--all:hover,
 #tag_cloud .tag.tag-button--all:hover,
@@ -1552,7 +1552,7 @@ img::-moz-selection {
   margin-top: 0px;
 }
 .listing-seperator {
-  color: #0085a1;
+  color: #0053a1;
   font-size: 21px !important;
 }
 .listing-seperator::before {
