@@ -7,8 +7,6 @@ tags: [Exception, Exception Process, Log]
 comments: true
 ---
 
-# 예외 처리 03 - Try-Catch
-
 예외 처리를 잘 하기 위해선, try-catch, throw를 잘 하는 것이 중요하다.
 
 혹자는 try-catch 구문이 코드가 지저분해 보이거나, 복잡해 보인다고 기피하는 경향을 보이기도하고, C++을 오래 써온 개발자는 throw가 성능 저하를 가져다 주는 무거운 동작이라고 기피하기도 한다.
@@ -28,7 +26,7 @@ comments: true
     - 기타 Exception 종류
         - [Exceptions in Java - GeeksforGeek](https://www.geeksforgeeks.org/exceptions-in-java/)
     - Microsoft Using Standard Exception Types
-        - [Using Standard Exception Types - Framework Design Guidelines | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/using-standard-exception-types)
+        - [Using Standard Exception Types - Framework Design Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/using-standard-exception-types)
     - Oracle Exception 처리 가이드
         - [Lesson: Exceptions (The Java™ Tutorials > Essential Java Classes) (oracle.com)](https://docs.oracle.com/javase/tutorial/essential/exceptions/index.html)
 
