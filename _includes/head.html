@@ -1,152 +1,72 @@
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="keywords" content="{{ site.keyword }}">
+    <meta name="theme-color" content="{{ site.chrome-tab-theme-color }}">
 
-  {% capture title %}
-    {%- if page.share-title -%}
-      {{ page.share-title | strip_html | xml_escape }}
-    {%- elsif page.title -%}
-      {{ page.title | strip_html | xml_escape  }}
-    {%- else -%}
-      {{ site.title | strip_html | xml_escape }}
-    {%- endif -%}
-  {% endcapture %}
-
-  {% capture description %}
-    {%- if page.share-description -%}
-      {{ page.share-description | strip_html | xml_escape }}
-    {%- elsif page.subtitle -%}
-      {{ page.subtitle | strip_html | xml_escape }}
-    {%- else -%}
-      {%- assign excerpt_length = site.excerpt_length | default: 50 -%}
-      {{ page.content | strip_html | xml_escape | truncatewords: excerpt_length | strip }}
-    {%- endif -%}
-  {% endcapture %}
-
-  <title>{{ title }}</title>
-
-  {% if site.author %}
-  <meta name="author" content="{{ site.author }}">
-  {% endif %}
-
-  <meta name="description" content="{{ description }}">
-
-  {% if site.mobile-theme-col %}
-  <meta name="theme-color" content="{{ site.mobile-theme-col }}">
-  {% endif %}
-
-  {% if site.keywords %}
-  <meta name="keywords" content="{{ site.keywords }}">
-  {% endif %}
-
-  {% if site.rss-description %}
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
-  {% endif %}
-
-  {% include gtag.html %}
-  {% include gtm_head.html %}
-  {% include google_analytics.html %}
-  {% include cloudflare_analytics.html %}
-
-  {% if layout.common-ext-css %}
-    {% for css in layout.common-ext-css %}
-      {% include ext-css.html css=css %}
-    {% endfor %}
-  {% endif %}
-
-  {% if layout.common-css %}
-    {% for css in layout.common-css %}
-      <link rel="stylesheet" href="{{ css | relative_url }}">
-    {% endfor %}
-  {% endif %}
-
-  {% if site.site-css %}
-    {% for css in site.site-css %}
-      <link rel="stylesheet" href="{{ css | relative_url }}">
-    {% endfor %}
-  {% endif %}
-
-  {% if page.ext-css %}
-    {% for css in page.ext-css %}
-      {% include ext-css.html css=css %}
-    {% endfor %}
-  {% endif %}
-  
-  {% if page.css %}
-    {% for css in page.css %}
-      <link rel="stylesheet" href="{{ css | relative_url }}">
-    {% endfor %}
-  {% endif %}
-
-  {% if site.fb_app_id %}
-  <meta property="fb:app_id" content="{{ site.fb_app_id }}">
-  {% endif %}
-
-  {% if site.title %}
-  <meta property="og:site_name" content="{{ site.title }}">
-  {% endif %}
-
-  {%- capture img -%}
-    {%- if page.share-img -%}
-      {{ page.share-img }}
-    {%- elsif page.cover-img -%}
-      {%- if page.cover-img.first -%}
-        {{ page.cover-img[0].first.first }}
-      {%- else -%}
-        {{ page.cover-img }}
-      {%- endif -%}
-    {%- elsif page.thumbnail-img -%}
-      {{ page.thumbnail-img }}
-    {%- elsif site.avatar -%}
-      {{ site.avatar }}
+    <!-- Open Graph -->
+    <meta property="og:title"
+        content="{% if page.title %}{{ page.title }} - {{ site.SEOTitle }}{% else %}{{ site.SEOTitle }}{% endif %}">
+    {% case page.layout %}
+    {% when 'post' %}
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="{{ page.excerpt | strip_html | truncate:200 }}">
+    {% if page.date %}
+    <meta property="article:published_time" content="{{ page.date | date: " %Y-%m-%dT%H:%M:%SZ" }}">
     {% endif %}
-  {%- endcapture -%}
-  {%- assign img=img | strip -%}
-
-  <meta property="og:title" content="{{ title }}">
-  <meta property="og:description" content="{{ description }}">
-
-  {% if img != "" %}
-  <meta property="og:image" content="{{ img | absolute_url }}">
-  {% endif %}
-
-  {% if page.id %}
-  <meta property="og:type" content="article">
-  <meta property="og:article:author" content="{{ site.author }}">
-  <meta property="og:article:published_time" content="{{ page.date | date_to_xmlschema }}">
-  <meta property="og:url" content="{{ page.url | absolute_url }}">
-  <link rel="canonical" href="{{ page.url | absolute_url }}">
-  {% else %}
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ page.url | absolute_url | strip_index }}">
-  <link rel="canonical" href="{{ page.url | absolute_url | strip_index }}">
-  {% endif %}
-
-  {% if img != "" and img != site.avatar %}
-  <meta name="twitter:card" content="summary_large_image">
-  {% else %}
-  <meta name="twitter:card" content="summary">
-  {% endif %}
-  <meta name="twitter:site" content="@{{ site.social-network-links.twitter }}">
-  <meta name="twitter:creator" content="@{{ site.social-network-links.twitter }}">
-
-  <meta property="twitter:title" content="{{ title }}">
-  <meta property="twitter:description" content="{{ description }}">
-
-  {% if img != "" %}
-  <meta name="twitter:image" content="{{ img | absolute_url }}">
-  {% endif %}
-
-  {% include matomo.html %}
-
-  {% if page.comments and site.staticman.repository and site.staticman.branch %}
-  <link rel="stylesheet" href="{{ "/assets/css/staticman.css" | relative_url }}">
-  {% endif %}
-
-  {% if page.head-extra %}
-    {% for file in page.head-extra %}
-      {% include {{ file }} %}
+    {% if page.author %}
+    <meta property="article:author" content="{{ page.author }}">
+    {% endif %}
+    {% for tag in page.tags %}
+    <meta property="article:tag" content="{{ tag }}">
     {% endfor %}
-  {% endif %}
+    {% else %}
+    <meta property="og:type" content="website">
+    <meta property="og:description"
+        content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    {% endcase %}
+    <meta property="og:image" content="{{ site.url }}{{ site.sidebar-avatar }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:site_name" content="{{ site.SEOTitle }}">
 
+    <title>{% if page.title %}{{ page.title }} - {{ site.SEOTitle }}{% else %}{{ site.SEOTitle }}{% endif %}</title>
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="{{ site.baseurl }}/pwa/manifest.json">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.ico">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="{{ " /css/bootstrap.min.css" | prepend: site.baseurl }}">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ " /css/hux-blog.min.css" | prepend: site.baseurl }}">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+        type="text/css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+
+    <!-- Google AdSense -->
+    <script data-ad-client="ca-pub-6487568398225121" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
