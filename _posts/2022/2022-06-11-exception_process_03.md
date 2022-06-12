@@ -58,7 +58,7 @@ try-catch로 이어지는 구문이 코드가 우아해보이기 보이지 않�
     ```csharp
     public enum ResultCode
     {
-    	Success,
+      Success,
       Fail,
       // ... 기타 결과 코드
     }
@@ -86,7 +86,7 @@ try-catch로 이어지는 구문이 코드가 우아해보이기 보이지 않�
         ```csharp
         public enum ResultCode
         {
-        	Success,
+          Success,
           Fail,
           // ... 기타 결과 코드
         }
