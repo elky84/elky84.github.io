@@ -2,7 +2,7 @@
 layout: post
 title: 조직 문화가 중요한 이유
 date: 2019-09-20 00:00:00
-categories: [조직문화,조직]
+categories: [조직]
 tags: [조직문화,조직]
 comments: true
 ---

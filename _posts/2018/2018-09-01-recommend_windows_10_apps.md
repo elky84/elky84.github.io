@@ -2,7 +2,7 @@
 layout: post
 title: 윈도우 10 앱 추천
 date: 2018-09-01 00:00:00
-categories: [도구, 윈도우10, 추천]
+categories: [추천]
 tags: [도구, 윈도우10, 추천]
 comments: true
 ---

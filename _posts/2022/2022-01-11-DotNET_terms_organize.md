@@ -2,7 +2,7 @@
 layout: post
 title: .NET 용어 정리
 date: 2022-01-11 00:00:00
-categories: [.NET, dotnet, C#]
+categories: [C#]
 tags: [.NET, dotnet, C#]
 comments: true
 ---

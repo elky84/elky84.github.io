@@ -2,7 +2,7 @@
 layout: post
 title: 크롬 확장 프로그램 추천
 date: 2018-09-01 00:00:00
-categories: [크롬, 추천]
+categories: [추천]
 tags: [크롬, 추천]
 comments: true
 ---

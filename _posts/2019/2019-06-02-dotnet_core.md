@@ -2,7 +2,7 @@
 layout: post
 title: .NET CORE
 date: 2019-06-02 00:00:00
-categories: [C#,.NET CORE]
+categories: [C#]
 tags: [C#,.NET CORE]
 comments: true
 ---

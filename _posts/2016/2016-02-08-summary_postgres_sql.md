@@ -3,7 +3,7 @@ layout: post
 title: PostgresSQL 요약 정리
 date: 2016-02-08 11:14:54
 categories: [PostgresSQL]
-tags: [PostgresSQL]
+tags: [PostgresSQL, RDB, Database, 데이터베이스, pgsql]
 comments: true
 ---
 ### 한눈에 살펴보는 PostgreSQL

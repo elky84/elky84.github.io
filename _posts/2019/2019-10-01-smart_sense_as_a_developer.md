@@ -2,7 +2,7 @@
 layout: post
 title: 개발자로서의 똑똑하다는 의미
 date: 2019-10-01 00:00:00
-categories: [개발자, 성장]
+categories: [성장]
 tags: [개발자, 성장]
 comments: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: 안드로이드 앱 추천
 date: 2018-09-01 00:00:00
-categories: [안드로이드, 추천]
+categories: [추천]
 tags: [안드로이드, 추천]
 comments: true
 ---

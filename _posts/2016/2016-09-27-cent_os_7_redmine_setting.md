@@ -2,7 +2,7 @@
 layout: post
 title: CentOS 7 Redmine 세팅
 date: 2016-09-27 11:14:54
-categories: [Ruby, Rails, Redmine, CentOS]
+categories: [개발 도구]
 tags: [Ruby, Rails, Redmine, CentOS]
 comments: true
 ---

@@ -2,8 +2,8 @@
 layout: post
 title: 루비를 시작했습니다.
 date: 2008-08-04 11:14:54
-categories: [Ruby, 언어]
-tags: [Ruby, 언어]
+categories: [Ruby]
+tags: [Ruby, 루비]
 comments: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: C프로그래머가 알아야 할 것들 - 07 어셈블리
-date: 2008-01-10 00:00:07
+date: 2002-01-10 00:00:07
 categories: [C프로그래머가 알아야 할 것들]
 tags: [C프로그래머가 알아야 할 것들]
 comments: true

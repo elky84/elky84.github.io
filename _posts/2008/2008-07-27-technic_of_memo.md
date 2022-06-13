@@ -1,9 +1,9 @@
 ---
 layout: post
-title: (서평) 메모의 기술 - 더 많이 기억하기 위해 기록하라. 그리고 잊어라.
+title: 메모의 기술 - 더 많이 기억하기 위해 기록하라. 그리고 잊어라.
 date: 2008-07-27 11:14:54
-categories: [서평, 기록]
-tags: [서평, 기록]
+categories: [서평]
+tags: [기록]
 comments: true
 ---
 

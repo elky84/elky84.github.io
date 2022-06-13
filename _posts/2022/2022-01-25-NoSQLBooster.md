@@ -2,7 +2,7 @@
 layout: post
 title: NoSQLBooster for MongoDB
 date: 2022-01-25 00:00:00
-categories: [MongoDB, NoSQL, Tool, Recommend]
+categories: [개발 도구]
 tags: [MongoDB, NoSQL, Tool, Recommend]
 comments: true
 ---

@@ -2,8 +2,8 @@
 layout: post
 title: 명령행 프로그램 이야기
 date: 2013-05-28 00:23:54
-categories: [CommandLine Interface, CLI]
-tags: [CommandLine Interface, CLI]
+categories: [주절주절]
+tags: [CommandLine Interface, CLI, 명령행]
 comments: true
 ---
 

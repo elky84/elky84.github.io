@@ -2,8 +2,8 @@
 layout: post
 title: ElasticSearch
 date: 2017-03-21 11:14:54
-categories: 엘라스틱서치 ElasticSearch
-Tags: 엘라스틱서치 ElasticSearch
+categories: [ELK]
+Tags: [엘라스틱서치, ElasticSearch]
 comments: true
 ---
 

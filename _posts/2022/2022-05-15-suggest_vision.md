@@ -2,8 +2,8 @@
 layout: post
 title: 리더의 덕목 - 02. 비전 제시
 date: 2022-05-15 00:00:00
-categories: [Leadership]
-tags: [Leadership]
+categories: [리더쉽]
+tags: [Leadership, 리더쉽]
 comments: true
 ---
 

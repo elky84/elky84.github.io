@@ -2,7 +2,7 @@
 layout: post
 title: 샤딩과 레플리카
 date: 2018-08-19 00:00:00
-categories: [샤딩,레플리카,데이터베이스]
+categories: [데이터베이스]
 tags: [샤딩,레플리카,데이터베이스]
 comments: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: 합리적 반박
 date: 2018-03-23 01:00:00
-categories: [주절주절, 반박, 반론, 토론, 합리적 반박]
+categories: [주절주절]
 tags: [주절주절, 반박, 반론, 토론, 합리적 반박]
 comments: true
 ---

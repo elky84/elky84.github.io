@@ -1,9 +1,9 @@
 ---
 layout: post
 title: C프로그래머가 알아야 할 것들 - 02 비트의 법칙
-date: 2008-01-10 00:00:02
+date: 2002-01-10 00:00:02
 categories: [C프로그래머가 알아야 할 것들]
-tags: [C프로그래머가 알아야 할 것들]
+tags: [C언어, 컴퓨터 과학 기초]
 comments: true
 ---
 

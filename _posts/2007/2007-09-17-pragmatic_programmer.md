@@ -1,9 +1,9 @@
 ---
 layout: post
-title: (서평) 실용주의 프로그래머 - 실용주의 마인드
+title: 실용주의 프로그래머 - 실용주의 마인드
 date: 2007-09-17 11:14:54
-categories: [서평, 실용주의 프로그래머]
-tags: [서평, 실용주의 프로그래머]
+categories: [서평]
+tags: [실용주의 프로그래머]
 comments: true
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Java 적응기 02 - Netty
 date: 2017-07-28 23:20:00
-categories: [Java, Netty]
+categories: [Java]
 tags: [Java, Netty]
 comments: true
 ---

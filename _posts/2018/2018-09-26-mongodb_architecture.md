@@ -2,7 +2,7 @@
 layout: post
 title: Mongodb 서버 구축 및 아키텍쳐
 date: 2018-09-26 00:00:00
-categories: [Mongodb, NoSQL]
+categories: [NoSQL]
 tags: [Mongodb, NoSQL]
 comments: true
 ---

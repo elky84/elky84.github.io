@@ -2,7 +2,7 @@
 layout: post
 title: 똑똑한 동료, 일 잘하는 동료
 date: 2022-03-31 00:00:00
-categories: [동료, 채용, 조직]
+categories: [조직]
 tags: [동료, 채용, 조직]
 comments: true
 ---

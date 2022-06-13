@@ -1,9 +1,9 @@
 ---
 layout: post
-title: (서평) 능률적인 프로그래머
+title: 능률적인 프로그래머
 date: 2017-08-09 00:15:00
-categories: [서평, 자기관리]
-tags: [서평, 자기관리]
+categories: [서평]
+tags: [자기관리]
 comments: true
 ---
 

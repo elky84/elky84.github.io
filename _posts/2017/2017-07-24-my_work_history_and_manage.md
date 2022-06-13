@@ -2,7 +2,7 @@
 layout: post
 title: 나의 업무 기록과 관리
 date: 2017-07-24 22:00:00
-categories: [방법론, 업무 관리, To do list]
+categories: [방법론]
 tags: [방법론, 업무 관리, To do list]
 comments: true
 ---

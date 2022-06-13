@@ -2,7 +2,7 @@
 layout: post
 title: 개발자의 성장
 date: 2019-12-12 00:00:00
-categories: [개발자,성장]
+categories: [성장]
 tags: [개발자,성장]
 comments: true
 ---

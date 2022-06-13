@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (서평) 레거시 코드 활용 전략
+title: 레거시 코드 활용 전략
 date: 2015-01-28 11:14:54
 categories: [서평]
 tags: [서평]

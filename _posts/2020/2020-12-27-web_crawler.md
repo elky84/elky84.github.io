@@ -2,7 +2,7 @@
 layout: post
 title: C# .NET CORE 기반 Web-Crawler
 date: 2020-12-27 00:00:00
-categories: [Crawler, Web-Crawler]
+categories: [오픈 소스]
 tags: [Crawler, Web-Crawler]
 comments: true
 ---

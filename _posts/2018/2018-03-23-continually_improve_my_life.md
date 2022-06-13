@@ -2,7 +2,7 @@
 layout: post
 title: 삶을 지속적으로 개선하기
 date: 2018-03-23 01:00:00
-categories: [주절주절, 개선, 삶을 지속적으로 개선하기]
+categories: [주절주절]
 tags: [주절주절, 개선, 삶을 지속적으로 개선하기]
 comments: true
 ---

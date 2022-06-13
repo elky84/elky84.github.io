@@ -2,7 +2,7 @@
 layout: post
 title: FlatBuffers Guide
 date: 2016-07-22 11:14:54
-categories: [Protocol, Flatbuffers]
+categories: [Protocol]
 tags: [Protocol, Flatbuffers]
 comments: true
 ---

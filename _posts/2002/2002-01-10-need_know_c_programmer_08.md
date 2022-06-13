@@ -1,7 +1,7 @@
 ---
 layout: post
 title: C프로그래머가 알아야 할 것들 - 08 프로세스와 스레드
-date: 2008-01-10 00:00:08
+date: 2002-01-10 00:00:08
 categories: [C프로그래머가 알아야 할 것들]
 tags: [C프로그래머가 알아야 할 것들]
 comments: true

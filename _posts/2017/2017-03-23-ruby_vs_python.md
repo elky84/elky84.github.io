@@ -2,8 +2,8 @@
 layout: post
 title: Ruby vs Python
 date: 2017-03-23 11:14:54
-categories: Ruby Python
-tags: Ruby Python
+categories: [프로그래밍 언어]
+tags: [Ruby, Python]
 comments: true
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: (서평) 리딩 - 알렉스 퍼거슨
+title: 리딩 - 알렉스 퍼거슨
 date: 2017-08-07 22:00:00
-categories: [서평, 리더쉽, 알렉스 퍼거슨]
-tags: [서평, 리더쉽, 알렉스 퍼거슨]
+categories: [서평]
+tags: [리더쉽, 알렉스 퍼거슨]
 comments: true
 ---
 

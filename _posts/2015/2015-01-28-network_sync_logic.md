@@ -2,7 +2,7 @@
 layout: post
 title: 로직의 네트워크 동기화 처리
 date: 2015-01-28 11:14:54
-categories: [동기화, 서버]
+categories: [서버]
 tags: [동기화, 서버]
 comments: true
 ---

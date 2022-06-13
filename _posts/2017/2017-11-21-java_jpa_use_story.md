@@ -2,7 +2,7 @@
 layout: post
 title: Java 적응기 05 - JPA
 date: 2017-11-21 21:20:00
-categories: [Java, JPA]
+categories: [Java]
 tags: [Java, JPA]
 comments: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: 트랜잭션 이야기 02 - 만능이 아닌 트랜잭션
 date: 2022-01-23 00:00:00
-categories: [DB,데이터베이스,Transaction,트랜잭션]
+categories: [데이터베이스]
 tags: [DB,데이터베이스,Transaction,트랜잭션]
 comments: true
 ---

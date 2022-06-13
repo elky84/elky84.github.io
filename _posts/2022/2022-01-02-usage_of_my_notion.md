@@ -2,7 +2,7 @@
 layout: post
 title: 나의 Notion 활용법
 date: 2022-01-02 00:00:00
-categories: [Notion, Record, Memo]
+categories: [기록]
 tags: [Notion, Record, Memo]
 comments: true
 ---

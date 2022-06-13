@@ -2,7 +2,7 @@
 layout: post
 title: 성장을 위한 환경 (Feat. Dev Toy)
 date: 2022-05-01 00:00:00
-categories: [성장, 환경, Dev Toy]
+categories: [성장, Dev Toy]
 tags: [성장, 환경, Dev Toy]
 comments: true
 ---

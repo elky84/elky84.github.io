@@ -2,7 +2,7 @@
 layout: post
 title: JavaScript 적응기 01 - Vue.js
 date: 2018-09-29 00:00:00
-categories: [JavaScript, Vue.js, Frontend]
+categories: [JavaScript]
 tags: [JavaScript, Vue.js, Frontend]
 comments: true
 ---

@@ -2,8 +2,8 @@
 layout: post
 title: 서버 개발 및 운영에 필요한 작업
 date: 2016-07-12 00:23:54
-categories: [서버, 운용]
-tags: [서버, 운용]
+categories: [서버]
+tags: [서버, 운용, 운영]
 comments: true
 ---
 

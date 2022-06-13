@@ -2,7 +2,7 @@
 layout: post
 title: Docker로 소켓 서버를 운용하기 어려운 이유
 date: 2020-07-05 00:00:00
-categories: [Docker, 소켓 서버]
+categories: [Docker]
 tags: [Docker, 소켓 서버]
 comments: true
 ---

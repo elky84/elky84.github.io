@@ -2,7 +2,7 @@
 layout: post
 title: Fork - Git Client 추천
 date: 2021-06-10 00:00:00
-categories: [Git, Git Client]
+categories: [개발 도구]
 tags: [Git, Git Client]
 comments: true
 ---

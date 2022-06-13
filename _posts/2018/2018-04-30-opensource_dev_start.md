@@ -2,8 +2,8 @@
 layout: post
 title: 오픈 소스 기여하기
 date: 2018-04-30 00:00:00
-categories: [주절 주절, 오픈 소스, Github]
-tags: [주절 주절, 오픈 소스, Github]
+categories: [주절주절]
+tags: [주절주절, 오픈 소스, Github]
 comments: true
 ---
 

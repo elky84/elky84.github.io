@@ -2,7 +2,7 @@
 layout: post
 title: 웹과 게임에서 다르게 사용되는 캐시
 date: 2019-10-10 00:00:00
-categories: [캐시, 캐싱, Cache, Caching]
+categories: [캐시]
 tags: [캐시, 캐싱, Cache, Caching]
 comments: true
 ---

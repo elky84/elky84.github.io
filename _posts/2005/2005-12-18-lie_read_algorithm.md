@@ -1,9 +1,9 @@
 ---
 layout: post
-title: (서평) 누워서 읽는 알고리즘
+title: 누워서 읽는 알고리즘
 date: 2005-12-18 11:14:54
-categories: [서평, 임백준, 알고리즘]
-tags: [서평, 임백준, 알고리즘]
+categories: [서평]
+tags: [임백준, 알고리즘]
 comments: true
 ---
 프로그래밍에 꽃이라 할수 있는 알고리즘. 

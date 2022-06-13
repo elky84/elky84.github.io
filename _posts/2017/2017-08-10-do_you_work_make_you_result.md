@@ -1,9 +1,9 @@
 ---
 layout: post
-title: (서평) 일을 했으면 성과를 내라
+title: 일을 했으면 성과를 내라
 date: 2017-08-11 00:30:00
-categories: [서평, 자기관리]
-tags: [서평, 자기관리]
+categories: [서평]
+tags: [자기관리]
 comments: true
 ---
 

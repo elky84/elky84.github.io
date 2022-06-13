@@ -1,9 +1,9 @@
 ---
 layout: post
-title: (서평) 임백준의 대살개문
+title: 임백준의 대살개문
 date: 2018-01-17 00:30:00
-categories: [서평, 임백준]
-tags: [서평, 임백준]
+categories: [서평]
+tags: [임백준]
 comments: true
 ---
 

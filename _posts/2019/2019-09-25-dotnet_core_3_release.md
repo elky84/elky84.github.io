@@ -2,7 +2,7 @@
 layout: post
 title: .NET CORE 3.0 릴리즈
 date: 2019-09-25 00:00:00
-categories: [.NET CORE 3, .NET CORE, C#]
+categories: [C#]
 tags: [.NET CORE 3, .NET CORE, C#]
 comments: true
 ---

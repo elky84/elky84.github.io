@@ -2,7 +2,7 @@
 layout: post
 title: C++ 11 주요 Feature 정리
 date: 2013-04-05 11:14:54
-categories: [C++, C++11]
+categories: [C++]
 tags: [C++, C++11]
 comments: true
 ---

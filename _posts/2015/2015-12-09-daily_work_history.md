@@ -2,7 +2,7 @@
 layout: post
 title: 업무 일지 쓰는 법
 date: 2015-12-09 00:23:54
-categories: [주절주절, 문서화, 기록]
+categories: [문서화]
 tags: [주절주절, 문서화, 기록]
 comments: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Java 적응기 03 - Akka
 date: 2017-07-29 21:00:00
-categories: [Java, Akka, Actor]
+categories: [Java]
 tags: [Java, Akka, Actor]
 comments: true
 ---

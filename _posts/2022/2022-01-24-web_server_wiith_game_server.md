@@ -2,7 +2,7 @@
 layout: post
 title: 게임 서버를 웹 서버와 같이 쓰기
 date: 2022-01-24 00:00:00
-categories: [게임서버, 웹서버]
+categories: [서버]
 tags: [게임서버, 웹서버]
 comments: true
 ---

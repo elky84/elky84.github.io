@@ -2,7 +2,7 @@
 layout: post
 title: Ubuntu vs CentOS
 date: 2018-10-01 00:00:00
-categories: [리눅스, Ubuntu, CentOS]
+categories: [운영체제]
 tags: [리눅스, Ubuntu, CentOS]
 comments: true
 ---

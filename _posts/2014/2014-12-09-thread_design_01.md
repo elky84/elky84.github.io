@@ -2,7 +2,7 @@
 layout: post
 title: Thread design 01 - 우리는 이미 알고 있었다
 date: 2014-12-29 11:14:54
-categories: [Async, 병렬프로그래밍, 멀티스레드]
+categories: [멀티스레드]
 tags: [Async, 병렬프로그래밍, 멀티스레드]
 comments: true
 ---

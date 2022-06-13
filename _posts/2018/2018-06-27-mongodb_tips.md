@@ -2,7 +2,7 @@
 layout: post
 title: Mongodb 팁
 date: 2018-06-27 00:00:00
-categories: [Mongodb, NoSQL, 빅데이터]
+categories: [NoSQL]
 tags: [Mongodb, NoSQL, 빅데이터]
 comments: true
 ---

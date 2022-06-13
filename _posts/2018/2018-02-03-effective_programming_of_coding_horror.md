@@ -1,9 +1,9 @@
 ---
 layout: post
-title: (서평) 코딩 호러의 이펙티브 프로그래밍
+title: 코딩 호러의 이펙티브 프로그래밍
 date: 2018-02-03 00:30:00
 categories: [서평]
-tags: [서평]
+tags: [방법론, 개발기]
 comments: true
 ---
 

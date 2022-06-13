@@ -1,9 +1,9 @@
 ---
 layout: post
-title: (서평) 해커와 화가
+title: 해커와 화가
 date: 2006-04-2 11:14:54
-categories: [서평, 임백준]
-tags: [서평, 임백준]
+categories: [서평]
+tags: [임백준, 폴 그레이엄]
 comments: true
 ---
 해커이면서 동시에 미술적인 분야에 눈을떠 색다른 시각의 의견을 자주 내놓는다는 폴 그레이엄!

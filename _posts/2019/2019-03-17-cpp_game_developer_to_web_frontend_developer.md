@@ -2,7 +2,7 @@
 layout: post
 title: C++ 게임 서버 개발자의 웹 프론트엔드 적응기
 date: 2019-03-17 00:00:00
-categories: [게임개발,웹개발]
+categories: [주절주절]
 tags: [게임개발,웹개발]
 comments: true
 ---

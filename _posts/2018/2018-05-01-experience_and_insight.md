@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 경험과 인사이트
-categories: [주절 주절, 경험, 인사이트]
-tags: [주절 주절, 경험, 인사이트]
+categories: [주절주절]
+tags: [주절주절, 경험, 인사이트]
 comments: true
 ---
 

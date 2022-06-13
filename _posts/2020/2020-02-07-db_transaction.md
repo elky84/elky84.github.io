@@ -2,7 +2,7 @@
 layout: post
 title: 트랜잭션 이야기 - 개발자 마다 다른 DB를 대하는 자세
 date: 2020-02-07 00:00:00
-categories: [DB,데이터베이스,Transaction,트랜잭션]
+categories: [데이터베이스]
 tags: [DB,데이터베이스,Transaction,트랜잭션]
 comments: true
 ---

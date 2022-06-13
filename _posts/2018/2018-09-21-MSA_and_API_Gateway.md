@@ -2,7 +2,7 @@
 layout: post
 title: MSA 그리고 API Gateway
 date: 2018-09-21 00:00:00
-categories: [MSA, API Gateawy]
+categories: [MSA]
 tags: [MSA, API Gateawy]
 comments: true
 ---

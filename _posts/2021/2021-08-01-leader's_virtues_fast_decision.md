@@ -2,8 +2,8 @@
 layout: post
 title: 리더의 덕목 - 01. 빠른 의사 결정
 date: 2021-08-01 00:00:00
-categories: [Leadership]
-tags: [Leadership]
+categories: [리더쉽]
+tags: [Leadership, 리더쉽]
 comments: true
 ---
 

@@ -2,8 +2,8 @@
 layout: post
 title: 스크립트 언어 이야기
 date: 2017-03-22 13:59:54
-categories: 언어
-tags: 언어
+categories: [프로그래밍 일반]
+tags: [스크립트 언어]
 comments: true
 ---
 

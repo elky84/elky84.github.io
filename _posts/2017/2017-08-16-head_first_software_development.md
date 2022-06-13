@@ -1,9 +1,9 @@
 ---
 layout: post
-title: (서평) Head First Software Development
+title: Head First Software Development
 date: 2017-08-16 00:30:00
-categories: [서평, 개발방법론, 애자일]
-tags: [서평, 개발방법론, 애자일]
+categories: [서평]
+tags: [개발방법론, 애자일]
 comments: true
 ---
 

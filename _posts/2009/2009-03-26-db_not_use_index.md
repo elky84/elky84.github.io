@@ -2,8 +2,8 @@
 layout: post
 title: 인덱스가 있지만 인덱스를 안 타는 경우
 date: 2009-03-26 11:14:54
-categories: [RDB, Database]
-tags: [RDB, Database]
+categories: [데이터베이스]
+tags: [RDB, Database, 데이터베이스, MS-SQL, SQL Server]
 comments: true
 ---
 

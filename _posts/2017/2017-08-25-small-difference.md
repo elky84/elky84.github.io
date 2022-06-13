@@ -1,9 +1,9 @@
 ---
 layout: post
-title: (서평) 사소한 차이
+title: 사소한 차이
 date: 2017-08-25 00:30:00
-categories: [서평, 자기 개발]
-tags: [서평, 자기 개발]
+categories: [서평]
+tags: [자기 개발]
 comments: true
 ---
 

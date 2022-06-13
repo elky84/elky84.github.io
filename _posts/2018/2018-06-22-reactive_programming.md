@@ -2,7 +2,7 @@
 layout: post
 title: 리액티브 프로그래밍
 date: 2018-06-22 00:00:00
-categories: [Reactive Programming, 리액티브 프로그래밍]
+categories: [병렬 프로그래밍]
 tags: [Reactive Programming, 리액티브 프로그래밍]
 comments: true
 ---

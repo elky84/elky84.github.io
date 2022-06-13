@@ -2,7 +2,7 @@
 layout: post
 title: C++ 멀티 스레드 프로그래밍을 몇년간 해온 후 느낀 고찰
 date: 2013-04-09 00:23:54
-categories: [Async, 멀티스레드]
+categories: [멀티스레드]
 tags: [Async, 멀티스레드]
 comments: true
 ---

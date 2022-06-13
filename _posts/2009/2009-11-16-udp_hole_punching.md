@@ -2,7 +2,7 @@
 layout: post
 title: UDP Hole Punching
 date: 2009-11-16 11:14:54
-categories: [Network]
+categories: [네트워크]
 tags: [Network, UDP, HolePunching, STUN]
 comments: true
 ---

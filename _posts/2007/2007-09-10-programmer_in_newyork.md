@@ -1,9 +1,9 @@
 ---
 layout: post
-title: (서평) 뉴욕의 프로그래머 - 실수를 두려워하지 말지어다
+title: 뉴욕의 프로그래머 - 실수를 두려워하지 말지어다
 date: 2007-09-10 11:14:54
-categories: [서평, 임백준]
-tags: [서평, 임백준]
+categories: [서평]
+tags: [임백준]
 comments: true
 ---
 

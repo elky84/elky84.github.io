@@ -2,7 +2,7 @@
 layout: post
 title: 멀티스레드 정책
 date: 2010-03-16 11:14:54
-categories: [병렬 프로그래밍, 멀티스레드]
+categories: [멀티스레드]
 tags: [병렬프로그래밍, 멀티스레드]
 comments: true
 ---

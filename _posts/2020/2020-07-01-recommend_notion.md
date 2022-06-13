@@ -2,7 +2,7 @@
 layout: post
 title: Notion (노션) 추천
 date: 2020-07-01 00:00:00
-categories: [Notion, 기록, 문서화]
+categories: [기록]
 tags: [Notion, 기록, 문서화]
 comments: true
 ---

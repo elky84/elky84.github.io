@@ -2,8 +2,8 @@
 layout: post
 title: MS-SQL 백업
 date: 2009-03-26 11:14:54
-categories: [MS-SQL, SQL Server]
-tags: [MS-SQL, SQL Server]
+categories: [데이터베이스]
+tags: [RDB, Database, 데이터베이스, MS-SQL, SQL Server]
 comments: true
 ---
 

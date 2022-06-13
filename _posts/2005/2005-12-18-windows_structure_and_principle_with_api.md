@@ -1,9 +1,9 @@
 ---
 layout: post
-title: (서평) API로 배우는 윈도우즈 구조와 원리
+title: API로 배우는 윈도우즈 구조와 원리
 date: 2005-12-18 11:14:54
 categories: [서평]
-tags: [서평]
+tags: [OS, 운영체제, 윈도우즈]
 comments: true
 ---
 내가 처음본 API서적은 국내에서 가장 유명(아닐지도 모르지만)한 김상형씨의 API 정복이었다. 물론 나역시도 만족했고, 현재도 WIN32 API 레퍼런스로 사용하고 있다. 

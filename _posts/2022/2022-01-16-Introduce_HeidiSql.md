@@ -2,7 +2,7 @@
 layout: post
 title: HeidiSQL 소개
 date: 2022-01-16 00:00:00
-categories: [DBMS,RDB,Tool,Recoomend]
+categories: [개발 도구]
 tags: [DBMS,RDB,Tool,Recoomend]
 comments: true
 ---

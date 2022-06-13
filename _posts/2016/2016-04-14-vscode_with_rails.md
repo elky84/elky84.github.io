@@ -2,7 +2,7 @@
 layout: post
 title: VSCode with Rails
 date: 2016-04-14 11:14:54
-categories: [Ruby, Rails, VSCode]
+categories: [Ruby, Rails]
 tags: [Ruby, Rails, VSCode]
 comments: true
 ---

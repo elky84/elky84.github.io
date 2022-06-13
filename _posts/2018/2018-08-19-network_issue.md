@@ -2,7 +2,7 @@
 layout: post
 title: L4 스위치 도입시 생겼던 이야기
 date: 2018-08-19 00:00:00
-categories: [네트워크,L4스위치]
+categories: [네트워크]
 tags: [네트워크,L4스위치]
 comments: true
 ---

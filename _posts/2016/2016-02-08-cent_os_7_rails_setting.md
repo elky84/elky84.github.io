@@ -2,7 +2,7 @@
 layout: post
 title: CentOS 7 Rails 세팅
 date: 2016-02-08 11:14:54
-categories: [Ruby, Rails, CentOS]
+categories: [Ruby, Rails]
 tags: [Ruby, Rails, CentOS]
 comments: true
 ---

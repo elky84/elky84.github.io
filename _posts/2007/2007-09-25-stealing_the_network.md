@@ -1,9 +1,9 @@
 ---
 layout: post
-title: (서평) 네트워크를 훔쳐라 - 그들의 심리를 파악하자
+title: 네트워크를 훔쳐라 - 그들의 심리를 파악하자
 date: 2007-09-25 11:14:54
-categories: [서평, 해킹]
-tags: [서평, 해킹]
+categories: [서평]
+tags: [해킹]
 comments: true
 ---
 

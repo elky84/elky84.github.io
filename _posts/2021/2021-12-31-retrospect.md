@@ -2,8 +2,8 @@
 layout: post
 title: 2021 한해 회고
 date: 2021-12-31 00:00:00
-categories: [Retrospect]
-tags: [Retrospect]
+categories: [회고]
+tags: [회고]
 comments: true
 ---
 

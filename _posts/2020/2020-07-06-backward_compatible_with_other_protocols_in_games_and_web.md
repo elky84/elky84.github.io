@@ -2,7 +2,7 @@
 layout: post
 title: 게임과 웹에서 다른 프로토콜 하위 호환
 date: 2020-07-06 00:00:00
-categories: [하위호환, 게임 서버, 웹 서버]
+categories: [서버]
 tags: [하위호환, 게임 서버, 웹 서버]
 comments: true
 ---

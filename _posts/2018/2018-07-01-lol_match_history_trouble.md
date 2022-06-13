@@ -2,7 +2,7 @@
 layout: post
 title: LOL 게임 기록 (+임무) 장애에 대한 이야기
 date: 2018-07-01 00:00:00
-categories: [LOL, 장애, 빅데이터]
+categories: [장애]
 tags: [LOL, 장애, 빅데이터]
 comments: true
 ---

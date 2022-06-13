@@ -2,7 +2,7 @@
 layout: post
 title: Java 적응기 06 - Netflix Zuul
 date: 2018-09-23 00:00:00
-categories: [Java, Spring, Spring Boot, Zuul, MSA, API Gateway]
+categories: [Java]
 tags: [Java, Spring, Spring Boot, Zuul, MSA, API Gateway]
 comments: true
 ---

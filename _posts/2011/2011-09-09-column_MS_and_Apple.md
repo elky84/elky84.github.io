@@ -2,7 +2,7 @@
 layout: post
 title: 애플 신드롬과 MS에 대한 사설
 date: 2011-09-09 14:54:54
-categories: [주절주절, 애플, MS]
+categories: [주절주절]
 tags: [주절주절, 애플, MS]
 comments: true
 ---

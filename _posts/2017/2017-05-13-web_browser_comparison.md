@@ -2,7 +2,7 @@
 layout: post
 title: 웹 브라우저 사용기
 date: 2017-05-13 00:00:00
-categories: [Web Browser, 웹 브라우저]
+categories: [사용기]
 tags: [Web Browser, 웹 브라우저]
 comments: true
 ---

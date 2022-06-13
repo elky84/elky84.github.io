@@ -2,7 +2,7 @@
 layout: post
 title: MobaXterm 소개
 date: 2022-01-17 00:00:00
-categories: [RDP, SSH, VNC, Tool,Recoomend]
+categories: [개발 도구]
 tags: [RDP, SSH, VNC,Tool,Recoomend]
 comments: true
 ---

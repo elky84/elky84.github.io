@@ -2,7 +2,7 @@
 layout: post
 title: Django 사용법
 date: 2016-09-27 11:14:54
-categories: [Python, Django]
+categories: [Django]
 tags: [Python, Django]
 comments: true
 ---

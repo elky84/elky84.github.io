@@ -2,7 +2,7 @@
 layout: post
 title: Django to ASP.NET CORE
 date: 2017-03-01 11:14:54
-categories: [Django, ASP.NET CORE]
+categories: [웹 서버]
 tags: [Django, ASP.NET CORE]
 comments: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Kubernetis 이야기
 date: 2020-01-08 00:00:00
-categories: [Docker, Kubernetis, k8s]
+categories: [Kubernetis]
 tags: [Docker, Kubernetis, k8s]
 comments: true
 ---

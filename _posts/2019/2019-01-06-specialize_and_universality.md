@@ -2,7 +2,7 @@
 layout: post
 title: 특수화와 범용성
 date: 2019-01-06 00:00:00
-categories: [특수화, 범용성]
+categories: [주절주절]
 tags: [특수화, 범용성]
 comments: true
 ---

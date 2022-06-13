@@ -2,7 +2,7 @@
 layout: post
 title: 게임 개발로 복귀 하는 이야기
 date: 2019-06-03 00:00:00
-categories: [게임개발,웹개발]
+categories: [주절주절]
 tags: [게임개발,웹개발]
 comments: true
 ---

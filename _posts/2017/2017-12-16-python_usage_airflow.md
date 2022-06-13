@@ -2,7 +2,7 @@
 layout: post
 title: Python 사용기 - Airflow
 date: 2017-12-16 13:56:00
-categories: [Python, Airflow]
+categories: [Python]
 tags: [Python, Airflow]
 comments: true
 ---
