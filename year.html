@@ -31,9 +31,9 @@ https://github.com/kitian616/jekyll-TeXt-theme
           {%- for _currentyear in year_list -%}
             {% if _currentyear != year %}
               <a data-sort="{{ site.posts.size | minus: _currentyear | prepend: '0000' | slice: -4, 4 }}"
-                data-encode="{{ _currentyear | strip | url_encode }}"
+                data-encode="{{ _currentyear }}"
                 class="tag-button"
-                title="{{ _currentyear }}" rel="{{ _currentyear }}">
+                title="{{ _currentyear }}">
               {{ _currentyear }}
               </a>__SEPERATOR__
               {% assign year = _currentyear %} 
@@ -62,7 +62,10 @@ https://github.com/kitian616/jekyll-TeXt-theme
             {%- assign _year = _currentyear -%}
         {%- endif -%}
 
-        <div class="post-preview item" data-tags="{{ _currentyear | strip | url_encode }}">
+        {%- assign _year = '' -%}
+        {%- assign _year = _year | append: _currentyear -%}
+
+        <div class="post-preview item" data-tags="{{ _year }}">
             <a href="{{ _article.url | prepend: site.baseurl }}">
                 <h2 class="post-title">
                     {{ _article.title }}
