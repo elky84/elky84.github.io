@@ -7,7 +7,7 @@ tags: [Ruby, 언어]
 comments: true
 ---
 
-![Ruby](/images/2008/ruby.jpg)
+![Ruby](/img/2008/ruby.jpg)
 
 Ruby는 일본에서 개발된 프로그래밍 언어로, Perl의 자유로운 표현력과 모호함에서, 모호함을 제거하고 객체 지향적인 개념을 도입한 언어입니다.
 

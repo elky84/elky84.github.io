@@ -11,7 +11,7 @@ permalink: /projects/
 # All my projects
 
 ## MixMaster Online
-![Logo](/images/logos/xaimedia.png)
+![Logo](/img/logos/xaimedia.png)
 
 * Company: Xaimedia
 * Year: 2005-2006
@@ -32,7 +32,7 @@ permalink: /projects/
   
 ## Pokipoki
 
-![Logo](/images/logos/neoact.png)
+![Logo](/img/logos/neoact.png)
 
 * Company: Neoact
 * Year: 2006-2009
@@ -61,7 +61,7 @@ permalink: /projects/
   
 ## Chaos Online
 
-![Logo](/images/logos/neoact.png)
+![Logo](/img/logos/neoact.png)
 
 * Company: Neoact
 * Year: 2008-2009
@@ -84,7 +84,7 @@ permalink: /projects/
   
 ## Pangya Online
 
-![Logo](/images/logos/ntreev.png)
+![Logo](/img/logos/ntreev.png)
 
 * Company: Ntreev Soft
 * Year: 2009-2012
@@ -109,7 +109,7 @@ permalink: /projects/
   
 ## Gunz 2 the second duel
 
-![Logo](/images/logos/maiet.png)
+![Logo](/img/logos/maiet.png)
 
 * Company: Maiet Entertainment
 * Year: 2012-2014
@@ -143,7 +143,7 @@ permalink: /projects/
   
 ## 밤을 걷는 선비 (Scholar Who Walks in The Night)
 
-![Logo](/images/logos/lv999.png)
+![Logo](/img/logos/lv999.png)
 
 * Company: LV999
 * Year: 2015~2016
@@ -168,7 +168,7 @@ permalink: /projects/
   
 ## MS Project
 
-![Logo](/images/logos/nhnent.png)
+![Logo](/img/logos/nhnent.png)
 
 * Company: NHN Studio 629
 * Year: 2016~2017
@@ -190,7 +190,7 @@ permalink: /projects/
 
 ## G Project
 
-![Logo](/images/logos/nhnent.png)
+![Logo](/img/logos/nhnent.png)
 
 * Company: NHN Entertainment
 * Year: 2017
@@ -210,7 +210,7 @@ permalink: /projects/
 
 ## NOS
 
-![Logo](/images/logos/netmarble.png)
+![Logo](/img/logos/netmarble.png)
 
 * Company: Netmarble
 * Year: 2017~2018
@@ -231,7 +231,7 @@ permalink: /projects/
 
 ## Toast Cloud
 
-![Logo](/images/logos/nhnent.png)
+![Logo](/img/logos/nhnent.png)
 
 * Company: NHN
 * Year: 2018~2019
@@ -249,7 +249,7 @@ permalink: /projects/
 
 ## Project M
 
-![Logo](/images/logos/joycity.png)
+![Logo](/img/logos/joycity.png)
 
 * Company: Mojito Games ( JoyCity Subsidiary)
 * Year: 2019~2020
@@ -265,7 +265,7 @@ permalink: /projects/
 
 ## Tera
 
-![Logo](/images/logos/krafton.png)
+![Logo](/img/logos/krafton.png)
 
 * Company: KRAFTON
 * Year: 2020~2022
@@ -282,7 +282,7 @@ permalink: /projects/
 
 ## Special Project 2
 
-![Logo](/images/logos/krafton.png)
+![Logo](/img/logos/krafton.png)
 * Company: KRAFTON
 * Year: 2022~
 * Role

@@ -1,4 +1,4 @@
-Hux Blog User Manual
+Blog User Manual
 ====================
 
 * Basics

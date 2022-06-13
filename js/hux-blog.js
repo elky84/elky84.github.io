@@ -17,7 +17,7 @@
 // });
 
 
-// make all images responsive
+// make all img responsive
 /* 
  * Unuse by Hux
  * actually only Portfolio-Pages can't use it and only post-img need it.

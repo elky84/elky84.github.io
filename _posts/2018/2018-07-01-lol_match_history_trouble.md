@@ -13,7 +13,7 @@ comments: true
 
 처음에는 op.gg와 같은 통계 사이트에 제공되는 API 서버 오류인걸로 추정했으나, 토요일경에는 하루 이전 데이터만 보였고, 현재는 모든 경기 기록 데이터를 조회할 수 없다.
 
-![오류](/images/2018/lol_match_history_error.png)
+![오류](/img/2018/lol_match_history_error.png)
 
 이에 대해 라이엇 게임즈 측에서는 공지를 올렸는데 내용은 다음과 같다.
 

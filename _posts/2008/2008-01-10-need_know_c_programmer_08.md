@@ -60,8 +60,8 @@ comments: true
 
 실행 결과는 어떨까요?
 
-![image_01](/images/2008/multithread_01.png)
-![image_02](/images/2008/multithread_02.png)
+![image_01](/img/2008/multithread_01.png)
+![image_02](/img/2008/multithread_02.png)
 
 
 어떤 스레드에서 g_nTest값을 썼던간에, g_nTest에 해당 하는 값은 1~30까지 순차적으로 찍혀야 된다고 생각하시죠? 하지만 실제 수행 결과는 차이가 있습니다.
@@ -128,8 +128,8 @@ wmain() (= main(). 이하 main())의 while문이 실행 되던중 g_nTest 변수
 
 하지만, IdleThread가 먼저 종료되고 난 후, 메인 스레드로 복귀 했을때, 수행중이었던 첫번째 printf은 무난하게 넘어가지만 (스택에 이미 값을 넘긴 이후기에), 두번째 printf에서, (*g_pTest)에 ++를 하려다 NULL포인터 접근 오류가 발생했습니다.
 
-![image_03](/images/2008/multithread_03.png)
-![image_04](/images/2008/multithread_04.png)
+![image_03](/img/2008/multithread_03.png)
+![image_04](/img/2008/multithread_04.png)
 
 이상하죠? 메모리 공유나 교차 문제가 아니라면, while(g_pTest)에서 널포인터 검사를 했기에 유효한 포인터여야 할텐데 라고요.
 
@@ -211,7 +211,7 @@ wmain() (= main(). 이하 main())의 while문이 실행 되던중 g_nTest 변수
 
 코드 수행 결과부터 보시죠.
 
-![image_05](/images/2008/multithread_05.png)
+![image_05](/img/2008/multithread_05.png)
 
 EnterCriticalSection() 은 같은 CRITICAL_SECTION 객체를 사용하지 않는 상태에서만 수행 됩니다. 어딘가에서 사용할려는 CRITICAL_SECTION 객체가 사용중이라면, 그 사용이 끝날때까지 대기 합니다.
 

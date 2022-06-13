@@ -17,7 +17,7 @@ comments: true
 
 반면 API Gateway가 존재하지 않았다 보니, frontend에 바로 물려 있는 서버에서 proxy 처리를 해주고 있었고, 그 서버에 interceptor를 통한 인증 로직도 함께 포함되어 있었다.
 
-![zuul 도입 이전 아키텍쳐](/images/2018/zuul_before.png)
+![zuul 도입 이전 아키텍쳐](/img/2018/zuul_before.png)
 
 우선 frontend에서 proxy를 처리하는 코드가 범용적이지 않다보니, 이를 우회하기 위해서 javascript단에서 서비스를 직접 호출하는 상황이 일부 존재했다. 직접 호출시의 규격에 제약도 없다보니, 어떤 사용자가 호출한 것인지 분류해내기 매우 까다로울 수 밖에 없었다.
 
@@ -59,7 +59,7 @@ API Gateway가 도입 되는 과정에서 여러가지 도입 검토 후보군�
 
 <https://cloud.spring.io/spring-cloud-netflix/multi/multi__router_and_filter_zuul.html>
 	
-![Zuul Filters](/images/2018/zuul_filters.png)
+![Zuul Filters](/img/2018/zuul_filters.png)
 
 ### Filter의 종류와 각 Filter에서의 적절한 처리
 * Pre
@@ -122,7 +122,7 @@ serviceId로 들어온 요청을 listOfServers중 하나로 보낸다.
 
 eureka 사용시 동작 구조는 다음과 같다.
 
-![Zuul Eureka](/images/2018/zuul_eureka.jpg)
+![Zuul Eureka](/img/2018/zuul_eureka.jpg)
 
 출처: <https://exampledriven.wordpress.com/2016/07/06/spring-cloud-zuul-example/>
 
@@ -134,7 +134,7 @@ hystrix의 경우 서비스 장애의 전파를 방지한다.
 
 장애가 발생한 노드를 서비스 노드에서 제거하고, 요청에 대한 예외를 격리하여, 지연이 발생한 노드의 성능 저하가 다른 노드로 전파되지 않게끔 처리해준다.
 
-![Zuul Hystrix](/images/2018/zuul_hystrix.png)
+![Zuul Hystrix](/img/2018/zuul_hystrix.png)
 
 출처: <https://thepracticaldeveloper.com/2017/06/27/hystrix-fallback-with-zuul-and-spring-boot/>
 
@@ -171,7 +171,7 @@ JWT를 이용한 이유는 JWT는 자체에 정보 값을 부여할 수 있어�
 
 접근 제어의 경우에도 발급된 API-KEY에 따라 갈리는데, API-KEY별로 Ratelimit을 걸어서 일정 수준이상의 웹 콜을 요청 하지 못하도록 처리했다.
 
-![zuul 도입 이후 아키텍쳐](/images/2018/zuul_after.png)
+![zuul 도입 이후 아키텍쳐](/img/2018/zuul_after.png)
 
 도입 이후 아키텍쳐는 다음과 같다.
 

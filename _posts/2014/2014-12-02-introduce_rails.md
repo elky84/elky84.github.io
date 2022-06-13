@@ -7,7 +7,7 @@ tags: [Rails]
 comments: true
 ---
 
-![rails_1](/images/rails_1.jpg)
+![rails_1](/img/rails_1.jpg)
 
 Rails는 Ruby로 작성된 MVC모델을 기반 프레임워크입니다.
  
@@ -47,7 +47,7 @@ Ruby의 모든 것은 객체이며 동적 타입을 통한 코드 유연성을 �
 
 빌드 업 속도를 Rails(철도길)를 달리듯 빠르게 도와줄 겁니다.
 
-![rails_2](/images/rails_2.jpg)
+![rails_2](/img/rails_2.jpg)
 
 [Ruby on Rails 공식 페이지](http://rubyonrails.org/)
 [RAILS 시작하기](http://rubykr.github.io/rails_guides/getting_started.html)

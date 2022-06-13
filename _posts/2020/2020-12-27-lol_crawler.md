@@ -11,7 +11,7 @@ Web-Crawler와 마찬가지로, 자동화의 일환으로 개발했다.
 
 [elky84/lol-crawler: Notification from LOL friend game start & end.](https://github.com/elky84/lol-crawler)
 
-![lol-crawler](/images/2020/lol-crawler.png)
+![lol-crawler](/img/2020/lol-crawler.png)
 
 지인 분들과 취미로 롤을 종종하는데, 직접 시간을 맞추지 않고선 지인들이 플레이 하는 중인 것을 확인하기 어려워 개발하게 됐다.
 

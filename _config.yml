@@ -77,7 +77,7 @@ ga_domain:
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "개발자, 게이머, 고전 게임, 로그 라이크"
-sidebar-avatar: https://elky84.github.io/images/avatar.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: https://elky84.github.io/img/avatar.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 

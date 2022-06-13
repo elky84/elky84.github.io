@@ -25,27 +25,27 @@ comments: true
 
 독일 출신 개발자 Ansgar Becker가 개발했다.
 
-![heidisql](/images/2022/heidisql_00.png)
+![heidisql](/img/2022/heidisql_00.png)
 
-![heidisql](/images/2022/heidisql_01.png)
+![heidisql](/img/2022/heidisql_01.png)
 
 MAC 유저분들에게는 안타깝게도 Windows만 지원한다.
 
 지원디비 및 지원 방식은 다음과 같다
 
-![heidisql](/images/2022/heidisql_02.png)
+![heidisql](/img/2022/heidisql_02.png)
 
 ## 디비 편의 기능
 
-![heidisql](/images/2022/heidisql_03.png)
+![heidisql](/img/2022/heidisql_03.png)
 
 ### 1. 유지보수
 
-![heidisql](/images/2022/heidisql_04.png)
+![heidisql](/img/2022/heidisql_04.png)
 
 ### 2. 텍스트 찾기
 
-![heidisql](/images/2022/heidisql_05.png)
+![heidisql](/img/2022/heidisql_05.png)
 
 ### 3. 데이터베이스를 SQL로 내보내기
 
@@ -53,11 +53,11 @@ MAC 유저분들에게는 안타깝게도 Windows만 지원한다.
 
 대용량 라이브 디비 마이그레이션이라면 물론 안정성도 지켜주고, 버전 이슈를 해소해주는 전문 마이그레이션 툴을 써야 겠지만, 간단한 알파/베타/라이브 등의 환경에서의 백업/복원을 위해서는 매우 유용한 기능이었다.
 
-![heidisql](/images/2022/heidisql_06.png)
+![heidisql](/img/2022/heidisql_06.png)
 
 ### 4. 벌크 테이블 편집기
 
-![heidisql](/images/2022/heidisql_07.png)
+![heidisql](/img/2022/heidisql_07.png)
 
 ## 기타 편의 기능
 
@@ -69,15 +69,15 @@ MAC 유저분들에게는 안타깝게도 Windows만 지원한다.
 
 글로 모든 기능을 표현하긴 쉽지 않으나, 조금 더 설명하자면  조회된 데이터, 전체 테이블 데이터 뷰에서도 조작이 가능하다. 또한 GUI 기반의 필터도 좀 더 편하게 지원한다.
 
-![heidisql](/images/2022/heidisql_08.png)
+![heidisql](/img/2022/heidisql_08.png)
 
 테이블 생성/편집에 대한 편의 기능을 제공해준다.
 
-![heidisql](/images/2022/heidisql_09.png)
+![heidisql](/img/2022/heidisql_09.png)
 
 기본 툴을이 보통 제공해주는 쿼리 생성기도 물론 지원한다.
 
-![heidisql](/images/2022/heidisql_10.png)
+![heidisql](/img/2022/heidisql_10.png)
 
 이외에도 `Create Stored Procedure`, `Create Trigger`,  `Create Schedule Event`, `Import CSV`,  `Import BLOB` 와 같은 기능들도 있다
 

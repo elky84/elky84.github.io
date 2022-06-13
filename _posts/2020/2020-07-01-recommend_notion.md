@@ -45,13 +45,13 @@ Evernote의 아쉬움은 유료화로 인해 메모량의 제한이 되어서 �
 
 지금 이 글도 Notion으로 작성하고 있는데, 3년여간 github 블로그를 유지하면서 익숙해진 마크다운 글쓰기의 메리트를 그대로 느낄 수 있다는 점이 아주 좋았다.
 
-![notion_3](/images/2020/notion_3.jpg)
+![notion_3](/img/2020/notion_3.jpg)
 
-![notion_3](/images/2020/notion_4.jpg)
+![notion_3](/img/2020/notion_4.jpg)
 
 특히 Table을 비롯한 데이터 베이스 기능으로, 편의성이 많이 강화된 Markdown 위키 글쓰기가 된다고 느껴진다랄까?
 
-![notion_5](/images/2020/notion_5.jpg)
+![notion_5](/img/2020/notion_5.jpg)
 
 또한 같은 데이터를 기반하에 다양한 뷰로 보여지게 할 수 있다는 점
 
@@ -67,9 +67,9 @@ Evernote의 아쉬움은 유료화로 인해 메모량의 제한이 되어서 �
 
 간단히 공유하자면, 내가 사용하고 있는 주 분류다.
 
-![notion_1](/images/2020/notion_1.jpg)
+![notion_1](/img/2020/notion_1.jpg)
 
-![notion_2](/images/2020/notion_2.jpg)
+![notion_2](/img/2020/notion_2.jpg)
 
 이렇게 데이터를 관리하고 있는데, 이렇게 사용하면 할 수록 Notion은 아주 아주 훌륭하다는 것을 체감하고 있다.
 

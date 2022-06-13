@@ -33,11 +33,11 @@ comments: true
 
 그래서 도입 한 것이 wunderlist다.
 
-![wunderlist_01](/images/2017/wunderlist_01.png)
+![wunderlist_01](/img/2017/wunderlist_01.png)
 
 반복적인 업무 알림을 받기 위한 **할 일 반복 기능**이 있어서 일일 시간표처럼 쓰기 좋다.
 
-![wunderlist_02](/images/2017/wunderlist_02.png)
+![wunderlist_02](/img/2017/wunderlist_02.png)
 
 기한이 없는 to do 목록을 관리하기에도 매우 적합하다.
 

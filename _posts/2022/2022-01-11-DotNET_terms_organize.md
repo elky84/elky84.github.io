@@ -15,9 +15,9 @@ comments: true
 
 국내에서는 자바를 필두로 한 `JVM`이 득세 중이며, 오히려 `Go`나 `Node.js` 보다 못한 인지도를 가지고 있지만, `ModuleCounts`기준, 3위권의 패키지 수로 올라왔으며, 하루마다 증가되는 패키지 갯수 181개로 `Maven`의 171개보다 소폭 앞서며, 파이썬의 181개와 동일한 수치를 보여주며, 2위권을 형성하고 있다.
 
-![module_counts_01](/images/2022/module_counts_01.png)
+![module_counts_01](/img/2022/module_counts_01.png)
 
-![module_counts_02](/images/2022/module_counts_02.png)
+![module_counts_02](/img/2022/module_counts_02.png)
 
 물론 패키지 수가 사용자와 정비례 한다고 볼 순 없겠지만, 어느 정도 연관 지표로써 동작하는 것도 사실이니, 큰 사용자 수 성장 속도의 반증 중 하나라고 볼 수 있을 것이다.
 

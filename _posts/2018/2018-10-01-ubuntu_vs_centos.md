@@ -56,14 +56,14 @@ CentOS의 경우 안정 지향의 RHEL의 지연 반영이라는 점에서 큰 �
 
 2017년의 웹 기술: <https://w3techs.com/blog/entry/web_technologies_of_the_year_2017>
 
-![os_of_the_year_2017](/images/2018/os_of_the_year_2017.png)
+![os_of_the_year_2017](/img/2018/os_of_the_year_2017.png)
 
 
 리눅스 배포판 별 점유율: <https://w3techs.com/technologies/details/os-linux/all/all>
 
-![2018_september_percentage_of_websites_using_linux](/images/2018/2018_september_percentage_of_websites_using_linux.png)
+![2018_september_percentage_of_websites_using_linux](/img/2018/2018_september_percentage_of_websites_using_linux.png)
 
-![2018_september_subcategories_of_linux](/images/2018/2018_september_subcategories_of_linux.png)
+![2018_september_subcategories_of_linux](/img/2018/2018_september_subcategories_of_linux.png)
 
 
 글 제목에서도 알 수 있듯이, 나는 CentOS (+RHEL)과 Ubuntu (+Debian) 의 구도를 유지하고 있을 거라 생각했는데, 통계 사이트가 정확한 수치를 반영하기 어렵다는 것을 알지만, 그럼에도 꽤나 큰 차이는 충격적이었다.

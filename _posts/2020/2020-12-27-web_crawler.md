@@ -25,9 +25,9 @@ comments: true
 
 [elky84/web-crawler: web-crawling (use Abot2), feed-crawling (use FeedReader)](https://github.com/elky84/web-crawler)
 
-![web-crawler](/images/2020/web-crawler1.png)
+![web-crawler](/img/2020/web-crawler1.png)
 
-![web-crawler](/images/2020/web-crawler2.png)
+![web-crawler](/img/2020/web-crawler2.png)
 
 abot2라는 C# .NET CORE 기반의 크롤러를 이용했으며, 페이징 처리를 했다.
 

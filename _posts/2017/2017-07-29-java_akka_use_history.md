@@ -10,7 +10,7 @@ Java에서 또 인상적이었 던은 Actor 모델로 유명하고, Scala에서 
 
 Actor 모델의 근간은, 모든 통신을 Message로 하고, Actor 별로 단일 큐를 사용해 동시 접근 우려를 제거한다이다.
 
-![akka-internals](/images/2017/akka-internals.png)
+![akka-internals](/img/2017/akka-internals.png)
 
 위는 Akka에 대한 간략한 설명을 그린 그림이다.
 

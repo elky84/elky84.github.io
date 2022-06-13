@@ -29,17 +29,17 @@ git의 수 많은 command line 기능을 GUI화 했을 때 직관적이게 녹�
 
 무료 플랜이 있긴하지만, 제대로 사용하려면 유료다. 기능이 많긴하고 통합도 여러 메이저 서비스들은 다 연동된다.
 
-![GitKraken](/images/2021/gitkraken.png)
+![GitKraken](/img/2021/gitkraken.png)
 
 ## 1번 기준
 
 아쉽게도 미충족이다. private repository에 대해서는 무료 사용이 불가능한 점이 아쉽다.
 
-| ![GitKraken](/images/2021/gitkraken_private_repository.png) |
+| ![GitKraken](/img/2021/gitkraken_private_repository.png) |
 |:--:| 
 | Private Repository는 무료 플랜에선 사용 불가능하다 |
 
-| ![GitKraken](/images/2021/gitkraken_pricing.png) |
+| ![GitKraken](/img/2021/gitkraken_pricing.png) |
 |:--:| 
 | 물론 매달 4.5달러는 아주 큰돈은 아니지만, 다른 좋은 클라이언트가 없다면 모를까, 이 부분이 집에서 사용할 때 아쉬운 점이 됐다. |
 
@@ -58,7 +58,7 @@ git의 수 많은 command line 기능을 GUI화 했을 때 직관적이게 녹�
 ### Interactive Rebase
 
 Context 메뉴를 통한 Interactive 
-![GitKraken](/images/2021/gitkraken_context_menu.png)
+![GitKraken](/img/2021/gitkraken_context_menu.png)
 
 ### Git Flow
 
@@ -79,7 +79,7 @@ github에서 제공하는 무료 클라이언트다.
 
 branch가 표시도 안되고, 브랜치별 현황을 보는 것이 비직관적이었다.
 
-![Github](/images/2021/github_desktop.png)
+![Github](/img/2021/github_desktop.png)
 
 ## 1번 기준
 
@@ -98,7 +98,7 @@ Github와는 아주 찰떡이다.
 
 ### Interactive Rebase
 Context 메뉴를 통한 기능이 2개 밖에 지원이 안된다. 
-![Github](/images/2021/github_desktop_context_menu.png)
+![Github](/img/2021/github_desktop_context_menu.png)
 
 ### Git Flow
 
@@ -116,7 +116,7 @@ Context 메뉴를 통한 기능이 2개 밖에 지원이 안된다.
 
 Atlassian에서 제공하는 무료 클라이언트다.
 
-![SourceTree](/images/2021/sourcetree.png)
+![SourceTree](/img/2021/sourcetree.png)
 
 ## 1번 기준
 
@@ -138,7 +138,7 @@ Bitbucket은 물론이며, Github를 포함한 Gitlab 등에서의 사용도 무
 ### Interactive Rebase
 
 꽤 많은 기능이 지원된다.
-![Github](/images/2021/sourcetree_context_menu.png)
+![Github](/img/2021/sourcetree_context_menu.png)
 
 ### Git Flow
 
@@ -156,7 +156,7 @@ Bitbucket은 물론이며, Github를 포함한 Gitlab 등에서의 사용도 무
 
 Dan Pristupov (MAC 버전), Tanya Pristupova (.NET, WPF)라는 두 명의 개발자가 제공하는, 조건부 무료 클라이언트다.
 
-![fork](/images/2021/fork.png)
+![fork](/img/2021/fork.png)
 
 유료 $49.99인데, 강제도 아니며, 광고 제거 및 후원에 목적을 두고 있다.
 
@@ -181,7 +181,7 @@ Dan Pristupov (MAC 버전), Tanya Pristupova (.NET, WPF)라는 두 명의 개발
 
 아주 많은 기능이 지원된다.
 
-![fork](/images/2021/fork_context_menu.png)
+![fork](/img/2021/fork_context_menu.png)
 
 ### Git Flow
 

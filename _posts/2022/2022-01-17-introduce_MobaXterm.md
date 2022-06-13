@@ -13,11 +13,11 @@ comments: true
 
 ### mRemoteNG
 
-![mremoteng](/images/2022/mremoteng.png)
+![mremoteng](/img/2022/mremoteng.png)
 
 ### Remote Desktop Manager
 
-![rdm](/images/2022/rdm.png)
+![rdm](/img/2022/rdm.png)
 
 둘다 충분히 훌륭한 툴이고, 쓸만한 무료툴이다.
 
@@ -25,11 +25,11 @@ RDP만 생각하면 [Remote Desktop Connection Manager - Windows Sysinternals](h
 
 ### WinSSHTerm
 
-![winsshterm](/images/2022/winsshterm.png)
+![winsshterm](/img/2022/winsshterm.png)
 
 ### Terminus
 
-![termius](/images/2022/termius.png)
+![termius](/img/2022/termius.png)
 
 물론 좀 더 편한 관리 기능이 필요 없다면, `MSTSC`, `putty` 같은 기본 툴을 사용하는 경우도 있으며, 윈도우에서도 이제 `ssh` 기본 탑재라 충분히 커맨드라인으로도 일정 수준 편하게 쓸 수 있다. 
 
@@ -37,7 +37,7 @@ RDP만 생각하면 [Remote Desktop Connection Manager - Windows Sysinternals](h
 
 [MobaXterm free Xserver and tabbed SSH client for Windows](https://mobaxterm.mobatek.net/)
 
-![mobaxterm](/images/2022/mobaxterm_01.png)
+![mobaxterm](/img/2022/mobaxterm_01.png)
 
 SSH 연결시, 좌측에 보이듯 자동으로 home 경로와 연결 된다.
 
@@ -73,13 +73,13 @@ RDP의 경우 smart resizing도 아주 아주 편한 편이며, 일하면서 모
 
 ### 지원 프로토콜
 
-![mobaxterm](/images/2022/mobaxterm_02.png)
+![mobaxterm](/img/2022/mobaxterm_02.png)
 
 단점은 무료 버전의 경우 세션 제한이 있다. 유료 버전이 아주 비싸진 않다. 구독형은 아니라 부담이 덜하지만, 12개월 업데이트만 지원되는 점은 조금 아쉽긴하다.
 
 또 윈도우 환경에서만 사용 가능한 것도 아쉬운 요소다.
 
-![mobaxterm](/images/2022/mobaxterm_03.png)
+![mobaxterm](/img/2022/mobaxterm_03.png)
 
 그럼에도 윈도우 환경의 개발자이며, 윈도우 서버, 리눅스 서버를 모두 사용한다거나, 윈도우 업무 PC로 원격 업무를 해야 되는 경우라면 충분히 사용할만한 퀄리티의 좋은 툴이라고 볼 수 있다.
 
