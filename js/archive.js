@@ -65,8 +65,6 @@ https://github.com/kitian616/jekyll-TeXt-theme
         return $tagShowAll;
       }
 
-      _tag = _tag.toString();
-
       var _buttons = $articleTags.filter('[data-encode="' + _tag + '"]');
       if (_buttons.length === 0) {
         return $tagShowAll;
@@ -94,7 +92,13 @@ https://github.com/kitian616/jekyll-TeXt-theme
             result[i] || (result[i] = {});
             result[i][j] = true;
           } else {
-            var tags = $articles.eq(j).data('tags').toString().split(',');
+            var tags = $articles.eq(j).data('tags');
+            if( typeof tags !== 'string') {
+              console.log("tags " + tags + " typeof " + typeof tags);
+              continue;
+            }
+
+            var tags = tags.split(',');
             for (k = 0; k < tags.length; k++) {
               if (tags[k] === tag) {
                 result[i] || (result[i] = {});
