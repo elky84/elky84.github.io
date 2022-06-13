@@ -34,7 +34,7 @@ https://github.com/kitian616/jekyll-TeXt-theme
 				</a>__SEPERATOR__
 				{% endfor %}
 				{% endcapture %}
-        {{ tags | split:'__SEPERATOR__' | sort }}
+        		{{ tags | split:'__SEPERATOR__' | sort }}
 			</div>
 
             <!-- Article List -->
@@ -55,31 +55,31 @@ https://github.com/kitian616/jekyll-TeXt-theme
 					{%- endif -%}
 				{%- endfor -%}
 
-			{% comment %} group by year {% endcomment %}
-			{%- assign _currentdate = _article.date | date: '%Y' -%}
-			{%- if _currentdate != _date -%}
-				{%- unless forloop.first -%}</section>{%- endunless -%}
-				<section>
-				<span class="fa listing-seperator">
-					<span class="tag-text">{{ _currentdate }}</span>
-				</span>
-				{%- assign _date = _currentdate -%}
-			{%- endif -%}
+				{% comment %} group by year {% endcomment %}
+				{%- assign _currentdate = _article.date | date: '%Y' -%}
+				{%- if _currentdate != _date -%}
+					{%- unless forloop.first -%}</section>{%- endunless -%}
+					<section>
+					<span class="fa listing-seperator">
+						<span class="tag-text">{{ _currentdate }}</span>
+					</span>
+					{%- assign _date = _currentdate -%}
+				{%- endif -%}
 
 				<div class="post-preview item" data-tags="{{ _tags }}">
-				    <a href="{{ _article.url | prepend: site.baseurl }}">
-				        <h2 class="post-title">
-                            {{ _article.title }}
-				        </h2>
-				        {% if _article.subtitle %}
-				        <h3 class="post-subtitle">
-				            {{ _article.subtitle }}
-				        </h3>
-				        {% endif %}
-				    </a>
+					<a href="{{ _article.url | prepend: site.baseurl }}">
+						<h2 class="post-title">
+							{{ _article.title }}
+						</h2>
+						{% if _article.subtitle %}
+						<h3 class="post-subtitle">
+							{{ _article.subtitle }}
+						</h3>
+						{% endif %}
+					</a>
 					<hr>
 				</div>
-			{%- if forloop.last -%}</section>{%- endif -%}
+				{%- if forloop.last -%}</section>{%- endif -%}
 			{% endfor %}
 			</div>
 		</div>
