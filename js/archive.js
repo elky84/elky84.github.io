@@ -83,7 +83,6 @@ https://github.com/kitian616/jekyll-TeXt-theme
     }
 
     function tagSelect (tag/*raw tag*/, target) {
-      tag = tag.toString();
 
       var result = {}, $articles;
       var i, j, k, _tag;
