@@ -2,7 +2,7 @@
 layout: post
 title: 예외처리 03 - try-catch 그리고 throw
 date: 2022-06-11 00:00:00
-categories: [Exception, Exception Process, Log]
+categories: [예외처리]
 tags: [Exception, Exception Process, Log]
 comments: true
 ---

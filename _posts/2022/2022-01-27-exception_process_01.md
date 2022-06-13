@@ -2,7 +2,7 @@
 layout: post
 title: 예외처리 01 - 결과 코드 주고 받기
 date: 2022-01-27 00:00:00
-categories: [Exception, Exception Process, Result Code]
+categories: [예외처리]
 tags: [Exception, Exception Process, Result Code]
 comments: true
 ---

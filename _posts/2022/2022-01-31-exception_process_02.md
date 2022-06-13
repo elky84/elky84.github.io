@@ -2,7 +2,7 @@
 layout: post
 title: 예외처리 02 - 로그 잘 남기기
 date: 2022-01-31 00:00:00
-categories: [Exception, Exception Process, Log]
+categories: [예외처리]
 tags: [Exception, Exception Process, Log]
 comments: true
 ---
