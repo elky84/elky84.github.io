@@ -92,21 +92,7 @@
 {% endif %}
 
 
-{% if page.title == 'Archive' %}
-<!-- jquery.tagcloud.js -->
-<script>
-    async('{{ "/js/jquery.tagcloud.js" | prepend: site.baseurl }}', function () {
-        $.fn.tagcloud.defaults = {
-            //size: {start: 1, end: 1, unit: 'em'},
-            color: { start: '#bbbbee', end: '#2f93b4' },
-        };
-        $('#tag_cloud a').tagcloud();
-    })
-</script>
-<script src='{{ "/js/archive.js " | prepend: site.baseurl }}'></script>
-{% endif %}
-
-{% if page.title == 'Categories' %}
+{% if page.title == 'Archive' or page.title == 'Categories' or page.title == 'Year' %}
 <!-- jquery.tagcloud.js -->
 <script>
     async('{{ "/js/jquery.tagcloud.js" | prepend: site.baseurl }}', function () {

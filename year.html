@@ -1,33 +1,83 @@
 ---
-layout: page
+layout: default
 title: 'Year'
 ---
 
-{%- capture site_dates -%}
-  {% for post in site.posts %}
-    {{- post.date | date: "%Y" -}}{%- unless forloop.last -%},{%- endunless -%}
-  {% endfor %}
-{%- endcapture -%}
-{%- assign date_list = site_dates | split:',' | sort | reverse -%}
+<!-- 
+Credits: this page shamelessly borrowed a lot from:
+https://github.com/kitian616/jekyll-TeXt-theme
+-->
+{% include intro-header.html type='page' short=true %}
 
-{%- for date in date_list -%}
-  {% if currentdate != date %}
-    <a href="#{{- date -}}" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{{- date -}}</a>&nbsp;
-    {% assign currentdate = date %} 
-  {% endif %}
-{%- endfor -%}
-<br/>
+<!-- Main Content -->
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+			<!-- Tags (as filter) -->
+			<div id='tag_cloud' class="tags tags-sup js-tags">
+				<a class="tag-button--all" data-encode="">
+					Show All
+					<sup>{{site.posts.size}}</sup>
+				</a>
 
-<div id="full-archive-list">
-{% for post in site.posts %}
-  {% assign currentdate = post.date | date: "%Y" %}
-  {% if currentdate != date %}
-  <h2 id="{{- currentdate -}}" class="linked-section">{{- currentdate -}}</h2>
-    {% assign date = currentdate %} 
-  {% endif %}
-  <h2>
-    <a class="post-link" href="{{ post.url | relative_url }}"{% if lang != empty %} lang="{{ lang }}"{% endif %}>{{ post.title | escape }}{% if post.external-url %} &rarr;{% endif %}</a>
-    <small class="entry-date">{{ post.date | date: "%B %-d, %Y" }}</small>
-  </h2>
-{% endfor %}
+        {%- capture site_years -%}
+          {% for post in site.posts %}
+            {{- post.date | date: "%Y" -}}{%- unless forloop.last -%},{%- endunless -%}
+          {% endfor %}
+        {%- endcapture -%}
+        {%- assign year_list = site_years | split:',' | sort | reverse -%}
+
+        {% capture years %}
+          {%- for _currentyear in year_list -%}
+            {% if _currentyear != year %}
+              <a data-sort="{{ site.posts.size | minus: _currentyear | prepend: '0000' | slice: -4, 4 }}"
+                data-encode="{{ _currentyear | strip | url_encode }}"
+                class="tag-button"
+                title="{{ _currentyear }}" rel="{{ _currentyear }}">
+              {{ _currentyear }}
+              </a>__SEPERATOR__
+              {% assign year = _currentyear %} 
+            {% endif %}
+          {%- endfor -%}
+				{% endcapture %}
+
+        {{ years | split:'__SEPERATOR__' | sort }}
+			</div>
+
+      <!-- Article List -->
+			<div class="mini-post-list js-result d-none">
+			{%- assign _sorted_list = site.posts -%}
+			{%- assign _sorted_list = _sorted_list | sort: 'date' -%}
+			{%- assign _sorted_list = _sorted_list | reverse -%}
+
+			{%- for _article in _sorted_list -%}
+        {% comment %} group by year {% endcomment %}
+        {%- assign _currentyear = _article.date | date: '%Y' -%}
+        {%- if _currentyear != _year -%}
+            {%- unless forloop.first -%}</section>{%- endunless -%}
+            <section>
+            <span class="fa listing-seperator">
+                <span class="tag-text">{{ _currentyear }}</span>
+            </span>
+            {%- assign _year = _currentyear -%}
+        {%- endif -%}
+
+        <div class="post-preview item" data-tags="{{ _currentyear | strip | url_encode }}">
+            <a href="{{ _article.url | prepend: site.baseurl }}">
+                <h2 class="post-title">
+                    {{ _article.title }}
+                </h2>
+                {% if _article.subtitle %}
+                <h3 class="post-subtitle">
+                    {{ _article.subtitle }}
+                </h3>
+                {% endif %}
+            </a>
+            <hr>
+        </div>
+        {%- if forloop.last -%}</section>{%- endif -%}
+			{% endfor %}
+			</div>
+		</div>
+	</div>
 </div>
