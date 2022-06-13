@@ -1,63 +1,20 @@
-[Hux Blog](https://huangxuan.me)
-================================
+[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=elky-essay)](https://elky84.github.io)
+<img src="https://img.shields.io/badge/made%20with-ruby-brightgreen.svg" alt="made with Python">
 
-> I never expect this becomes popular.
+[![pages-build-deployment](https://github.com/elky84/elky84.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/elky84/elky84.github.io/actions/workflows/pages/pages-build-deployment)
 
+![GitHub forks](https://img.shields.io/github/forks/elky84/elky84.github.io.svg?style=social&label=Fork)
+![GitHub stars](https://img.shields.io/github/stars/elky84/elky84.github.io.svg?style=social&label=Stars)
+![GitHub watchers](https://img.shields.io/github/watchers/elky84/elky84.github.io.svg?style=social&label=Watch)
+![GitHub followers](https://img.shields.io/github/followers/elky84.svg?style=social&label=Follow)
 ![](http://huangxuan.me/img/blog-desktop.jpg)
 
+![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
+![GitHub repo size in bytes](https://img.shields.io/github/repo-size/elky84/elky84.github.io.svg)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/elky84/elky84.github.io.svg)
 
-[User Manual 👉](_doc/Manual.md)
---------------------------------------------------
-
-### Getting Started
-
-1. You will need [Ruby](https://www.ruby-lang.org/en/) and [Bundler](https://bundler.io/) to use [Jekyll](https://jekyllrb.com/). Following [Using Jekyll with Bundler](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/) to fullfill the enviromental requirement.
-
-2. Installed dependencies in the `Gemfile`:
-
-```sh
-$ bundle install 
-```
-
-3. Serve the website (`localhost:4000` by default):
-
-```sh
-$ bundle exec jekyll serve  # alternatively, npm start
-```
-
-### Development (Build From Source)
-
-To modify the theme, you will need [Grunt](https://gruntjs.com/). There are numbers of tasks you can find in the `Gruntfile.js`, includes minifing JavaScript, compiling `.less` to `.css`, adding banners to keep the Apache 2.0 license intact, watching for changes, etc. 
-
-Yes, they were inherited and are extremely old-fashioned. There is no modularization and transpilation, etc.
-
-Critical Jekyll-related code are located in `_include/` and `_layouts/`. Most of them are [Liquid](https://github.com/Shopify/liquid/wiki) templates.
-
-This theme uses the default code syntax highlighter of jekyll, [Rouge](http://rouge.jneen.net/), which is compatible with Pygments theme so just pick any pygments theme css (e.g. from [here](http://jwarby.github.io/jekyll-pygments-themes/languages/javascript.html) and replace the content of `highlight.less`.
-
-
-### Interesting to know more? Checkout the [full user manual](_doc/Manual.md)!
-
-
-Other Resources
----------------
-
-Ports
-- [**Hexo**](https://github.com/Kaijun/hexo-theme-huxblog) by @kaijun
-- [**React-SSR**](https://github.com/LucasIcarus/huxpro.github.io/tree/ssr) by @LucasIcarus
-
-[Starter/Boilerplate](https://github.com/huxpro/huxblog-boilerplate)
-- Out of date. Helps wanted for updating it on par with the main repo
-
-Translation
-- [🇨🇳  中文文档（有点过时）](https://github.com/Huxpro/huxpro.github.io/blob/master/_doc/README.zh.md)
-
-
-License
--------
-
-Apache License 2.0.
-Copyright (c) 2015-present Huxpro
-
-Hux Blog is derived from [Clean Blog Jekyll Theme (MIT License)](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/)
-Copyright (c) 2013-2016 Blackrock Digital LLC.
+# 엘키의 주절 주절 - 개발 블로그
+* jekyll로 작성된 블로그 포킹해서 운용중입니다.
+* 테마는 [Hux Blog](https://huangxuan.me)를 사용했습니다
+* 이모지는 [emoji](https://gist.github.com/rxaviers/7360908)를 참고
+================================
