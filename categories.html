@@ -1,36 +1,84 @@
 ---
-layout: page
+layout: default
 title: 'Categories'
 ---
 
-{% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+<!-- 
+Credits: this page shamelessly borrowed a lot from:
+https://github.com/kitian616/jekyll-TeXt-theme
+-->
+{% include intro-header.html type='page' short=true %}
 
-{%- capture site_categories -%}
-    {%- for category in site.categories -%}
-        {{- category | first -}}{%- unless forloop.last -%},{%- endunless -%}
-    {%- endfor -%}
-{%- endcapture -%}
-{%- assign categories_list = site_categories | split:',' | sort -%}
+<!-- Main Content -->
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+			<!-- Tags (as filter) -->
+			<div id='tag_cloud' class="tags tags-sup js-tags">
+				<a class="tag-button--all" data-encode="">
+					Show All
+					<sup>{{site.posts.size}}</sup>
+				</a>
 
-{%- for category in categories_list -%}
-    <a href="#{{- category -}}" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{{- category -}}&nbsp;({{site.categories[category].size}})</a>
-{%- endfor -%}
+				{% capture categories %}
+				{% for category in site.categories %}
+				<a data-sort="{{ site.posts.size | minus: category[1].size | prepend: '0000' | slice: -4, 4 }}"
+					data-encode="{{ category[0] | strip | url_encode }}"
+					class="tag-button"
+					title="{{ category[0] }}" rel="{{ category[1].size }}">
+					{{ category[0] }}
+					<sup>{{category[1].size}}</sup>
+				</a>__SEPERATOR__
+				{% endfor %}
+				{% endcapture %}
+        {{ categories | split:'__SEPERATOR__' | sort }}
+			</div>
 
-<div id="full-categories-list">
-{%- for category in categories_list -%}
-    <h2 id="{{- category -}}" class="linked-section">
-        <i class="fas fa-tag" aria-hidden="true"></i>
-        &nbsp;{{- category -}}&nbsp;({{site.categories[category].size}})
-    </h2>
-    <div class="post-list">
-        {%- for post in site.categories[category] -%}
-            <div class="tag-entry">
-                <a href="{{ post.url | relative_url }}">{{- post.title | strip_html -}}</a>
-                <div class="entry-date">
-                    <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: date_format -}}</time>
-                </div>
-            </div>
-        {%- endfor -%}
-    </div>
-{%- endfor -%}
+            <!-- Article List -->
+			<div class="mini-post-list js-result d-none">
+			{%- assign _sorted_list = site.posts -%}
+			{%- assign _sorted_list = _sorted_list | sort: 'date' -%}
+			{%- assign _sorted_list = _sorted_list | reverse -%}
+
+
+			{%- for _article in _sorted_list -%}
+				{%- assign _categories = '' -%}
+				{%- for _category in _article.categories -%}
+					{%- assign _category_encode = _category | strip | url_encode -%}
+					{%- if forloop.last -%}
+						{%- assign _categories = _categories | append: _category_encode -%}
+					{%- else -%}
+						{%- assign _categories = _categories | append: _category_encode | append: ',' -%}
+					{%- endif -%}
+				{%- endfor -%}
+
+			{% comment %} group by year {% endcomment %}
+			{%- assign _currentdate = _article.date | date: '%Y' -%}
+			{%- if _currentdate != _date -%}
+				{%- unless forloop.first -%}</section>{%- endunless -%}
+				<section>
+				<span class="fa listing-seperator">
+					<span class="tag-text">{{ _currentdate }}</span>
+				</span>
+				{%- assign _date = _currentdate -%}
+			{%- endif -%}
+
+				<div class="post-preview item" data-tags="{{ _categories }}">
+				    <a href="{{ _article.url | prepend: site.baseurl }}">
+				        <h2 class="post-title">
+                            {{ _article.title }}
+				        </h2>
+				        {% if _article.subtitle %}
+				        <h3 class="post-subtitle">
+				            {{ _article.subtitle }}
+				        </h3>
+				        {% endif %}
+				    </a>
+					<hr>
+				</div>
+			{%- if forloop.last -%}</section>{%- endif -%}
+			{% endfor %}
+			</div>
+		</div>
+	</div>
 </div>
