@@ -2,7 +2,7 @@
 layout: post
 title: 정보 수집
 date: 2018-02-03 01:00:00
-categories: [주절주절, 정보 수집]
+categories: [주절주절]
 tags: [주절주절, 정보 수집]
 comments: true
 ---

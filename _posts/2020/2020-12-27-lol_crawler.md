@@ -2,8 +2,8 @@
 layout: post
 title: C# .NET CORE 기반 Lol-Crawler
 date: 2020-12-27 00:00:00
-categories: [Crawler]
-tags: [Crrawler, LOL]
+categories: [오픈 소스]
+tags: [Crawler, LOL]
 comments: true
 ---
 
