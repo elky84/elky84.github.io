@@ -3,7 +3,7 @@ layout: post
 title: C프로그래머가 알아야 할 것들 - 05 메모리와 포인터
 date: 2002-01-10 00:00:05
 categories: [C프로그래머가 알아야 할 것들]
-tags: [C프로그래머가 알아야 할 것들]
+tags: [메모리, 포인터]
 comments: true
 ---
 

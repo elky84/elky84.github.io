@@ -3,7 +3,7 @@ layout: post
 title: C프로그래머가 알아야 할 것들 - 06 자료 구조
 date: 2002-01-10 00:00:06
 categories: [C프로그래머가 알아야 할 것들]
-tags: [C프로그래머가 알아야 할 것들]
+tags: [자료 구조]
 comments: true
 ---
 
