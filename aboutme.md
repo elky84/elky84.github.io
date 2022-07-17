@@ -53,7 +53,7 @@ permalink: /aboutme/
 * Languages
   * C++ 17, boost, asio, IOCP, DirectX
   * C# 8, .NET 6, ASP.NET 6, DotNetty, Entity Framework
-  * Java 8, Netty, Spring Boot, Akka, JPA
+  * Java, Netty, Spring Boot, Akka, JPA
   * Python, Django
   * Ruby, Ruby on Rails
 * DBMS
