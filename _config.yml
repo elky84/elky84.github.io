@@ -87,7 +87,7 @@ navbar-links:
   Categories: "/categories"
   Archives: "/archive"
   Year: "/year"
-  Review: "/review"
+  Links: "/links"
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
