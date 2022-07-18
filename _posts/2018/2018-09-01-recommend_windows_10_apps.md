@@ -46,7 +46,7 @@ comments: true
     - MySQL, SQL Server, PostgreSQL을 지원함.
     - 한글 처리나, 백업, 복원 등에서 버그가 좀 있고, nightly 버전은 crash 빈도가 꽤 높은편인게 단점.
     - 그럼에도 쓸만한 이유는 프리웨어고 3개의 메이저 RDB에서 범용 사용이 가능하기 때문.
-- NoSQLBooster (Mongodb)
+- NoSQLBooster (MongoDB)
   - <https://nosqlbooster.com/>
     - 사용해본 MongoDB 툴 중 가장 좋았음.
     - 리스트 관련해서 잔버그가 좀 있고, 페이징 처리시마다 쿼리를 다시 날리므로 무거운 쿼리를 수행하기에 적합하지 않음.

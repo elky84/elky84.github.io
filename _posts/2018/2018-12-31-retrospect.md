@@ -51,7 +51,7 @@ rails를 통해 웹을 접하면서 느꼈던, 잘 가져다 써서 빠른 구�
 
 다른 프로젝트를 forking하기도 하고, 업무나 개인적인 공부를 통해서 익힌 것들을 통해 간단한 프로젝트들을 진행했다.
 
-다양한 국내 커뮤니티를 크롤링해서 mongodb에 저장하고, 이를 보여주는 게시판, 데스크탑 notificator, slack notificator (line notify로 만들었다가 수정) 등을 만들어 사용 중이며, riot api를 이용해 등록한 친구의 게임 시작/승/패 정보를 전달해주는 loltracer를 만들어서 지인들의 플레이를 추적하는 데에 쓰고 있다.
+다양한 국내 커뮤니티를 크롤링해서 MongoDB에 저장하고, 이를 보여주는 게시판, 데스크탑 notificator, slack notificator (line notify로 만들었다가 수정) 등을 만들어 사용 중이며, riot api를 이용해 등록한 친구의 게임 시작/승/패 정보를 전달해주는 loltracer를 만들어서 지인들의 플레이를 추적하는 데에 쓰고 있다.
 
 개인적인 관심사와, context switching에 쓰이던 코스트를 줄이는 것을 목표로 삼아 개발했고, 이를 통해 여러 게시판을 돌아다니는 데에 쓰는 human cost (polling)을 줄이는 데에 성공했다.
 
