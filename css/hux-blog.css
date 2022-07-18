@@ -1694,3 +1694,24 @@ img::-moz-selection {
 .no-scroll {
   overflow-y: hidden;
 }
+
+.dropdown {
+  width: auto;
+  box-sizing: border-box;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 10px;
+  font-size: 15px;
+}
