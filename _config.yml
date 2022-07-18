@@ -82,15 +82,12 @@ sidebar-avatar: https://elky84.github.io/img/avatar.png # use absolute URL, seei
 # NavBar
 navbar-links:
   Home: "/"
-  About:
-    - Me: "aboutme"
-    - Projects: "projects"
-  Posts:
-    - Categories: "/categories"
-    - Archives: "/archive"
-    - Year: "/year"
-  Links:
-    - Review: "/review"
+  About: "aboutme"
+  Projects: "projects"
+  Categories: "/categories"
+  Archives: "/archive"
+  Year: "/year"
+  Review: "/review"
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
@@ -108,8 +105,8 @@ page-mathjax: false
 
 # Links
 links: [
-    # {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # }
+    {
+        title: "Elky Review",
+        href: "https://elky84.github.io/review"
+    }
 ]
