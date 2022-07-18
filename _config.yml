@@ -95,11 +95,10 @@ service-worker: true
 page-mathjax: false
 
 
-# Friends
-friends: [
+# Links
+links: [
     # {
     #     title: "Su",
     #     href: "http://su.gallery/"
-    #
     # }
 ]

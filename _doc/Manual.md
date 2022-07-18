@@ -10,7 +10,7 @@ Blog User Manual
 	* [SideBar](#sidebar)
 	* [Mini About Me](#mini-about-me)
 	* [Featured Tags](#featured-tags)
-	* [Friends](#friends)
+	* [Links](#linkss)
 	* [Keynote Layout](#keynote-layout)
 * Misc
 	* [Comment](#comment)
@@ -137,7 +137,7 @@ sidebar-about-description: "your description here"
 sidebar-avatar: /img/avatar-hux.jpg     # use absolute URL.
 ```
 
-Modules *[Featured Tags](#featured-tags)*, *[Mini About Me](#mini-about-me)* and *[Friends](#friends)* are turned on by default and you can add your own. The sidebar is naturally responsive, i.e. be pushed to bottom in a smaller screen (`<= 992px`, according to [Bootstarp Grid System](http://getbootstrap.com/css/#grid))  
+Modules *[Featured Tags](#featured-tags)*, *[Mini About Me](#mini-about-me)* and *[Links](#links)* are turned on by default and you can add your own. The sidebar is naturally responsive, i.e. be pushed to bottom in a smaller screen (`<= 992px`, according to [Bootstarp Grid System](http://getbootstrap.com/css/#grid))  
 
 
 ### Mini About Me
@@ -159,16 +159,16 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 
 The only thing need to be paid attention to is `featured-condition-size`, which indicate a criteria that tags need to have to be able to "featured". Internally, a condition `{% if tag[1].size > {{site.featured-condition-size}} %}` are made.
 
-### Friends
+### Links
 
-Friends is a common feature of any blog. It helps with SEO if you have a bi-directional hyperlinks with your friends sites.
+Links is a common feature of any blog. It helps with SEO if you have a bi-directional hyperlinks with your links sites.
 This module can live when sidebar is off as well.
 
-Friends information is configured as a JSON string in `_config.yml`
+Links information is configured as a JSON string in `_config.yml`
 
 ```yml
-# Friends
-friends: [
+# Links
+links: [
     {
         title: "Foo Blog",
         href: "http://foo.github.io/"
@@ -329,7 +329,7 @@ Shout out to [@kitian616/jekyll-TeXt-theme](https://github.com/kitian616/jekyll-
 #### V1.1
 
 - We now support a clean and gorgeous **[SideBar](#sidebar)** for displaying more info
-- **[Friends](#friends)** is also added as a common feature of blog help you do SEO
+- **[Links](#link)** is also added as a common feature of blog help you do SEO
 
 #### V1.0
 
