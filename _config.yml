@@ -79,7 +79,16 @@ sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "개발자, 게이머, 고전 게임, 로그 라이크"
 sidebar-avatar: https://elky84.github.io/img/avatar.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
-
+# NavBar
+navbar-links:
+  Home: "/"
+  About Me: "aboutme"
+  Projects: "projects"
+  Detail:
+    - Categories: "/categories"
+    - Archives: "/archive"
+  Links:
+    - Review: "/review"
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags

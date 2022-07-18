@@ -24,13 +24,27 @@
                             <a href="{{ site.baseurl }}/">Home</a>
                         </li>
                         {% for page in site.pages %}
-                        {% if page.title and page.hide-in-nav != true %}
-                        <li>
-                            <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-                        </li>
-                        {% endif %}
-
+                            {% if page.title and page.hide-in-nav != true %}
+                                <li>
+                                    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                                </li>
+                            {% endif %}
                         {% endfor %}
+
+                        {%- for link in site.navbar-links -%}
+                            {%- if link[1].first %}
+                            <li class="navbar-nav ml-auto nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ link[0] }}</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                {%- for childlink in link[1] -%}
+                                    {%- for linkparts in childlink %}
+                                    <a class="dropdown-item" href="{{ linkparts[1] | relative_url }}">{{ linkparts[0] }}</a>
+                                    {%- endfor -%}
+                                {%- endfor %}
+                                </div>
+                            </li>
+                            {%- endif -%}
+                        {%- endfor -%}
 
                         <li class="search-icon">
                             <a href="javascript:void(0)">
