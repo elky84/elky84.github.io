@@ -33,8 +33,8 @@
 
                         {%- for link in site.navbar-links -%}
                             {%- if link[1].first %}
-                            <li class="navbar-nav ml-auto nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ link[0] }}</a>
+                            <li class="dropdown">
+                                <a class="btn btn-secondary dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ link[0] }}</a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 {%- for childlink in link[1] -%}
                                     {%- for linkparts in childlink %}
