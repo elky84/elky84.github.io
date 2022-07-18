@@ -8,7 +8,9 @@ permalink: /aboutme/
 * content
 {:toc}
 
-## About blog?
+# About Me
+
+## 블로그 소개
 
 이 블로그는 개발 블로그입니다.
 
@@ -16,13 +18,25 @@ permalink: /aboutme/
 
 기술적인 이야기도 다룰 때가 있지만 대 부분이 제 생각이 개인된 이야기나 경험담 위주인 이유는, 그런 것에 제가 관심이 많기 때문이기도하고 어떤 일을 진행하고 경험하고 회고하면서 많이 성장해왔다고 느끼기 때문에 이에 대한 생각을 공유하고 싶기 때문입니다.
 
----
+## 경험
 
 저는 2005년부터 온라인 게임 개발을 시작했고, 2005년부터 2014년까지는 소켓 서버 프로그래밍을 주로해왔으며, 2015년 이후에는 모바일 게임에서는 웹 서버와 소켓 서버를 모두 사용해서 개발해왔습니다.
 
 2017년~2019년까지 웹 & 플랫폼 개발을 진행했고, 2020년부터 다시 게임 서버를 개발하고 있습니다.
 
----
+## 생각
+* 소켓 기반 (상태 기반) 서버의 병렬 처리에 대해서 깊은 고찰을 해오고 파고들기를 했었음
+  * 관련하여 프로파일링 및 수치, 로그 기반의 구현의 중요성을 체감, 실천함
+* 웹 개발 과정에서는 효율과 가져다 쓰기를 기반으로 한 생산성에 대해 체감함
+* 프로그래밍 언어, 프레임워크, 엔진 등 다른 이들의 생각, 철학, 문화를 이해하고 배우는 데에 즐거움을 느낌
+  * 회고를 통해 배우는 것이 많다고 생각함. (잘한 것, 못한 것에 대한 확실한 토론)
+  * 문서화를 통해 기록을 남기는 것이 중요하다고 생각함
+  * 자동화, 성장, 개선에 대한 집착이 있는 편
+* 데이터 분석, 데이터 처리에 관심을 갖고 있음
+  * 훌륭한 엔지니어링은 결국 데이터에 대한 이야기로 귀결 된다고 생각함.
+
+
+## 관심사
 
 언제나 디테일과 안정성, 최선의 선택에 대해 끊임없이 고민하며 배움과 효율성 사이의 최적을 구하고 싶습니다.
 
@@ -32,31 +46,71 @@ permalink: /aboutme/
 
 제 견해와 경험, 생각이 조금이라도 여러분과 저 자신에게 도움이 되면 좋겠습니다.
 
-## About me
+## 정보
 
-* 본명 : 김성훈
+* 이름 : 김성훈
 * 닉네임 : 엘키 (elky)
 * 이메일 주소 : <elky84@gmail.com>
-* 게임 클라이언트 개발로 프로그래밍을 시작해, 게임 서버, 소켓 기반 네트워크 라이브러리를 주로 개발해오다가, 2017~2019년 웹 & 플랫폼 개발을 했고, 이후 다시 게임 개발을 하고 있음
-  * 소켓 기반 (상태 기반) 서버의 병렬 처리에 대해서 깊은 고찰을 해오고 파고들기를 했었음
-    * 관련하여 프로파일링 및 수치, 로그 기반의 구현의 중요성을 체감, 실천함
-  * 웹 개발 과정에서는 효율과 가져다 쓰기를 기반으로 한 생산성에 대해 체감함
-* 프로그래밍 언어, 프레임워크, 엔진 등 다른 이들의 생각, 철학, 문화를 이해하고 배우는 데에 즐거움을 느낌
-  * 회고를 통해 배우는 것이 많다고 생각함. (잘한 것, 못한 것에 대한 확실한 토론)
-  * 문서화를 통해 기록을 남기는 것이 중요하다고 생각함
-  * 자동화, 성장, 개선에 대한 집착이 있는 편
-* 데이터 분석, 데이터 처리에 관심을 갖고 있음
-  * 훌륭한 엔지니어링은 결국 데이터에 대한 이야기로 귀결 된다고 생각함.
 
-## Working skill
+# Skills
 
-* Languages
-  * C++ 17, boost, asio, IOCP, DirectX
-  * C# 8, .NET 6, ASP.NET 6, DotNetty, Entity Framework
-  * Java, Netty, Spring Boot, Akka, JPA
-  * Python, Django
-  * Ruby, Ruby on Rails
-* DBMS
-  * SQL Server, MySQL, PostgreSQL
-  * MongoDB, Redis
-  * ElasticSearch
+## Web
+
+### Java
+* Spring Boot
+* JPA
+* MongoTemplate
+* Spring Cloud
+
+### C#
+* .NET 6
+* ASP.NET MVC
+* Entity Framework (ORM)
+
+### Java Script
+* Vue.js 3
+* Node.js
+
+### Ruby
+* Ruby on Rails
+
+### Python
+* Django
+
+## Infra
+### AWS
+* AWS SDK
+* Ops
+* Automation
+
+### Deployment
+* Docker
+* Kubernetis
+
+### OS
+* Windows Server
+* Ubuntu
+* Cent OS
+
+### DBMS
+* SQL Server
+* MySQL
+* PostgreSQL
+* MongoDB
+
+## Game
+### C++
+* IOCP
+* ODBC
+* OLEDB
+* DirectX 9.0
+
+### C#
+* DotNetty (Java의 Netty 포팅)
+* ZeroFormatter
+* FlatBuffers
+* Protobuf
+
+### Unity3D
+* UGUI
+* NGUI
