@@ -81,7 +81,6 @@ sidebar-avatar: https://elky84.github.io/img/avatar.png # use absolute URL, seei
 
 # NavBar
 navbar-links:
-  Home: "/"
   About: "aboutme"
   Projects: "projects"
   Categories: "/categories"
