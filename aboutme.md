@@ -5,9 +5,6 @@ comments: true
 permalink: /aboutme/
 ---
 
-* content
-{:toc}
-
 # About Me
 
 ## 블로그 소개
