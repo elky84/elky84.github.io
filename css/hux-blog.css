@@ -99,19 +99,25 @@
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.side-catalog .catalog-body .h1_nav,
-.side-catalog .catalog-body .h2_nav {
+.side-catalog .catalog-body .h1_nav {
   margin-left: 0;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: bold;
 }
+
+.side-catalog .catalog-body .h2_nav {
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
 .side-catalog .catalog-body .h3_nav {
-  margin-left: 6px;
+  margin-left: 10px;
   font-size: 13px;
   font-weight: bold;
 }
 .side-catalog .catalog-body .h4_nav {
-  margin-left: 12px;
+  margin-left: 14px;
   font-size: 12px;
 }
 .side-catalog .catalog-body .h4_nav a {
