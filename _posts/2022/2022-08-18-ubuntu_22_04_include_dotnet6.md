@@ -7,7 +7,7 @@ tags: [C#, .NET 6, Ubuntu]
 comments: true
 ---
 
-### 공식 문서
+### 공식 문서 및 소개
 [.NET 6 is now in Ubuntu 22.04](https://devblogs.microsoft.com/dotnet/dotnet-6-is-now-in-ubuntu-2204/)
 
 요약하자면, .NET 6가 Ubuntu 22.04에 포함되었다는 것이다.
