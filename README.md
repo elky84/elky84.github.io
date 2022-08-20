@@ -15,6 +15,6 @@
 
 # 엘키의 주절 주절 - 개발 블로그
 * jekyll로 작성된 블로그 포킹해서 운용중입니다.
-* 테마는 [Hux Blog](https://huangxuan.me)를 사용했습니다
+* 테마는 [Hux Blog](https://huangxuan.me)를 사용했고, 페이징 처리, 그룹화 처리 (year) 등을 손본 부분이 있습니다.
 * 이모지는 [emoji](https://gist.github.com/rxaviers/7360908)를 참고
 ================================
