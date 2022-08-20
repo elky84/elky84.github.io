@@ -18,7 +18,7 @@ comments: true
 
 ### 활용 방안
 
-:bulb: [dotnet-script](https://github.com/filipw/dotnet-script)가 bash shell의 기능 일부를 대신 해 줄 수 있을까? :grey_question: 불가능 할 건 없다.
+:bulb: [dotnet-script](https://github.com/filipw/dotnet-script)가 bash shell의 기능 일부를 대신 해 줄 수 있을까 :grey_question:
 
 파이썬과 루비의 운명을 가른 원인 중 하나가 python 2.x 버전의 linux 내장도 영향이 컸고, 이로인해 bash shell로 해야 될 작업을 편하게 지원하는 작업(예를 들어 [fabric](https://www.fabfile.org/))중 다수가 python에서 이뤄졌고, 이에 대한 패키지도 많았음이 이에 대한 반증일 것이다.
 
@@ -35,7 +35,7 @@ comments: true
 
 에 대해서는,
 
->.NET CORE의 경우에도 3.0이 되었을 때야 만족스러운 개발자 경험을 줬으며, 5.0, 6.0 부터야 확실히 연관 패키지나 주요 패키지들도 성숙했음을 느꼈기에, 꽤 오랜 시간 기다리면 나아지긴 할 가능성도 있다는 생각이다.
+{% include callout.html type="primary" content=".NET CORE의 경우에도 3.0이 되었을 때야 만족스러운 개발자 경험을 줬으며, 5.0, 6.0 부터야 확실히 연관 패키지나 주요 패키지들도 성숙했음을 느꼈기에, 꽤 오랜 시간 기다리면 나아지긴 할 가능성도 있다는 생각이다." %}
 
 ---
 
