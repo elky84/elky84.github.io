@@ -11,8 +11,7 @@ comments: true
 
 # LINQ의 함수들의 작동 방식
 
-[LINQ explained with sketches](https://steven-giesel.com/blogPost/d65c5411-a69b-489f-b73f-18ce0ed8678d)
-
+* 💡 [LINQ explained with sketches](https://steven-giesel.com/blogPost/d65c5411-a69b-489f-b73f-18ce0ed8678d)
 
 ![Linq](/img/2022/LinqPart1.webp)
 * Select : 특정 값을 선택 (또는 변환 역할도 가능) like Projection
