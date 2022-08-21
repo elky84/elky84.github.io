@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 게임서버에서의 DB 사용 전략 - 1. DB를 사용하는 방식
+title: 게임 서버에서의 DB 사용 전략 - 1. DB를 사용하는 방식
 date: 2020-07-18 00:00:00
 categories: [서버]
-tags: [게임 서버, RDB, 데이터베이스]
+tags: [게임 서버, 데이터베이스, RDB, RDBMS]
 comments: true
 ---
 

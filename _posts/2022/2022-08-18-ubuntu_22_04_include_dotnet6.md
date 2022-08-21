@@ -35,7 +35,7 @@ comments: true
 
 에 대해서는,
 
-{% include callout.html type="primary" content=".NET CORE의 경우에도 3.0이 되었을 때야 만족스러운 개발자 경험을 줬으며, 5.0, 6.0 부터야 확실히 연관 패키지나 주요 패키지들도 성숙했음을 느꼈기에, 꽤 오랜 시간 기다리면 나아지긴 할 가능성도 있다는 생각이다." %}
+{% include callout.html type="primary" title="사견" content=".NET CORE의 경우에도 3.0이 되었을 때야 만족스러운 개발자 경험을 줬으며, 5.0, 6.0 부터야 확실히 연관 패키지나 주요 패키지들도 성숙했음을 느꼈기에, 꽤 오랜 시간 기다리면 나아지긴 할 가능성도 있다는 생각이다." %}
 
 ---
 

@@ -19,4 +19,4 @@
 * 이모지는 [emoji](https://gist.github.com/rxaviers/7360908)를 참고
 * Callout은 [Jekyll-Callouts](https://blog.differentpla.net/blog/2022/01/30/jekyll-callouts/) 참조
     * 사용된 글은 [Ubuntu 22.04에 .NET 6 공식 탑재](https://elky84.github.io/2022/08/18/ubuntu_22_04_include_dotnet6/)
-================================
+* aside 태그에서, markdown 사용은 `<aside markdown="1"> 마크다운 </aside>`을 이용
