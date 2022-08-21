@@ -46,7 +46,7 @@ comments: true
 
 비공개 프로젝트 중 올해 가장 많인 시간을 쏟은 것은, 바로 2D MMORPG 였다.
 
-[https://www.youtube.com/watch?v=Z-CvaCFdvSs&t=36s](https://www.youtube.com/watch?v=Z-CvaCFdvSs&t=36s)
+[GM 프로젝트](https://www.youtube.com/watch?v=Z-CvaCFdvSs&t=36s)
 
 영상은 구현된 내용중 일부이며, 좀 더 자세한 개발 현황에 대한 기록이나 공유는 추후에 다뤄보도록 하겠다.
 
