@@ -93,7 +93,7 @@ try-catch로 이어지는 구문이 코드가 우아해보이기 보이지 않�
         
         Obj DoRealSomething()
         {
-        	if(실패)
+        	if(condition) // 실패 하는 조건
         	{
         		return throw new CustomException(ResultCode.Fail);
         	}
@@ -167,7 +167,7 @@ try-catch로 이어지는 구문이 코드가 우아해보이기 보이지 않�
      public DeniedException(Reason reason, Dictionary<string, string> relationVaraible )
      {
        Reason = reason;
-   		RelationVaraibles = relationVaraible;
+       RelationVaraibles = relationVaraible;
      }
    
      // 기타 생성자
