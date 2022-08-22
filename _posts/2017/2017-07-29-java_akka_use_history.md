@@ -6,6 +6,9 @@ categories: [Java]
 tags: [Java, Akka, Actor]
 comments: true
 ---
+
+## 개요
+
 Java에서 또 인상적이었 던은 Actor 모델로 유명하고, Scala에서 더 유명한 Akka다.
 
 Actor 모델의 근간은, 모든 통신을 Message로 하고, Actor 별로 단일 큐를 사용해 동시 접근 우려를 제거한다이다.
@@ -14,7 +17,7 @@ Actor 모델의 근간은, 모든 통신을 Message로 하고, Actor 별로 단�
 
 위는 Akka에 대한 간략한 설명을 그린 그림이다.
 
-출처 : <https://deepakpol.wordpress.com/2015/09/29/event-driven-and-reactive-architecture/>
+[출처](https://deepakpol.wordpress.com/2015/09/29/event-driven-and-reactive-architecture/)
 
 몇가지 주의 사항을 잘 지키면 손쉽게 비동기 프로그래밍을 할 수 있는데, 여기에서 또 중요한 점은 Actor 단위로 단일 큐를 사용하기 때문에 Actor 하나만 사용했을 땐 싱글 스레드 프로그래밍과 다를 바 없기에 워커를 돌리고 싶은 단위로 Actor를 사용 할 경우 적절하다.
 
@@ -23,6 +26,8 @@ Actor 모델의 근간은, 모든 통신을 Message로 하고, Actor 별로 단�
 물론 이 점은 다른 멀티 스레드 로직 구현보다 훨씬 지키기 쉬운 규칙이기에 상대적으로 잇점이 큰 구현 방식이다.
 
 ---
+
+## Akka의 장점
 
 나도 C++로 비동기 소켓 서버를 구현하면서, 메시징 기반으로 모든 로직을 동작 시킬 수 있다면 비동기로 동작한다는 것을 알고 그것을 구현해본 적도 있지만, 그 것을 규격화 하지는 않았다. 그리고 그 것이 Actor 모델이라 불리는 지도 몰랐고.
 
@@ -39,6 +44,8 @@ Akka는 메시징 기반 비동기 시스템을 규격화 하는데에 성공했
 안정성 확보는 덤이었다.
 
 ---
+
+## 마치며
 
 실제 팀에서 같이 사용 했을 때, 소통 코스트나 예외 처리 코스트가 급감했다는 점은 Akka (Actor Model)의 장점을 체감할 수 있었다.
 
