@@ -2,8 +2,8 @@
 layout: post
 title: 유니티3D 개발에 대한 단상
 date: 2015-08-25 11:14:54
-categories: [클라이언트, 유니티3D]
-tags: [클라이언트, 유니티3D]
+categories: [게임 개발]
+tags: [클라이언트, 유니티3D, 게임 개발, Unity3D]
 comments: true
 ---
 

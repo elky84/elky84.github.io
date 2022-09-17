@@ -2,7 +2,7 @@
 layout: post
 title: 주니어를 위한 성장에 필요한 노력
 date: 2022-08-21 00:00:00
-categories: [주니어]
+categories: [태도]
 tags: [주니어, 성장, 노력]
 comments: true
 ---

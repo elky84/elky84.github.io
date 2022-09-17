@@ -2,20 +2,24 @@
 layout: post
 title: PostgresSQL 요약 정리
 date: 2016-02-08 11:14:54
-categories: [PostgresSQL]
-tags: [PostgresSQL, RDB, Database, 데이터베이스, pgsql]
+categories: [RDB]
+tags: [PostgresSQL, RDB, Database, 데이터베이스]
 comments: true
 ---
 ### 한눈에 살펴보는 PostgreSQL
 * <http://d2.naver.com/helloworld/227936>
+
 ### 장점
 * <http://adbanced.tistory.com/24>
 * <http://devx.tistory.com/34>
+
 ### pgadmin [management tool]
 * <http://www.pgadmin.org/download/>
+
 ### Function
 * 사용자 정의 함수
     * <http://blog.daum.net/aswip/8429507>
+
 ### Syntax
 * 기본 문법
     * <http://database.sarang.net/database/postgres/tutorial/lecture/book1.htm>
@@ -25,8 +29,10 @@ comments: true
     * <http://acpi.tistory.com/119>
 * 생성/ 삭제
     * <http://articles.slicehost.com/2009/5/7/postgresql-creating-and-dropping-databases>
+
 ### 프로파일링
 * <http://daewonyoon.tistory.com/162>
+
 ### 쿼리 측정 및 통계
 * DB 쿼리 통계
     * <http://postgresql.kr/docs/9.3/monitoring-stats.html>

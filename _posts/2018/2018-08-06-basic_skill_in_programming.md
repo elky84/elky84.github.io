@@ -2,8 +2,8 @@
 layout: post
 title: 프로그래밍에서의 기본기란?
 date: 2018-08-06 00:00:00
-categories: [기본기]
-tags: [기본기]
+categories: [태도]
+tags: [기본기, 태도]
 comments: true
 ---
 

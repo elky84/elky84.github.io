@@ -2,8 +2,8 @@
 layout: post
 title: Reactor 패턴과 Proactor 패턴
 date: 2014-08-05 11:14:54
-categories: [멀티 스레드]
-tags: [Reactor, Proactor, Async]
+categories: [비동기]
+tags: [Reactor, Proactor, Async, 비동기, 디자인 패턴]
 comments: true
 ---
 

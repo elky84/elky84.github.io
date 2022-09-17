@@ -2,7 +2,7 @@
 layout: post
 title: MongoDB 6.0 릴리즈와 7가지 핵심 변경 사항
 date: 2022-07-21 00:00:00
-categories: [MongoDB]
+categories: [NoSQL]
 tags: [MongoDB]
 comments: true
 ---

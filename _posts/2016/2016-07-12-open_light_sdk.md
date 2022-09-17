@@ -2,15 +2,15 @@
 layout: post
 title: LightSDK 공개
 date: 2016-07-12 11:14:54
-categories: [오픈소스]
-tags: [오픈소스, Light]
+categories: [오픈 소스]
+tags: [오픈 소스, Light, C++]
 comments: true
 ---
 # LightSDK
 
 오픈소스로 올려둔 프로젝트들에 대해서 설명드립니다.
 
-<https://github.com/elky84>
+<https://github.com/elky84/light>
 
 github에 제가 개인 작업한 라이브러리 및 샘플 공유합니다.
 주로 WIN32용 코드가 다수이며, C#및 Unity 코드도 일부 포함되어있습니다.

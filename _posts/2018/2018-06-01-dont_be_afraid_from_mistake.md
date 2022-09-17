@@ -2,8 +2,8 @@
 layout: post
 title: 실수를 두려워하지 않기
 date: 2018-06-01 17:08:00
-categories: [실수, 실패]
-tags: [실수, 실패]
+categories: [태도]
+tags: [실수, 태도]
 comments: true
 ---
 

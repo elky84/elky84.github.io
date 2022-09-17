@@ -2,7 +2,7 @@
 layout: post
 title: TDD에게서 자유로워 지자
 date: 2014-11-04 11:14:54
-categories: [유닛테스트, TDD]
+categories: [테스트]
 tags: [유닛테스트, TDD]
 comments: true
 ---

@@ -2,8 +2,8 @@
 layout: post
 title: 도구의 중요성
 date: 2018-06-01 17:08:00
-categories: [도구]
-tags: [도구]
+categories: [개발 도구]
+tags: [개발 도구]
 comments: true
 ---
 

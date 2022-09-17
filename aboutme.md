@@ -56,7 +56,6 @@ permalink: /aboutme/
 ### Java
 * Spring Boot
 * JPA
-* MongoTemplate
 * Spring Cloud
 
 ### C#
@@ -75,39 +74,16 @@ permalink: /aboutme/
 * Django
 
 ## Infra
-### AWS
-* AWS SDK
-* Ops
-* Automation
+### Cloud
+* AWS
+* Azure
 
 ### Deployment
 * Docker
 * Kubernetis
-
-### OS
-* Windows Server
-* Ubuntu
-* Cent OS
 
 ### DBMS
 * SQL Server
 * MySQL
 * PostgreSQL
 * MongoDB
-
-## Game
-### C++
-* IOCP
-* ODBC
-* OLEDB
-* DirectX 9.0
-
-### C#
-* DotNetty (Java의 Netty 포팅)
-* ZeroFormatter
-* FlatBuffers
-* Protobuf
-
-### Unity3D
-* UGUI
-* NGUI

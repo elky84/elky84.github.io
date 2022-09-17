@@ -375,7 +375,7 @@ permalink: /projects/
   * Senior Server Programmer
 
 * Tech
-  * C#
+  * C# (Dotnet 6, ASP.NET CORE)
   * Unity3D
   * Deep Learning
 
