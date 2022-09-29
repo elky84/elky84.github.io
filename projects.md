@@ -6,7 +6,6 @@ permalink: /projects/
 ---
 
 # Commercial Projects
-
 ## MixMaster Online
 ![Logo](/img/logos/xaimedia.png)
 
@@ -82,9 +81,6 @@ permalink: /projects/
 
 * Year
   * 2008-2009
-
-* Website
-  * <http://co.nexon.com/Index.aspx?p=2>
 
 * Role
   * Lead Server Programming
@@ -380,7 +376,6 @@ permalink: /projects/
   * Deep Learning
 
 # Github Projects
-
 ## Crawler
 * [web-crawler](https://github.com/elky84/web-crawler)
 * [lol-crawler](https://github.com/elky84/lol-crawler)
