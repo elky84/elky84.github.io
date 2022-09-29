@@ -185,14 +185,12 @@ permalink: /projects/
 * Year
   * 2015~2016
 
-* Website
-  * <http://www.gevolution.co.kr/app/?svc=215882>
-
 * Role
   * Lead Programming
 
 * Record
-  * Google Play Store launch. 90th in top sales.
+  * Google Play Store launch. 
+    * 90th in top game sales.
 
 * Tech
   * Unity3D 5.2.5 in C#
@@ -291,7 +289,7 @@ permalink: /projects/
 
 ## Toast Cloud
 
-![Logo](/img/logos/nhnent.png)
+![Logo](/img/logos/nhn.png)
 
 * Company
   * NHN
@@ -349,7 +347,7 @@ permalink: /projects/
   * Online Game Senior Server Programmer
 
 * Tech
-  * C++ 17
+  * C++ 14
   * SQL Server
   * C#
 
@@ -371,7 +369,7 @@ permalink: /projects/
   * Senior Server Programmer
 
 * Tech
-  * C# (Dotnet 6, ASP.NET CORE)
+  * C# (DotNet 6, ASP.NET CORE)
   * Unity3D
   * Deep Learning
 
