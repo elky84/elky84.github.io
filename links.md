@@ -5,10 +5,10 @@ comments: true
 permalink: /links/
 ---
 
-# 나의 또 다른 페이지
+# 🎶 내 블로그
 * [Elky Review](https://elky84.github.io/review)
 
-# 추천 개발 블로그
+# 💻 개발 블로그
 ## RSS 주소 모음
 * [GitHub - awesome-devblog/awesome-devblog: 어썸데브블로그. 국내 개발/기술 블로그 모음(only 실명으로).](https://github.com/awesome-devblog/awesome-devblog)
 * [BenjaminKim/awesome-blogs: 한국에 있는 좋은 개발자들의 블로그들을 편리하게 구독할 수 있도록 하나의 주소로 묶어서 RSS 피드로 제공해줍니다.](https://github.com/BenjaminKim/awesome-blogs)
@@ -17,8 +17,12 @@ permalink: /links/
     * [Company](https://awesome-blogs.petabytes.org/feeds?group=company)
     * [Developer](https://awesome-blogs.petabytes.org/feeds?group=dev)
 
-# 추천 개발 정보 사이트
+# ⌨️ 학습 자료
+## 백엔드
+* [Frankle97/study-collection-backend: 📚 백엔드 개발자 학습 자료 모음](https://github.com/Frankle97/study-collection-backend)
 
+# 📰 뉴스레터/큐레이션
+## 국내
 * [velog](https://velog.io/)
 * [코드너리](https://www.codenary.co.kr/)
     * 기술 스택 기반으로 검색 기능 지원
@@ -35,4 +39,32 @@ permalink: /links/
     * 이력서 기능도 훌륭함
 * [요즘 사람들의 IT 매거진, 요즘IT](https://yozm.wishket.com/magazine/)
     * 개발 관련 큐레이션 서비스의 일종돌
-* [어썸데브블로그](https://awesome-devblog.netlify.app/)
+* [월간 개발자스럽다](https://blog.gaerae.com/)
+* [Tech Blog Posts](https://techblogposts.com/)
+* [네이버 FE News](https://github.com/naver/fe-news)
+
+## 해외
+* [Hacker News](https://news.ycombinator.com/)
+* [Javascript Weekly](https://javascriptweekly.com/)
+* [Frontend Weekly](https://frontendweekly.co/)
+* [Frontend Front](https://frontendfront.com/)
+* [Geeks of geeks](https://www.geeksforgeeks.org/)
+
+## 개인 블로그
+* [Outsider's Dev Story](https://blog.outsider.ne.kr/category/Newsletter)
+    * 기술 뉴스
+* [Sangkon Han(SigmaDream, sd or SD)](https://www.sangkon.com/)
+    * 위클리 뉴스
+
+# 🗣 커뮤니티
+* [Dev Comminity](https://dev.to/)
+* [미디엄](https://medium.com/)
+* [XDA Developers](https://www.xda-developers.com/)
+* [OK JSP(Java)](https://okky.kr/)
+* [makersweb(Qt, 임베디드)](https://www.makersweb.net/)
+* [PHP SCHOOL](https://phpschool.com/)
+* [DBA 커뮤니티 구루비](http://gurubee.net/)
+* [DEV KOREA(유니티)](http://devkorea.co.kr/)
+
+# 채용 자료
+* [jojoldu/junior-recruit-scheduler: 주니어 개발자 채용 정보](https://github.com/jojoldu/junior-recruit-scheduler)
