@@ -373,72 +373,132 @@ permalink: /projects/
   * Unity3D
   * Deep Learning
 
+# Private Projects
+## Game
+* [GM](https://www.youtube.com/watch?v=Z-CvaCFdvSs)
+  * Unity 3D, C# DotNetty 로 구현한 습작 2D MMORPG
+  * 넌타겟, 넷핵, 패스파인더 등 클래식 RPG에 영향을 받아 1인 개발 하고 있는 게임.
+  * {% include youtube.html id="Z-CvaCFdvSs" %}
+
+
 # Github Projects
 ## Crawler
 * [web-crawler](https://github.com/elky84/web-crawler)
+  * Abot2, ASP.NET 6로 구현한 웹 (인벤, 루리웹, 오늘의 유머, FM코리아 등) 크롤러 & 알리미.
+  * RSS Feed 알림 기능도 포함.
+  * 첫 버전은 Python, Java Script로 구현했으나, 디버깅, 배포 (Docker & K8S) 용이성 등으로 C# [ASP.NET](http://ASP.NET) 으로 포팅
 * [lol-crawler](https://github.com/elky84/lol-crawler)
+  * ASP.NET 6로 구현한 LOL 게임 시작/결과 추적기
+  * 최초 버전은 Java 8, Spring Boot로 구현했었으나, 디버깅, 배포용이성으로 C# 포팅
 * [stock-crawler](https://github.com/elky84/stock-crawler)
+  * Abot2, ASP.NET 6로 구현한 네이버 주식 크롤러, 분석기
+  * 다양한 알고리즘으로 종목 선별 기능.
+  * 조건에 따른 자동 매수/매도를 통한 모의 투자 기능.
 
 ## C# Package
 * [EzAspDotNet](https://github.com/elky84/EzAspDotNet)
+  * ASP.NET 에서 사용되는 각종 편의 기능을 묶어서 제공하는 지원 패키지
 * [EzAspDotNet.Protocols](https://github.com/elky84/EzAspDotNet.Protocols)
+  * EzAspDotNet의 공용 Protocols 모음
 * [EzDotNetty](https://github.com/elky84/EzDotNetty)
+  * Java의 Netty (소켓 라이브러리)를 Microsoft가 포팅한 DotNetty를 편하게 쓸 수 있게 지원해주는 패키지
+* [EzMongoDb](https://github.com/elky84/EzMongoDb)
+  * MongoDb를 C#에서 편하게 쓸 수 있게 지원해주는 패키지
 * [ExcelToDotNet](https://github.com/elky84/ExcelToDotnet)
+  * Excel 정의 데이터를 C# class, enum, json 으로 뽑아서 게임 혹은 각종 앱에 편하게 쓸 수 있게 해주는 패키지
 * [EnumExtend](https://github.com/elky84/EnumExtend)
+  * C#에서 Enum의 설명 기능을 Attribute로 추가, 이외에도 int 로의 변환, 모두 가져오기 등의 유틸리티 기능을 확장 지원해주는 패키지
 * [JsonTable](https://github.com/elky84/JsonTable)
+  * C#, Unity3D 에서 Json 형태의 데이터를 정의한 자료구조로 로드하고, 매핑 시켜주는 패키지
 * [light-csnet](https://github.com/elky84/light-csnet)
+  * .NET Framework 4.6 기반의 소켓 테스트 프로그램
+  * Flatbuffers 이용
 
 ## C# ASP.NET CORE
 * [Football-Analysis](https://github.com/elky84/Football-Analysis)
 * [WebCommunity](https://github.com/elky84/WebCommunity)
+  * ASP.NET 6 기반 커뮤니티 사이트
+    * Ocelot 기반의 MSA
+    * MongoDB를 메인 DB로 사용
+  * Frontend는 Vue.js 기반
 * [Mobility](https://github.com/elky84/Mobility)
+  * ASP.NET 6 기반 택시 예약 서비스
 
 ## C# Projects
 * [ItemGenerator](https://github.com/elky84/ItemGenerator)
+  * 엑셀 데이터 + 로직 기반 아이템 생성기
 * [snake](https://github.com/elky84/snake)
+  * 꼬리물기 뱀 게임
+    * [Youtube](https://github.com/elky84/NineWars/)
 
 ## C++ Game
 * [NineWars](https://github.com/elky84/NineWars)
+  * DirectX 9.0, C++로 구현한 습작 2D Auto Battler.
+  * Football Manager 시리즈의 영향을 받아, 전략 설정, 유닛 배치를 기반으로 동작하는 게임
 * [QuizHolic](https://github.com/elky84/QuizHolic)
+  * 퀴즈 게임 프로토
 * [SoccerManagerDx](https://github.com/elky84/SoccerManagerDx)
+  * 축구 매니저 게임 프로토
 * [SrpgSdl](https://github.com/elky84/SrpgSdl)
+  * SRPG 프로토
 
 ## C++ Library
 * [light](https://github.com/elky84/light)
+  * C++, Boost, IOCP, OleDB 기반의 서버 네트워크 라이브러리
 * [redmoon](https://github.com/elky84/redmoon)
+  * light가 rename 되기 이전 버전인 network 라이브러리
 
 ## C++ MFC
 * [ez-shortcut](https://github.com/elky84/ez-shortcut)
+  * MFC 기반 실행 파라미터 관리 프로그램
 * [name-generator](https://github.com/elky84/name-generator)
+  * MFC 기반 이름 생성기 
 
 ## Unity3D
 * [unity-card](https://github.com/elky84/unity-card)
+  * NGUI를 사용하는 Card 게임 프로토
 * [unity-srpg](https://github.com/elky84/unity-srpg)
+  * UGUI를 사용하는 간단한 SRPG 프로토
 * [unity-rpg-dq-like](https://github.com/elky84/unity-rpg-dq-like)
+  * NGUI를 사용하는 간단한 1인칭 배틀 프로토
 * [unity-net-sample](https://github.com/elky84/unity-net-sample)
+  * flatbuffers 기반 네트워크 코드 예시
 
 ## Java
 * [loltracer](https://github.com/elky84/loltracer)
+  * 롤 경기 시작/종료 결과 알리미
 * [ReservationSystem](https://github.com/elky84/reservation-system)
-* [netty-example](https://github.com/elky84/netty-example)
+  * Spring Boot 기반 CRUD 예시
 
 ## Python
+* [community-crawler-py](https://github.com/elky84/community-crawler-py)
+  * 다양한 커뮤니티의 글 정보를 긁어와서 mongodb에 넣는 크롤러
 * [rebrow](https://github.com/elky84/rebrow)
 * [google-play-crawler](https://github.com/elky84/google-play-crawler)
+  * google play store 댓글 크롤러
 * [xlsx-converter-py](https://github.com/elky84/xlsx-converter-py)
+  * xlsx 파일을 json or csv로 변환해주는 변환기
 * [feedly-opml-to-json](https://github.com/elky84/feedly-opml-to-json)
+  * feedly의 opml 포맷 데이터를 json으로 변환해주는 변환기
 
 ## Node.js
 * [feed-notifier](https://github.com/elky84/feed-notifier)
+  * feed 정보들을 읽어서, 새 feed를 Slack으로 전달하는 프로젝트
 * [community-notifier](https://github.com/elky84/community-notifier)
+  * [community-crawler-py](https://github.com/elky84/community-crawler-py)에서 크롤링된 결과를 Slack으로 전달해주는 프로젝트
 
 ## Vue.js
 * [CommunityBoard](https://github.com/elky84/community-board)
+  * [community-crawler-py](https://github.com/elky84/community-crawler-py) 에서 크롤링된 데이터를 가져다가 시각화+검색해서 보여주는 backend & frontend 통합 프로젝트
 
 ## Ruby
 * [rails-game-web](https://github.com/elky84/rails-game-web)
+  * Rails로 작성된 게임 서버 샘플
 * [ruby-code-generator](https://github.com/elky84/ruby-code-generator)
+  * Ruby로 C#/Ruby on rails 코드 생성기
 
 ## Etc
 * [DevIcons](https://github.com/elky84/DevIcons)
+  * 개발에서 다양하게 쓰이는 기술 스택 아이콘 모음
 * [cpp-console-games](https://github.com/elky84/cpp-console-games)
+  * C++ 콘솔 화면에서 동작하는 게임 모음
