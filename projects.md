@@ -6,106 +6,164 @@ permalink: /projects/
 ---
 
 # Commercial Projects
-## MixMaster Online
-![Logo](/img/logos/xaimedia.png)
 
-* Company
-  * Xaimedia
+## KRAFTON
 
+![Logo](/img/logos/krafton.png)
+
+### Tera
 * Year
-  * 2005-2006
-
-* Website
-  * <http://www.mixmaster.co.kr/>
+  * 2020~2022
 
 * Role
-  * Client Programming
+  * Online Game Senior Server Programmer
 
 * Tech
-  * C++ (VS 6.2) 
-  * MFC 6.2
-  * Windows Desktop
-  * DirectX 7
-
-* Description 
-  * 2D Online MMORPG. 
-  * Tool Development
-  * Contents Development
-
-{% include youtube.html id="3GFo_K_PwMs" %}
-  
-## Pokipoki
-
-![Logo](/img/logos/neoact.png)
-
-* Company
-  * Neoact
-
-* Year
-  * 2006-2009
-
-* Website
-  * <http://pokipoki.co.kr/>
-
-* Role
-  * Lead Server Programming
-
-* Record
-  * Korea CBT2~LIVE
-  * Japan CBT~LIVE
-  * Taiwan CBT~LIVE
-
-* Tech
-  * C++ (VS2005)
-  * Windows Server 2003
-  * IOCP
-  * SQL Server 2005
-  * Oracle 9i
-  * ODBC
-
-* Description
-  * 3D Online SNG
-  * Avatar Chatting, Dungeon Adventure, Gathering, Fishing, Hunting and more features.
-  * Soccer, Run, Fight and more mini games.
-  * Socket Library Maintenance.
-  * Server Contents Development.
-
-{% include youtube.html id="L8OtS7TRs7I" %}
-  
-## Chaos Online
-
-![Logo](/img/logos/neoact.png)
-
-* Company
-  * Neoact
-
-* Year
-  * 2008-2009
-
-* Role
-  * Lead Server Programming
-
-* Tech
-  * C++ (VS2005)
-  * Windows Server 2003
-  * IOCP
-  * SQL Server 2005
-  * OLE DB
-
-* Description
-  * 3D Online AOS Game
-  * C++ IOCP
-  * Socket Library Development
+  * C++ 14
   * SQL Server
+  * C#
 
-{% include youtube.html id="5G7EcqGAyrM" %}
-  
-## Pangya Online
+* Description
+  * Online MMORPG Game
+
+{% include youtube.html id="TyfJbaNDxrA" %}
+
+### Special Project 2
+
+* Year
+  * 2022~
+
+* Role
+  * Senior Server Programmer
+
+* Tech
+  * C# (DotNet 6, ASP.NET CORE)
+  * Unity3D
+  * Deep Learning Web Platform
+
+
+## Netmarble
+
+![Logo](/img/logos/netmarble.png)
+
+### NOS
+
+* Year
+  * 2017~2018
+
+* Role
+  * Backend API Server Development
+
+* Tech
+  * Java 8, Python 2 & 3, C++
+  * Cent OS, Ubuntu
+  * Spring Boot 1.5.8
+  * JPA
+  * MariaDB, Redis, MongoDB
+
+* Description
+  * Netmarble Operating System
+  * Private Cloud
+  * API Gateway 
+  * Asset Management System
+  * Planner (Script based component link System)
+
+
+## NHN
+
+![Logo](/img/logos/nhn.png)
+
+### MS Project
+
+* Year
+  * 2016~2017
+
+* Role
+  * Lead Server Programming
+  * Contents Programming (Server & Client 1-tier development)
+
+* Tech
+  * Unity3D 5.x in C#
+  * Cent OS 7.2
+  * Python 3.4.3
+  * django 1.10
+  * ASP.NET CORE 1.0.3
+  * SuperSocket 1.6.6
+  * Redis 3.2.6
+
+* Description
+  * Poker based Strategy Card Battle.
+  * Python Django
+  * C# ASP.NET CORE, SuperSocket
+
+### G Project
+
+* Year
+  * 2017
+
+* Role
+  * Lead Server Programming
+
+* Tech
+  * Cent OS 7
+  * Java 8
+  * Netty 4.1.13
+  * Spring Boot 1.5.2
+  * Akka 2.5.3
+  * MySQL 5.7
+
+* Description
+  * Realtime Casual Puzzle Game
+  * C++ Server Porting to Java
+  * Server Structure Architect
+
+### Toast Cloud
+
+* Year
+  * 2018~2019
+
+* Role
+  * Fullstack Web Development
+
+* Tech
+  * Java 8
+  * Spring 5.0, Spring Boot 2.0
+  * myBatis
+  * JPA
+  * MySQL 5.7
+  * Vue.js
+
+* Description
+  * Public Cloud Service
+
+
+## Mojito Games (JoyCity Subsidiary)
+
+### Project M
+
+![Logo](/img/logos/joycity.png)
+
+* Year
+* 2019~2020
+
+* Role
+  * Mobile Game Lead Programmer
+
+* Tech
+  * C#
+  * .NET CORE 3
+  * ASP.NET
+  * DotNetty
+
+* Description
+  * Mobile Collect & Strategy Game.
+
+
+## Ntreev Soft
 
 ![Logo](/img/logos/ntreev.png)
 
-* Company
-  * Ntreev Soft
+### Pangya Online
 
 * Year
   * 2009-2012
@@ -132,12 +190,11 @@ permalink: /projects/
 
 {% include youtube.html id="RNmQ4HOvnuo" %}
   
-## Gunz 2 the second duel
+## MAIET Entertainment
 
 ![Logo](/img/logos/maiet.png)
 
-* Company
-  * Maiet Entertainment
+### Gunz 2 the second duel
 
 * Year
   * 2012-2014
@@ -174,13 +231,12 @@ permalink: /projects/
   * Ruby(with C++) Monitoring Tool
 
 {% include youtube.html id="KRsIxJKumUg" %}
-  
-## 밤을 걷는 선비 (Scholar Who Walks in The Night)
+
+## LV999
 
 ![Logo](/img/logos/lv999.png)
 
-* Company
-  * LV999
+### 밤을 걷는 선비 (Scholar Who Walks in The Night)
 
 * Year
   * 2015~2016
@@ -206,172 +262,94 @@ permalink: /projects/
   * Unity3D Client
 
 {% include youtube.html id="O0icFg-BEiQ" %}
+
+## Neoact
+
+![Logo](/img/logos/neoact.png)
+
+### Pokipoki
+
+* Year
+  * 2006-2009
+
+* Website
+  * <http://pokipoki.co.kr/>
+
+* Role
+  * Lead Server Programming
+
+* Record
+  * Korea CBT2~LIVE
+  * Japan CBT~LIVE
+  * Taiwan CBT~LIVE
+
+* Tech
+  * C++ (VS2005)
+  * Windows Server 2003
+  * IOCP
+  * SQL Server 2005
+  * Oracle 9i
+  * ODBC
+
+* Description
+  * 3D Online SNG
+  * Avatar Chatting, Dungeon Adventure, Gathering, Fishing, Hunting and more features.
+  * Soccer, Run, Fight and more mini games.
+  * Socket Library Maintenance.
+  * Server Contents Development.
+
+{% include youtube.html id="L8OtS7TRs7I" %}
   
-## MS Project
-
-![Logo](/img/logos/nhnent.png)
-
-* Company
-  * NHN Studio 629
+### Chaos Online
 
 * Year
-  * 2016~2017
-
-* Role
-  * Lead Server Programming
-  * Contents Programming (Server & Client 1-tier development)
-
-* Tech
-  * Unity3D 5.x in C#
-  * Cent OS 7.2
-  * Python 3.4.3
-  * django 1.10
-  * ASP.NET CORE 1.0.3
-  * SuperSocket 1.6.6
-  * Redis 3.2.6
-
-* Description
-  * Poker based Strategy Card Battle.
-  * Python Django
-  * C# ASP.NET CORE, SuperSocket
-
-## G Project
-![Logo](/img/logos/nhnent.png)
-
-* Company
-  * NHN Entertainment
-
-* Year
-  * 2017
+  * 2008-2009
 
 * Role
   * Lead Server Programming
 
 * Tech
-  * Cent OS 7
-  * Java 8
-  * Netty 4.1.13
-  * Spring Boot 1.5.2
-  * Akka 2.5.3
-  * MySQL 5.7
+  * C++ (VS2005)
+  * Windows Server 2003
+  * IOCP
+  * SQL Server 2005
+  * OLE DB
 
 * Description
-  * Realtime Casual Puzzle Game
-  * C++ Server Porting to Java
-  * Server Structure Architect
-
-## NOS
-
-![Logo](/img/logos/netmarble.png)
-
-* Company
-  * Netmarble
-
-* Year
-  * 2017~2018
-
-* Role
-  * Backend API Server Development
-
-* Tech
-  * Java 8, Python 2 & 3, C++
-  * Cent OS, Ubuntu
-  * Spring Boot 1.5.8
-  * JPA
-  * MariaDB, Redis, MongoDB
-
-* Description
-  * Netmarble Operating System
-  * Private Cloud
-  * API Gateway 
-  * Asset Management System
-  * Planner (Script based component link System)
-
-## Toast Cloud
-
-![Logo](/img/logos/nhn.png)
-
-* Company
-  * NHN
-
-* Year
-  * 2018~2019
-
-* Role
-  * Fullstack Web Development
-
-* Tech
-  * Java 8
-  * Spring 5.0, Spring Boot 2.0
-  * myBatis
-  * JPA
-  * MySQL 5.7
-  * Vue.js
-
-* Description
-  * Public Cloud Service
-
-## Project M
-
-![Logo](/img/logos/joycity.png)
-
-* Company
-* Mojito Games (JoyCity Subsidiary)
-
-* Year
-* 2019~2020
-
-* Role
-  * Mobile Game Lead Programmer
-
-* Tech
-  * C#
-  * .NET CORE 3
-  * ASP.NET
-  * DotNetty
-
-* Description
-  * Mobile Collect & Strategy Game.
-
-## Tera
-
-![Logo](/img/logos/krafton.png)
-
-* Company
-  * KRAFTON
-
-* Year
-  * 2020~2022
-
-* Role
-  * Online Game Senior Server Programmer
-
-* Tech
-  * C++ 14
+  * 3D Online AOS Game
+  * C++ IOCP
+  * Socket Library Development
   * SQL Server
-  * C#
 
-* Description
-  * Online MMORPG Game
+{% include youtube.html id="5G7EcqGAyrM" %}
 
-{% include youtube.html id="TyfJbaNDxrA" %}
+## Xaimedia
 
-## Special Project 2
+![Logo](/img/logos/xaimedia.png)
 
-![Logo](/img/logos/krafton.png)
-* Company
-  * KRAFTON
+### MixMaster Online
 
 * Year
-  * 2022~
+  * 2005-2006
+
+* Website
+  * <http://www.mixmaster.co.kr/>
 
 * Role
-  * Senior Server Programmer
+  * Client Programming
 
 * Tech
-  * C# (DotNet 6, ASP.NET CORE)
-  * Unity3D
-  * Deep Learning
+  * C++ (VS 6.2) 
+  * MFC 6.2
+  * Windows Desktop
+  * DirectX 7
+
+* Description 
+  * 2D Online MMORPG. 
+  * Tool Development
+  * Contents Development
+
+{% include youtube.html id="3GFo_K_PwMs" %}
 
 # Private Projects
 ## Game
@@ -392,8 +370,8 @@ permalink: /projects/
   * 최초 버전은 Java 8, Spring Boot로 구현했었으나, 디버깅, 배포용이성으로 C# 포팅
 * [stock-crawler](https://github.com/elky84/stock-crawler)
   * Abot2, ASP.NET 6로 구현한 네이버 주식 크롤러, 분석기
-  * 다양한 알고리즘으로 종목 선별 기능.
-  * 조건에 따른 자동 매수/매도를 통한 모의 투자 기능.
+  * 다양한 알고리즘으로 종목 선별 기능
+  * 조건에 따른 자동 매수/매도를 통한 모의 투자 기능
 
 ## C# Package
 * [EzAspDotNet](https://github.com/elky84/EzAspDotNet)

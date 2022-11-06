@@ -31,12 +31,12 @@ permalink: /links/
 * [GeekNews - 개발/기술/스타트업 뉴스 서비스](https://news.hada.io/)
     * 각종 해외 뉴스를 요약/번역해서 전달 해 줌
 * [서플 - 매일 성장을 도와주는 시작페이지](https://supple.kr/)
-    * 시작 페이지로 좋음
-        * 추천 글도 괜찮음
-        * 커뮤니티도 활성화 되어 있는 듯 함
+    * 브라우저 시작 페이지로 활용 가능
+    * 추천 글도 괜찮고, 커뮤니티도 활성화 되어 있는 듯 함
 * [서핏 - 매일 성장하는 사람들의 커리어 플랫폼](https://www.surfit.io/)
     * 서플과 유사하지만, 커뮤니티 기능은 없음
     * 이력서 기능도 훌륭함
+    * 공고 기능은 있는데 거의 없음
 * [요즘 사람들의 IT 매거진, 요즘IT](https://yozm.wishket.com/magazine/)
     * 개발 관련 큐레이션 서비스의 일종돌
 * [월간 개발자스럽다](https://blog.gaerae.com/)
@@ -66,5 +66,5 @@ permalink: /links/
 * [DBA 커뮤니티 구루비](http://gurubee.net/)
 * [DEV KOREA(유니티)](http://devkorea.co.kr/)
 
-# 채용 자료
+# 👨‍💻 채용 자료
 * [jojoldu/junior-recruit-scheduler: 주니어 개발자 채용 정보](https://github.com/jojoldu/junior-recruit-scheduler)
