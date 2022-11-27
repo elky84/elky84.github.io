@@ -3,7 +3,9 @@ layout: post
 title: C++의 시대는 저물고 있고, Rust는 떠오르고 있다
 date: 2022-09-25 00:00:00
 categories: [프로그래밍 언어]
-tags: [C++, Rust]
+tags: 
+- C++
+- Rust
 comments: true
 ---
 

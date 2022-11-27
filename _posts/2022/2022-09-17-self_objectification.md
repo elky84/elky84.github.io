@@ -3,7 +3,9 @@ layout: post
 title: 자기 객관화
 date: 2022-09-17 00:00:00
 categories: [자기 객관화]
-tags: [단점, 개선]
+tags: 
+- 단점
+- 개선
 comments: true
 ---
 
