@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 축구와 소프트웨어 개발 #02 로테이션
+title: 축구와 소프트웨어 개발 - 02 로테이션
 date: 2022-11-27 21:00:00
 categories: [주절주절]
 tags: 
