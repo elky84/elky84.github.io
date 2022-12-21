@@ -7,13 +7,25 @@ permalink: /projects/
 
 # Commercial Projects
 
+## OP.GG
+
+![Logo](/img/logos/opgg.png)
+
+
+* Role
+  * Backend Engineer
+
+* Tech
+  * Kotlin
+  * Spring Boot
+  * JPA
+  * GraphQL
+
 ## KRAFTON
 
 ![Logo](/img/logos/krafton.png)
 
 ### Tera
-* Year
-  * 2020~2022
 
 * Role
   * Online Game Senior Server Programmer
@@ -30,9 +42,6 @@ permalink: /projects/
 
 ### Special Project 2
 
-* Year
-  * 2022~
-
 * Role
   * Senior Server Programmer
 
@@ -41,15 +50,11 @@ permalink: /projects/
   * Unity3D
   * Deep Learning Web Platform
 
-
 ## Netmarble
 
 ![Logo](/img/logos/netmarble.png)
 
 ### NOS
-
-* Year
-  * 2017~2018
 
 * Role
   * Backend API Server Development
@@ -75,9 +80,6 @@ permalink: /projects/
 
 ### MS Project
 
-* Year
-  * 2016~2017
-
 * Role
   * Lead Server Programming
   * Contents Programming (Server & Client 1-tier development)
@@ -98,9 +100,6 @@ permalink: /projects/
 
 ### G Project
 
-* Year
-  * 2017
-
 * Role
   * Lead Server Programming
 
@@ -118,9 +117,6 @@ permalink: /projects/
   * Server Structure Architect
 
 ### Toast Cloud
-
-* Year
-  * 2018~2019
 
 * Role
   * Fullstack Web Development
@@ -143,9 +139,6 @@ permalink: /projects/
 
 ![Logo](/img/logos/joycity.png)
 
-* Year
-* 2019~2020
-
 * Role
   * Mobile Game Lead Programmer
 
@@ -164,9 +157,6 @@ permalink: /projects/
 ![Logo](/img/logos/ntreev.png)
 
 ### Pangya Online
-
-* Year
-  * 2009-2012
 
 * Role
   * Assistant Server Programming
@@ -195,9 +185,6 @@ permalink: /projects/
 ![Logo](/img/logos/maiet.png)
 
 ### Gunz 2 the second duel
-
-* Year
-  * 2012-2014
 
 * Website
   * <http://store.steampowered.com/app/242720/>
@@ -238,9 +225,6 @@ permalink: /projects/
 
 ### 밤을 걷는 선비 (Scholar Who Walks in The Night)
 
-* Year
-  * 2015~2016
-
 * Role
   * Lead Programming
 
@@ -268,9 +252,6 @@ permalink: /projects/
 ![Logo](/img/logos/neoact.png)
 
 ### Pokipoki
-
-* Year
-  * 2006-2009
 
 * Website
   * <http://pokipoki.co.kr/>
@@ -302,9 +283,6 @@ permalink: /projects/
   
 ### Chaos Online
 
-* Year
-  * 2008-2009
-
 * Role
   * Lead Server Programming
 
@@ -328,9 +306,6 @@ permalink: /projects/
 ![Logo](/img/logos/xaimedia.png)
 
 ### MixMaster Online
-
-* Year
-  * 2005-2006
 
 * Website
   * <http://www.mixmaster.co.kr/>
