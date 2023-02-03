@@ -15,8 +15,8 @@ future: true
 RSS: true
 github_username:    elky84
 twitter_username:   elky84
-#facebook_username:  huxpro
-#linkedin_username:  firstname-lastname-idxxxx
+facebook_username:  elky1984
+linkedin_username:  elky-96299bb1
 
 
 
@@ -69,10 +69,7 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: ''            # Format: UA-xxxxxx-xx
-ga_domain: 
-
-
+google_analytics: G-6MQ6YX0BGH
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
