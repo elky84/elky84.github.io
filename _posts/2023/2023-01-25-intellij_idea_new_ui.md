@@ -23,10 +23,18 @@ IDE 자체에서 지원해주는 다양한 편의 기능을 활용하는 것으�
 
 >한마디로 이쁘다
 
-`New UI` 설정을 켜고, `Monokai Pro` Theme로 설정하고 쓰고 있는데 이 설정이 가장 맘에 든다.
+`New UI` 설정을 켜고, `Monokai Pro` Theme로 설정하고 쓰고 있는데 이 설정이 맘에 든다.
+
+![Monokai Pro Theme](/img/2023/monokai_pro.gif)
+
+[Monokai Pro Theme - IntelliJ IDEs Theme \| Marketplace](https://plugins.jetbrains.com/plugin/13643-monokai-pro-theme)
 
 개인적으로 `One Dark`도 괜찮긴했는데, 멤버 변수가 빨간 색인 것은 적응이 잘 안된다. 키워드나 타입까진 그럭저럭 납득 할 수 있는데 좀 아쉽다.
 
 `Visual Studio Code Dark Plus` 도 괜찮다. `Visual Studio Code`를 몇몇 언어를 제외하고는 IDE나 Plugin을 통한 Tool 모음으로 쓰게 되는데, 동일한 컬러 세팅인 것이 맘에 든다.
+
+![VS Code Theme](/img/2023/intellij_idea_vscode_theme.gif)
+
+[VSCode Theme - IntelliJ IDEs Theme \| Marketplace](https://plugins.jetbrains.com/plugin/19177-vscode-theme)
 
 `Intellij IDEA`를 비롯한 `JetBrains` IDE가 유료라는 점만 제외하면, C#, C++ 같은 몇개 언어를 제외하곤 정말 훌륭한데, UI가 조금 맘에 안들었떤 나 같은 사용자가 있다면 New UI를 써보길 추천한다.
