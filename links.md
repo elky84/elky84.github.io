@@ -7,6 +7,7 @@ permalink: /links/
 
 # 🎶 내 블로그
 * [Elky Review](https://elky84.github.io/review)
+* [Elky Fan](https://elky84.github.io/fan)
 
 # 💻 개발 블로그
 ## RSS 주소 모음
