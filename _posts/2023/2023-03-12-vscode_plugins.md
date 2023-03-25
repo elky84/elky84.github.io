@@ -24,7 +24,7 @@ comments: true
 
 ## [Paste Image - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image)
 
-![](/img/2023/2023-03-12-17-17-02.png)
+![](/img/2023/vscode_paste_image.png)
 
 ![paste image](https://raw.githubusercontent.com/mushanshitiancai/vscode-paste-image/master/res/vscode-paste-image.gif)
 
@@ -38,7 +38,7 @@ Github Pages등으로 마크다운 글쓰기를 한다면 꼭! 깔아야 할 확
 
 Docker 사용 현황과 연동되어 조금 더 편하게 관리할 수 있다.
 
-![](/img/2023/2023-03-12-19-42-10.png)
+![](/img/2023/vscode_docker.png)
 
 ![](https://github.com/microsoft/vscode-docker/raw/HEAD/resources/readme/overview.gif)
 
@@ -46,13 +46,13 @@ Docker 사용 현황과 연동되어 조금 더 편하게 관리할 수 있다.
 
 마찬가지로 Kubernetes를 시각화하고 관리하기 편하게 해준다.
 
-![](/img/2023/2023-03-12-20-07-05.png)
+![](/img/2023/vscode_k8s.png)
 
 
 
 ## [IntelliCode - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 
-![](/img/2023/2023-03-12-17-32-36.png)
+![](/img/2023/vscode_intellicode.png)
 
 ![intelli code](https://aka.ms/IntelliCodeUsageExamplesv2)
 
@@ -68,7 +68,7 @@ Python, TypeScript/JavaScript, Java 개발자에게 도움을 준다.
 
 지원하는 언어는 너무 많아서 대부분 된다고 볼 수 있는 수준
 
-![](/img/2023/2023-03-12-17-38-05.png)
+![](/img/2023/vscode_code_runner.png)
 
 ![Code Runner](https://github.com/formulahendry/vscode-code-runner/raw/HEAD/images/usage.gif)
 
@@ -78,7 +78,7 @@ Python, TypeScript/JavaScript, Java 개발자에게 도움을 준다.
 
 Indent 기준으로 Windows, Linux는 Ctrl + up, down, Mac은 Alt + up, down 으로 가능하다.
 
-![](/img/2023/2023-03-12-17-41-47.png)
+![](/img/2023/vscode_indentation_level_movement.png)
 
 ![Indentation Level Movement](https://github.com/kaiwood/vscode-indentation-level-movement/raw/master/images/indentation-level-movement.gif)
 
@@ -92,7 +92,7 @@ Bracket이 어디에 속해있는지를 알려준다.
 
 이 역시 다양한 언어를 지원함
 
-![](/img/2023/2023-03-12-17-52-07.png)
+![](/img/2023/vscode_bracket_peek.png)
 
 ![Bracket Peek](https://raw.githubusercontent.com/j0meinaster/bracket-peek/master/assets/preview.gif)
 
@@ -100,7 +100,7 @@ Bracket이 어디에 속해있는지를 알려준다.
 
 ## [Surround - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=yatki.vscode-surround)
 
-![](/img/2023/2023-03-12-17-55-24.png)
+![](/img/2023/vscode_surround.png)
 
 코드를 래핑해주는 기능을 제공해주는 확장입니다.
 
@@ -118,7 +118,7 @@ Bracket이 어디에 속해있는지를 알려준다.
 
 이 규칙을 그대로만 따라해도 꽤 쓸만하다
 
-![](/img/2023/2023-03-12-18-04-29.png)
+![](/img/2023/vscode_better_comments.png)
 
 ![](https://github.com/aaron-bond/better-comments/raw/HEAD/images/better-comments.PNG)
 
@@ -130,7 +130,7 @@ Bracket이 어디에 속해있는지를 알려준다.
 
 로컬 로그를 VS Code로 viewer로 쓸 때 좋다
 
-![](/img/2023/2023-03-12-18-11-45.png)
+![](/img/2023/vscode_log_file_highlighter.png)
 
 ![](https://raw.githubusercontent.com/emilast/vscode-logfile-highlighter/master/content/sample.png)
 
@@ -142,7 +142,7 @@ Bracket이 어디에 속해있는지를 알려준다.
 
 개인적으로 [NoSQLBooster for MongoDB - 엘키의 주절 주절](https://elky84.github.io/2022/01/25/NoSQLBooster/)을 쓰는게 더 다방면에서 좋긴하지만, 서브 PC에서 가볍게는 충분히 쓸만했다.
 
-![](/img/2023/2023-03-12-20-07-43.png)
+![](/img/2023/vscode_mongodb.png)
 
 
 
@@ -152,7 +152,7 @@ MongoDB와 마찬가지로, 세부적인 기능은 부족하지만, 가볍게 �
 
 당연히 디테일한 기능은 [pgAdmin - PostgreSQL Tools](https://www.pgadmin.org/) 을 쓰는 것이 좋다.
 
-![](/img/2023/2023-03-12-20-07-24.png)
+![](/img/2023/vscode_pgsql.png)
 
 
 
@@ -162,7 +162,7 @@ Excel 파일을 수정해야 할 때 가볍게 쓸만하다.
 
 약간 반응이 느릿한 면도 있고, 디테일한 기능들 중 불가능 한 것도 많지만 가볍게 쓰기엔 충분히 괜찮았다.
 
-![](/img/2023/2023-03-12-19-47-47.png)
+![](/img/2023/vscode_excel_viewer.png)
 
 ![](https://github.com/jjuback/gc-excelviewer/raw/HEAD/img/csv-preview-4.gif)
 
@@ -176,7 +176,7 @@ SSH를 가볍게 쓸 때 쓰면 유용하다.
 
 특히 VS Code 화면 레이아웃이 크다보니 SSH로 전문적 작업을 할 거면, 전문 툴을 쓰거나 Terminal 어플리케이션으로 쓰는 것이 더 좋긴 하다.
 
-![](/img/2023/2023-03-12-20-08-26.png)
+![](/img/2023/vscode_remote_ssh.png)
 
 ![](https://microsoft.github.io/vscode-remote-release/images/ssh-readme.gif)
 
@@ -190,7 +190,7 @@ settings.json을 통해서 환경 변수까지 더해지면, 각종 환경에서
 
 후술할 Thunder Client 대비 Plain Text 기반이므로, 시나리오를 복붙하거나 편집 속도가 빠른 장점이 있다.
 
-![](/img/2023/2023-03-12-20-08-55.png)
+![](/img/2023/vscode_restclient.png)
 
 ![](https://raw.githubusercontent.com/Huachao/vscode-restclient/master/images/usage.gif)
 
@@ -204,11 +204,11 @@ Collections로 그룹화 해서 관리하기도 좋고, Env를 통해 환경 변
 
 Postman이 익숙하다면 더더욱 REST Client 대비 장점이 많다.
 
-![](/img/2023/2023-03-12-20-00-50.png)
+![](/img/2023/vscode_thunder_client.png)
 
 설정을 공유한다면, Save To Workspace 옵션을 켜서 json 파일을 Workspace에서 관리하도록 하고 써야 한다.
 
-![](/img/2023/2023-03-12-20-09-12.png)
+![](/img/2023/vscode_thunder_client2.png)
 
 ![](https://github.com/rangav/thunder-client-support/blob/master/images/thunder-client-v2.png?raw=true)
 
@@ -220,6 +220,6 @@ Postman이 익숙하다면 더더욱 REST Client 대비 장점이 많다.
 
 실제로 조금 더 눈에 들어와서 잘 체크하게 도와주는 좋은 기능.
 
-![](/img/2023/2023-03-12-20-09-38.png)
+![](/img/2023/vscode_error_lens.png)
 
 ![](https://raw.githubusercontent.com/usernamehw/vscode-error-lens/master/img/demo.png)
