@@ -98,7 +98,7 @@ comments: true
 ## 2. 올해의 영상 📺(드라마, 유튜브 채널 포함)
 
 1. [이 구역의 미친 X](https://www.google.com/search?q=%EC%9D%B4%EA%B5%AC%EC%97%AD%EC%9D%98+%EB%AF%B8%EC%B9%9Cx&oq=%EC%9D%B4%EA%B5%AC%EC%97%AD%EC%9D%98+%EB%AF%B8%EC%B9%9Cx)
-    - {% include youtube.html id="Vb6C9n0Js4U" %}
+    - {% include youtube.html id="t_Fc6xfjWe8" %}
     - 오연서도 오연서지만, 정우의 연기가 정말 좋았다.
     - 둘다 미친연기 적절했고, 왜 미쳤는지에 대한 이야기를 푸는 것도 적절했다.
 2. [좋좋소](https://www.youtube.com/playlist?list=PL_OIehNcWkf2Ke1g77DwROk-0I9vDmt7J)
