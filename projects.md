@@ -7,20 +7,6 @@ permalink: /projects/
 
 # Commercial Projects
 
-## OP.GG
-
-![Logo](/img/logos/opgg.png)
-
-
-* Role
-  * Backend Engineer
-
-* Tech
-  * Kotlin
-  * Spring Boot
-  * JPA
-  * GraphQL
-
 ## KRAFTON
 
 ![Logo](/img/logos/krafton.png)
@@ -46,7 +32,7 @@ permalink: /projects/
   * Senior Server Programmer
 
 * Tech
-  * C# (DotNet 6, ASP.NET CORE)
+  * C# (DotNet 8, ASP.NET CORE)
   * Unity3D
   * Deep Learning Web Platform
 
@@ -72,7 +58,6 @@ permalink: /projects/
   * API Gateway 
   * Asset Management System
   * Planner (Script based component link System)
-
 
 ## NHN
 

@@ -59,7 +59,7 @@ permalink: /aboutme/
 * Spring Cloud
 
 ### C#
-* .NET 6
+* .NET 8
 * ASP.NET MVC
 * Entity Framework (ORM)
 
