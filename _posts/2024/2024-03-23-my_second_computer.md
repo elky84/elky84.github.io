@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 나의 두번째 컴퓨터 이야기
-date: 2024-03-24 00:00:00
+date: 2024-03-23 00:00:00
 categories: [추억]
 tags: [1997년]
 comments: true
