@@ -15,7 +15,7 @@ comments: true
 
 ### 올 한해 github 활동
 
-[elky84 (elky (SeongHoon Kim)) (github.com)](https://github.com/elky84?tab=overview&from=2023-12-01&to=2023-12-31)
+[elky84 (elky (SeongHoon Kim)) (github.com)](https://github.com/elky84?tab=overview&from=2023-01-01&to=2023-12-31)
 
 컨디션이 안좋을 때도 최소 30분에서 1시간 씩은 여러 작업을 진행했다.
 
