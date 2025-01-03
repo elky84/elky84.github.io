@@ -150,8 +150,6 @@ comments: true
 
 {% include youtube.html id="Ox29z5Nf1Uk" %}
 
-[[#2024MAMA] G-DRAGON - 무제(Untitled, 2014)+POWER+HOME SWEET HOME+뱅뱅뱅+FANTASTIC BABY | Mnet 241123 방송 - YouTube](https://www.youtube.com/watch?v=Ox29z5Nf1Uk)
-
 GD는 GD였다
 
 Power도 좋았기에 겸사 겸사 공동 1위로 봐도 될 듯
@@ -163,17 +161,13 @@ Power도 좋았기에 겸사 겸사 공동 1위로 봐도 될 듯
 
 {% include youtube.html id="8wjKgvKBz6o" %}
 
-[안보면 후회하는 예나의 '네모네모(NEMONEMO)' 교차편집 (Stage Mix) - YouTube](https://www.youtube.com/watch?v=8wjKgvKBz6o)
-
 네모 네모~ 네모 네모~ Sign~
 
 삐뚫빼뚫해 라잌~
 
 ### 3. NMIXX - 별별별
 
-{% include youtube.html id="8wjKgvKBz6o" %}
-
-['최초 공개' NMIXX - 별별별 (See that?) #엠카운트다운 EP.859 | Mnet 240822 방송 - YouTube](https://www.youtube.com/watch?v=hfsY3IGk45I)
+{% include youtube.html id="hfsY3IGk45I" %}
 
 워크맨 보다가 오해원을 보고 밝다고 느꼈는데 아이돌이었음
 
@@ -186,8 +180,6 @@ Power도 좋았기에 겸사 겸사 공동 1위로 봐도 될 듯
 
 {% include youtube.html id="uUV44Q3GHng" %}
 
-[[2024 BML 직캠] 김수영 - 사람 (Me, Myself) - YouTube](https://www.youtube.com/watch?v=uUV44Q3GHng)
-
 개인적으로 김수영의 보컬은 언제 들어도 매력적이다.
 
 특히 조금 밝은 풍의 노래보다 이런 노래가 좀 더 좋은 거 같다.
@@ -196,8 +188,6 @@ Power도 좋았기에 겸사 겸사 공동 1위로 봐도 될 듯
 ### 5. 슈퍼 주니어 - I Devil
 
 {% include youtube.html id="ckBitm_MwWQ" %}
-
-[[KCON 2015 LA] Super Junior (슈퍼주니어) l Devil - YouTube](https://www.youtube.com/watch?v=ckBitm_MwWQ)
 
 이 노래를 당시엔 못듣고 올해 늦게 들었는데 좋아서 자주 들었다.
 
